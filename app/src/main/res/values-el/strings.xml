@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Βοήθεια</string>
+    <string name="desc_settings_icon">Άνοιγμα ρυθμίσεων</string>
+    <string name="desc_count_up">Αύξουσα μέτρηση</string>
+    <string name="desc_count_down">Αντίστροφη μέτρηση</string>
+    <string name="desc_enable_chime">Ενεργοποίηση ήχου</string>
+    <string name="desc_disable_chime">Απενεργοποίηση ήχου</string>
+    <string name="desc_keep_screen_on_on">Παράκαμψη αυτόματου κλειδώματος, διατήρηση οθόνης ενεργής</string>
+    <string name="desc_keep_screen_on_off">Να μην παρακάμπτεται το αυτόματο κλείδωμα</string>
+    <string name="desc_show_help_icon">Εμφάνιση εικονιδίου βοήθειας</string>
+    <string name="desc_hide_help_icon">Απόκρυψη εικονιδίου βοήθειας</string>
+
+    <string name="btn_close">Κλείσιμο</string>
+    <string name="btn_yes">Ναι</string>
+    <string name="btn_no">Όχι</string>
+    <string name="btn_save">Αποθήκευση</string>
+    <string name="btn_cancel">Ακύρωση</string>
+
+    <string name="title_help">Βοήθεια</string>
+    <string name="title_confirm">Επιβεβαίωση</string>
+    <string name="title_options">Επιλογές</string>
+
+    <string name="field_minutes">Λεπτά</string>
+    <string name="field_seconds">Δευτερόλεπτα</string>
+    <string name="label_count_up">Αύξουσα μέτρηση</string>
+    <string name="label_count_down">Αντίστροφη μέτρηση</string>
+    <string name="label_chime_on">Ήχος ενεργός</string>
+    <string name="label_chime_off">Ήχος ανενεργός</string>
+    <string name="label_keep_screen_on_on">Παράκαμψη αυτόματου κλειδώματος, διατήρηση οθόνης ενεργής</string>
+    <string name="label_keep_screen_on_off">Να μην παρακάμπτεται το αυτόματο κλείδωμα</string>
+    <string name="label_show_help_icon">Εμφάνιση εικονιδίου βοήθειας</string>
+    <string name="label_hide_help_icon">Απόκρυψη εικονιδίου βοήθειας</string>
+    <string name="label_language">Γλώσσα</string>
+
+    <string name="help_line_tap">Για να ξεκινήσετε, να παύσετε ή να συνεχίσετε το χρονόμετρο, αγγίξτε την κύρια οθόνη.</string>
+    <string name="help_line_double_tap">Για να σταματήσετε και να επαναφέρετε το χρονόμετρο, αγγίξτε δύο φορές την κύρια οθόνη.</string>
+    <string name="help_line_options">Για να αλλάξετε τις επιλογές του προγράμματος, αγγίξτε το εικονίδιο γραναζιού.</string>
+    <string name="license_word">Άδεια</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Θέλετε να μειώσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
+    <string name="prompt_raise_to_new">Θέλετε να αυξήσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
+    <string name="label_show_language_icon">Εμφάνιση εικονιδίου γλώσσας</string>
+    <string name="label_hide_language_icon">Απόκρυψη εικονιδίου γλώσσας</string>
+</resources>

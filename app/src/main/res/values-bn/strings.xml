@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">সহায়তা</string>
+    <string name="desc_settings_icon">সেটিংস খুলুন</string>
+    <string name="desc_count_up">উর্ধ্বগামী গণনা</string>
+    <string name="desc_count_down">উল্টো গণনা</string>
+    <string name="desc_enable_chime">চাইম চালু করুন</string>
+    <string name="desc_disable_chime">চাইম বন্ধ করুন</string>
+    <string name="desc_keep_screen_on_on">অটো-লক অগ্রাহ্য করুন, স্ক্রিন চালু রাখুন</string>
+    <string name="desc_keep_screen_on_off">অটো-লক অগ্রাহ্য করবেন না</string>
+    <string name="desc_show_help_icon">সহায়তা আইকন দেখান</string>
+    <string name="desc_hide_help_icon">সহায়তা আইকন লুকান</string>
+
+    <string name="btn_close">বন্ধ করুন</string>
+    <string name="btn_yes">হ্যাঁ</string>
+    <string name="btn_no">না</string>
+    <string name="btn_save">সংরক্ষণ</string>
+    <string name="btn_cancel">বাতিল</string>
+
+    <string name="title_help">সহায়তা</string>
+    <string name="title_confirm">নিশ্চিতকরণ</string>
+    <string name="title_options">বিকল্পসমূহ</string>
+
+    <string name="field_minutes">মিনিট</string>
+    <string name="field_seconds">সেকেন্ড</string>
+    <string name="label_count_up">উর্ধ্বগামী গণনা</string>
+    <string name="label_count_down">উল্টো গণনা</string>
+    <string name="label_chime_on">চাইম চালু</string>
+    <string name="label_chime_off">চাইম বন্ধ</string>
+    <string name="label_keep_screen_on_on">অটো-লক অগ্রাহ্য করুন, স্ক্রিন চালু রাখুন</string>
+    <string name="label_keep_screen_on_off">অটো-লক অগ্রাহ্য করবেন না</string>
+    <string name="label_show_help_icon">সহায়তা আইকন দেখান</string>
+    <string name="label_hide_help_icon">সহায়তা আইকন লুকান</string>
+    <string name="label_language">ভাষা</string>
+
+    <string name="help_line_tap">টাইমার শুরু, বিরতি বা পুনরায় শুরু করতে প্রধান স্ক্রিনে ট্যাপ করুন।</string>
+    <string name="help_line_double_tap">টাইমার থামাতে এবং রিসেট করতে প্রধান স্ক্রিনে ডাবল ট্যাপ করুন।</string>
+    <string name="help_line_options">প্রোগ্রামের বিকল্প পরিবর্তন করতে গিয়ার আইকনে ট্যাপ করুন।</string>
+    <string name="license_word">লাইসেন্স</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে কমাতে চান?</string>
+    <string name="prompt_raise_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে বাড়াতে চান?</string>
+    <string name="label_show_language_icon">ভাষার আইকন দেখান</string>
+    <string name="label_hide_language_icon">ভাষার আইকন লুকান</string>
+</resources>

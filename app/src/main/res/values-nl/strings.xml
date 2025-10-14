@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Hulp</string>
+    <string name="desc_settings_icon">Instellingen openen</string>
+    <string name="desc_count_up">Oplopend tellen</string>
+    <string name="desc_count_down">Aftellen</string>
+    <string name="desc_enable_chime">Geluid inschakelen</string>
+    <string name="desc_disable_chime">Geluid uitschakelen</string>
+    <string name="desc_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
+    <string name="desc_keep_screen_on_off">Automatisch vergrendelen niet negeren</string>
+    <string name="desc_show_help_icon">Helppictogram tonen</string>
+    <string name="desc_hide_help_icon">Helppictogram verbergen</string>
+
+    <string name="btn_close">Sluiten</string>
+    <string name="btn_yes">Ja</string>
+    <string name="btn_no">Nee</string>
+    <string name="btn_save">Opslaan</string>
+    <string name="btn_cancel">Annuleren</string>
+
+    <string name="title_help">Hulp</string>
+    <string name="title_confirm">Bevestigen</string>
+    <string name="title_options">Opties</string>
+
+    <string name="field_minutes">Minuten</string>
+    <string name="field_seconds">Seconden</string>
+    <string name="label_count_up">Oplopend tellen</string>
+    <string name="label_count_down">Aftellen</string>
+    <string name="label_chime_on">Geluid aan</string>
+    <string name="label_chime_off">Geluid uit</string>
+    <string name="label_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
+    <string name="label_keep_screen_on_off">Automatisch vergrendelen niet negeren</string>
+    <string name="label_show_help_icon">Helppictogram tonen</string>
+    <string name="label_hide_help_icon">Helppictogram verbergen</string>
+    <string name="label_language">Taal</string>
+
+    <string name="help_line_tap">Tik op het hoofdscherm om de timer te starten, te pauzeren of te hervatten.</string>
+    <string name="help_line_double_tap">Tik twee keer op het hoofdscherm om de timer te stoppen en te resetten.</string>
+    <string name="help_line_options">Tik op het tandwielpictogram om de opties van het programma te wijzigen.</string>
+    <string name="license_word">Licentie</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Wil je de actieve timer verlagen naar de nieuwe waarde die je zojuist hebt opgeslagen?</string>
+    <string name="prompt_raise_to_new">Wil je de actieve timer verhogen naar de nieuwe waarde die je zojuist hebt opgeslagen?</string>
+    <string name="label_show_language_icon">Taalpictogram tonen</string>
+    <string name="label_hide_language_icon">Taalpictogram verbergen</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Guida</string>
+    <string name="desc_settings_icon">Apri impostazioni</string>
+    <string name="desc_count_up">Conteggio in aumento</string>
+    <string name="desc_count_down">Conto alla rovescia</string>
+    <string name="desc_enable_chime">Attiva suono</string>
+    <string name="desc_disable_chime">Disattiva suono</string>
+    <string name="desc_keep_screen_on_on">Ignora blocco automatico, mantieni lo schermo acceso</string>
+    <string name="desc_keep_screen_on_off">Non ignorare il blocco automatico</string>
+    <string name="desc_show_help_icon">Mostra icona guida</string>
+    <string name="desc_hide_help_icon">Nascondi icona guida</string>
+
+    <string name="btn_close">Chiudi</string>
+    <string name="btn_yes">Sì</string>
+    <string name="btn_no">No</string>
+    <string name="btn_save">Salva</string>
+    <string name="btn_cancel">Annulla</string>
+
+    <string name="title_help">Guida</string>
+    <string name="title_confirm">Conferma</string>
+    <string name="title_options">Opzioni</string>
+
+    <string name="field_minutes">Minuti</string>
+    <string name="field_seconds">Secondi</string>
+    <string name="label_count_up">Conteggio in aumento</string>
+    <string name="label_count_down">Conto alla rovescia</string>
+    <string name="label_chime_on">Suono attivo</string>
+    <string name="label_chime_off">Suono disattivo</string>
+    <string name="label_keep_screen_on_on">Ignora blocco automatico, mantieni lo schermo acceso</string>
+    <string name="label_keep_screen_on_off">Non ignorare il blocco automatico</string>
+    <string name="label_show_help_icon">Mostra icona guida</string>
+    <string name="label_hide_help_icon">Nascondi icona guida</string>
+    <string name="label_language">Lingua</string>
+
+    <string name="help_line_tap">Per avviare, mettere in pausa o riprendere il timer, tocca la schermata principale.</string>
+    <string name="help_line_double_tap">Per interrompere e reimpostare il timer, tocca due volte la schermata principale.</string>
+    <string name="help_line_options">Per modificare le opzioni del programma, tocca l\'icona dell\'ingranaggio.</string>
+    <string name="license_word">Licenza</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Vuoi diminuire il timer attivo al nuovo valore appena salvato?</string>
+    <string name="prompt_raise_to_new">Vuoi aumentare il timer attivo al nuovo valore appena salvato?</string>
+    <string name="label_show_language_icon">Mostra icona lingua</string>
+    <string name="label_hide_language_icon">Nascondi icona lingua</string>
+</resources>

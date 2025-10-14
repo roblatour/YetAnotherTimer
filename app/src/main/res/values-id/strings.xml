@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Bantuan</string>
+    <string name="desc_settings_icon">Buka setelan</string>
+    <string name="desc_count_up">Hitung naik</string>
+    <string name="desc_count_down">Hitung mundur</string>
+    <string name="desc_enable_chime">Aktifkan lonceng</string>
+    <string name="desc_disable_chime">Nonaktifkan lonceng</string>
+    <string name="desc_keep_screen_on_on">Abaikan kunci otomatis, jaga layar tetap menyala</string>
+    <string name="desc_keep_screen_on_off">Jangan abaikan kunci otomatis</string>
+    <string name="desc_show_help_icon">Tampilkan ikon bantuan</string>
+    <string name="desc_hide_help_icon">Sembunyikan ikon bantuan</string>
+
+    <string name="btn_close">Tutup</string>
+    <string name="btn_yes">Ya</string>
+    <string name="btn_no">Tidak</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+
+    <string name="title_help">Bantuan</string>
+    <string name="title_confirm">Konfirmasi</string>
+    <string name="title_options">Opsi</string>
+
+    <string name="field_minutes">Menit</string>
+    <string name="field_seconds">Detik</string>
+    <string name="label_count_up">Hitung naik</string>
+    <string name="label_count_down">Hitung mundur</string>
+    <string name="label_chime_on">Lonceng aktif</string>
+    <string name="label_chime_off">Lonceng nonaktif</string>
+    <string name="label_keep_screen_on_on">Abaikan kunci otomatis, jaga layar tetap menyala</string>
+    <string name="label_keep_screen_on_off">Jangan abaikan kunci otomatis</string>
+    <string name="label_show_help_icon">Tampilkan ikon bantuan</string>
+    <string name="label_hide_help_icon">Sembunyikan ikon bantuan</string>
+    <string name="label_language">Bahasa</string>
+
+    <string name="help_line_tap">Untuk memulai, jeda, atau melanjutkan timer, ketuk layar utama.</string>
+    <string name="help_line_double_tap">Untuk menghentikan dan menyetel ulang timer, ketuk dua kali layar utama.</string>
+    <string name="help_line_options">Untuk mengubah opsi program, ketuk ikon roda gigi.</string>
+    <string name="license_word">Lisensi</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Ingin menurunkan timer aktif ke nilai baru yang baru saja Anda simpan?</string>
+    <string name="prompt_raise_to_new">Ingin menaikkan timer aktif ke nilai baru yang baru saja Anda simpan?</string>
+    <string name="label_show_language_icon">Tampilkan ikon bahasa</string>
+    <string name="label_hide_language_icon">Sembunyikan ikon bahasa</string>
+</resources>

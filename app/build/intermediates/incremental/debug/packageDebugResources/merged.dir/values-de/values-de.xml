@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_close">Schließen</string>
+    <string name="btn_no">Nein</string>
+    <string name="btn_save">Speichern</string>
+    <string name="btn_yes">Ja</string>
+    <string name="desc_count_down">Countdown</string>
+    <string name="desc_count_up">Aufwärts zählen</string>
+    <string name="desc_disable_chime">Ton deaktivieren</string>
+    <string name="desc_enable_chime">Ton aktivieren</string>
+    <string name="desc_help_icon">Hilfe</string>
+    <string name="desc_hide_help_icon">Hilfesymbol ausblenden</string>
+    <string name="desc_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
+    <string name="desc_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
+    <string name="desc_settings_icon">Einstellungen öffnen</string>
+    <string name="desc_show_help_icon">Hilfesymbol anzeigen</string>
+    <string name="field_minutes">Minuten</string>
+    <string name="field_seconds">Sekunden</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Zum Stoppen und Zurücksetzen tippen Sie zweimal auf den Hauptbildschirm.</string>
+    <string name="help_line_options">Zum Ändern der Programmoptionen tippen Sie auf das Zahnradsymbol.</string>
+    <string name="help_line_tap">Zum Starten, Pausieren oder Fortsetzen tippen Sie auf den Hauptbildschirm.</string>
+    <string name="label_chime_off">Ton aus</string>
+    <string name="label_chime_on">Ton an</string>
+    <string name="label_count_down">Countdown</string>
+    <string name="label_count_up">Aufwärts zählen</string>
+    <string name="label_hide_help_icon">Hilfesymbol ausblenden</string>
+    <string name="label_hide_language_icon">Sprachsymbol ausblenden</string>
+    <string name="label_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
+    <string name="label_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
+    <string name="label_language">Sprache</string>
+    <string name="label_show_help_icon">Hilfesymbol anzeigen</string>
+    <string name="label_show_language_icon">Sprachsymbol anzeigen</string>
+    <string name="license_word">Lizenz</string>
+    <string name="prompt_lower_to_new">Möchten Sie den aktiven Timer auf den neuen gespeicherten Wert senken?</string>
+    <string name="prompt_raise_to_new">Möchten Sie den aktiven Timer auf den neu gespeicherten Wert erhöhen?</string>
+    <string name="title_confirm">Bestätigen</string>
+    <string name="title_help">Hilfe</string>
+    <string name="title_options">Optionen</string>
+</resources>

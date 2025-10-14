@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">ヘルプ</string>
+    <string name="desc_settings_icon">設定を開く</string>
+    <string name="desc_count_up">カウントアップ</string>
+    <string name="desc_count_down">カウントダウン</string>
+    <string name="desc_enable_chime">チャイムを有効にする</string>
+    <string name="desc_disable_chime">チャイムを無効にする</string>
+    <string name="desc_keep_screen_on_on">自動ロックを無効にし、画面をオンのままにする</string>
+    <string name="desc_keep_screen_on_off">自動ロックを無効にしない</string>
+    <string name="desc_show_help_icon">ヘルプアイコンを表示</string>
+    <string name="desc_hide_help_icon">ヘルプアイコンを非表示</string>
+
+    <string name="btn_close">閉じる</string>
+    <string name="btn_yes">はい</string>
+    <string name="btn_no">いいえ</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">キャンセル</string>
+
+    <string name="title_help">ヘルプ</string>
+    <string name="title_confirm">確認</string>
+    <string name="title_options">オプション</string>
+
+    <string name="field_minutes">分</string>
+    <string name="field_seconds">秒</string>
+    <string name="label_count_up">カウントアップ</string>
+    <string name="label_count_down">カウントダウン</string>
+    <string name="label_chime_on">チャイムオン</string>
+    <string name="label_chime_off">チャイムオフ</string>
+    <string name="label_keep_screen_on_on">自動ロックを無効にし、画面をオンのままにする</string>
+    <string name="label_keep_screen_on_off">自動ロックを無効にしない</string>
+    <string name="label_show_help_icon">ヘルプアイコンを表示</string>
+    <string name="label_hide_help_icon">ヘルプアイコンを非表示</string>
+    <string name="label_language">言語</string>
+
+    <string name="help_line_tap">タイマーを開始、一時停止、または再開するには、メイン画面をタップします。</string>
+    <string name="help_line_double_tap">タイマーを停止してリセットするには、メイン画面をダブルタップします。</string>
+    <string name="help_line_options">プログラムのオプションを変更するには、歯車アイコンをタップします。</string>
+    <string name="license_word">ライセンス</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">保存した新しい値までアクティブなタイマーを下げますか？</string>
+    <string name="prompt_raise_to_new">保存した新しい値までアクティブなタイマーを上げますか？</string>
+    <string name="label_show_language_icon">言語アイコンを表示</string>
+    <string name="label_hide_language_icon">言語アイコンを非表示</string>
+</resources>

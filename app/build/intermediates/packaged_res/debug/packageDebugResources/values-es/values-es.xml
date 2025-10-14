@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_close">Cerrar</string>
+    <string name="btn_no">No</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_yes">Sí</string>
+    <string name="desc_count_down">Cuenta regresiva</string>
+    <string name="desc_count_up">Contar hacia arriba</string>
+    <string name="desc_disable_chime">Desactivar sonido</string>
+    <string name="desc_enable_chime">Activar sonido</string>
+    <string name="desc_help_icon">Ayuda</string>
+    <string name="desc_hide_help_icon">Ocultar icono de ayuda</string>
+    <string name="desc_keep_screen_on_off">No ignorar bloqueo automático</string>
+    <string name="desc_keep_screen_on_on">Ignorar bloqueo automático, mantener la pantalla encendida</string>
+    <string name="desc_settings_icon">Abrir configuración</string>
+    <string name="desc_show_help_icon">Mostrar icono de ayuda</string>
+    <string name="field_minutes">Minutos</string>
+    <string name="field_seconds">Segundos</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Para detener y restablecer el temporizador, toca dos veces la pantalla principal.</string>
+    <string name="help_line_options">Para cambiar las opciones del programa, toca el icono de engranaje.</string>
+    <string name="help_line_tap">Para iniciar, pausar o reanudar el temporizador, toca la pantalla principal.</string>
+    <string name="label_chime_off">Sonido desactivado</string>
+    <string name="label_chime_on">Sonido activado</string>
+    <string name="label_count_down">Cuenta regresiva</string>
+    <string name="label_count_up">Contar hacia arriba</string>
+    <string name="label_hide_help_icon">Ocultar icono de ayuda</string>
+    <string name="label_hide_language_icon">Ocultar icono de idioma</string>
+    <string name="label_keep_screen_on_off">No ignorar bloqueo automático</string>
+    <string name="label_keep_screen_on_on">Ignorar bloqueo automático, mantener la pantalla encendida</string>
+    <string name="label_language">Idioma</string>
+    <string name="label_show_help_icon">Mostrar icono de ayuda</string>
+    <string name="label_show_language_icon">Mostrar icono de idioma</string>
+    <string name="license_word">Licencia</string>
+    <string name="prompt_lower_to_new">¿Deseas reducir el temporizador activo al nuevo valor que acabas de guardar?</string>
+    <string name="prompt_raise_to_new">¿Deseas aumentar el temporizador activo al nuevo valor que acabas de guardar?</string>
+    <string name="title_confirm">Confirmar</string>
+    <string name="title_help">Ayuda</string>
+    <string name="title_options">Opciones</string>
+</resources>

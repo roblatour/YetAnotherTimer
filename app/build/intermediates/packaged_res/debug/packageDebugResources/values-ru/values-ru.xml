@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="btn_no">Нет</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_yes">Да</string>
+    <string name="desc_count_down">Обратный отсчёт</string>
+    <string name="desc_count_up">Счёт вверх</string>
+    <string name="desc_disable_chime">Выключить сигнал</string>
+    <string name="desc_enable_chime">Включить сигнал</string>
+    <string name="desc_help_icon">Справка</string>
+    <string name="desc_hide_help_icon">Скрывать значок справки</string>
+    <string name="desc_keep_screen_on_off">Не игнорировать авто‑блокировку</string>
+    <string name="desc_keep_screen_on_on">Игнорировать авто‑блокировку, держать экран включённым</string>
+    <string name="desc_settings_icon">Открыть настройки</string>
+    <string name="desc_show_help_icon">Показывать значок справки</string>
+    <string name="field_minutes">Минуты</string>
+    <string name="field_seconds">Секунды</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Чтобы остановить и сбросить таймер, дважды коснитесь главного экрана.</string>
+    <string name="help_line_options">Чтобы изменить параметры программы, коснитесь значка шестерёнки.</string>
+    <string name="help_line_tap">Чтобы запустить, приостановить или возобновить таймер, коснитесь главного экрана.</string>
+    <string name="label_chime_off">Сигнал выключен</string>
+    <string name="label_chime_on">Сигнал включён</string>
+    <string name="label_count_down">Обратный отсчёт</string>
+    <string name="label_count_up">Счёт вверх</string>
+    <string name="label_hide_help_icon">Скрывать значок справки</string>
+    <string name="label_hide_language_icon">Скрыть значок языка</string>
+    <string name="label_keep_screen_on_off">Не игнорировать авто‑блокировку</string>
+    <string name="label_keep_screen_on_on">Игнорировать авто‑блокировку, держать экран включённым</string>
+    <string name="label_language">Язык</string>
+    <string name="label_show_help_icon">Показывать значок справки</string>
+    <string name="label_show_language_icon">Показать значок языка</string>
+    <string name="license_word">Лицензия</string>
+    <string name="prompt_lower_to_new">Снизить активный таймер до нового сохранённого значения?</string>
+    <string name="prompt_raise_to_new">Повысить активный таймер до нового сохранённого значения?</string>
+    <string name="title_confirm">Подтверждение</string>
+    <string name="title_help">Справка</string>
+    <string name="title_options">Параметры</string>
+</resources>

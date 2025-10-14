@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">રદ કરો</string>
+    <string name="btn_close">બંધ કરો</string>
+    <string name="btn_no">ના</string>
+    <string name="btn_save">સાચવો</string>
+    <string name="btn_yes">હા</string>
+    <string name="desc_count_down">ઊલટી ગણતરી</string>
+    <string name="desc_count_up">વધતી ગણતરી</string>
+    <string name="desc_disable_chime">ઘંટડી નિષ્ક્રિય કરો</string>
+    <string name="desc_enable_chime">ઘંટડી સક્રિય કરો</string>
+    <string name="desc_help_icon">મદદ</string>
+    <string name="desc_hide_help_icon">મદદ આઇકન છુપાવો</string>
+    <string name="desc_keep_screen_on_off">ઓટો-લોક અવગણશો નહીં</string>
+    <string name="desc_keep_screen_on_on">ઓટો-લોક અવગણો, સ્ક્રીન ચાલુ રાખો</string>
+    <string name="desc_settings_icon">સેટિંગ્સ ખોલો</string>
+    <string name="desc_show_help_icon">મદદ આઇકન દર્શાવો</string>
+    <string name="field_minutes">મિનિટ</string>
+    <string name="field_seconds">સેકન્ડ</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">ટાઈમરને રોકવા અને રીસેટ કરવા માટે મુખ્ય સ્ક્રીન પર બે વાર ટેપ કરો.</string>
+    <string name="help_line_options">કાર્યક્રમના વિકલ્પો બદલવા માટે ગિયર આઇકન પર ટેપ કરો.</string>
+    <string name="help_line_tap">ટાઈમરને શરૂ કરવા, રોકવા અથવા પુનઃશરૂ કરવા માટે મુખ્ય સ્ક્રીન પર ટેપ કરો.</string>
+    <string name="label_chime_off">ઘંટડી બંધ</string>
+    <string name="label_chime_on">ઘંટડી ચાલુ</string>
+    <string name="label_count_down">ઊલટી ગણતરી</string>
+    <string name="label_count_up">વધતી ગણતરી</string>
+    <string name="label_hide_help_icon">મદદ આઇકન છુપાવો</string>
+    <string name="label_hide_language_icon">ભાષા આઈકન છુપાવો</string>
+    <string name="label_keep_screen_on_off">ઓટો-લોક અવગણશો નહીં</string>
+    <string name="label_keep_screen_on_on">ઓટો-લોક અવગણો, સ્ક્રીન ચાલુ રાખો</string>
+    <string name="label_language">ભાષા</string>
+    <string name="label_show_help_icon">મદદ આઇકન દર્શાવો</string>
+    <string name="label_show_language_icon">ભાષા આઈકન બતાવો</string>
+    <string name="license_word">લાઈસન્સ</string>
+    <string name="prompt_lower_to_new">શું તમે સક્રિય ટાઈમરને તમે હમણાં જ સાચવેલા નવા મૂલ્ય સુધી ઘટાડવા માંગો છો?</string>
+    <string name="prompt_raise_to_new">શું તમે સક્રિય ટાઈમરને તમે હમણાં જ સાચવેલા નવા મૂલ્ય સુધી વધારવા માંગો છો?</string>
+    <string name="title_confirm">ખાતરી</string>
+    <string name="title_help">મદદ</string>
+    <string name="title_options">વિકલ્પો</string>
+</resources>

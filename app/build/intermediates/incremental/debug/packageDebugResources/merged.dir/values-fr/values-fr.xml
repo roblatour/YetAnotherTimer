@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="btn_close">Fermer</string>
+    <string name="btn_no">Non</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_yes">Oui</string>
+    <string name="desc_count_down">Compte à rebours</string>
+    <string name="desc_count_up">Chrono progressif</string>
+    <string name="desc_disable_chime">Désactiver le son</string>
+    <string name="desc_enable_chime">Activer le son</string>
+    <string name="desc_help_icon">Aide</string>
+    <string name="desc_hide_help_icon">Masquer l’icône d’aide</string>
+    <string name="desc_keep_screen_on_off">Ne pas ignorer le verrouillage auto</string>
+    <string name="desc_keep_screen_on_on">Ignorer le verrouillage auto, garder l’écran allumé</string>
+    <string name="desc_settings_icon">Ouvrir les paramètres</string>
+    <string name="desc_show_help_icon">Afficher l’icône d’aide</string>
+    <string name="field_minutes">Minutes</string>
+    <string name="field_seconds">Secondes</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Pour arrêter et réinitialiser le minuteur, touchez deux fois l’écran principal.</string>
+    <string name="help_line_options">Pour modifier les options du programme, touchez l’icône d’engrenage.</string>
+    <string name="help_line_tap">Pour démarrer, mettre en pause ou reprendre le minuteur, touchez l’écran principal.</string>
+    <string name="label_chime_off">Son désactivé</string>
+    <string name="label_chime_on">Son activé</string>
+    <string name="label_count_down">Compte à rebours</string>
+    <string name="label_count_up">Chrono progressif</string>
+    <string name="label_hide_help_icon">Masquer l’icône d’aide</string>
+    <string name="label_hide_language_icon">Masquer l’icône de langue</string>
+    <string name="label_keep_screen_on_off">Ne pas ignorer le verrouillage auto</string>
+    <string name="label_keep_screen_on_on">Ignorer le verrouillage auto, garder l’écran allumé</string>
+    <string name="label_language">Langue</string>
+    <string name="label_show_help_icon">Afficher l’icône d’aide</string>
+    <string name="label_show_language_icon">Afficher l’icône de langue</string>
+    <string name="license_word">Licence</string>
+    <string name="prompt_lower_to_new">Souhaitez-vous réduire le minuteur actif à la nouvelle valeur que vous venez d’enregistrer ?</string>
+    <string name="prompt_raise_to_new">Souhaitez-vous augmenter le minuteur actif à la nouvelle valeur que vous venez d’enregistrer ?</string>
+    <string name="title_confirm">Confirmer</string>
+    <string name="title_help">Aide</string>
+    <string name="title_options">Options</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">עזרה</string>
+    <string name="desc_settings_icon">פתח הגדרות</string>
+    <string name="desc_count_up">ספירה כלפי מעלה</string>
+    <string name="desc_count_down">ספירה לאחור</string>
+    <string name="desc_enable_chime">הפעל צלצול</string>
+    <string name="desc_disable_chime">כבה צלצול</string>
+    <string name="desc_keep_screen_on_on">התעלם מנעילה אוטומטית, השאר את המסך דולק</string>
+    <string name="desc_keep_screen_on_off">אל תתעלם מנעילה אוטומטית</string>
+    <string name="desc_show_help_icon">הצג סמל עזרה</string>
+    <string name="desc_hide_help_icon">הסתר סמל עזרה</string>
+
+    <string name="btn_close">סגור</string>
+    <string name="btn_yes">כן</string>
+    <string name="btn_no">לא</string>
+    <string name="btn_save">שמור</string>
+    <string name="btn_cancel">בטל</string>
+
+    <string name="title_help">עזרה</string>
+    <string name="title_confirm">אישור</string>
+    <string name="title_options">אפשרויות</string>
+
+    <string name="field_minutes">דקות</string>
+    <string name="field_seconds">שניות</string>
+    <string name="label_count_up">ספירה כלפי מעלה</string>
+    <string name="label_count_down">ספירה לאחור</string>
+    <string name="label_chime_on">צלצול פעיל</string>
+    <string name="label_chime_off">צלצול כבוי</string>
+    <string name="label_keep_screen_on_on">התעלם מנעילה אוטומטית, השאר את המסך דולק</string>
+    <string name="label_keep_screen_on_off">אל תתעלם מנעילה אוטומטית</string>
+    <string name="label_show_help_icon">הצג סמל עזרה</string>
+    <string name="label_hide_help_icon">הסתר סמל עזרה</string>
+    <string name="label_language">שפה</string>
+
+    <string name="help_line_tap">כדי להתחיל, להשהות או לחדש את הטיימר, הקש על המסך הראשי.</string>
+    <string name="help_line_double_tap">כדי להפסיק ולאפס את הטיימר, הקש פעמיים על המסך הראשי.</string>
+    <string name="help_line_options">כדי לשנות את אפשרויות התוכנית, הקש על סמל גלגל השיניים.</string>
+    <string name="license_word">רישיון</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">האם ברצונך להוריד את הטיימר הפעיל לערך החדש ששמרת?</string>
+    <string name="prompt_raise_to_new">האם ברצונך להעלות את הטיימר הפעיל לערך החדש ששמרת?</string>
+    <string name="label_show_language_icon">הצג סמל שפה</string>
+    <string name="label_hide_language_icon">הסתר סמל שפה</string>
+</resources>

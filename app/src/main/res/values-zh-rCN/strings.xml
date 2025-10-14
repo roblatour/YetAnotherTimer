@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">帮助</string>
+    <string name="desc_settings_icon">打开设置</string>
+    <string name="desc_count_up">正计时</string>
+    <string name="desc_count_down">倒计时</string>
+    <string name="desc_enable_chime">启用提示音</string>
+    <string name="desc_disable_chime">禁用提示音</string>
+    <string name="desc_keep_screen_on_on">覆盖自动锁定，保持屏幕常亮</string>
+    <string name="desc_keep_screen_on_off">不要覆盖自动锁定</string>
+    <string name="desc_show_help_icon">显示帮助图标</string>
+    <string name="desc_hide_help_icon">隐藏帮助图标</string>
+
+    <string name="btn_close">关闭</string>
+    <string name="btn_yes">是</string>
+    <string name="btn_no">否</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+
+    <string name="title_help">帮助</string>
+    <string name="title_confirm">确认</string>
+    <string name="title_options">选项</string>
+
+    <string name="field_minutes">分钟</string>
+    <string name="field_seconds">秒</string>
+    <string name="label_count_up">正计时</string>
+    <string name="label_count_down">倒计时</string>
+    <string name="label_chime_on">提示音开</string>
+    <string name="label_chime_off">提示音关</string>
+    <string name="label_keep_screen_on_on">覆盖自动锁定，保持屏幕常亮</string>
+    <string name="label_keep_screen_on_off">不要覆盖自动锁定</string>
+    <string name="label_show_help_icon">显示帮助图标</string>
+    <string name="label_hide_help_icon">隐藏帮助图标</string>
+    <string name="label_language">语言</string>
+
+    <string name="help_line_tap">要开始、暂停或继续计时，请点击主屏幕。</string>
+    <string name="help_line_double_tap">要停止并重置计时器，请在主屏幕双击。</string>
+    <string name="help_line_options">要更改程序的选项，请点击齿轮图标。</string>
+    <string name="license_word">许可</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">是否将活动计时器降低到您刚刚保存的新值？</string>
+    <string name="prompt_raise_to_new">是否将活动计时器提高到您刚刚保存的新值？</string>
+    <string name="label_show_language_icon">显示语言图标</string>
+    <string name="label_hide_language_icon">隐藏语言图标</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_close">बंद करें</string>
+    <string name="btn_no">नहीं</string>
+    <string name="btn_save">सहेजें</string>
+    <string name="btn_yes">हाँ</string>
+    <string name="desc_count_down">घटती गणना</string>
+    <string name="desc_count_up">आरोही गणना</string>
+    <string name="desc_disable_chime">घंटी अक्षम करें</string>
+    <string name="desc_enable_chime">घंटी सक्षम करें</string>
+    <string name="desc_help_icon">सहायता</string>
+    <string name="desc_hide_help_icon">सहायता आइकन छुपाएं</string>
+    <string name="desc_keep_screen_on_off">ऑटो-लॉक को ओवरराइड न करें</string>
+    <string name="desc_keep_screen_on_on">ऑटो-लॉक को ओवरराइड करें, स्क्रीन चालू रखें</string>
+    <string name="desc_settings_icon">सेटिंग्स खोलें</string>
+    <string name="desc_show_help_icon">सहायता आइकन दिखाएं</string>
+    <string name="field_minutes">मिनट</string>
+    <string name="field_seconds">सेकंड</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">टाइमर को रोकने और रीसेट करने के लिए मुख्य स्क्रीन पर डबल टैप करें।</string>
+    <string name="help_line_options">प्रोग्राम के विकल्प बदलने के लिए गियर आइकन पर टैप करें।</string>
+    <string name="help_line_tap">टाइमर शुरू करने, रोकने या फिर से शुरू करने के लिए मुख्य स्क्रीन पर टैप करें।</string>
+    <string name="label_chime_off">घंटी बंद</string>
+    <string name="label_chime_on">घंटी चालू</string>
+    <string name="label_count_down">घटती गणना</string>
+    <string name="label_count_up">आरोही गणना</string>
+    <string name="label_hide_help_icon">सहायता आइकन छुपाएं</string>
+    <string name="label_hide_language_icon">भाषा आइकन छुपाएँ</string>
+    <string name="label_keep_screen_on_off">ऑटो-लॉक को ओवरराइड न करें</string>
+    <string name="label_keep_screen_on_on">ऑटो-लॉक को ओवरराइड करें, स्क्रीन चालू रखें</string>
+    <string name="label_language">भाषा</string>
+    <string name="label_show_help_icon">सहायता आइकन दिखाएं</string>
+    <string name="label_show_language_icon">भाषा आइकन दिखाएँ</string>
+    <string name="license_word">लाइसेंस</string>
+    <string name="prompt_lower_to_new">क्या आप सक्रिय टाइमर को आपके द्वारा सहेजे गए नए मान तक कम करना चाहते हैं?</string>
+    <string name="prompt_raise_to_new">क्या आप सक्रिय टाइमर को आपके द्वारा सहेजे गए नए मान तक बढ़ाना चाहते हैं?</string>
+    <string name="title_confirm">पुष्टि</string>
+    <string name="title_help">सहायता</string>
+    <string name="title_options">विकल्प</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Nápověda</string>
+    <string name="desc_settings_icon">Otevřít nastavení</string>
+    <string name="desc_count_up">Počítání nahoru</string>
+    <string name="desc_count_down">Odpočítávání</string>
+    <string name="desc_enable_chime">Zapnout zvuk</string>
+    <string name="desc_disable_chime">Vypnout zvuk</string>
+    <string name="desc_keep_screen_on_on">Ignorovat automatické uzamčení, ponechat obrazovku zapnutou</string>
+    <string name="desc_keep_screen_on_off">Neignorovat automatické uzamčení</string>
+    <string name="desc_show_help_icon">Zobrazit ikonu nápovědy</string>
+    <string name="desc_hide_help_icon">Skrýt ikonu nápovědy</string>
+
+    <string name="btn_close">Zavřít</string>
+    <string name="btn_yes">Ano</string>
+    <string name="btn_no">Ne</string>
+    <string name="btn_save">Uložit</string>
+    <string name="btn_cancel">Zrušit</string>
+
+    <string name="title_help">Nápověda</string>
+    <string name="title_confirm">Potvrzení</string>
+    <string name="title_options">Možnosti</string>
+
+    <string name="field_minutes">Minuty</string>
+    <string name="field_seconds">Sekundy</string>
+    <string name="label_count_up">Počítání nahoru</string>
+    <string name="label_count_down">Odpočítávání</string>
+    <string name="label_chime_on">Zvuk zapnut</string>
+    <string name="label_chime_off">Zvuk vypnut</string>
+    <string name="label_keep_screen_on_on">Ignorovat automatické uzamčení, ponechat obrazovku zapnutou</string>
+    <string name="label_keep_screen_on_off">Neignorovat automatické uzamčení</string>
+    <string name="label_show_help_icon">Zobrazit ikonu nápovědy</string>
+    <string name="label_hide_help_icon">Skrýt ikonu nápovědy</string>
+    <string name="label_language">Jazyk</string>
+
+    <string name="help_line_tap">Chcete-li spustit, pozastavit nebo pokračovat v časovači, klepněte na hlavní obrazovku.</string>
+    <string name="help_line_double_tap">Chcete-li zastavit a resetovat časovač, klepněte dvakrát na hlavní obrazovku.</string>
+    <string name="help_line_options">Chcete-li změnit možnosti programu, klepněte na ikonu ozubeného kola.</string>
+    <string name="license_word">Licence</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Chcete snížit aktivní časovač na novou uloženou hodnotu?</string>
+    <string name="prompt_raise_to_new">Chcete zvýšit aktivní časovač na novou uloženou hodnotu?</string>
+    <string name="label_show_language_icon">Zobrazit ikonu jazyka</string>
+    <string name="label_hide_language_icon">Skrýt ikonu jazyka</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">ரத்து செய்</string>
+    <string name="btn_close">மூடு</string>
+    <string name="btn_no">இல்லை</string>
+    <string name="btn_save">சேமிக்கவும்</string>
+    <string name="btn_yes">ஆம்</string>
+    <string name="desc_count_down">கவுண்ட்டவுன்</string>
+    <string name="desc_count_up">மேலே எண்ணிக்கை</string>
+    <string name="desc_disable_chime">சைமை இயங்காது</string>
+    <string name="desc_enable_chime">சைமை இயக்கவும்</string>
+    <string name="desc_help_icon">உதவி</string>
+    <string name="desc_hide_help_icon">உதவி சின்னத்தை மறை</string>
+    <string name="desc_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
+    <string name="desc_keep_screen_on_on">தானியங்கி பூட்டை புறக்கணி, திரையை இயக்கியவாறு வைத்திரு</string>
+    <string name="desc_settings_icon">அமைப்புகளைத் திற</string>
+    <string name="desc_show_help_icon">உதவி சின்னத்தை காட்டு</string>
+    <string name="field_minutes">நிமிடங்கள்</string>
+    <string name="field_seconds">விநாடிகள்</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">நிறுத்த மற்றும் மீட்டமைக்க, முதன்மை திரையில் இருமுறை தட்டவும்.</string>
+    <string name="help_line_options">திட்டத்தின் விருப்பங்களை மாற்ற, கியர் ஐகானை தட்டவும்.</string>
+    <string name="help_line_tap">தொடங்க, இடைநிறுத்த அல்லது தொடர, முதன்மை திரையில் தட்டவும்.</string>
+    <string name="label_chime_off">சைமை ஆஃப்</string>
+    <string name="label_chime_on">சைமை ஆன்</string>
+    <string name="label_count_down">கவுண்ட்டவுன்</string>
+    <string name="label_count_up">மேலே எண்ணிக்கை</string>
+    <string name="label_hide_help_icon">உதவி சின்னத்தை மறை</string>
+    <string name="label_hide_language_icon">மொழி ஐகானை மறைக்கவும்</string>
+    <string name="label_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
+    <string name="label_keep_screen_on_on">தானியங்கி பூட்டை புறக்கணி, திரையை இயக்கியவாறு வைத்திரு</string>
+    <string name="label_language">மொழி</string>
+    <string name="label_show_help_icon">உதவி சின்னத்தை காட்டு</string>
+    <string name="label_show_language_icon">மொழி ஐகானை காட்டவும்</string>
+    <string name="license_word">உரிமம்</string>
+    <string name="prompt_lower_to_new">சேமித்த புதிய மதிப்பிற்கு செயலில் உள்ள டைமரை குறைக்க வேண்டுமா?</string>
+    <string name="prompt_raise_to_new">சேமித்த புதிய மதிப்பிற்கு செயலில் உள்ள டைமரை உயர்த்த வேண்டுமா?</string>
+    <string name="title_confirm">உறுதி</string>
+    <string name="title_help">உதவி</string>
+    <string name="title_options">விருப்பங்கள்</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Ajuda</string>
+    <string name="desc_settings_icon">Abrir definições</string>
+    <string name="desc_count_up">Contagem crescente</string>
+    <string name="desc_count_down">Contagem decrescente</string>
+    <string name="desc_enable_chime">Ativar som</string>
+    <string name="desc_disable_chime">Desativar som</string>
+    <string name="desc_keep_screen_on_on">Ignorar bloqueio automático, manter o ecrã ligado</string>
+    <string name="desc_keep_screen_on_off">Não ignorar bloqueio automático</string>
+    <string name="desc_show_help_icon">Mostrar ícone de ajuda</string>
+    <string name="desc_hide_help_icon">Ocultar ícone de ajuda</string>
+
+    <string name="btn_close">Fechar</string>
+    <string name="btn_yes">Sim</string>
+    <string name="btn_no">Não</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <string name="title_help">Ajuda</string>
+    <string name="title_confirm">Confirmar</string>
+    <string name="title_options">Opções</string>
+
+    <string name="field_minutes">Minutos</string>
+    <string name="field_seconds">Segundos</string>
+    <string name="label_count_up">Contagem crescente</string>
+    <string name="label_count_down">Contagem decrescente</string>
+    <string name="label_chime_on">Som ligado</string>
+    <string name="label_chime_off">Som desligado</string>
+    <string name="label_keep_screen_on_on">Ignorar bloqueio automático, manter o ecrã ligado</string>
+    <string name="label_keep_screen_on_off">Não ignorar bloqueio automático</string>
+    <string name="label_show_help_icon">Mostrar ícone de ajuda</string>
+    <string name="label_hide_help_icon">Ocultar ícone de ajuda</string>
+    <string name="label_language">Idioma</string>
+
+    <string name="help_line_tap">Para iniciar, pausar ou retomar o temporizador, toque no ecrã principal.</string>
+    <string name="help_line_double_tap">Para parar e repor o temporizador, toque duas vezes no ecrã principal.</string>
+    <string name="help_line_options">Para alterar as opções do programa, toque no ícone de engrenagem.</string>
+    <string name="license_word">Licença</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Pretende reduzir o temporizador ativo para o novo valor que acabou de guardar?</string>
+    <string name="prompt_raise_to_new">Pretende aumentar o temporizador ativo para o novo valor que acabou de guardar?</string>
+    <string name="label_show_language_icon">Mostrar ícone de idioma</string>
+    <string name="label_hide_language_icon">Ocultar ícone de idioma</string>
+</resources>

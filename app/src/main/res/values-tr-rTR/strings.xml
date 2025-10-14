@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Yardım</string>
+    <string name="desc_settings_icon">Ayarları aç</string>
+    <string name="desc_count_up">Artan sayım</string>
+    <string name="desc_count_down">Geri sayım</string>
+    <string name="desc_enable_chime">Zili etkinleştir</string>
+    <string name="desc_disable_chime">Zili devre dışı bırak</string>
+    <string name="desc_keep_screen_on_on">Otomatik kilidi geçersiz kıl, ekranı açık tut</string>
+    <string name="desc_keep_screen_on_off">Otomatik kilidi geçersiz kılma</string>
+    <string name="desc_show_help_icon">Yardım simgesini göster</string>
+    <string name="desc_hide_help_icon">Yardım simgesini gizle</string>
+
+    <string name="btn_close">Kapat</string>
+    <string name="btn_yes">Evet</string>
+    <string name="btn_no">Hayır</string>
+    <string name="btn_save">Kaydet</string>
+    <string name="btn_cancel">İptal</string>
+
+    <string name="title_help">Yardım</string>
+    <string name="title_confirm">Onay</string>
+    <string name="title_options">Seçenekler</string>
+
+    <string name="field_minutes">Dakika</string>
+    <string name="field_seconds">Saniye</string>
+    <string name="label_count_up">Artan sayım</string>
+    <string name="label_count_down">Geri sayım</string>
+    <string name="label_chime_on">Zil açık</string>
+    <string name="label_chime_off">Zil kapalı</string>
+    <string name="label_keep_screen_on_on">Otomatik kilidi geçersiz kıl, ekranı açık tut</string>
+    <string name="label_keep_screen_on_off">Otomatik kilidi geçersiz kılma</string>
+    <string name="label_show_help_icon">Yardım simgesini göster</string>
+    <string name="label_hide_help_icon">Yardım simgesini gizle</string>
+    <string name="label_language">Dil</string>
+
+    <string name="help_line_tap">Zamanlayıcıyı başlatmak, duraklatmak veya sürdürmek için ana ekrana dokunun.</string>
+    <string name="help_line_double_tap">Zamanlayıcıyı durdurup sıfırlamak için ana ekrana iki kez dokunun.</string>
+    <string name="help_line_options">Program seçeneklerini değiştirmek için dişli simgesine dokunun.</string>
+    <string name="license_word">Lisans</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Etkin zamanlayıcıyı az önce kaydettiğiniz yeni değere düşürmek istiyor musunuz?</string>
+    <string name="prompt_raise_to_new">Etkin zamanlayıcıyı az önce kaydettiğiniz yeni değere yükseltmek istiyor musunuz?</string>
+    <string name="label_show_language_icon">Dil simgesini göster</string>
+    <string name="label_hide_language_icon">Dil simgesini gizle</string>
+</resources>

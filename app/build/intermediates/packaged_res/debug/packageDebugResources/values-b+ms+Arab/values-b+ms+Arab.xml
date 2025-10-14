@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">باٮتل</string>
+    <string name="btn_close">توتوڤ</string>
+    <string name="btn_no">تياد</string>
+    <string name="btn_save">سيمڤن</string>
+    <string name="btn_yes">يا</string>
+    <string name="desc_count_down">كيرا ءمنوروڠ</string>
+    <string name="desc_count_up">كيرا ءناۏيق</string>
+    <string name="desc_disable_chime">نياه اٮكتيفكن بوني</string>
+    <string name="desc_enable_chime">اكتيفكن بوني</string>
+    <string name="desc_help_icon">باڠتوان</string>
+    <string name="desc_hide_help_icon">سمبوڽيikan ايكون باڠتوان</string>
+    <string name="desc_keep_screen_on_off">جاڠن اباءيكن كونچي اوتوماتيق</string>
+    <string name="desc_keep_screen_on_on">اباءيكن كونچي اوتوماتيق، ككلكن سكرين هيودوڠ</string>
+    <string name="desc_settings_icon">بوکا تتاڤن</string>
+    <string name="desc_show_help_icon">تونجوق ايكون باڠتوان</string>
+    <string name="field_minutes">مينيت</string>
+    <string name="field_seconds">ساعة</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">اونتوق هنديقن دان ست سمولا ڤماسر، تيكن دوا كالي سكرين اوتام.</string>
+    <string name="help_line_options">اونتوق اوبه ڤيليه ڤروگرام، تيكن ايكون ڬيير.</string>
+    <string name="help_line_tap">اونتوق مولاكن، جهان، اتاو سمبوڠ سمولا ڤماسر، تيكن سكرين اوتام.</string>
+    <string name="label_chime_off">بوني ماتي</string>
+    <string name="label_chime_on">بوني هيودوڠ</string>
+    <string name="label_count_down">كيرا ءمنوروڠ</string>
+    <string name="label_count_up">كيرا ءناۏيق</string>
+    <string name="label_hide_help_icon">سمبوڽيikan ايكون باڠتوان</string>
+    <string name="label_hide_language_icon">سمبونييكن ايقون بهاس</string>
+    <string name="label_keep_screen_on_off">جاڠن اباءيكن كونچي اوتوماتيق</string>
+    <string name="label_keep_screen_on_on">اباءيكن كونچي اوتوماتيق، ككلكن سكرين هيودوڠ</string>
+    <string name="label_language">بهاس</string>
+    <string name="label_show_help_icon">تونجوق ايكون باڠتوان</string>
+    <string name="label_show_language_icon">تونجوقكن ايقون بهاس</string>
+    <string name="license_word">ليسن</string>
+    <string name="prompt_lower_to_new">اءدكه اندق منورونهكن ڤماسر اكن تڠگاه بارو يڠ اندا سيمڤن؟</string>
+    <string name="prompt_raise_to_new">اءدكه اندق مڠنايقكن ڤماسر ءكتيف كڤد نيلاء بارو يڠ اندا سيمڤن؟</string>
+    <string name="title_confirm">سهاكن</string>
+    <string name="title_help">باڠتوان</string>
+    <string name="title_options">ڤيليه</string>
+</resources>

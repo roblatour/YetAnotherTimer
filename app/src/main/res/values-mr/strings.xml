@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">मदत</string>
+    <string name="desc_settings_icon">सेटिंग्स उघडा</string>
+    <string name="desc_count_up">वाढती मोजणी</string>
+    <string name="desc_count_down">उलटी मोजणी</string>
+    <string name="desc_enable_chime">चाइम सक्षम करा</string>
+    <string name="desc_disable_chime">चाइम अक्षम करा</string>
+    <string name="desc_keep_screen_on_on">ऑटो-लॉक दुर्लक्ष करा, स्क्रीन चालू ठेवा</string>
+    <string name="desc_keep_screen_on_off">ऑटो-लॉक दुर्लक्ष करू नका</string>
+    <string name="desc_show_help_icon">मदत आयकॉन दाखवा</string>
+    <string name="desc_hide_help_icon">मदत आयकॉन लपवा</string>
+
+    <string name="btn_close">बंद</string>
+    <string name="btn_yes">होय</string>
+    <string name="btn_no">नाही</string>
+    <string name="btn_save">जतन करा</string>
+    <string name="btn_cancel">रद्द करा</string>
+
+    <string name="title_help">मदत</string>
+    <string name="title_confirm">निश्‍चिती</string>
+    <string name="title_options">पर्याय</string>
+
+    <string name="field_minutes">मिनिटे</string>
+    <string name="field_seconds">सेकंद</string>
+    <string name="label_count_up">वाढती मोजणी</string>
+    <string name="label_count_down">उलटी मोजणी</string>
+    <string name="label_chime_on">चाइम चालू</string>
+    <string name="label_chime_off">चाइम बंद</string>
+    <string name="label_keep_screen_on_on">ऑटो-लॉक दुर्लक्ष करा, स्क्रीन चालू ठेवा</string>
+    <string name="label_keep_screen_on_off">ऑटो-लॉक दुर्लक्ष करू नका</string>
+    <string name="label_show_help_icon">मदत आयकॉन दाखवा</string>
+    <string name="label_hide_help_icon">मदत आयकॉन लपवा</string>
+    <string name="label_language">भाषा</string>
+
+    <string name="help_line_tap">टायमर सुरू, थांबवण्यासाठी किंवा पुन्हा सुरू करण्यासाठी मुख्य स्क्रीनवर टॅप करा.</string>
+    <string name="help_line_double_tap">टायमर थांबवून रीसेट करण्यासाठी मुख्य स्क्रीनवर दोनदा टॅप करा.</string>
+    <string name="help_line_options">कार्यक्रमाचे पर्याय बदलण्यासाठी गिअर आयकॉनवर टॅप करा.</string>
+    <string name="license_word">परवाना</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">जतन केलेल्या नवीन मूल्यापर्यंत सक्रिय टायमर कमी करायचा आहे का?</string>
+    <string name="prompt_raise_to_new">जतन केलेल्या नवीन मूल्यापर्यंत सक्रिय टाइमर वाढवायचा आहे का?</string>
+    <string name="label_show_language_icon">भाषा चिन्ह दाखवा</string>
+    <string name="label_hide_language_icon">भाषा चिन्ह लपवा</string>
+</resources>

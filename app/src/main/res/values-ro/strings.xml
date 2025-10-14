@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Ajutor</string>
+    <string name="desc_settings_icon">Deschide setările</string>
+    <string name="desc_count_up">Numărătoare crescătoare</string>
+    <string name="desc_count_down">Numărătoare inversă</string>
+    <string name="desc_enable_chime">Activare sunet</string>
+    <string name="desc_disable_chime">Dezactivare sunet</string>
+    <string name="desc_keep_screen_on_on">Ignoră blocarea automată, menține ecranul aprins</string>
+    <string name="desc_keep_screen_on_off">Nu ignora blocarea automată</string>
+    <string name="desc_show_help_icon">Afișează pictograma Ajutor</string>
+    <string name="desc_hide_help_icon">Ascunde pictograma Ajutor</string>
+
+    <string name="btn_close">Închide</string>
+    <string name="btn_yes">Da</string>
+    <string name="btn_no">Nu</string>
+    <string name="btn_save">Salvează</string>
+    <string name="btn_cancel">Anulează</string>
+
+    <string name="title_help">Ajutor</string>
+    <string name="title_confirm">Confirmare</string>
+    <string name="title_options">Opțiuni</string>
+
+    <string name="field_minutes">Minute</string>
+    <string name="field_seconds">Secunde</string>
+    <string name="label_count_up">Numărătoare crescătoare</string>
+    <string name="label_count_down">Numărătoare inversă</string>
+    <string name="label_chime_on">Sunet activ</string>
+    <string name="label_chime_off">Sunet inactiv</string>
+    <string name="label_keep_screen_on_on">Ignoră blocarea automată, menține ecranul aprins</string>
+    <string name="label_keep_screen_on_off">Nu ignora blocarea automată</string>
+    <string name="label_show_help_icon">Afișează pictograma Ajutor</string>
+    <string name="label_hide_help_icon">Ascunde pictograma Ajutor</string>
+    <string name="label_language">Limbă</string>
+
+    <string name="help_line_tap">Pentru a porni, pune pe pauză sau relua temporizatorul, atinge ecranul principal.</string>
+    <string name="help_line_double_tap">Pentru a opri și reseta temporizatorul, atinge de două ori ecranul principal.</string>
+    <string name="help_line_options">Pentru a modifica opțiunile programului, atinge pictograma rotiță.</string>
+    <string name="license_word">Licență</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Doriți să scădeți temporizatorul activ la noua valoare tocmai salvată?</string>
+    <string name="prompt_raise_to_new">Doriți să creșteți cronometrul activ la noua valoare tocmai salvată?</string>
+    <string name="label_show_language_icon">Afișează pictograma limbii</string>
+    <string name="label_hide_language_icon">Ascunde pictograma limbii</string>
+</resources>

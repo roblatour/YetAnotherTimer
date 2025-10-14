@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_close">Tutup</string>
+    <string name="btn_no">Tidak</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_yes">Ya</string>
+    <string name="desc_count_down">Kiraan menurun</string>
+    <string name="desc_count_up">Kiraan menaik</string>
+    <string name="desc_disable_chime">Nyahaktifkan bunyi</string>
+    <string name="desc_enable_chime">Aktifkan bunyi</string>
+    <string name="desc_help_icon">Bantuan</string>
+    <string name="desc_hide_help_icon">Sembunyi ikon bantuan</string>
+    <string name="desc_keep_screen_on_off">Jangan abaikan kunci automatik</string>
+    <string name="desc_keep_screen_on_on">Abaikan kunci automatik, kekalkan skrin hidup</string>
+    <string name="desc_settings_icon">Buka tetapan</string>
+    <string name="desc_show_help_icon">Tunjuk ikon bantuan</string>
+    <string name="field_minutes">Minit</string>
+    <string name="field_seconds">Saat</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Untuk hentikan dan set semula pemasa, ketik dua kali skrin utama.</string>
+    <string name="help_line_options">Untuk ubah pilihan program, ketik ikon gear.</string>
+    <string name="help_line_tap">Untuk mulakan, jeda, atau sambung semula pemasa, ketik skrin utama.</string>
+    <string name="label_chime_off">Bunyi mati</string>
+    <string name="label_chime_on">Bunyi hidup</string>
+    <string name="label_count_down">Kiraan menurun</string>
+    <string name="label_count_up">Kiraan menaik</string>
+    <string name="label_hide_help_icon">Sembunyi ikon bantuan</string>
+    <string name="label_hide_language_icon">Sembunyikan ikon bahasa</string>
+    <string name="label_keep_screen_on_off">Jangan abaikan kunci automatik</string>
+    <string name="label_keep_screen_on_on">Abaikan kunci automatik, kekalkan skrin hidup</string>
+    <string name="label_language">Bahasa</string>
+    <string name="label_show_help_icon">Tunjuk ikon bantuan</string>
+    <string name="label_show_language_icon">Tunjukkan ikon bahasa</string>
+    <string name="license_word">Lesen</string>
+    <string name="prompt_lower_to_new">Ingin turunkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
+    <string name="prompt_raise_to_new">Ingin naikkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
+    <string name="title_confirm">Sahkan</string>
+    <string name="title_help">Bantuan</string>
+    <string name="title_options">Pilihan</string>
+</resources>

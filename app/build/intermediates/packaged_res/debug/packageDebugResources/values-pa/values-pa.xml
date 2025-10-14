@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="btn_close">ਬੰਦ ਕਰੋ</string>
+    <string name="btn_no">ਨਹੀਂ</string>
+    <string name="btn_save">ਸੇਵ ਕਰੋ</string>
+    <string name="btn_yes">ਹਾਂ</string>
+    <string name="desc_count_down">ਉਲਟੀ ਗਿਣਤੀ</string>
+    <string name="desc_count_up">ਵੱਧਦੀ ਗਿਣਤੀ</string>
+    <string name="desc_disable_chime">ਘੰਟੀ ਬੰਦ ਕਰੋ</string>
+    <string name="desc_enable_chime">ਘੰਟੀ ਚਾਲੂ ਕਰੋ</string>
+    <string name="desc_help_icon">ਮਦਦ</string>
+    <string name="desc_hide_help_icon">ਮਦਦ ਆਇਕਨ ਲੁਕਾਓ</string>
+    <string name="desc_keep_screen_on_off">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਨਾ ਕਰੋ</string>
+    <string name="desc_keep_screen_on_on">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ, ਸਕ੍ਰੀਨ ਚਾਲੂ ਰੱਖੋ</string>
+    <string name="desc_settings_icon">ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ</string>
+    <string name="desc_show_help_icon">ਮਦਦ ਆਇਕਨ ਵਿਖਾਓ</string>
+    <string name="field_minutes">ਮਿੰਟ</string>
+    <string name="field_seconds">ਸੈਕਿੰਡ</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">ਟਾਈਮਰ ਰੋਕਣ ਅਤੇ ਰੀਸੈੱਟ ਕਰਨ ਲਈ ਮੁੱਖ ਸਕ੍ਰੀਨ ’ਤੇ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ।</string>
+    <string name="help_line_options">ਪ੍ਰੋਗਰਾਮ ਦੇ ਚੋਣਾਂ ਬਦਲਣ ਲਈ ਗੀਅਰ ਆਇਕਨ ’ਤੇ ਟੈਪ ਕਰੋ।</string>
+    <string name="help_line_tap">ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰਨ, ਰੋਕਣ ਜਾਂ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਮੁੱਖ ਸਕ੍ਰੀਨ ’ਤੇ ਟੈਪ ਕਰੋ।</string>
+    <string name="label_chime_off">ਘੰਟੀ ਬੰਦ</string>
+    <string name="label_chime_on">ਘੰਟੀ ਚਾਲੂ</string>
+    <string name="label_count_down">ਉਲਟੀ ਗਿਣਤੀ</string>
+    <string name="label_count_up">ਵੱਧਦੀ ਗਿਣਤੀ</string>
+    <string name="label_hide_help_icon">ਮਦਦ ਆਇਕਨ ਲੁਕਾਓ</string>
+    <string name="label_hide_language_icon">ਭਾਸ਼ਾ ਆਈਕਨ ਲੁਕਾਓ</string>
+    <string name="label_keep_screen_on_off">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਨਾ ਕਰੋ</string>
+    <string name="label_keep_screen_on_on">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ, ਸਕ੍ਰੀਨ ਚਾਲੂ ਰੱਖੋ</string>
+    <string name="label_language">ਭਾਸ਼ਾ</string>
+    <string name="label_show_help_icon">ਮਦਦ ਆਇਕਨ ਵਿਖਾਓ</string>
+    <string name="label_show_language_icon">ਭਾਸ਼ਾ ਆਈਕਨ ਵੇਖਾਓ</string>
+    <string name="license_word">ਲਾਇਸੈਂਸ</string>
+    <string name="prompt_lower_to_new">ਕੀ ਤੁਸੀਂ ਸੰਚਾਲਿਤ ਟਾਈਮਰ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸੇਵ ਕੀਤੀ ਨਵੀਂ ਮੁੱਲ ਤੱਕ ਘਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="prompt_raise_to_new">ਕੀ ਤੁਸੀਂ ਸੰਚਾਲਿਤ ਟਾਈਮਰ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸੇਵ ਕੀਤੀ ਨਵੀਂ ਮੁੱਲ ਤੱਕ ਵਧਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="title_confirm">ਪੁਸ਼ਟੀ</string>
+    <string name="title_help">ਮਦਦ</string>
+    <string name="title_options">ਚੋਣਾਂ</string>
+</resources>

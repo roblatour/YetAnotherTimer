@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">مدد</string>
+    <string name="desc_settings_icon">ترتیبات کھولیں</string>
+    <string name="desc_count_up">اوپر کی گنتی</string>
+    <string name="desc_count_down">اُلٹی گنتی</string>
+    <string name="desc_enable_chime">گھنٹی فعال کریں</string>
+    <string name="desc_disable_chime">گھنٹی غیر فعال کریں</string>
+    <string name="desc_keep_screen_on_on">خودکار لاک کو نظرانداز کریں، اسکرین کو آن رکھیں</string>
+    <string name="desc_keep_screen_on_off">خودکار لاک کو نظرانداز نہ کریں</string>
+    <string name="desc_show_help_icon">مدد آئیکن دکھائیں</string>
+    <string name="desc_hide_help_icon">مدد آئیکن چھپائیں</string>
+
+    <string name="btn_close">بند کریں</string>
+    <string name="btn_yes">ہاں</string>
+    <string name="btn_no">نہیں</string>
+    <string name="btn_save">محفوظ کریں</string>
+    <string name="btn_cancel">منسوخ کریں</string>
+
+    <string name="title_help">مدد</string>
+    <string name="title_confirm">تصدیق</string>
+    <string name="title_options">اختیارات</string>
+
+    <string name="field_minutes">منٹ</string>
+    <string name="field_seconds">سیکنڈ</string>
+    <string name="label_count_up">اوپر کی گنتی</string>
+    <string name="label_count_down">اُلٹی گنتی</string>
+    <string name="label_chime_on">گھنٹی آن</string>
+    <string name="label_chime_off">گھنٹی آف</string>
+    <string name="label_keep_screen_on_on">خودکار لاک کو نظرانداز کریں، اسکرین کو آن رکھیں</string>
+    <string name="label_keep_screen_on_off">خودکار لاک کو نظرانداز نہ کریں</string>
+    <string name="label_show_help_icon">مدد آئیکن دکھائیں</string>
+    <string name="label_hide_help_icon">مدد آئیکن چھپائیں</string>
+    <string name="label_language">زبان</string>
+
+    <string name="help_line_tap">ٹائمر شروع کرنے، روکنے یا دوبارہ شروع کرنے کے لیے مرکزی اسکرین پر ٹیپ کریں۔</string>
+    <string name="help_line_double_tap">ٹائمر روکنے اور ری سیٹ کرنے کے لیے مرکزی اسکرین پر دو بار ٹیپ کریں۔</string>
+    <string name="help_line_options">پروگرام کے اختیارات تبدیل کرنے کے لیے گیئر آئیکن پر ٹیپ کریں۔</string>
+    <string name="license_word">لائسنس</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">کیا آپ فعال ٹائمر کو آپ کے محفوظ کردہ نئے قدر تک کم کرنا چاہتے ہیں؟</string>
+    <string name="prompt_raise_to_new">کیا آپ فعال ٹائمر کو آپ کی محفوظ کردہ نئی قدر تک بڑھانا چاہتے ہیں؟</string>
+    <string name="label_show_language_icon">زبان کا آئیکن دکھائیں</string>
+    <string name="label_hide_language_icon">زبان کا آئیکن چھپائیں</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">مساعدة</string>
+    <string name="desc_settings_icon">فتح الإعدادات</string>
+    <string name="desc_count_up">عد تصاعدي</string>
+    <string name="desc_count_down">عد تنازلي</string>
+    <string name="desc_enable_chime">تفعيل الجرس</string>
+    <string name="desc_disable_chime">تعطيل الجرس</string>
+    <string name="desc_keep_screen_on_on">تجاوز القفل التلقائي، إبقاء الشاشة قيد التشغيل</string>
+    <string name="desc_keep_screen_on_off">عدم تجاوز القفل التلقائي</string>
+    <string name="desc_show_help_icon">إظهار أيقونة المساعدة</string>
+    <string name="desc_hide_help_icon">إخفاء أيقونة المساعدة</string>
+
+    <string name="btn_close">إغلاق</string>
+    <string name="btn_yes">نعم</string>
+    <string name="btn_no">لا</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_cancel">إلغاء</string>
+
+    <string name="title_help">مساعدة</string>
+    <string name="title_confirm">تأكيد</string>
+    <string name="title_options">الخيارات</string>
+
+    <string name="field_minutes">دقائق</string>
+    <string name="field_seconds">ثوانٍ</string>
+    <string name="label_count_up">عد تصاعدي</string>
+    <string name="label_count_down">عد تنازلي</string>
+    <string name="label_chime_on">الجرس قيد التشغيل</string>
+    <string name="label_chime_off">الجرس متوقف</string>
+    <string name="label_keep_screen_on_on">تجاوز القفل التلقائي، إبقاء الشاشة قيد التشغيل</string>
+    <string name="label_keep_screen_on_off">عدم تجاوز القفل التلقائي</string>
+    <string name="label_show_help_icon">إظهار أيقونة المساعدة</string>
+    <string name="label_hide_help_icon">إخفاء أيقونة المساعدة</string>
+    <string name="label_language">اللغة</string>
+
+    <string name="help_line_tap">للبدء أو الإيقاف المؤقت أو الاستئناف، المس الشاشة الرئيسية.</string>
+    <string name="help_line_double_tap">لإيقاف المؤقت وإعادة ضبطه، انقر نقراً مزدوجاً على الشاشة الرئيسية.</string>
+    <string name="help_line_options">لتغيير خيارات البرنامج، المس أيقونة الترس.</string>
+    <string name="license_word">الترخيص</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">هل تريد خفض المؤقت النشط إلى القيمة الجديدة التي قمت بحفظها؟</string>
+    <string name="prompt_raise_to_new">هل تريد رفع المؤقت النشط إلى القيمة الجديدة التي قمت بحفظها؟</string>
+    <string name="label_show_language_icon">إظهار رمز اللغة</string>
+    <string name="label_hide_language_icon">إخفاء رمز اللغة</string>
+</resources>

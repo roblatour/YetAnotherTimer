@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="btn_close">ปิด</string>
+    <string name="btn_no">ไม่</string>
+    <string name="btn_save">บันทึก</string>
+    <string name="btn_yes">ใช่</string>
+    <string name="desc_count_down">นับถอยหลัง</string>
+    <string name="desc_count_up">นับขึ้น</string>
+    <string name="desc_disable_chime">ปิดเสียง</string>
+    <string name="desc_enable_chime">เปิดเสียง</string>
+    <string name="desc_help_icon">วิธีใช้</string>
+    <string name="desc_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
+    <string name="desc_keep_screen_on_off">อย่าละเว้นการล็อกอัตโนมัติ</string>
+    <string name="desc_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
+    <string name="desc_settings_icon">เปิดการตั้งค่า</string>
+    <string name="desc_show_help_icon">แสดงไอคอนวิธีใช้</string>
+    <string name="field_minutes">นาที</string>
+    <string name="field_seconds">วินาที</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">หากต้องการหยุดและรีเซ็ตตัวจับเวลา ให้แตะที่หน้าจอหลักสองครั้ง</string>
+    <string name="help_line_options">หากต้องการเปลี่ยนตัวเลือกของโปรแกรม ให้แตะที่ไอคอนรูปเฟือง</string>
+    <string name="help_line_tap">หากต้องการเริ่ม หยุดชั่วคราว หรือดำเนินการต่อ ให้แตะที่หน้าจอหลัก</string>
+    <string name="label_chime_off">ปิดเสียง</string>
+    <string name="label_chime_on">เปิดเสียง</string>
+    <string name="label_count_down">นับถอยหลัง</string>
+    <string name="label_count_up">นับขึ้น</string>
+    <string name="label_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
+    <string name="label_hide_language_icon">ซ่อนไอคอนภาษา</string>
+    <string name="label_keep_screen_on_off">อย่าละเว้นการล็อกอัตโนมัติ</string>
+    <string name="label_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
+    <string name="label_language">ภาษา</string>
+    <string name="label_show_help_icon">แสดงไอคอนวิธีใช้</string>
+    <string name="label_show_language_icon">แสดงไอคอนภาษา</string>
+    <string name="license_word">สัญญาอนุญาต</string>
+    <string name="prompt_lower_to_new">คุณต้องการลดตัวจับเวลาที่ใช้งานอยู่ให้เป็นค่าใหม่ที่คุณเพิ่งบันทึกหรือไม่?</string>
+    <string name="prompt_raise_to_new">คุณต้องการเพิ่มตัวจับเวลาที่ใช้งานอยู่เป็นค่าใหม่ที่คุณเพิ่งบันทึกหรือไม่?</string>
+    <string name="title_confirm">ยืนยัน</string>
+    <string name="title_help">วิธีใช้</string>
+    <string name="title_options">ตัวเลือก</string>
+</resources>

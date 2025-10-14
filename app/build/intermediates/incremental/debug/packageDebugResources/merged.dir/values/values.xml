@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_no">No</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_yes">Yes</string>
+    <string name="desc_count_down">Count down</string>
+    <string name="desc_count_up">Count up</string>
+    <string name="desc_disable_chime">Disable chime</string>
+    <string name="desc_enable_chime">Enable chime</string>
+    <string name="desc_help_icon">Help</string>
+    <string name="desc_hide_help_icon">Hide help icon</string>
+    <string name="desc_hide_language_icon">Hide language icon</string>
+    <string name="desc_keep_screen_on_off">Do not override auto-lock</string>
+    <string name="desc_keep_screen_on_on">Override auto-lock, keep screen on</string>
+    <string name="desc_language_icon">Change language</string>
+    <string name="desc_settings_icon">Open settings</string>
+    <string name="desc_show_help_icon">Show help icon</string>
+    <string name="desc_show_language_icon">Show language icon</string>
+    <string name="field_minutes">Minutes</string>
+    <string name="field_seconds">Seconds</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">To stop and reset the timer, double tap the main screen.</string>
+    <string name="help_line_options">To change the program options, tap the gear icon.</string>
+    <string name="help_line_tap">To start, pause, or resume the timer, tap the main screen.</string>
+    <string name="label_chime_off">Chime off</string>
+    <string name="label_chime_on">Chime on</string>
+    <string name="label_count_down">Count down</string>
+    <string name="label_count_up">Count up</string>
+    <string name="label_hide_help_icon">Hide help icon</string>
+    <string name="label_hide_language_icon">Hide language icon</string>
+    <string name="label_keep_screen_on_off">Do not override auto-lock</string>
+    <string name="label_keep_screen_on_on">Override auto-lock, keep screen on</string>
+    <string name="label_language">Language</string>
+    <string name="label_show_help_icon">Show help icon</string>
+    <string name="label_show_language_icon">Show language icon</string>
+    <string name="license_word">Licence</string>
+    <string name="prompt_lower_to_new">Do you want the active timer lowered to the new value you just saved?</string>
+    <string name="prompt_raise_to_new">Do you want the active timer raised to the new value you just saved?</string>
+    <string name="title_confirm">Confirm</string>
+    <string name="title_help">Help</string>
+    <string name="title_options">Options</string>
+    <style name="Theme.YetAnotherTimer" parent="Theme.Material3.DayNight.NoActionBar">
+        
+    </style>
+</resources>

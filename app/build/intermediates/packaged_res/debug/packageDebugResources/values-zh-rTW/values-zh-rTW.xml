@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_close">關閉</string>
+    <string name="btn_no">否</string>
+    <string name="btn_save">儲存</string>
+    <string name="btn_yes">是</string>
+    <string name="desc_count_down">倒數計時</string>
+    <string name="desc_count_up">正計時</string>
+    <string name="desc_disable_chime">停用提示音</string>
+    <string name="desc_enable_chime">啟用提示音</string>
+    <string name="desc_help_icon">說明</string>
+    <string name="desc_hide_help_icon">隱藏說明圖示</string>
+    <string name="desc_keep_screen_on_off">不要覆寫自動鎖定</string>
+    <string name="desc_keep_screen_on_on">覆寫自動鎖定，保持螢幕常亮</string>
+    <string name="desc_settings_icon">開啟設定</string>
+    <string name="desc_show_help_icon">顯示說明圖示</string>
+    <string name="field_minutes">分鐘</string>
+    <string name="field_seconds">秒</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">若要停止並重設計時器，請在主畫面點兩下。</string>
+    <string name="help_line_options">若要變更程式的選項，請輕觸齒輪圖示。</string>
+    <string name="help_line_tap">若要開始、暫停或繼續計時，請輕觸主畫面。</string>
+    <string name="label_chime_off">提示音關</string>
+    <string name="label_chime_on">提示音開</string>
+    <string name="label_count_down">倒數計時</string>
+    <string name="label_count_up">正計時</string>
+    <string name="label_hide_help_icon">隱藏說明圖示</string>
+    <string name="label_hide_language_icon">隱藏語言圖示</string>
+    <string name="label_keep_screen_on_off">不要覆寫自動鎖定</string>
+    <string name="label_keep_screen_on_on">覆寫自動鎖定，保持螢幕常亮</string>
+    <string name="label_language">語言</string>
+    <string name="label_show_help_icon">顯示說明圖示</string>
+    <string name="label_show_language_icon">顯示語言圖示</string>
+    <string name="license_word">授權</string>
+    <string name="prompt_lower_to_new">是否要將作用中的計時器降低到您剛儲存的新值？</string>
+    <string name="prompt_raise_to_new">是否要將作用中的計時器提高到您剛儲存的新值？</string>
+    <string name="title_confirm">確認</string>
+    <string name="title_help">說明</string>
+    <string name="title_options">選項</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Anuluj</string>
+    <string name="btn_close">Zamknij</string>
+    <string name="btn_no">Nie</string>
+    <string name="btn_save">Zapisz</string>
+    <string name="btn_yes">Tak</string>
+    <string name="desc_count_down">Odliczanie</string>
+    <string name="desc_count_up">Zliczanie w górę</string>
+    <string name="desc_disable_chime">Wyłącz dźwięk</string>
+    <string name="desc_enable_chime">Włącz dźwięk</string>
+    <string name="desc_help_icon">Pomoc</string>
+    <string name="desc_hide_help_icon">Ukryj ikonę pomocy</string>
+    <string name="desc_keep_screen_on_off">Nie pomijaj automatycznej blokady</string>
+    <string name="desc_keep_screen_on_on">Pomiń automatyczną blokadę, utrzymuj ekran włączony</string>
+    <string name="desc_settings_icon">Otwórz ustawienia</string>
+    <string name="desc_show_help_icon">Pokaż ikonę pomocy</string>
+    <string name="field_minutes">Minuty</string>
+    <string name="field_seconds">Sekundy</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Aby zatrzymać i zresetować licznik, stuknij dwukrotnie ekran główny.</string>
+    <string name="help_line_options">Aby zmienić opcje programu, stuknij ikonę koła zębatego.</string>
+    <string name="help_line_tap">Aby rozpocząć, wstrzymać lub wznowić licznik, stuknij ekran główny.</string>
+    <string name="label_chime_off">Dźwięk wyłączony</string>
+    <string name="label_chime_on">Dźwięk włączony</string>
+    <string name="label_count_down">Odliczanie</string>
+    <string name="label_count_up">Zliczanie w górę</string>
+    <string name="label_hide_help_icon">Ukryj ikonę pomocy</string>
+    <string name="label_hide_language_icon">Ukryj ikonę języka</string>
+    <string name="label_keep_screen_on_off">Nie pomijaj automatycznej blokady</string>
+    <string name="label_keep_screen_on_on">Pomiń automatyczną blokadę, utrzymuj ekran włączony</string>
+    <string name="label_language">Język</string>
+    <string name="label_show_help_icon">Pokaż ikonę pomocy</string>
+    <string name="label_show_language_icon">Pokaż ikonę języka</string>
+    <string name="license_word">Licencja</string>
+    <string name="prompt_lower_to_new">Czy chcesz obniżyć aktywny licznik do nowej zapisanej wartości?</string>
+    <string name="prompt_raise_to_new">Czy chcesz zwiększyć aktywny timer do nowej zapisanej wartości?</string>
+    <string name="title_confirm">Potwierdzenie</string>
+    <string name="title_help">Pomoc</string>
+    <string name="title_options">Opcje</string>
+</resources>

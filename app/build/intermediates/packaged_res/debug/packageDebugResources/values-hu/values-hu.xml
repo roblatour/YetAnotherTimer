@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">Mégse</string>
+    <string name="btn_close">Bezárás</string>
+    <string name="btn_no">Nem</string>
+    <string name="btn_save">Mentés</string>
+    <string name="btn_yes">Igen</string>
+    <string name="desc_count_down">Visszaszámlálás</string>
+    <string name="desc_count_up">Növekvő számlálás</string>
+    <string name="desc_disable_chime">Hangjelzés kikapcsolása</string>
+    <string name="desc_enable_chime">Hangjelzés bekapcsolása</string>
+    <string name="desc_help_icon">Súgó</string>
+    <string name="desc_hide_help_icon">Súgó ikon elrejtése</string>
+    <string name="desc_keep_screen_on_off">Automatikus zárolás ne legyen figyelmen kívül hagyva</string>
+    <string name="desc_keep_screen_on_on">Automatikus zárolás figyelmen kívül hagyása, képernyő bekapcsolva tartása</string>
+    <string name="desc_settings_icon">Beállítások megnyitása</string>
+    <string name="desc_show_help_icon">Súgó ikon megjelenítése</string>
+    <string name="field_minutes">Percek</string>
+    <string name="field_seconds">Másodpercek</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">A leállításhoz és visszaállításhoz koppintson duplán a főképernyőre.</string>
+    <string name="help_line_options">A program beállításainak módosításához érintse meg a fogaskerék ikont.</string>
+    <string name="help_line_tap">A kezdéshez, szüneteltetéshez vagy folytatáshoz érintse meg a főképernyőt.</string>
+    <string name="label_chime_off">Hangjelzés ki</string>
+    <string name="label_chime_on">Hangjelzés be</string>
+    <string name="label_count_down">Visszaszámlálás</string>
+    <string name="label_count_up">Növekvő számlálás</string>
+    <string name="label_hide_help_icon">Súgó ikon elrejtése</string>
+    <string name="label_hide_language_icon">Nyelvikon elrejtése</string>
+    <string name="label_keep_screen_on_off">Automatikus zárolás ne legyen figyelmen kívül hagyva</string>
+    <string name="label_keep_screen_on_on">Automatikus zárolás figyelmen kívül hagyása, képernyő bekapcsolva tartása</string>
+    <string name="label_language">Nyelv</string>
+    <string name="label_show_help_icon">Súgó ikon megjelenítése</string>
+    <string name="label_show_language_icon">Nyelvikon megjelenítése</string>
+    <string name="license_word">Licenc</string>
+    <string name="prompt_lower_to_new">Szeretné csökkenteni az aktív időzítőt az újonnan mentett értékre?</string>
+    <string name="prompt_raise_to_new">Szeretné növelni az aktív időzítőt az újonnan mentett értékre?</string>
+    <string name="title_confirm">Megerősítés</string>
+    <string name="title_help">Súgó</string>
+    <string name="title_options">Beállítások</string>
+</resources>

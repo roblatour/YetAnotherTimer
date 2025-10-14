@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Trợ giúp</string>
+    <string name="desc_settings_icon">Mở cài đặt</string>
+    <string name="desc_count_up">Đếm tăng</string>
+    <string name="desc_count_down">Đếm ngược</string>
+    <string name="desc_enable_chime">Bật chuông</string>
+    <string name="desc_disable_chime">Tắt chuông</string>
+    <string name="desc_keep_screen_on_on">Bỏ qua khóa tự động, giữ màn hình luôn bật</string>
+    <string name="desc_keep_screen_on_off">Không bỏ qua khóa tự động</string>
+    <string name="desc_show_help_icon">Hiển thị biểu tượng trợ giúp</string>
+    <string name="desc_hide_help_icon">Ẩn biểu tượng trợ giúp</string>
+
+    <string name="btn_close">Đóng</string>
+    <string name="btn_yes">Có</string>
+    <string name="btn_no">Không</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_cancel">Hủy</string>
+
+    <string name="title_help">Trợ giúp</string>
+    <string name="title_confirm">Xác nhận</string>
+    <string name="title_options">Tùy chọn</string>
+
+    <string name="field_minutes">Phút</string>
+    <string name="field_seconds">Giây</string>
+    <string name="label_count_up">Đếm tăng</string>
+    <string name="label_count_down">Đếm ngược</string>
+    <string name="label_chime_on">Chuông bật</string>
+    <string name="label_chime_off">Chuông tắt</string>
+    <string name="label_keep_screen_on_on">Bỏ qua khóa tự động, giữ màn hình luôn bật</string>
+    <string name="label_keep_screen_on_off">Không bỏ qua khóa tự động</string>
+    <string name="label_show_help_icon">Hiển thị biểu tượng trợ giúp</string>
+    <string name="label_hide_help_icon">Ẩn biểu tượng trợ giúp</string>
+    <string name="label_language">Ngôn ngữ</string>
+
+    <string name="help_line_tap">Để bắt đầu, tạm dừng hoặc tiếp tục bộ hẹn giờ, hãy chạm vào màn hình chính.</string>
+    <string name="help_line_double_tap">Để dừng và đặt lại bộ hẹn giờ, hãy chạm hai lần vào màn hình chính.</string>
+    <string name="help_line_options">Để thay đổi tùy chọn chương trình, hãy chạm vào biểu tượng bánh răng.</string>
+    <string name="license_word">Giấy phép</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Bạn có muốn giảm hẹn giờ hiện tại xuống giá trị mới vừa lưu không?</string>
+    <string name="prompt_raise_to_new">Bạn có muốn tăng hẹn giờ đang hoạt động lên giá trị mới vừa lưu không?</string>
+    <string name="label_show_language_icon">Hiển thị biểu tượng ngôn ngữ</string>
+    <string name="label_hide_language_icon">Ẩn biểu tượng ngôn ngữ</string>
+</resources>

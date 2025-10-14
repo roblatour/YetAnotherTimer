@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Tulong</string>
+    <string name="desc_settings_icon">Buksan ang mga setting</string>
+    <string name="desc_count_up">Paakyat na bilang</string>
+    <string name="desc_count_down">Pabalik na bilang</string>
+    <string name="desc_enable_chime">Paganahin ang chime</string>
+    <string name="desc_disable_chime">Huwag paganahin ang chime</string>
+    <string name="desc_keep_screen_on_on">Huwag pansinin ang auto-lock, panatilihing naka-on ang screen</string>
+    <string name="desc_keep_screen_on_off">Huwag balewalain ang auto-lock</string>
+    <string name="desc_show_help_icon">Ipakita ang icon ng tulong</string>
+    <string name="desc_hide_help_icon">Itago ang icon ng tulong</string>
+
+    <string name="btn_close">Isara</string>
+    <string name="btn_yes">Oo</string>
+    <string name="btn_no">Hindi</string>
+    <string name="btn_save">I-save</string>
+    <string name="btn_cancel">Kanselahin</string>
+
+    <string name="title_help">Tulong</string>
+    <string name="title_confirm">Kumpirmahin</string>
+    <string name="title_options">Mga Opsyon</string>
+
+    <string name="field_minutes">Minuto</string>
+    <string name="field_seconds">Segundo</string>
+    <string name="label_count_up">Paakyat na bilang</string>
+    <string name="label_count_down">Pabalik na bilang</string>
+    <string name="label_chime_on">Naka-on ang chime</string>
+    <string name="label_chime_off">Naka-off ang chime</string>
+    <string name="label_keep_screen_on_on">Huwag pansinin ang auto-lock, panatilihing naka-on ang screen</string>
+    <string name="label_keep_screen_on_off">Huwag balewalain ang auto-lock</string>
+    <string name="label_show_help_icon">Ipakita ang icon ng tulong</string>
+    <string name="label_hide_help_icon">Itago ang icon ng tulong</string>
+    <string name="label_language">Wika</string>
+
+    <string name="help_line_tap">Upang simulan, i-pause, o ipagpatuloy ang timer, tapikin ang pangunahing screen.</string>
+    <string name="help_line_double_tap">Upang ihinto at i-reset ang timer, i-double tap ang pangunahing screen.</string>
+    <string name="help_line_options">Upang baguhin ang mga opsyon ng programa, tapikin ang icon ng gear.</string>
+    <string name="license_word">Lisensya</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Gusto mo bang ibaba ang aktibong timer sa bagong halagang kakalagay mo lang?</string>
+    <string name="prompt_raise_to_new">Gusto mo bang itaas ang aktibong timer sa bagong halagang kakalagay mo lang?</string>
+    <string name="label_show_language_icon">Ipakita ang icon ng wika</string>
+    <string name="label_hide_language_icon">Itago ang icon ng wika</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">မလုပ်တော့</string>
+    <string name="btn_close">ပိတ်မည်</string>
+    <string name="btn_no">မဟုတ်</string>
+    <string name="btn_save">သိမ်းမည်</string>
+    <string name="btn_yes">ဟုတ်ကဲ့</string>
+    <string name="desc_count_down">နှုတ်တွက်ချက်</string>
+    <string name="desc_count_up">တက်ကြေးတွက်ချက်</string>
+    <string name="desc_disable_chime">ခေါင်းလောင်းအသံ ပိတ်ရန်</string>
+    <string name="desc_enable_chime">ခေါင်းလောင်းအသံ ဖွင့်ရန်</string>
+    <string name="desc_help_icon">အကူအညီ</string>
+    <string name="desc_hide_help_icon">အကူအညီ အိုင်ကွန် ဖျောက်</string>
+    <string name="desc_keep_screen_on_off">အလိုအလျောက်ပိတ်ခြင်းကို မပယ်ချပါနှင့်</string>
+    <string name="desc_keep_screen_on_on">အလိုအလျောက်ပိတ်ခြင်း မသက်ဆိုင်စေပါနှင့်၊ မျက်နှာပြင်ပြတ်သားနေစေပါ</string>
+    <string name="desc_settings_icon">ဆက်တင်များဖွင့်ရန်</string>
+    <string name="desc_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
+    <string name="field_minutes">မိနစ်</string>
+    <string name="field_seconds">စက္ကန့်</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">အချိန်တိုင်းတာကိရိယာကို ရပ်ပြီး ပြန်လည်သတ်မှတ်ရန် မူလ မျက်နှာပြင်ကို နှစ်ချက် ထိပါ။</string>
+    <string name="help_line_options">ပရိုဂရမ် ရွေးချယ်စရာများကို ပြောင်းရန် ဂီယာ အိုင်ကွန်ကို ထိပါ။</string>
+    <string name="help_line_tap">အချိန်တိုင်းတာကိရိယာကို စတင်ရန်၊ ခေတ္တရပ်ရန် သို့မဟုတ် ပြန်လည် ဆက်လက်ဆောင်ရွက်ရန် မူလ မျက်နှာပြင်ကို ထိပါ။</string>
+    <string name="label_chime_off">ခေါင်းလောင်း အသံ ပိတ်ထား</string>
+    <string name="label_chime_on">ခေါင်းလောင်း အသံ ဖွင့်ထား</string>
+    <string name="label_count_down">နှုတ်တွက်ချက်</string>
+    <string name="label_count_up">တက်ကြေးတွက်ချက်</string>
+    <string name="label_hide_help_icon">အကူအညီ အိုင်ကွန် ဖျောက်</string>
+    <string name="label_hide_language_icon">ဘာသာစကား အိုင်ကွန်ကို ဖျောက်ပါ</string>
+    <string name="label_keep_screen_on_off">အလိုအလျောက်ပိတ်ခြင်းကို မပယ်ချပါနှင့်</string>
+    <string name="label_keep_screen_on_on">အလိုအလျောက်ပိတ်ခြင်း မသက်ဆိုင်စေပါနှင့်၊ မျက်နှာပြင်ပြတ်သားနေစေပါ</string>
+    <string name="label_language">ဘာသာစကား</string>
+    <string name="label_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
+    <string name="label_show_language_icon">ဘာသာစကား အိုင်ကွန်ကို ပြပါ</string>
+    <string name="license_word">လိုင်စင်</string>
+    <string name="prompt_lower_to_new">သင် သိမ်းဆည်းပြီးသော တန်ဖိုးအသစ်သို့ လက်ရှိအချိန်ကို လျှော့ချလိုပါသလား?</string>
+    <string name="prompt_raise_to_new">သင် သိမ်းဆည်းပြီးသော တန်ဖိုးအသစ်သို့ လက်ရှိ တိုင်မာအား မြှင့်တင်လိုပါသလား?</string>
+    <string name="title_confirm">အတည်ပြုပါ</string>
+    <string name="title_help">အကူအညီ</string>
+    <string name="title_options">ရွေးချယ်စရာများ</string>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Msaada</string>
+    <string name="desc_settings_icon">Fungua mipangilio</string>
+    <string name="desc_count_up">Kuhesabu juu</string>
+    <string name="desc_count_down">Hesabu ya kurudi</string>
+    <string name="desc_enable_chime">Washa kengele</string>
+    <string name="desc_disable_chime">Zima kengele</string>
+    <string name="desc_keep_screen_on_on">Puuza kufunga kiotomatiki, weka skrini iwake</string>
+    <string name="desc_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
+    <string name="desc_show_help_icon">Onyesha ikoni ya msaada</string>
+    <string name="desc_hide_help_icon">Ficha ikoni ya msaada</string>
+
+    <string name="btn_close">Funga</string>
+    <string name="btn_yes">Ndiyo</string>
+    <string name="btn_no">Hapana</string>
+    <string name="btn_save">Hifadhi</string>
+    <string name="btn_cancel">Ghairi</string>
+
+    <string name="title_help">Msaada</string>
+    <string name="title_confirm">Thibitisha</string>
+    <string name="title_options">Chaguo</string>
+
+    <string name="field_minutes">Dakika</string>
+    <string name="field_seconds">Sekunde</string>
+    <string name="label_count_up">Kuhesabu juu</string>
+    <string name="label_count_down">Hesabu ya kurudi</string>
+    <string name="label_chime_on">Kengele iko wazi</string>
+    <string name="label_chime_off">Kengele imezimwa</string>
+    <string name="label_keep_screen_on_on">Puuza kufunga kiotomatiki, weka skrini iwake</string>
+    <string name="label_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
+    <string name="label_show_help_icon">Onyesha ikoni ya msaada</string>
+    <string name="label_hide_help_icon">Ficha ikoni ya msaada</string>
+    <string name="label_language">Lugha</string>
+
+    <string name="help_line_tap">Ili kuanza, kusitisha, au kuendelea na kipima muda, gusa skrini kuu.</string>
+    <string name="help_line_double_tap">Ili kusitisha na kuweka upya kipima muda, gusa mara mbili skrini kuu.</string>
+    <string name="help_line_options">Ili kubadilisha chaguo za programu, gusa ikoni ya gia.</string>
+    <string name="license_word">Leseni</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Je, ungependa kupunguza kipima muda kilicho hai hadi thamani mpya uliyohifadhi?</string>
+    <string name="prompt_raise_to_new">Je, ungependa kuongeza kidhibiti wakati kinachotumika hadi thamani mpya uliyohifadhi?</string>
+    <string name="label_show_language_icon">Onyesha ikoni ya lugha</string>
+    <string name="label_hide_language_icon">Ficha ikoni ya lugha</string>
+</resources>

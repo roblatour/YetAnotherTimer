@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Довідка</string>
+    <string name="desc_settings_icon">Відкрити налаштування</string>
+    <string name="desc_count_up">Підрахунок вгору</string>
+    <string name="desc_count_down">Зворотний відлік</string>
+    <string name="desc_enable_chime">Увімкнути сигнал</string>
+    <string name="desc_disable_chime">Вимкнути сигнал</string>
+    <string name="desc_keep_screen_on_on">Ігнорувати авто-блокування, тримати екран увімкненим</string>
+    <string name="desc_keep_screen_on_off">Не ігнорувати авто-блокування</string>
+    <string name="desc_show_help_icon">Показати піктограму довідки</string>
+    <string name="desc_hide_help_icon">Приховати піктограму довідки</string>
+
+    <string name="btn_close">Закрити</string>
+    <string name="btn_yes">Так</string>
+    <string name="btn_no">Ні</string>
+    <string name="btn_save">Зберегти</string>
+    <string name="btn_cancel">Скасувати</string>
+
+    <string name="title_help">Довідка</string>
+    <string name="title_confirm">Підтвердження</string>
+    <string name="title_options">Параметри</string>
+
+    <string name="field_minutes">Хвилини</string>
+    <string name="field_seconds">Секунди</string>
+    <string name="label_count_up">Підрахунок вгору</string>
+    <string name="label_count_down">Зворотний відлік</string>
+    <string name="label_chime_on">Сигнал увімкнено</string>
+    <string name="label_chime_off">Сигнал вимкнено</string>
+    <string name="label_keep_screen_on_on">Ігнорувати авто-блокування, тримати екран увімкненим</string>
+    <string name="label_keep_screen_on_off">Не ігнорувати авто-блокування</string>
+    <string name="label_show_help_icon">Показати піктограму довідки</string>
+    <string name="label_hide_help_icon">Приховати піктограму довідки</string>
+    <string name="label_language">Мова</string>
+
+    <string name="help_line_tap">Щоб запустити, призупинити або відновити таймер, торкніться головного екрана.</string>
+    <string name="help_line_double_tap">Щоб зупинити та скинути таймер, двічі торкніться головного екрана.</string>
+    <string name="help_line_options">Щоб змінити параметри програми, торкніться значка шестерні.</string>
+    <string name="license_word">Ліцензія</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Зменшити активний таймер до нового збереженого значення?</string>
+    <string name="prompt_raise_to_new">Збільшити активний таймер до нового збереженого значення?</string>
+    <string name="label_show_language_icon">Показати значок мови</string>
+    <string name="label_hide_language_icon">Приховати значок мови</string>
+</resources>

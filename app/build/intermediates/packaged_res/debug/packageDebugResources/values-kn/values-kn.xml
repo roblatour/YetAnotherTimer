@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yet Another Timer</string>
+    <string name="btn_cancel">ರದ್ದು ಮಾಡಿ</string>
+    <string name="btn_close">ಮುಚ್ಚಿ</string>
+    <string name="btn_no">ಇಲ್ಲ</string>
+    <string name="btn_save">ಉಳಿಸಿ</string>
+    <string name="btn_yes">ಹೌದು</string>
+    <string name="desc_count_down">ಇಳಿಕೆ ಎಣಿಕೆ</string>
+    <string name="desc_count_up">ಏರಿಕೆ ಎಣಿಕೆ</string>
+    <string name="desc_disable_chime">ಘಂಟೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="desc_enable_chime">ಘಂಟೆ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="desc_help_icon">ಸಹಾಯ</string>
+    <string name="desc_hide_help_icon">ಸಹಾಯ ಐಕಾನ್ ಮರೆಮಾಡಿ</string>
+    <string name="desc_keep_screen_on_off">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಬೇಡಿ</string>
+    <string name="desc_keep_screen_on_on">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ, ಪರದೆಯನ್ನು ಆನ್ ಇಡಿ</string>
+    <string name="desc_settings_icon">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+    <string name="desc_show_help_icon">ಸಹಾಯ ಐಕಾನ್ ತೋರಿಸಿ</string>
+    <string name="field_minutes">ನಿಮಿಷಗಳು</string>
+    <string name="field_seconds">ಸೆಕೆಂಡುಗಳು</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">ಟೈಮರ್ ನಿಲ್ಲಿಸಲು ಮತ್ತು ಮರುಹೊಂದಿಸಲು, ಮುಖ್ಯ ಪರದೆಯನ್ನು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="help_line_options">ಕಾರ್ಯಕ್ರಮದ ಆಯ್ಕೆಗಳು ಬದಲಾಯಿಸಲು, ಗಿಯರ್ ಐಕಾನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="help_line_tap">ಟೈಮರ್ ಪ್ರಾರಂಭಿಸಲು, ವಿರಾಮಕ್ಕೆ ಅಥವಾ ಮುಂದುವರಿಸಲು, ಮುಖ್ಯ ಪರದೆಯನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="label_chime_off">ಘಂಟೆ ಆಫ್</string>
+    <string name="label_chime_on">ಘಂಟೆ ಆನ್</string>
+    <string name="label_count_down">ಇಳಿಕೆ ಎಣಿಕೆ</string>
+    <string name="label_count_up">ಏರಿಕೆ ಎಣಿಕೆ</string>
+    <string name="label_hide_help_icon">ಸಹಾಯ ಐಕಾನ್ ಮರೆಮಾಡಿ</string>
+    <string name="label_hide_language_icon">ಭಾಷಾ ಚಿಹ್ನೆ ಮರೆಮಾಡಿ</string>
+    <string name="label_keep_screen_on_off">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಬೇಡಿ</string>
+    <string name="label_keep_screen_on_on">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ, ಪರದೆಯನ್ನು ಆನ್ ಇಡಿ</string>
+    <string name="label_language">ಭಾಷೆ</string>
+    <string name="label_show_help_icon">ಸಹಾಯ ಐಕಾನ್ ತೋರಿಸಿ</string>
+    <string name="label_show_language_icon">ಭಾಷಾ ಚಿಹ್ನೆ ತೋರಿಸಿ</string>
+    <string name="license_word">ಪರವಾನಗಿ</string>
+    <string name="prompt_lower_to_new">ನೀವು ಉಳಿಸಿದ ಹೊಸ ಮೌಲ್ಯಕ್ಕೆ ಸಕ್ರಿಯ ಟೈಮರ್ ಅನ್ನು ಕಡಿಮೆ ಮಾಡಬೇಕೇ?</string>
+    <string name="prompt_raise_to_new">ನೀವು ಉಳಿಸಿದ ಹೊಸ ಮೌಲ್ಯಕ್ಕೆ ಸಕ್ರಿಯ ಟೈಮರ್ ಅನ್ನು ಹೆಚ್ಚಿಸಬೇಕೇ?</string>
+    <string name="title_confirm">ಧೃಡಪಡಿಸಿ</string>
+    <string name="title_help">ಸಹಾಯ</string>
+    <string name="title_options">ಆಯ್ಕೆಗಳು</string>
+</resources>
