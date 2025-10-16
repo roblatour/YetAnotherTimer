@@ -37,7 +37,7 @@ class SettingsRepository(private val context: Context) {
     }
 
     val chimeEnabledFlow: Flow<Boolean> = context.dataStore.data.map { prefs ->
-        prefs[Keys.chime] ?: false
+        prefs[Keys.chime] ?: true
     }
 
     val keepScreenOnFlow: Flow<Boolean> = context.dataStore.data.map { prefs ->

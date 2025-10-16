@@ -1,0 +1,31 @@
+# Android / Gradle
+.gradle/
+/build/
+/local.properties
+**/build/
+.cxx/
+# IDEs
+.idea/
+*.iml
+# Keystores (DO NOT COMMIT)
+*.jks
+*keystore*
+# Signing property files (external secrets)
+*Signing.properties
+*signing.properties
+*ReleaseSigning.properties
+# Misc
+.DS_Store
+# Generated
+app/release/
+**/outputs/mapping/
+**/outputs/native-debug-symbols/
+# Release artifacts (DO NOT COMMIT)
+*.aab
+*.apk
+*.apks
+/app-universal.apks
+# Kotlin/Java
+/out/
+# VS Code
+.vscode/

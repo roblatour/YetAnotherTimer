@@ -4,14 +4,14 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.yetanothertimer",
+  "applicationId": "io.github.roblatour.yetanothertimer",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
+      "versionCode": 7,
       "versionName": "1.0.0.0",
       "outputFile": "AndroidManifest.xml"
     }
