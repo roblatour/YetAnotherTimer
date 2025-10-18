@@ -6,6 +6,7 @@ data class Language(val tag: String, val autonym: String)
 
 object SupportedLanguages {
     val all: List<Language> = listOf(
+        Language("da-DK", "Dansk"),
         Language("ar", "العربية"),
         Language("bn", "বাংলা"),
         Language("zh-TW", "繁體中文"), // Traditional Chinese
@@ -15,6 +16,7 @@ object SupportedLanguages {
         Language("el", "Ελληνικά"),
         Language("en", "English"),
         Language("es", "Español"),
+        Language("fi-FI", "Suomi"),
         Language("fa", "فارسی"),
         Language("fil", "Filipino"),
         Language("fr", "Français"),
@@ -32,6 +34,7 @@ object SupportedLanguages {
         Language("ms-Arab", "بهاس ملايو"), // Malay (Jawi)
         Language("my", "မြန်မာ"),
         Language("nl", "Nederlands"),
+        Language("no-NO", "Norsk"),
         Language("pa", "ਪੰਜਾਬੀ"),
         Language("pl", "Polski"),
         Language("pt-PT", "Português (Portugal)"),
@@ -40,6 +43,7 @@ object SupportedLanguages {
         Language("ru", "Русский"),
         Language("sk", "Slovenčina"),
         Language("sw", "Kiswahili"),
+        Language("sv-SE", "Svenska"),
         Language("ta", "தமிழ்"),
         Language("te", "తెలుగు"),
         Language("th", "ไทย"),
@@ -85,6 +89,12 @@ object SupportedLanguages {
                 "BR" -> all.find { it.tag == "pt-BR" }?.tag ?: all.find { it.tag == "pt-PT" }?.tag ?: "en"
                 else -> all.find { it.tag == "pt-PT" }?.tag ?: all.find { it.tag == "pt-BR" }?.tag ?: "en"
             }
+        }
+        // Norwegian: Android may report language 'no' or 'nb'. Prefer nb-NO if present.
+        if (lang.equals("no", ignoreCase = true) || lang.equals("nb", ignoreCase = true)) {
+            return all.find { it.tag.equals("nb-NO", ignoreCase = true) }?.tag
+                ?: all.find { it.tag.equals("no-NO", ignoreCase = true) }?.tag
+                ?: "en"
         }
         // Malay explicit Arabic script mapping
         if (lang.equals("ms", ignoreCase = true)) {

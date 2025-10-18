@@ -1,0 +1,50 @@
+<resources>
+    <!-- Norwegian Bokmål (nb-NO) commonly used on Android -->
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Hjelp</string>
+    <string name="desc_settings_icon">Åpne innstillinger</string>
+    <string name="desc_count_up">Tell opp</string>
+    <string name="desc_count_down">Tell ned</string>
+    <string name="desc_enable_chime">Aktiver lydsignal</string>
+    <string name="desc_disable_chime">Deaktiver lydsignal</string>
+    <string name="desc_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
+    <string name="desc_keep_screen_on_off">Ikke overstyr autolås</string>
+    <string name="desc_show_help_icon">Vis hjelpesymbol</string>
+    <string name="desc_hide_help_icon">Skjul hjelpesymbol</string>
+    <string name="desc_language_icon">Bytt språk</string>
+    <string name="desc_show_language_icon">Vis språksymbol</string>
+    <string name="desc_hide_language_icon">Skjul språksymbol</string>
+
+    <string name="btn_close">Lukk</string>
+    <string name="btn_yes">Ja</string>
+    <string name="btn_no">Nei</string>
+    <string name="btn_save">Lagre</string>
+    <string name="btn_cancel">Avbryt</string>
+
+    <string name="title_help">Hjelp</string>
+    <string name="title_confirm">Bekreft</string>
+    <string name="title_options">Innstillinger</string>
+
+    <string name="field_minutes">Minutter</string>
+    <string name="field_seconds">Sekunder</string>
+    <string name="label_count_up">Tell opp</string>
+    <string name="label_count_down">Tell ned</string>
+    <string name="label_chime_on">Lydsignal på</string>
+    <string name="label_chime_off">Lydsignal av</string>
+    <string name="label_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
+    <string name="label_keep_screen_on_off">Ikke overstyr autolås</string>
+    <string name="label_show_help_icon">Vis hjelpesymbol</string>
+    <string name="label_hide_help_icon">Skjul hjelpesymbol</string>
+    <string name="label_language">Språk</string>
+
+    <string name="help_line_tap">Trykk på hovedskjermen for å starte, pause eller fortsette timeren.</string>
+    <string name="help_line_double_tap">Dobbelttrykk på hovedskjermen for å stoppe og tilbakestille timeren.</string>
+    <string name="help_line_options">Trykk på tannhjulsikonet for å endre programalternativer.</string>
+    <string name="license_word">Lisens</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Vil du senke den aktive timeren til den nye verdien du nettopp lagret?</string>
+    <string name="prompt_raise_to_new">Vil du øke den aktive timeren til den nye verdien du nettopp lagret?</string>
+</resources>

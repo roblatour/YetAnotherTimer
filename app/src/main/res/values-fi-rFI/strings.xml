@@ -1,0 +1,50 @@
+<resources>
+    <!-- region-specific alias; keep identical to values-fi -->
+    <string name="app_name">Yet Another Timer</string>
+    <string name="desc_help_icon">Ohje</string>
+    <string name="desc_settings_icon">Avaa asetukset</string>
+    <string name="desc_count_up">Laskenta ylöspäin</string>
+    <string name="desc_count_down">Laskenta alaspäin</string>
+    <string name="desc_enable_chime">Ota äänimerkki käyttöön</string>
+    <string name="desc_disable_chime">Poista äänimerkki käytöstä</string>
+    <string name="desc_keep_screen_on_on">Ohita automaattinen lukitus, pidä näyttö päällä</string>
+    <string name="desc_keep_screen_on_off">Älä ohita automaattista lukitusta</string>
+    <string name="desc_show_help_icon">Näytä ohjekuvake</string>
+    <string name="desc_hide_help_icon">Piilota ohjekuvake</string>
+    <string name="desc_language_icon">Vaihda kieltä</string>
+    <string name="desc_show_language_icon">Näytä kielikuvake</string>
+    <string name="desc_hide_language_icon">Piilota kielikuvake</string>
+
+    <string name="btn_close">Sulje</string>
+    <string name="btn_yes">Kyllä</string>
+    <string name="btn_no">Ei</string>
+    <string name="btn_save">Tallenna</string>
+    <string name="btn_cancel">Peruuta</string>
+
+    <string name="title_help">Ohje</string>
+    <string name="title_confirm">Vahvista</string>
+    <string name="title_options">Asetukset</string>
+
+    <string name="field_minutes">Minuutit</string>
+    <string name="field_seconds">Sekunnit</string>
+    <string name="label_count_up">Laskenta ylöspäin</string>
+    <string name="label_count_down">Laskenta alaspäin</string>
+    <string name="label_chime_on">Äänimerkki päällä</string>
+    <string name="label_chime_off">Äänimerkki pois</string>
+    <string name="label_keep_screen_on_on">Ohita automaattinen lukitus, pidä näyttö päällä</string>
+    <string name="label_keep_screen_on_off">Älä ohita automaattista lukitusta</string>
+    <string name="label_show_help_icon">Näytä ohjekuvake</string>
+    <string name="label_hide_help_icon">Piilota ohjekuvake</string>
+    <string name="label_language">Kieli</string>
+
+    <string name="help_line_tap">Aloita, keskeytä tai jatka ajastinta napauttamalla pääruutua.</string>
+    <string name="help_line_double_tap">Pysäytä ja nollaa ajastin kaksoisnapauttamalla pääruutua.</string>
+    <string name="help_line_options">Muuta asetuksia napauttamalla hammasratas-kuvaketta.</string>
+    <string name="license_word">Lisenssi</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+
+    <string name="prompt_lower_to_new">Haluatko laskea aktiivisen ajastimen tallentamaasi uuteen arvoon?</string>
+    <string name="prompt_raise_to_new">Haluatko nostaa aktiivisen ajastimen tallentamaasi uuteen arvoon?</string>
+</resources>

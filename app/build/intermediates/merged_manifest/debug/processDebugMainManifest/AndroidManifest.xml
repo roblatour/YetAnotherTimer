@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.roblatour.yetanothertimer"
-    android:versionCode="7"
+    android:versionCode="12"
     android:versionName="1.0.0.0" >
 
     <uses-sdk
@@ -15,12 +15,15 @@
     <uses-permission android:name="io.github.roblatour.yetanothertimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
         android:theme="@style/Theme.YetAnotherTimer" >
         <activity
             android:name="com.example.yetanothertimer.MainActivity"

@@ -12,7 +12,8 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsControllerCompat
+import androidx.activity.enableEdgeToEdge
+import androidx.activity.SystemBarStyle
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -74,16 +75,13 @@ class MainActivity : AppCompatActivity() {
                             window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
                         }
                     }
-                    // Ensure system bars use black background and light icons for contrast
+                    // Use modern edge-to-edge API to style system bars without deprecated setters
                     LaunchedEffect(Unit) {
                         try {
-                            WindowCompat.setDecorFitsSystemWindows(window, true)
-                            window.statusBarColor = android.graphics.Color.BLACK
-                            window.navigationBarColor = android.graphics.Color.BLACK
-                            WindowInsetsControllerCompat(window, window.decorView).let { controller ->
-                                controller.isAppearanceLightStatusBars = false
-                                controller.isAppearanceLightNavigationBars = false
-                            }
+                            this@MainActivity.enableEdgeToEdge(
+                                statusBarStyle = SystemBarStyle.dark(android.graphics.Color.BLACK),
+                                navigationBarStyle = SystemBarStyle.dark(android.graphics.Color.BLACK)
+                            )
                         } catch (_: Exception) { }
                     }
                     TimerScreen(vm)

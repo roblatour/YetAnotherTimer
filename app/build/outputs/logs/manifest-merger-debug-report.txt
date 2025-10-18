@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-19:12
+ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:1-22:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\RobLatour\.gradle\caches\transforms-4\30dbe09adc47a6fa3161e128d9fbb6b2\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\RobLatour\.gradle\caches\transforms-4\3284b1fe802a3f384d6e1862779d2989\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\RobLatour\.gradle\caches\transforms-4\bab4d804e99e9b25ba6e56bc5e076024\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -90,8 +90,8 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\RobLatour\.gradle\c
 	xmlns:android
 		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:4:5-17:19
-INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:4:5-17:19
+ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:4:5-20:19
+INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:4:5-20:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\RobLatour\.gradle\caches\transforms-4\30dbe09adc47a6fa3161e128d9fbb6b2\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\RobLatour\.gradle\caches\transforms-4\30dbe09adc47a6fa3161e128d9fbb6b2\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\RobLatour\.gradle\caches\transforms-4\3284b1fe802a3f384d6e1862779d2989\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -114,32 +114,38 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RobLatour\.gradle\
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RobLatour\.gradle\caches\transforms-4\786867698c5a384289cf7931917c2774\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml
+	android:localeConfig
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:10:9-51
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\RobLatour\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:9:9-41
+	android:fullBackupContent
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:6:5-50
 	android:icon
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:6:9-43
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:5:9-35
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:5:5-32
 	android:theme
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:8:5-49
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:11:9-53
+	android:dataExtractionRules
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:7:5-61
 activity#com.example.yetanothertimer.MainActivity
-ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:9:9-16:20
+ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:12:9-19:20
 	android:exported
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:11:13-36
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:10:13-68
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:13:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:12:13-15:29
+ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
-ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:14:17-77
+ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:14:27-74
+		ADDED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Documents\YetAnotherTimer\YetAnotherTimer\app\src\main\AndroidManifest.xml

@@ -31,11 +31,17 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaa…"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jaa: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Tiivistä"</string>
+    <string name="app_name">Yet Another Timer</string>
     <string name="bottomsheet_action_collapse">Tiivistä alapaneeli</string>
     <string name="bottomsheet_action_expand">Laajenna alapaneeli</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
     <string name="bottomsheet_drag_handle_clicked">Vetokahvaa kaksoisnapautettu</string>
     <string name="bottomsheet_drag_handle_content_description">Vetokahva</string>
+    <string name="btn_cancel">Peruuta</string>
+    <string name="btn_close">Sulje</string>
+    <string name="btn_no">Ei</string>
+    <string name="btn_save">Tallenna</string>
+    <string name="btn_yes">Kyllä</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Vastaa"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Hylkää"</string>
@@ -50,14 +56,45 @@
     <string msgid="7573152094250666567" name="close_sheet">"Sulje taulukko"</string>
     <string msgid="8038256446254964252" name="default_error_message">"Virheellinen syöte"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Ponnahdusikkuna"</string>
+    <string name="desc_count_down">Laskenta alaspäin</string>
+    <string name="desc_count_up">Laskenta ylöspäin</string>
+    <string name="desc_disable_chime">Poista äänimerkki käytöstä</string>
+    <string name="desc_enable_chime">Ota äänimerkki käyttöön</string>
+    <string name="desc_help_icon">Ohje</string>
+    <string name="desc_hide_help_icon">Piilota ohjekuvake</string>
+    <string name="desc_hide_language_icon">Piilota kielikuvake</string>
+    <string name="desc_keep_screen_on_off">Älä ohita automaattista lukitusta</string>
+    <string name="desc_keep_screen_on_on">Ohita automaattinen lukitus, pidä näyttö päällä</string>
+    <string name="desc_language_icon">Vaihda kieltä</string>
+    <string name="desc_settings_icon">Avaa asetukset</string>
+    <string name="desc_show_help_icon">Näytä ohjekuvake</string>
+    <string name="desc_show_language_icon">Näytä kielikuvake</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Avattava valikko"</string>
     <string name="error_a11y_label">Virhe: ei kelpaa</string>
     <string name="error_icon_content_description">Virhe</string>
     <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
+    <string name="field_minutes">Minuutit</string>
+    <string name="field_seconds">Sekunnit</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Pysäytä ja nollaa ajastin kaksoisnapauttamalla pääruutua.</string>
+    <string name="help_line_options">Muuta asetuksia napauttamalla hammasratas-kuvaketta.</string>
+    <string name="help_line_tap">Aloita, keskeytä tai jatka ajastinta napauttamalla pääruutua.</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string msgid="6827826412747255547" name="in_progress">"Kesken"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Osittain tarkistettu"</string>
     <string name="item_view_role_description">Välilehti</string>
+    <string name="label_chime_off">Äänimerkki pois</string>
+    <string name="label_chime_on">Äänimerkki päällä</string>
+    <string name="label_count_down">Laskenta alaspäin</string>
+    <string name="label_count_up">Laskenta ylöspäin</string>
+    <string name="label_hide_help_icon">Piilota ohjekuvake</string>
+    <string name="label_keep_screen_on_off">Älä ohita automaattista lukitusta</string>
+    <string name="label_keep_screen_on_on">Ohita automaattinen lukitus, pidä näyttö päällä</string>
+    <string name="label_language">Kieli</string>
+    <string name="label_show_help_icon">Näytä ohjekuvake</string>
+    <string name="license_word">Lisenssi</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Tiivistä alapaneeli"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Hylkää alapaneeli"</string>
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Vetokahva"</string>
@@ -176,6 +213,8 @@
     <string msgid="542007171693138492" name="navigation_menu">"Navigointivalikko"</string>
     <string msgid="6610465462668679431" name="not_selected">"Ei valittu"</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
+    <string name="prompt_lower_to_new">Haluatko laskea aktiivisen ajastimen tallentamaasi uuteen arvoon?</string>
+    <string name="prompt_raise_to_new">Haluatko nostaa aktiivisen ajastimen tallentamaasi uuteen arvoon?</string>
     <string msgid="5941395253238309765" name="range_end">"Alueen loppu"</string>
     <string msgid="7097486360902471446" name="range_start">"Alueen alku"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Haku"</string>
@@ -190,6 +229,9 @@
     <string msgid="2561197295334830845" name="switch_role">"Vaihda"</string>
     <string msgid="1672349317127674378" name="tab">"Välilehti"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> prosenttia"</string>
+    <string name="title_confirm">Vahvista</string>
+    <string name="title_help">Ohje</string>
+    <string name="title_options">Asetukset</string>
     <string msgid="3765533235322692011" name="tooltip_description">"vihjeteksti"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"näytä vihjeteksti"</string>
 </resources>

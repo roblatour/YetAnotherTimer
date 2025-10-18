@@ -1,4 +1,4 @@
-# Yet Another Timer v1.0 (for Android) - 2025-10-16
+# Yet Another Timer v1.0 (for Android) - 2025-10-18
 
 Open source timer for Android
 
@@ -19,8 +19,8 @@ Finally, to give credit where credit is due, most of the coding for this project
 - Optional chime when the timer hits a target
 - Option lock screen override so screen doesn't go blank while the app is active
 - Auto rotating screen
-- 41 languages are supported (English is the default)
-  -  Arabic, Bengali, Burmese (Myanmar), Chinese (Simplified), Chinese (Traditional), Czech, Dutch, **English**, Filipino (Tagalog), French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Korean, Malay, Malay (Jawi script), Marathi, Persian (Farsi), Polish, Punjabi, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Slovak, Spanish, Swahili, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, and Vietnamese.
+- 45 languages are supported (English is the default)
+  -  Arabic, Bengali, Burmese (Myanmar), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Czech, Danish, Danish, Dutch, **English**, Filipino, Finnish, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Korean, Malay, Malay (Arabic script, Jawi), Marathi, Norwegian, Norwegian, Persian (Farsi), Polish, Portuguese, Portuguese (Brazil), Punjabi, Romanian, Russian, Russian, Slovak, Spanish, Swahili, Swedish, Swedish (Sweden), Tamil, Telugu, Thai, Turkish, Turkish, Ukrainian, Ukrainian, Urdu, and Vietnamese
  
 # Screenshots
 

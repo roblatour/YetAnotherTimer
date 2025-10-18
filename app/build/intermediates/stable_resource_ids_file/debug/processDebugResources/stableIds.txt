@@ -1,3 +1,5 @@
+io.github.roblatour.yetanothertimer:xml/locales_config = 0x7f120002
+io.github.roblatour.yetanothertimer:xml/data_extraction_rules = 0x7f120001
 io.github.roblatour.yetanothertimer:styleable/Transition = 0x7f11008c
 io.github.roblatour.yetanothertimer:styleable/TextInputLayout = 0x7f110087
 io.github.roblatour.yetanothertimer:styleable/TextInputEditText = 0x7f110086
@@ -4864,6 +4866,7 @@ io.github.roblatour.yetanothertimer:integer/m3_sys_shape_corner_small_corner_fam
 io.github.roblatour.yetanothertimer:attr/dragScale = 0x7f03016b
 io.github.roblatour.yetanothertimer:drawable/abc_ic_commit_search_api_mtrl_alpha = 0x7f070040
 io.github.roblatour.yetanothertimer:color/m3_sys_color_dynamic_light_on_surface = 0x7f0501aa
+io.github.roblatour.yetanothertimer:xml/backup_rules = 0x7f120000
 io.github.roblatour.yetanothertimer:attr/dividerVertical = 0x7f030169
 io.github.roblatour.yetanothertimer:string/mtrl_picker_toggle_to_text_input_mode = 0x7f0f00f3
 io.github.roblatour.yetanothertimer:color/m3_ref_palette_error99 = 0x7f050100

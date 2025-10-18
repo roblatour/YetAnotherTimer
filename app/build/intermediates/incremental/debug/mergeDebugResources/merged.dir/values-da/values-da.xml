@@ -31,11 +31,17 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="app_name">Yet Another Timer</string>
     <string name="bottomsheet_action_collapse">Skjul feltet i bunden</string>
     <string name="bottomsheet_action_expand">Udvid feltet i bunden</string>
     <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
     <string name="bottomsheet_drag_handle_clicked">Du har trykket to gange på håndtaget</string>
     <string name="bottomsheet_drag_handle_content_description">Håndtag</string>
+    <string name="btn_cancel">Annuller</string>
+    <string name="btn_close">Luk</string>
+    <string name="btn_no">Nej</string>
+    <string name="btn_save">Gem</string>
+    <string name="btn_yes">Ja</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Besvar"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Afvis"</string>
@@ -50,14 +56,45 @@
     <string msgid="7573152094250666567" name="close_sheet">"Luk arket"</string>
     <string msgid="8038256446254964252" name="default_error_message">"Ugyldigt input"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Pop op-vindue"</string>
+    <string name="desc_count_down">Tæl ned</string>
+    <string name="desc_count_up">Tæl op</string>
+    <string name="desc_disable_chime">Deaktivér klokke</string>
+    <string name="desc_enable_chime">Aktivér klokke</string>
+    <string name="desc_help_icon">Hjælp</string>
+    <string name="desc_hide_help_icon">Skjul hjælpesymbol</string>
+    <string name="desc_hide_language_icon">Skjul sprogsymbol</string>
+    <string name="desc_keep_screen_on_off">Tilsidesæt ikke auto-lås</string>
+    <string name="desc_keep_screen_on_on">Tilsidesæt auto-lås, hold skærmen tændt</string>
+    <string name="desc_language_icon">Skift sprog</string>
+    <string name="desc_settings_icon">Åbn indstillinger</string>
+    <string name="desc_show_help_icon">Vis hjælpesymbol</string>
+    <string name="desc_show_language_icon">Vis sprogsymbol</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Rullemenu"</string>
     <string name="error_a11y_label">Fejl: ugyldig</string>
     <string name="error_icon_content_description">Fejl</string>
     <string name="exposed_dropdown_menu_content_description">Vis rullemenuen</string>
+    <string name="field_minutes">Minutter</string>
+    <string name="field_seconds">Sekunder</string>
+    <string name="help_footer_format">Yet Another Timer v1.0
+Copyright 2025 Rob Latour. %1$s: MIT.
+https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_line_double_tap">Dobbelttryk på hovedskærmen for at stoppe og nulstille timeren.</string>
+    <string name="help_line_options">Tryk på tandhjulsikonet for at ændre programindstillinger.</string>
+    <string name="help_line_tap">Tryk på hovedskærmen for at starte, pause eller genoptage timeren.</string>
     <string name="icon_content_description">Ikon for dialogboks</string>
     <string msgid="6827826412747255547" name="in_progress">"I gang"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Delvist markeret"</string>
     <string name="item_view_role_description">Fane</string>
+    <string name="label_chime_off">Klokke fra</string>
+    <string name="label_chime_on">Klokke til</string>
+    <string name="label_count_down">Tæl ned</string>
+    <string name="label_count_up">Tæl op</string>
+    <string name="label_hide_help_icon">Skjul hjælpesymbol</string>
+    <string name="label_keep_screen_on_off">Tilsidesæt ikke auto-lås</string>
+    <string name="label_keep_screen_on_on">Tilsidesæt auto-lås, hold skærmen tændt</string>
+    <string name="label_language">Sprog</string>
+    <string name="label_show_help_icon">Vis hjælpesymbol</string>
+    <string name="license_word">Licens</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Skjul felt i bunden"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Luk felt i bunden"</string>
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Håndtag"</string>
@@ -176,6 +213,8 @@
     <string msgid="542007171693138492" name="navigation_menu">"Navigationsmenu"</string>
     <string msgid="6610465462668679431" name="not_selected">"Ikke valgt"</string>
     <string name="password_toggle_content_description">Vis adgangskode</string>
+    <string name="prompt_lower_to_new">Vil du sænke den aktive timer til den nye værdi, du lige har gemt?</string>
+    <string name="prompt_raise_to_new">Vil du hæve den aktive timer til den nye værdi, du lige har gemt?</string>
     <string msgid="5941395253238309765" name="range_end">"Slutinterval"</string>
     <string msgid="7097486360902471446" name="range_start">"Startinterval"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Søg"</string>
@@ -190,6 +229,9 @@
     <string msgid="2561197295334830845" name="switch_role">"Kontakt"</string>
     <string msgid="1672349317127674378" name="tab">"Fane"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
+    <string name="title_confirm">Bekræft</string>
+    <string name="title_help">Hjælp</string>
+    <string name="title_options">Indstillinger</string>
     <string msgid="3765533235322692011" name="tooltip_description">"værktøjstip"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"se værktøjstip"</string>
 </resources>

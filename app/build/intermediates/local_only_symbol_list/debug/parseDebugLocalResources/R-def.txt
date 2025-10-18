@@ -47,3 +47,6 @@ string title_confirm
 string title_help
 string title_options
 style Theme.YetAnotherTimer
+xml backup_rules
+xml data_extraction_rules
+xml locales_config

@@ -1,0 +1,163 @@
+How to update the release notes across languages which Google supports on the Playstore:
+
+Using Grok
+
+Create a file that translates the text found between <en-US> and </en-US> tags below into the various languages identified in the text below, inserting each translated text into its appropriate place in the text below. For example the French translation should be inserted between the <fr-FR> and </fr-FR> tags.  Other than the html tags identified below do not use any other html encoding or url encoding.  I am aware there are not 45 languages listed below, that is ok.
+
+<en-US>
+Initial release. Fast countdown and interval timer with support for 45 languages, open source, no ads or tracking.
+</en-US>
+<ar>
+</ar>
+<zh-TW>
+</zh-TW>
+<zh-CN>
+</zh-CN>
+<de-DE>
+</de-DE>
+<es-ES>
+</es-ES>
+<fa>
+</fa>
+<fil>
+</fil>
+<fr-FR>
+</fr-FR>
+<gu>
+</gu>
+<id>
+</id>
+<it-IT>
+</it-IT>
+<ja-JP>
+</ja-JP>
+<ko-KR>
+</ko-KR>
+<ms>
+</ms>
+<nl-NL>
+</nl-NL>
+<pa>
+</pa>
+<pl-PL>
+</pl-PL>
+<pt-PT>
+</pt-PT>
+<pt-BR>
+</pt-BR>
+<ro>
+</ro>
+<ru-RU>
+</ru-RU>
+<sk>
+</sk>
+<sw>
+</sw>
+<th>
+</th>
+<uk>
+</uk>
+<da-DK>
+</da-DK>
+<fi-FI>
+</fi-FI>
+<no-NO>
+</no-NO>
+<sv-SE>
+</sv-SE>
+
+
+----
+results
+----
+
+<en-US>
+Initial release. Fast countdown and interval timer with support for 45 languages, open source, no ads or tracking.
+</en-US>
+<ar>
+الإصدار الأولي. مؤقت عداد تنازلي سريع ومؤقت فاصل زمني مع دعم لـ 45 لغة، مفتوح المصدر، بدون إعلانات أو تتبع.
+</ar>
+<zh-TW>
+初始版本。快速倒數計時和間隔計時器，支持 45 種語言，開源，無廣告或追蹤。
+</zh-TW>
+<zh-CN>
+初始版本。快速倒计时和间隔计时器，支持45种语言，开源，无广告或跟踪。
+</zh-CN>
+<de-DE>
+Erstveröffentlichung. Schneller Countdown- und Intervall-Timer mit Unterstützung für 45 Sprachen, Open Source, keine Werbung oder Tracking.
+</de-DE>
+<es-ES>
+Lanzamiento inicial. Temporizador de cuenta regresiva rápida e intervalo con soporte para 45 idiomas, de código abierto, sin anuncios ni seguimiento.
+</es-ES>
+<fa>
+انتشار اولیه. تایمر شمارش معکوس سریع و تایمر فاصله با پشتیبانی از ۴۵ زبان، منبع باز، بدون تبلیغات یا ردیابی.
+</fa>
+<fil>
+Initial release. Mabilis na countdown at interval timer na sumusuporta sa 45 wika, open source, walang ads o tracking.
+</fil>
+<fr-FR>
+Version initiale. Minuteur de décompte rapide et minuterie d'intervalle avec prise en charge de 45 langues, open source, sans publicités ni suivi.
+</fr-FR>
+<gu>
+પ્રારંભિક રિલીઝ. ઝડપી કાઉન્ટડાઉન અને ઇન્ટરવલ ટાઇમર 45 ભાષાઓના સમર્થન સાથે, ઓપન સોર્સ, કોઈ જાહેરાતો કે ટ્રેકિંગ વિના.
+</gu>
+<id>
+Rilis awal. Penghitung mundur cepat dan timer interval dengan dukungan untuk 45 bahasa, open source, tanpa iklan atau pelacakan.
+</id>
+<it-IT>
+Rilascio iniziale. Timer di conto alla rovescia veloce e timer a intervalli con supporto per 45 lingue, open source, senza pubblicità o tracciamento.
+</it-IT>
+<ja-JP>
+初期リリース。高速カウントダウンとインターバルタイマーで、45言語をサポート、オープンソース、広告やトラッキングなし。
+</ja-JP>
+<ko-KR>
+초기 릴리스. 빠른 카운트다운 및 간격 타이머로 45개 언어를 지원하며, 오픈 소스, 광고나 추적 없음.
+</ko-KR>
+<ms>
+Pelepasan awal. Pemasa mundur pantas dan pemasa selang dengan sokongan untuk 45 bahasa, sumber terbuka, tiada iklan atau penjejakan.
+</ms>
+<nl-NL>
+Eerste release. Snelle afteltimer en intervaltimer met ondersteuning voor 45 talen, open source, geen advertenties of tracking.
+</nl-NL>
+<pa>
+ਮੁਢਲੀ ਰਿਲੀਜ਼। ਤੇਜ਼ ਗਿਣਤੀ ਅਤੇ ਅੰਤਰਾਲ ਟਾਈਮਰ 45 ਭਾਸ਼ਾਵਾਂ ਦੇ ਸਮਰਥਨ ਨਾਲ, ਓਪਨ ਸੋਰਸ, ਕੋਈ ਵੀਗਿਣਤੀ ਜਾਂ ਟਰੈਕਿੰਗ ਨਹੀਂ।
+</pa>
+<pl-PL>
+Initial release. Szybki odliczanie i timer interwałowy z obsługą 45 języków, open source, bez reklam ani śledzenia.
+</pl-PL>
+<pt-PT>
+Lançamento inicial. Contagem regressiva rápida e temporizador de intervalo com suporte para 45 idiomas, código aberto, sem anúncios ou rastreamento.
+</pt-PT>
+<pt-BR>
+Lançamento inicial. Contador regressivo rápido e temporizador de intervalo com suporte para 45 idiomas, código aberto, sem anúncios ou rastreamento.
+</pt-BR>
+<ro>
+Lansare inițială. Cronometru rapid de numărătoare inversă și temporizator cu intervale cu suport pentru 45 de limbi, sursă deschisă, fără reclame sau urmărire.
+</ro>
+<ru-RU>
+Начальный выпуск. Быстрый таймер обратного отсчета и интервальный таймер с поддержкой 45 языков, открытый исходный код, без рекламы или отслеживания.
+</ru-RU>
+<sk>
+Počiatočné vydanie. Rýchly odpočítavací a intervalový časovač s podporou 45 jazykov, open source, bez reklám alebo sledovania.
+</sk>
+<sw>
+Kutoa toleo la kwanza. Timer ya kuhesabu haraka na ya muda na msaada wa lugha 45, chanzo huria, hakuna matangazo au ufuatiliaji.
+</sw>
+<th>
+การเปิดตัวครั้งแรก นับถอยหลังเร็วและตัวจับเวลาพร้อมกันที่รองรับ 45 ภาษา โค้ดเปิด ไม่มีโฆษณาหรือการติดตาม
+</th>
+<uk>
+Початковий реліз. Швидкий зворотний відлік та інтервальний таймер з підтримкою 45 мов, з відкритим вихідним кодом, без реклами чи відстеження.
+</uk>
+<da-DK>
+Initial udgivelse. Hurtig nedtælling og intervaltæller med understøttelse af 45 sprog, open source, ingen annoncer eller sporing.
+</da-DK>
+<fi-FI>
+Alkuperäinen julkaisu. Nopea laskuri ja väliaikakello, joka tukee 45 kieltä, avoimen lähdekoodin, ei mainoksia tai seurantaa.
+</fi-FI>
+<no-NO>
+Innledende utgivelse. Rask nedtellings- og intervalltimer med støtte for 45 språk, åpen kildekode, ingen annonser eller sporing.
+</no-NO>
+<sv-SE>
+Initial release. Snabb nedräkning och intervalltidsinställning med stöd för 45 språk, öppen källkod, inga annonser eller spårning.
+</sv-SE>

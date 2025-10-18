@@ -77,6 +77,8 @@ android {
         }
     }
 
+    // Do not restrict resource configurations; keep all locales. Language splits are disabled above.
+
     // Simple helper task to print version (invoked via: gradlew printAppVersion)
     tasks.register("printAppVersion") {
         group = "help"
@@ -139,6 +141,14 @@ android {
         kotlinCompilerExtensionVersion = "1.5.14"
     }
     packaging { resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" } }
+
+    // Ensure all languages are packaged together (no dynamic language splits)
+    // Required for in-app language switching so switching doesn’t fall back to English in Play builds
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
 }
 
 dependencies {
