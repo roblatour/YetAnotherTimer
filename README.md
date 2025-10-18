@@ -39,7 +39,7 @@ Below are some screenshots from the app. Thumbnails link to the full-size images
     <img src="/PlayStoreStuff/screenshots/Photo04.png" alt="Settings screen" title="Settings screen" width="260">
   </a>
   <a href="/PlayStoreStuff/screenshots/Photo01.png">
-    <img src="/PlayStoreStuff/screenshots/Photo01.png" alt="Screen with help/language icons (these can be hidden)" title="Screen without help/language icons" width="260">
+    <img src="/PlayStoreStuff/screenshots/Photo01.png" alt="Screen with help and language icons (these can be hidden)" title="Screen with help and language icons (these can be hidden)" width="260">
   </a>
 </p>
 
