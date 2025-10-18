@@ -24,22 +24,21 @@ Finally, to give credit where credit is due, most of the coding for this project
  
 # Screenshots
 
-Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `PlayStoreStuff/screenshots` folder.
+Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `screenshots` folder.
 
 <p>
-   <a href="/PlayStoreStuff/screenshots/Photo03.png">
+  <a href="/PlayStoreStuff/screenshots/Photo01.png">
+    <img src="/PlayStoreStuff/screenshots/Photo01.png" alt="Screen with help and language icons (these can be hidden)" title="Screen with help and language icons (these can be hidden)" width="260">
+  </a>
+  <a href="/PlayStoreStuff/screenshots/Photo03.png">
     <img src="/PlayStoreStuff/screenshots/Photo03.png" alt="Language selector" title="Language selector" width="260">
   </a>
+  <br>
   <a href="/PlayStoreStuff/screenshots/Photo02.png">
     <img src="/PlayStoreStuff/screenshots/Photo02.png" alt="Help screen" title="Help screen" width="260">
   </a>
-</p>
-<p>
   <a href="/PlayStoreStuff/screenshots/Photo04.png">
     <img src="/PlayStoreStuff/screenshots/Photo04.png" alt="Settings screen" title="Settings screen" width="260">
-  </a>
-  <a href="/PlayStoreStuff/screenshots/Photo01.png">
-    <img src="/PlayStoreStuff/screenshots/Photo01.png" alt="Screen with help and language icons (these can be hidden)" title="Screen with help and language icons (these can be hidden)" width="260">
   </a>
 </p>
 
