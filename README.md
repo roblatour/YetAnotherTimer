@@ -24,22 +24,22 @@ Finally, to give credit where credit is due, most of the coding for this project
  
 # Screenshots
 
-Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `screenshots/` folder.
+Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `PlayStoreStuff//screenshots` folder.
 
 <p>
-   <a href="screenshots/photo02-languages.jpg">
-    <img src="screenshots/photo02-languages.jpg" alt="Language selector" title="Language selector" width="260">
+   <a href="screenshots/Photo02-languages.jpg">
+    <img src="screenshots/Photo03.jpg" alt="Language selector" title="Language selector" width="260">
   </a>
-  <a href="screenshots/photo03-help.jpg">
-    <img src="screenshots/photo03-help.jpg" alt="Help screen" title="Help screen" width="260">
+  <a href="screenshots/Photo02.jpg">
+    <img src="screenshots/Photo02.jpg" alt="Help screen" title="Help screen" width="260">
   </a>
 </p>
 <p>
-  <a href="screenshots/photo04-settings.jpg">
-    <img src="screenshots/photo04-settings.jpg" alt="Settings screen" title="Settings screen" width="260">
+  <a href="screenshots/Photo04.jpg">
+    <img src="screenshots/Photo04.jpg" alt="Settings screen" title="Settings screen" width="260">
   </a>
-  <a href="screenshots/photo05-screenwithouthelplanguageicons.jpg">
-    <img src="screenshots/photo05-screenwithouthelplanguageicons.jpg" alt="Screen without help/language icons" title="Screen without help/language icons" width="260">
+  <a href="screenshots/Photo05.jpg">
+    <img src="screenshots/Photo05.jpg" alt="Screen without help/language icons" title="Screen without help/language icons" width="260">
   </a>
 </p>
 
