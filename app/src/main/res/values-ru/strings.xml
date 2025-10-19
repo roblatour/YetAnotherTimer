@@ -6,9 +6,11 @@
     <string name="desc_count_down">Обратный отсчёт</string>
     <string name="desc_enable_chime">Включить сигнал</string>
     <string name="desc_disable_chime">Выключить сигнал</string>
-    <string name="desc_keep_screen_on_on">Игнорировать авто‑блокировку, держать экран включённым</string>
-    <string name="desc_keep_screen_on_off">Не игнорировать авто‑блокировку</string>
-    <string name="desc_show_help_icon">Показывать значок справки</string>
+    <string name="desc_keep_screen_on_on">Игнорировать автоблокировку, оставить экран включенным</string>
+    <string name="desc_keep_screen_on_off">Не игнорировать автоблокировку</string>
+    <string name="desc_enable_touch_lock">Отключить касание при движении</string>
+    <string name="desc_disable_touch_lock">Включить касание при движении</string>
+    <string name="desc_show_help_icon">Показать значок справки</string>
     <string name="desc_hide_help_icon">Скрывать значок справки</string>
 
     <string name="btn_close">Закрыть</string>
@@ -27,9 +29,11 @@
     <string name="label_count_down">Обратный отсчёт</string>
     <string name="label_chime_on">Сигнал включён</string>
     <string name="label_chime_off">Сигнал выключен</string>
-    <string name="label_keep_screen_on_on">Игнорировать авто‑блокировку, держать экран включённым</string>
-    <string name="label_keep_screen_on_off">Не игнорировать авто‑блокировку</string>
-    <string name="label_show_help_icon">Показывать значок справки</string>
+    <string name="label_keep_screen_on_on">Игнорировать автоблокировку, оставить экран включенным</string>
+    <string name="label_keep_screen_on_off">Не игнорировать автоблокировку</string>
+    <string name="label_touch_lock_on">Отключить касание при движении</string>
+    <string name="label_touch_lock_off">Включить касание при движении</string>
+    <string name="label_show_help_icon">Показать значок справки</string>
     <string name="label_hide_help_icon">Скрывать значок справки</string>
     <string name="label_language">Язык</string>
 

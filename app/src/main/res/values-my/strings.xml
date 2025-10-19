@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">အကူအညီ</string>
     <string name="desc_settings_icon">ဆက်တင်များဖွင့်ရန်</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">ခေါင်းလောင်းအသံ ပိတ်ရန်</string>
     <string name="desc_keep_screen_on_on">အလိုအလျောက်ပိတ်ခြင်း မသက်ဆိုင်စေပါနှင့်၊ မျက်နှာပြင်ပြတ်သားနေစေပါ</string>
     <string name="desc_keep_screen_on_off">အလိုအလျောက်ပိတ်ခြင်းကို မပယ်ချပါနှင့်</string>
+    <string name="desc_enable_touch_lock">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုပိတ်ရန်</string>
+    <string name="desc_disable_touch_lock">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုဖွင့်ရန်</string>
     <string name="desc_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
     <string name="desc_hide_help_icon">အကူအညီ အိုင်ကွန် ဖျောက်</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">ခေါင်းလောင်း အသံ ပိတ်ထား</string>
     <string name="label_keep_screen_on_on">အလိုအလျောက်ပိတ်ခြင်း မသက်ဆိုင်စေပါနှင့်၊ မျက်နှာပြင်ပြတ်သားနေစေပါ</string>
     <string name="label_keep_screen_on_off">အလိုအလျောက်ပိတ်ခြင်းကို မပယ်ချပါနှင့်</string>
+    <string name="label_touch_lock_on">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုပိတ်ရန်</string>
+    <string name="label_touch_lock_off">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုဖွင့်ရန်</string>
     <string name="label_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
     <string name="label_hide_help_icon">အကူအညီ အိုင်ကွန် ဖျောက်</string>
     <string name="label_language">ဘာသာစကား</string>

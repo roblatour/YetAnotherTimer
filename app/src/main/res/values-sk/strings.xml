@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Pomoc</string>
     <string name="desc_settings_icon">Otvoriť nastavenia</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Vypnúť zvuk</string>
     <string name="desc_keep_screen_on_on">Ignorovať automatické uzamknutie, ponechať obrazovku zapnutú</string>
     <string name="desc_keep_screen_on_off">Neignorovať automatické uzamknutie</string>
+    <string name="desc_enable_touch_lock">Zakázať dotyk pri pohybe</string>
+    <string name="desc_disable_touch_lock">Povoliť dotyk pri pohybe</string>
     <string name="desc_show_help_icon">Zobraziť ikonu Pomoc</string>
     <string name="desc_hide_help_icon">Skryť ikonu Pomoc</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Zvuk vypnutý</string>
     <string name="label_keep_screen_on_on">Ignorovať automatické uzamknutie, ponechať obrazovku zapnutú</string>
     <string name="label_keep_screen_on_off">Neignorovať automatické uzamknutie</string>
+    <string name="label_touch_lock_on">Zakázať dotyk pri pohybe</string>
+    <string name="label_touch_lock_off">Povoliť dotyk pri pohybe</string>
     <string name="label_show_help_icon">Zobraziť ikonu Pomoc</string>
     <string name="label_hide_help_icon">Skryť ikonu Pomoc</string>
     <string name="label_language">Jazyk</string>

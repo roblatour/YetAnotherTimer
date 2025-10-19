@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">مدد</string>
     <string name="desc_settings_icon">ترتیبات کھولیں</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">گھنٹی غیر فعال کریں</string>
     <string name="desc_keep_screen_on_on">خودکار لاک کو نظرانداز کریں، اسکرین کو آن رکھیں</string>
     <string name="desc_keep_screen_on_off">خودکار لاک کو نظرانداز نہ کریں</string>
+    <string name="desc_enable_touch_lock">حرکت کے دوران ٹچ غیر فعال کریں</string>
+    <string name="desc_disable_touch_lock">حرکت کے دوران ٹچ فعال کریں</string>
     <string name="desc_show_help_icon">مدد آئیکن دکھائیں</string>
     <string name="desc_hide_help_icon">مدد آئیکن چھپائیں</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">گھنٹی آف</string>
     <string name="label_keep_screen_on_on">خودکار لاک کو نظرانداز کریں، اسکرین کو آن رکھیں</string>
     <string name="label_keep_screen_on_off">خودکار لاک کو نظرانداز نہ کریں</string>
+    <string name="label_touch_lock_on">حرکت کے دوران ٹچ غیر فعال کریں</string>
+    <string name="label_touch_lock_off">حرکت کے دوران ٹچ فعال کریں</string>
     <string name="label_show_help_icon">مدد آئیکن دکھائیں</string>
     <string name="label_hide_help_icon">مدد آئیکن چھپائیں</string>
     <string name="label_language">زبان</string>

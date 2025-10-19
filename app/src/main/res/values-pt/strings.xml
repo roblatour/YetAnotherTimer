@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Desativar som</string>
     <string name="desc_keep_screen_on_on">Ignorar bloqueio automático, manter o ecrã ligado</string>
     <string name="desc_keep_screen_on_off">Não ignorar bloqueio automático</string>
+    <string name="desc_enable_touch_lock">Desativar toque ao mover</string>
+    <string name="desc_disable_touch_lock">Ativar toque ao mover</string>
     <string name="desc_show_help_icon">Mostrar ícone de ajuda</string>
     <string name="desc_hide_help_icon">Ocultar ícone de ajuda</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Som desligado</string>
     <string name="label_keep_screen_on_on">Ignorar bloqueio automático, manter o ecrã ligado</string>
     <string name="label_keep_screen_on_off">Não ignorar bloqueio automático</string>
+    <string name="label_touch_lock_on">Desativar toque ao mover</string>
+    <string name="label_touch_lock_off">Ativar toque ao mover</string>
     <string name="label_show_help_icon">Mostrar ícone de ajuda</string>
     <string name="label_hide_help_icon">Ocultar ícone de ajuda</string>
     <string name="label_language">Idioma</string>

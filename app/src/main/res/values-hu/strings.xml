@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Súgó</string>
     <string name="desc_settings_icon">Beállítások megnyitása</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Hangjelzés kikapcsolása</string>
     <string name="desc_keep_screen_on_on">Automatikus zárolás figyelmen kívül hagyása, képernyő bekapcsolva tartása</string>
     <string name="desc_keep_screen_on_off">Automatikus zárolás ne legyen figyelmen kívül hagyva</string>
+    <string name="desc_enable_touch_lock">Érintés letiltása mozgás közben</string>
+    <string name="desc_disable_touch_lock">Érintés engedélyezése mozgás közben</string>
     <string name="desc_show_help_icon">Súgó ikon megjelenítése</string>
     <string name="desc_hide_help_icon">Súgó ikon elrejtése</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Hangjelzés ki</string>
     <string name="label_keep_screen_on_on">Automatikus zárolás figyelmen kívül hagyása, képernyő bekapcsolva tartása</string>
     <string name="label_keep_screen_on_off">Automatikus zárolás ne legyen figyelmen kívül hagyva</string>
+    <string name="label_touch_lock_on">Érintés letiltása mozgás közben</string>
+    <string name="label_touch_lock_off">Érintés engedélyezése mozgás közben</string>
     <string name="label_show_help_icon">Súgó ikon megjelenítése</string>
     <string name="label_hide_help_icon">Súgó ikon elrejtése</string>
     <string name="label_language">Nyelv</string>

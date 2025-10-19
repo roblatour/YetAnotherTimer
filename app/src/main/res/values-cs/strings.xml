@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Nápověda</string>
     <string name="desc_settings_icon">Otevřít nastavení</string>
@@ -7,7 +7,9 @@
     <string name="desc_enable_chime">Zapnout zvuk</string>
     <string name="desc_disable_chime">Vypnout zvuk</string>
     <string name="desc_keep_screen_on_on">Ignorovat automatické uzamčení, ponechat obrazovku zapnutou</string>
-    <string name="desc_keep_screen_on_off">Neignorovat automatické uzamčení</string>
+    <string name="desc_keep_screen_on_off">Neignorovat automatické zamknutí</string>
+    <string name="desc_enable_touch_lock">Zakázat dotek při pohybu</string>
+    <string name="desc_disable_touch_lock">Povolit dotek při pohybu</string>
     <string name="desc_show_help_icon">Zobrazit ikonu nápovědy</string>
     <string name="desc_hide_help_icon">Skrýt ikonu nápovědy</string>
 
@@ -28,7 +30,9 @@
     <string name="label_chime_on">Zvuk zapnut</string>
     <string name="label_chime_off">Zvuk vypnut</string>
     <string name="label_keep_screen_on_on">Ignorovat automatické uzamčení, ponechat obrazovku zapnutou</string>
-    <string name="label_keep_screen_on_off">Neignorovat automatické uzamčení</string>
+    <string name="label_keep_screen_on_off">Neignorovat automatické zamknutí</string>
+    <string name="label_touch_lock_on">Zakázat dotek při pohybu</string>
+    <string name="label_touch_lock_off">Povolit dotek při pohybu</string>
     <string name="label_show_help_icon">Zobrazit ikonu nápovědy</string>
     <string name="label_hide_help_icon">Skrýt ikonu nápovědy</string>
     <string name="label_language">Jazyk</string>

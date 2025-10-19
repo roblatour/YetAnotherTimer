@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hulp</string>
     <string name="desc_settings_icon">Instellingen openen</string>
@@ -7,8 +7,10 @@
     <string name="desc_enable_chime">Geluid inschakelen</string>
     <string name="desc_disable_chime">Geluid uitschakelen</string>
     <string name="desc_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
-    <string name="desc_keep_screen_on_off">Automatisch vergrendelen niet negeren</string>
-    <string name="desc_show_help_icon">Helppictogram tonen</string>
+    <string name="desc_keep_screen_on_off">Automatische vergrendeling niet negeren</string>
+    <string name="desc_enable_touch_lock">Aanraking uitschakelen tijdens beweging</string>
+    <string name="desc_disable_touch_lock">Aanraking inschakelen tijdens beweging</string>
+    <string name="desc_show_help_icon">Hulppictogram weergeven</string>
     <string name="desc_hide_help_icon">Helppictogram verbergen</string>
 
     <string name="btn_close">Sluiten</string>
@@ -28,8 +30,10 @@
     <string name="label_chime_on">Geluid aan</string>
     <string name="label_chime_off">Geluid uit</string>
     <string name="label_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
-    <string name="label_keep_screen_on_off">Automatisch vergrendelen niet negeren</string>
-    <string name="label_show_help_icon">Helppictogram tonen</string>
+    <string name="label_keep_screen_on_off">Automatische vergrendeling niet negeren</string>
+    <string name="label_touch_lock_on">Aanraking uitschakelen tijdens beweging</string>
+    <string name="label_touch_lock_off">Aanraking inschakelen tijdens beweging</string>
+    <string name="label_show_help_icon">Hulppictogram weergeven</string>
     <string name="label_hide_help_icon">Helppictogram verbergen</string>
     <string name="label_language">Taal</string>
 

@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Ajutor</string>
     <string name="desc_settings_icon">Deschide setările</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Dezactivare sunet</string>
     <string name="desc_keep_screen_on_on">Ignoră blocarea automată, menține ecranul aprins</string>
     <string name="desc_keep_screen_on_off">Nu ignora blocarea automată</string>
+    <string name="desc_enable_touch_lock">Dezactivează atingerea la mișcare</string>
+    <string name="desc_disable_touch_lock">Activează atingerea la mișcare</string>
     <string name="desc_show_help_icon">Afișează pictograma Ajutor</string>
     <string name="desc_hide_help_icon">Ascunde pictograma Ajutor</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Sunet inactiv</string>
     <string name="label_keep_screen_on_on">Ignoră blocarea automată, menține ecranul aprins</string>
     <string name="label_keep_screen_on_off">Nu ignora blocarea automată</string>
+    <string name="label_touch_lock_on">Dezactivează atingerea la mișcare</string>
+    <string name="label_touch_lock_off">Activează atingerea la mișcare</string>
     <string name="label_show_help_icon">Afișează pictograma Ajutor</string>
     <string name="label_hide_help_icon">Ascunde pictograma Ajutor</string>
     <string name="label_language">Limbă</string>

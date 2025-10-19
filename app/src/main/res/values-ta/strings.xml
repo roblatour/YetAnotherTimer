@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">உதவி</string>
     <string name="desc_settings_icon">அமைப்புகளைத் திற</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">சைமை இயங்காது</string>
     <string name="desc_keep_screen_on_on">தானியங்கி பூட்டை புறக்கணி, திரையை இயக்கியவாறு வைத்திரு</string>
     <string name="desc_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
+    <string name="desc_enable_touch_lock">நகரும்போது தொடுதலை முடக்கு</string>
+    <string name="desc_disable_touch_lock">நகரும்போது தொடுதலை இயக்கு</string>
     <string name="desc_show_help_icon">உதவி சின்னத்தை காட்டு</string>
     <string name="desc_hide_help_icon">உதவி சின்னத்தை மறை</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">சைமை ஆஃப்</string>
     <string name="label_keep_screen_on_on">தானியங்கி பூட்டை புறக்கணி, திரையை இயக்கியவாறு வைத்திரு</string>
     <string name="label_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
+    <string name="label_touch_lock_on">நகரும்போது தொடுதலை முடக்கு</string>
+    <string name="label_touch_lock_off">நகரும்போது தொடுதலை இயக்கு</string>
     <string name="label_show_help_icon">உதவி சின்னத்தை காட்டு</string>
     <string name="label_hide_help_icon">உதவி சின்னத்தை மறை</string>
     <string name="label_language">மொழி</string>

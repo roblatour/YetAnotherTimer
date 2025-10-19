@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">راهنما</string>
     <string name="desc_settings_icon">باز کردن تنظیمات</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">غیرفعال کردن زنگ</string>
     <string name="desc_keep_screen_on_on">نادیده گرفتن قفل خودکار، صفحه روشن بماند</string>
     <string name="desc_keep_screen_on_off">قفل خودکار را نادیده نگیرید</string>
+    <string name="desc_enable_touch_lock">غیرفعال کردن لمس هنگام حرکت</string>
+    <string name="desc_disable_touch_lock">فعال کردن لمس هنگام حرکت</string>
     <string name="desc_show_help_icon">نمایش آیکون راهنما</string>
     <string name="desc_hide_help_icon">پنهان کردن آیکون راهنما</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">زنگ خاموش</string>
     <string name="label_keep_screen_on_on">نادیده گرفتن قفل خودکار، صفحه روشن بماند</string>
     <string name="label_keep_screen_on_off">قفل خودکار را نادیده نگیرید</string>
+    <string name="label_touch_lock_on">غیرفعال کردن لمس هنگام حرکت</string>
+    <string name="label_touch_lock_off">فعال کردن لمس هنگام حرکت</string>
     <string name="label_show_help_icon">نمایش آیکون راهنما</string>
     <string name="label_hide_help_icon">پنهان کردن آیکون راهنما</string>
     <string name="label_language">زبان</string>

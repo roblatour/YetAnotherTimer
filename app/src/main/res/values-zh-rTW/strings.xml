@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">說明</string>
     <string name="desc_settings_icon">開啟設定</string>
@@ -7,7 +7,9 @@
     <string name="desc_enable_chime">啟用提示音</string>
     <string name="desc_disable_chime">停用提示音</string>
     <string name="desc_keep_screen_on_on">覆寫自動鎖定，保持螢幕常亮</string>
-    <string name="desc_keep_screen_on_off">不要覆寫自動鎖定</string>
+    <string name="desc_keep_screen_on_off">不忽略自動鎖定</string>
+    <string name="desc_enable_touch_lock">移動時停用觸控</string>
+    <string name="desc_disable_touch_lock">移動時啟用觸控</string>
     <string name="desc_show_help_icon">顯示說明圖示</string>
     <string name="desc_hide_help_icon">隱藏說明圖示</string>
 
@@ -28,7 +30,9 @@
     <string name="label_chime_on">提示音開</string>
     <string name="label_chime_off">提示音關</string>
     <string name="label_keep_screen_on_on">覆寫自動鎖定，保持螢幕常亮</string>
-    <string name="label_keep_screen_on_off">不要覆寫自動鎖定</string>
+    <string name="label_keep_screen_on_off">不忽略自動鎖定</string>
+    <string name="label_touch_lock_on">移動時停用觸控</string>
+    <string name="label_touch_lock_off">移動時啟用觸控</string>
     <string name="label_show_help_icon">顯示說明圖示</string>
     <string name="label_hide_help_icon">隱藏說明圖示</string>
     <string name="label_language">語言</string>

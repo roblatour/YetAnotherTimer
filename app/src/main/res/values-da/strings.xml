@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hjælp</string>
     <string name="desc_settings_icon">Åbn indstillinger</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Deaktivér klokke</string>
     <string name="desc_keep_screen_on_on">Tilsidesæt auto-lås, hold skærmen tændt</string>
     <string name="desc_keep_screen_on_off">Tilsidesæt ikke auto-lås</string>
+    <string name="desc_enable_touch_lock">Deaktiver berøring under bevægelse</string>
+    <string name="desc_disable_touch_lock">Aktiver berøring under bevægelse</string>
     <string name="desc_show_help_icon">Vis hjælpesymbol</string>
     <string name="desc_hide_help_icon">Skjul hjælpesymbol</string>
     <string name="desc_language_icon">Skift sprog</string>
@@ -32,6 +34,8 @@
     <string name="label_chime_off">Klokke fra</string>
     <string name="label_keep_screen_on_on">Tilsidesæt auto-lås, hold skærmen tændt</string>
     <string name="label_keep_screen_on_off">Tilsidesæt ikke auto-lås</string>
+    <string name="label_touch_lock_on">Deaktiver berøring under bevægelse</string>
+    <string name="label_touch_lock_off">Aktiver berøring under bevægelse</string>
     <string name="label_show_help_icon">Vis hjælpesymbol</string>
     <string name="label_hide_help_icon">Skjul hjælpesymbol</string>
     <string name="label_language">Sprog</string>

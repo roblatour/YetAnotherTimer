@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <!-- Norwegian Bokmål (nb-NO) commonly used on Android -->
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hjelp</string>
@@ -9,6 +9,8 @@
     <string name="desc_disable_chime">Deaktiver lydsignal</string>
     <string name="desc_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
     <string name="desc_keep_screen_on_off">Ikke overstyr autolås</string>
+    <string name="desc_enable_touch_lock">Slå av berøring ved bevegelse</string>
+    <string name="desc_disable_touch_lock">Slå på berøring ved bevegelse</string>
     <string name="desc_show_help_icon">Vis hjelpesymbol</string>
     <string name="desc_hide_help_icon">Skjul hjelpesymbol</string>
     <string name="desc_language_icon">Bytt språk</string>
@@ -33,6 +35,8 @@
     <string name="label_chime_off">Lydsignal av</string>
     <string name="label_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
     <string name="label_keep_screen_on_off">Ikke overstyr autolås</string>
+    <string name="label_touch_lock_on">Slå av berøring ved bevegelse</string>
+    <string name="label_touch_lock_off">Slå på berøring ved bevegelse</string>
     <string name="label_show_help_icon">Vis hjelpesymbol</string>
     <string name="label_hide_help_icon">Skjul hjelpesymbol</string>
     <string name="label_language">Språk</string>

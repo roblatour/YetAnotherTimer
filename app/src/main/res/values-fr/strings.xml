@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Désactiver le son</string>
     <string name="desc_keep_screen_on_on">Ignorer le verrouillage auto, garder l’écran allumé</string>
     <string name="desc_keep_screen_on_off">Ne pas ignorer le verrouillage auto</string>
+    <string name="desc_enable_touch_lock">Désactiver le toucher en mouvement</string>
+    <string name="desc_disable_touch_lock">Activer le toucher en mouvement</string>
     <string name="desc_show_help_icon">Afficher l’icône d’aide</string>
     <string name="desc_hide_help_icon">Masquer l’icône d’aide</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Son désactivé</string>
     <string name="label_keep_screen_on_on">Ignorer le verrouillage auto, garder l’écran allumé</string>
     <string name="label_keep_screen_on_off">Ne pas ignorer le verrouillage auto</string>
+    <string name="label_touch_lock_on">Désactiver le toucher en mouvement</string>
+    <string name="label_touch_lock_off">Activer le toucher en mouvement</string>
     <string name="label_show_help_icon">Afficher l’icône d’aide</string>
     <string name="label_hide_help_icon">Masquer l’icône d’aide</string>
     <string name="label_language">Langue</string>

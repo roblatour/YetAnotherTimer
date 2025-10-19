@@ -27,6 +27,7 @@ class SettingsRepository(private val context: Context) {
     val languageIconVisible: Preferences.Key<Boolean> = booleanPreferencesKey("language_icon_visible")
         val countUpEnabled: Preferences.Key<Boolean> = booleanPreferencesKey("count_up_enabled")
         val languageTag: Preferences.Key<String> = stringPreferencesKey("language_tag")
+        val touchLockEnabled: Preferences.Key<Boolean> = booleanPreferencesKey("touch_lock_enabled")
         val initialized: Preferences.Key<Boolean> = booleanPreferencesKey("initialized")
     }
 
@@ -55,6 +56,11 @@ class SettingsRepository(private val context: Context) {
     val countUpEnabledFlow: Flow<Boolean> = context.dataStore.data.map { prefs ->
         // Default to false (Count down)
         prefs[Keys.countUpEnabled] ?: false
+    }
+
+    val touchLockEnabledFlow: Flow<Boolean> = context.dataStore.data.map { prefs ->
+        // Default to false (Enable touch when moving)
+        prefs[Keys.touchLockEnabled] ?: false
     }
 
     // Language tag in BCP-47 format. On first run, pick best match for system locale.
@@ -109,6 +115,12 @@ class SettingsRepository(private val context: Context) {
         context.dataStore.edit { prefs ->
             prefs[Keys.languageTag] = tag
             prefs[Keys.initialized] = true
+        }
+    }
+
+    suspend fun setTouchLockEnabled(enabled: Boolean) {
+        context.dataStore.edit { prefs ->
+            prefs[Keys.touchLockEnabled] = enabled
         }
     }
 }

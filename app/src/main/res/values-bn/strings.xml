@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">সহায়তা</string>
     <string name="desc_settings_icon">সেটিংস খুলুন</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">চাইম বন্ধ করুন</string>
     <string name="desc_keep_screen_on_on">অটো-লক অগ্রাহ্য করুন, স্ক্রিন চালু রাখুন</string>
     <string name="desc_keep_screen_on_off">অটো-লক অগ্রাহ্য করবেন না</string>
+    <string name="desc_enable_touch_lock">চলাচলের সময় স্পর্শ বন্ধ করুন</string>
+    <string name="desc_disable_touch_lock">চলাচলের সময় স্পর্শ চালু করুন</string>
     <string name="desc_show_help_icon">সহায়তা আইকন দেখান</string>
     <string name="desc_hide_help_icon">সহায়তা আইকন লুকান</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">চাইম বন্ধ</string>
     <string name="label_keep_screen_on_on">অটো-লক অগ্রাহ্য করুন, স্ক্রিন চালু রাখুন</string>
     <string name="label_keep_screen_on_off">অটো-লক অগ্রাহ্য করবেন না</string>
+    <string name="label_touch_lock_on">চলাচলের সময় স্পর্শ বন্ধ করুন</string>
+    <string name="label_touch_lock_off">চলাচলের সময় স্পর্শ চালু করুন</string>
     <string name="label_show_help_icon">সহায়তা আইকন দেখান</string>
     <string name="label_hide_help_icon">সহায়তা আইকন লুকান</string>
     <string name="label_language">ভাষা</string>

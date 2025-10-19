@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">باڠتوان</string>
     <string name="desc_settings_icon">بوکا تتاڤن</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">نياه اٮكتيفكن بوني</string>
     <string name="desc_keep_screen_on_on">اباءيكن كونچي اوتوماتيق، ككلكن سكرين هيودوڠ</string>
     <string name="desc_keep_screen_on_off">جاڠن اباءيكن كونچي اوتوماتيق</string>
+    <string name="desc_enable_touch_lock">ماتيکن سنتوهن سماس برݢرک</string>
+    <string name="desc_disable_touch_lock">هيدوڤکن سنتوهن سماس برݢرک</string>
     <string name="desc_show_help_icon">تونجوق ايكون باڠتوان</string>
     <string name="desc_hide_help_icon">سمبوڽيikan ايكون باڠتوان</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">بوني ماتي</string>
     <string name="label_keep_screen_on_on">اباءيكن كونچي اوتوماتيق، ككلكن سكرين هيودوڠ</string>
     <string name="label_keep_screen_on_off">جاڠن اباءيكن كونچي اوتوماتيق</string>
+    <string name="label_touch_lock_on">ماتيکن سنتوهن سماس برݢرک</string>
+    <string name="label_touch_lock_off">هيدوڤکن سنتوهن سماس برݢرک</string>
     <string name="label_show_help_icon">تونجوق ايكون باڠتوان</string>
     <string name="label_hide_help_icon">سمبوڽيikan ايكون باڠتوان</string>
     <string name="label_language">بهاس</string>

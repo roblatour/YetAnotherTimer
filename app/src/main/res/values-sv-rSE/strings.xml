@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <!-- region-specific alias; keep identical to values-sv -->
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hjälp</string>
@@ -9,6 +9,8 @@
     <string name="desc_disable_chime">Inaktivera signal</string>
     <string name="desc_keep_screen_on_on">Åsidosätt autolås, håll skärmen på</string>
     <string name="desc_keep_screen_on_off">Åsidosätt inte autolås</string>
+    <string name="desc_enable_touch_lock">Inaktivera pekskärm vid rörelse</string>
+    <string name="desc_disable_touch_lock">Aktivera pekskärm vid rörelse</string>
     <string name="desc_show_help_icon">Visa hjälpsymbol</string>
     <string name="desc_hide_help_icon">Dölj hjälpsymbol</string>
     <string name="desc_language_icon">Byt språk</string>
@@ -33,6 +35,8 @@
     <string name="label_chime_off">Signal av</string>
     <string name="label_keep_screen_on_on">Åsidosätt autolås, håll skärmen på</string>
     <string name="label_keep_screen_on_off">Åsidosätt inte autolås</string>
+    <string name="label_touch_lock_on">Inaktivera pekskärm vid rörelse</string>
+    <string name="label_touch_lock_off">Aktivera pekskärm vid rörelse</string>
     <string name="label_show_help_icon">Visa hjälpsymbol</string>
     <string name="label_hide_help_icon">Dölj hjälpsymbol</string>
     <string name="label_language">Språk</string>

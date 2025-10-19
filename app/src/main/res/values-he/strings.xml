@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">עזרה</string>
     <string name="desc_settings_icon">פתח הגדרות</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">כבה צלצול</string>
     <string name="desc_keep_screen_on_on">התעלם מנעילה אוטומטית, השאר את המסך דולק</string>
     <string name="desc_keep_screen_on_off">אל תתעלם מנעילה אוטומטית</string>
+    <string name="desc_enable_touch_lock">השבת מגע בזמן תנועה</string>
+    <string name="desc_disable_touch_lock">הפעל מגע בזמן תנועה</string>
     <string name="desc_show_help_icon">הצג סמל עזרה</string>
     <string name="desc_hide_help_icon">הסתר סמל עזרה</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">צלצול כבוי</string>
     <string name="label_keep_screen_on_on">התעלם מנעילה אוטומטית, השאר את המסך דולק</string>
     <string name="label_keep_screen_on_off">אל תתעלם מנעילה אוטומטית</string>
+    <string name="label_touch_lock_on">השבת מגע בזמן תנועה</string>
+    <string name="label_touch_lock_off">הפעל מגע בזמן תנועה</string>
     <string name="label_show_help_icon">הצג סמל עזרה</string>
     <string name="label_hide_help_icon">הסתר סמל עזרה</string>
     <string name="label_language">שפה</string>

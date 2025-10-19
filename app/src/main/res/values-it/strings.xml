@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Disattiva suono</string>
     <string name="desc_keep_screen_on_on">Ignora blocco automatico, mantieni lo schermo acceso</string>
     <string name="desc_keep_screen_on_off">Non ignorare il blocco automatico</string>
+    <string name="desc_enable_touch_lock">Disattiva tocco durante il movimento</string>
+    <string name="desc_disable_touch_lock">Attiva tocco durante il movimento</string>
     <string name="desc_show_help_icon">Mostra icona guida</string>
     <string name="desc_hide_help_icon">Nascondi icona guida</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Suono disattivo</string>
     <string name="label_keep_screen_on_on">Ignora blocco automatico, mantieni lo schermo acceso</string>
     <string name="label_keep_screen_on_off">Non ignorare il blocco automatico</string>
+    <string name="label_touch_lock_on">Disattiva tocco durante il movimento</string>
+    <string name="label_touch_lock_off">Attiva tocco durante il movimento</string>
     <string name="label_show_help_icon">Mostra icona guida</string>
     <string name="label_hide_help_icon">Nascondi icona guida</string>
     <string name="label_language">Lingua</string>

@@ -24,6 +24,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Help
 import androidx.compose.material.icons.filled.ArrowDownward
 import androidx.compose.material.icons.filled.ArrowUpward
+import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.LockOpen
 import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.ui.res.painterResource
 import androidx.compose.material.icons.filled.Settings
@@ -111,23 +113,53 @@ fun TimerScreen(vm: TimerViewModel) {
             androidx.compose.foundation.layout.BoxWithConstraints(
                 modifier = Modifier
                     .fillMaxSize()
-                    .pointerInput(Unit) {
+                    .pointerInput(state.touchLockEnabled, state.isMoving) {
                         detectTapGestures(
-                            onTap = { vm.toggleStartPause() },
-                            onDoubleTap = { vm.doubleTapToResetOnly() }
+                            onTap = { 
+                                // Only handle tap if touch lock is disabled or no recent movement
+                                if (!state.touchLockEnabled || !state.isMoving) {
+                                    vm.toggleStartPause() 
+                                }
+                            },
+                            onDoubleTap = { 
+                                // Only handle double tap if touch lock is disabled or no recent movement
+                                if (!state.touchLockEnabled || !state.isMoving) {
+                                    vm.doubleTapToResetOnly() 
+                                }
+                            }
                         )
                     }
             ) {
                 val minPx = kotlin.math.min(maxWidth.value, maxHeight.value)
                 val sizeSp = (minPx * 0.22f).sp
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text(
-                        text = state.display,
-                        color = Color.White,
-                        fontSize = sizeSp,
-                        fontWeight = FontWeight.Bold,
-                        textAlign = TextAlign.Center
-                    )
+                    // Timer display column to allow padlock above timer
+                    androidx.compose.foundation.layout.Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center,
+                        modifier = Modifier.fillMaxSize()
+                    ) {
+                        // Padlock overlay when touch lock is enabled and moving
+                        if (state.touchLockEnabled && state.isMoving) {
+                            val lockIconSize = (minPx * 0.08f).dp
+                            Icon(
+                                imageVector = Icons.Filled.Lock,
+                                contentDescription = "Touch locked due to movement",
+                                tint = Color.Gray,
+                                modifier = Modifier.size(lockIconSize)
+                            )
+                            Spacer(modifier = Modifier.height(8.dp))
+                        }
+                        
+                        // Timer text
+                        Text(
+                            text = state.display,
+                            color = Color.White,
+                            fontSize = sizeSp,
+                            fontWeight = FontWeight.Bold,
+                            textAlign = TextAlign.Center
+                        )
+                    }
                 }
             }
 
@@ -143,10 +175,15 @@ fun TimerScreen(vm: TimerViewModel) {
                 // Left section
                 Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.CenterStart) {
                     if (state.helpIconVisible) {
+                        val isLocked = state.touchLockEnabled && state.isMoving
                         FloatingActionButton(
-                            onClick = { showHelp.value = true },
-                            containerColor = Color.White,
-                            contentColor = Color.Black
+                            onClick = { 
+                                if (!isLocked) {
+                                    showHelp.value = true 
+                                }
+                            },
+                            containerColor = if (isLocked) Color.Gray else Color.White,
+                            contentColor = if (isLocked) Color.DarkGray else Color.Black
                         ) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.Help,
@@ -162,10 +199,15 @@ fun TimerScreen(vm: TimerViewModel) {
                 // Center: Language button with dropdown (conditionally visible)
                 Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
                     if (state.languageIconVisible) {
+                        val isLocked = state.touchLockEnabled && state.isMoving
                         FloatingActionButton(
-                            onClick = { showLanguageMenu.value = !showLanguageMenu.value },
-                            containerColor = Color.White,
-                            contentColor = Color.Black
+                            onClick = { 
+                                if (!isLocked) {
+                                    showLanguageMenu.value = !showLanguageMenu.value 
+                                }
+                            },
+                            containerColor = if (isLocked) Color.Gray else Color.White,
+                            contentColor = if (isLocked) Color.DarkGray else Color.Black
                         ) {
                             Icon(
                                 painter = painterResource(id = R.drawable.language_icon),
@@ -178,8 +220,9 @@ fun TimerScreen(vm: TimerViewModel) {
                     }
                     val languages = remember { com.example.yetanothertimer.data.SupportedLanguages.all }
                     val scope = rememberCoroutineScope()
+                    val isLocked = state.touchLockEnabled && state.isMoving
                     DropdownMenu(
-                        expanded = showLanguageMenu.value,
+                        expanded = showLanguageMenu.value && !isLocked,
                         onDismissRequest = { showLanguageMenu.value = false }
                     ) {
                         val context = androidx.compose.ui.platform.LocalContext.current
@@ -206,10 +249,15 @@ fun TimerScreen(vm: TimerViewModel) {
 
                 // Right section
                 Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) {
+                    val isLocked = state.touchLockEnabled && state.isMoving
                     FloatingActionButton(
-                        onClick = { showSettings.value = true },
-                        containerColor = Color.White,
-                        contentColor = Color.Black
+                        onClick = { 
+                            if (!isLocked) {
+                                showSettings.value = true 
+                            }
+                        },
+                        containerColor = if (isLocked) Color.Gray else Color.White,
+                        contentColor = if (isLocked) Color.DarkGray else Color.Black
                     ) {
                         Icon(
                             imageVector = Icons.Filled.Settings,
@@ -230,6 +278,7 @@ fun TimerScreen(vm: TimerViewModel) {
             initialLanguageIconVisible = state.languageIconVisible,
             initialIsCountUp = state.isCountUp,
             initialLanguageTag = state.languageTag,
+            initialTouchLockEnabled = state.touchLockEnabled,
             onDismiss = {
                 // Intentionally left blank to prevent accidental dismiss via outside tap/back.
                 // Settings dialog will only close via explicit Save or Cancel buttons below.
@@ -260,6 +309,7 @@ fun TimerScreen(vm: TimerViewModel) {
             onToggleHelpIcon = { visible -> vm.setHelpIconVisible(visible) },
             onToggleLanguageIcon = { visible -> vm.setLanguageIconVisible(visible) },
             onToggleCountUp = { enabled -> vm.setCountUpEnabled(enabled) },
+            onToggleTouchLock = { enabled -> vm.setTouchLockEnabled(enabled) },
             onSetLanguageTag = { tag -> vm.setLanguageTag(tag) }
         )
     }
@@ -424,6 +474,7 @@ fun SettingsDialog(
     initialIsCountUp: Boolean,
     initialLanguageIconVisible: Boolean,
     initialLanguageTag: String,
+    initialTouchLockEnabled: Boolean,
     onDismiss: () -> Unit,
     onCancel: () -> Unit,
     onSave: (Int, Int) -> Unit,
@@ -432,6 +483,7 @@ fun SettingsDialog(
     onToggleHelpIcon: (Boolean) -> Unit,
     onToggleCountUp: (Boolean) -> Unit,
     onToggleLanguageIcon: (Boolean) -> Unit,
+    onToggleTouchLock: (Boolean) -> Unit,
     onSetLanguageTag: (String) -> Unit
 ) {
     var minutesText by rememberSaveable { mutableStateOf(initialMinutes.toString()) }
@@ -443,6 +495,7 @@ fun SettingsDialog(
     var helpIconVisible by rememberSaveable { mutableStateOf(initialHelpIconVisible) }
     var isCountUp by rememberSaveable { mutableStateOf(initialIsCountUp) }
     var languageIconVisible by rememberSaveable { mutableStateOf(initialLanguageIconVisible) }
+    var touchLockEnabled by rememberSaveable { mutableStateOf(initialTouchLockEnabled) }
     var languageTag by rememberSaveable { mutableStateOf(initialLanguageTag.ifBlank { "en" }) }
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -457,6 +510,7 @@ fun SettingsDialog(
                     onToggleHelpIcon(helpIconVisible)
                     onToggleLanguageIcon(languageIconVisible)
                     onToggleCountUp(isCountUp)
+                    onToggleTouchLock(touchLockEnabled)
                     onSetLanguageTag(languageTag)
                     onSave(m, s)
                 },
@@ -596,6 +650,28 @@ fun SettingsDialog(
                     )
                     Text(
                         text = if (chimeEnabled) stringResource(id = R.string.label_chime_on) else stringResource(id = R.string.label_chime_off),
+                        color = Color.White,
+                        modifier = Modifier.padding(start = 8.dp).fillMaxWidth(),
+                        textAlign = TextAlign.Start
+                    )
+                }
+
+                // Touch lock toggle row: tap row (icon or text) to toggle (local only until Save)
+                androidx.compose.foundation.layout.Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .padding(vertical = 4.dp)
+                        .clickable {
+                            touchLockEnabled = !touchLockEnabled
+                        }
+                ) {
+                    Icon(
+                        imageVector = if (touchLockEnabled) Icons.Filled.Lock else Icons.Filled.LockOpen,
+                        contentDescription = if (touchLockEnabled) stringResource(id = R.string.desc_disable_touch_lock) else stringResource(id = R.string.desc_enable_touch_lock),
+                        tint = if (touchLockEnabled) Color.Green else Color.Gray
+                    )
+                    Text(
+                        text = if (touchLockEnabled) stringResource(id = R.string.label_touch_lock_on) else stringResource(id = R.string.label_touch_lock_off),
                         color = Color.White,
                         modifier = Modifier.padding(start = 8.dp).fillMaxWidth(),
                         textAlign = TextAlign.Start

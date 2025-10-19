@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Trợ giúp</string>
     <string name="desc_settings_icon">Mở cài đặt</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Tắt chuông</string>
     <string name="desc_keep_screen_on_on">Bỏ qua khóa tự động, giữ màn hình luôn bật</string>
     <string name="desc_keep_screen_on_off">Không bỏ qua khóa tự động</string>
+    <string name="desc_enable_touch_lock">Tắt cảm ứng khi di chuyển</string>
+    <string name="desc_disable_touch_lock">Bật cảm ứng khi di chuyển</string>
     <string name="desc_show_help_icon">Hiển thị biểu tượng trợ giúp</string>
     <string name="desc_hide_help_icon">Ẩn biểu tượng trợ giúp</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Chuông tắt</string>
     <string name="label_keep_screen_on_on">Bỏ qua khóa tự động, giữ màn hình luôn bật</string>
     <string name="label_keep_screen_on_off">Không bỏ qua khóa tự động</string>
+    <string name="label_touch_lock_on">Tắt cảm ứng khi di chuyển</string>
+    <string name="label_touch_lock_off">Bật cảm ứng khi di chuyển</string>
     <string name="label_show_help_icon">Hiển thị biểu tượng trợ giúp</string>
     <string name="label_hide_help_icon">Ẩn biểu tượng trợ giúp</string>
     <string name="label_language">Ngôn ngữ</string>

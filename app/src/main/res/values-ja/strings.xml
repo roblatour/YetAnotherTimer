@@ -6,8 +6,10 @@
     <string name="desc_count_down">カウントダウン</string>
     <string name="desc_enable_chime">チャイムを有効にする</string>
     <string name="desc_disable_chime">チャイムを無効にする</string>
-    <string name="desc_keep_screen_on_on">自動ロックを無効にし、画面をオンのままにする</string>
-    <string name="desc_keep_screen_on_off">自動ロックを無効にしない</string>
+    <string name="desc_keep_screen_on_on">自動ロックを無視し、画面をオンに保つ</string>
+    <string name="desc_keep_screen_on_off">自動ロックを無視しない</string>
+    <string name="desc_enable_touch_lock">動作中のタッチを無効にする</string>
+    <string name="desc_disable_touch_lock">動作中のタッチを有効にする</string>
     <string name="desc_show_help_icon">ヘルプアイコンを表示</string>
     <string name="desc_hide_help_icon">ヘルプアイコンを非表示</string>
 
@@ -27,8 +29,10 @@
     <string name="label_count_down">カウントダウン</string>
     <string name="label_chime_on">チャイムオン</string>
     <string name="label_chime_off">チャイムオフ</string>
-    <string name="label_keep_screen_on_on">自動ロックを無効にし、画面をオンのままにする</string>
-    <string name="label_keep_screen_on_off">自動ロックを無効にしない</string>
+    <string name="label_keep_screen_on_on">自動ロックを無視し、画面をオンに保つ</string>
+    <string name="label_keep_screen_on_off">自動ロックを無視しない</string>
+    <string name="label_touch_lock_on">動作中のタッチを無効にする</string>
+    <string name="label_touch_lock_off">動作中のタッチを有効にする</string>
     <string name="label_show_help_icon">ヘルプアイコンを表示</string>
     <string name="label_hide_help_icon">ヘルプアイコンを非表示</string>
     <string name="label_language">言語</string>

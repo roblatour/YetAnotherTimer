@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">సహాయం</string>
     <string name="desc_settings_icon">సెట్టింగ్‌లను తెరవండి</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">ఘంటికను ఆఫ్ చేయండి</string>
     <string name="desc_keep_screen_on_on">ఆటో-లాక్‌ను పక్కన పెట్టి, స్క్రీన్ ఆన్‌గా ఉంచండి</string>
     <string name="desc_keep_screen_on_off">ఆటో-లాక్‌ను పక్కన పెట్టవద్దు</string>
+    <string name="desc_enable_touch_lock">కదులుతున్నప్పుడు టచ్ నిలిపివేయండి</string>
+    <string name="desc_disable_touch_lock">కదులుతున్నప్పుడు టచ్ చేతనపరచండి</string>
     <string name="desc_show_help_icon">సహాయ చిహ్నం చూపించండి</string>
     <string name="desc_hide_help_icon">సహాయ చిహ్నం దాచండి</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">ఘంటిక ఆఫ్</string>
     <string name="label_keep_screen_on_on">ఆటో-లాక్‌ను పక్కన పెట్టి, స్క్రీన్ ఆన్‌గా ఉంచండి</string>
     <string name="label_keep_screen_on_off">ఆటో-లాక్‌ను పక్కన పెట్టవద్దు</string>
+    <string name="label_touch_lock_on">కదులుతున్నప్పుడు టచ్ నిలిపివేయండి</string>
+    <string name="label_touch_lock_off">కదులుతున్నప్పుడు టచ్ చేతనపరచండి</string>
     <string name="label_show_help_icon">సహాయ చిహ్నం చూపించండి</string>
     <string name="label_hide_help_icon">సహాయ చిహ్నం దాచండి</string>
     <string name="label_language">భాష</string>

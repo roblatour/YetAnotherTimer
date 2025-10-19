@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">ਮਦਦ</string>
     <string name="desc_settings_icon">ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">ਘੰਟੀ ਬੰਦ ਕਰੋ</string>
     <string name="desc_keep_screen_on_on">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ, ਸਕ੍ਰੀਨ ਚਾਲੂ ਰੱਖੋ</string>
     <string name="desc_keep_screen_on_off">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਨਾ ਕਰੋ</string>
+    <string name="desc_enable_touch_lock">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਬੰਦ ਕਰੋ</string>
+    <string name="desc_disable_touch_lock">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਚਾਲੂ ਕਰੋ</string>
     <string name="desc_show_help_icon">ਮਦਦ ਆਇਕਨ ਵਿਖਾਓ</string>
     <string name="desc_hide_help_icon">ਮਦਦ ਆਇਕਨ ਲੁਕਾਓ</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">ਘੰਟੀ ਬੰਦ</string>
     <string name="label_keep_screen_on_on">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ, ਸਕ੍ਰੀਨ ਚਾਲੂ ਰੱਖੋ</string>
     <string name="label_keep_screen_on_off">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਨਾ ਕਰੋ</string>
+    <string name="label_touch_lock_on">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਬੰਦ ਕਰੋ</string>
+    <string name="label_touch_lock_off">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਚਾਲੂ ਕਰੋ</string>
     <string name="label_show_help_icon">ਮਦਦ ਆਇਕਨ ਵਿਖਾਓ</string>
     <string name="label_hide_help_icon">ਮਦਦ ਆਇਕਨ ਲੁਕਾਓ</string>
     <string name="label_language">ਭਾਸ਼ਾ</string>

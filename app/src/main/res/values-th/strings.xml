@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">วิธีใช้</string>
     <string name="desc_settings_icon">เปิดการตั้งค่า</string>
@@ -7,8 +7,10 @@
     <string name="desc_enable_chime">เปิดเสียง</string>
     <string name="desc_disable_chime">ปิดเสียง</string>
     <string name="desc_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
-    <string name="desc_keep_screen_on_off">อย่าละเว้นการล็อกอัตโนมัติ</string>
-    <string name="desc_show_help_icon">แสดงไอคอนวิธีใช้</string>
+    <string name="desc_keep_screen_on_off">อย่าละเว้นการล็อคอัตโนมัติ</string>
+    <string name="desc_enable_touch_lock">ปิดการสัมผัสเมื่อเคลื่อนไหว</string>
+    <string name="desc_disable_touch_lock">เปิดการสัมผัสเมื่อเคลื่อนไหว</string>
+    <string name="desc_show_help_icon">แสดงไอคอนช่วยเหลือ</string>
     <string name="desc_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
 
     <string name="btn_close">ปิด</string>
@@ -28,8 +30,10 @@
     <string name="label_chime_on">เปิดเสียง</string>
     <string name="label_chime_off">ปิดเสียง</string>
     <string name="label_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
-    <string name="label_keep_screen_on_off">อย่าละเว้นการล็อกอัตโนมัติ</string>
-    <string name="label_show_help_icon">แสดงไอคอนวิธีใช้</string>
+    <string name="label_keep_screen_on_off">อย่าละเว้นการล็อคอัตโนมัติ</string>
+    <string name="label_touch_lock_on">ปิดการสัมผัสเมื่อเคลื่อนไหว</string>
+    <string name="label_touch_lock_off">เปิดการสัมผัสเมื่อเคลื่อนไหว</string>
+    <string name="label_show_help_icon">แสดงไอคอนช่วยเหลือ</string>
     <string name="label_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
     <string name="label_language">ภาษา</string>
 

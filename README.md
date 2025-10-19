@@ -1,4 +1,4 @@
-# Yet Another Timer v1.0 (for Android) - 2025-10-18
+# Yet Another Timer v1.0 (for Android) - 2025-10-19
 
 Open source timer for Android
 
@@ -24,21 +24,22 @@ Finally, to give credit where credit is due, most of the coding for this project
  
 # Screenshots
 
-Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `screenshots` folder.
+Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `screenshots/` folder.
 
 <p>
-  <a href="/PlayStoreStuff/screenshots/Photo01.png">
-    <img src="/PlayStoreStuff/screenshots/Photo01.png" alt="Screen with help and language icons (these can be hidden)" title="Screen with help and language icons (these can be hidden)" width="260">
+   <a href="screenshots/photo02-languages.jpg">
+    <img src="screenshots/photo02-languages.jpg" alt="Language selector" title="Language selector" width="260">
   </a>
-  <a href="/PlayStoreStuff/screenshots/Photo03.png">
-    <img src="/PlayStoreStuff/screenshots/Photo03.png" alt="Language selector" title="Language selector" width="260">
+  <a href="screenshots/photo03-help.jpg">
+    <img src="screenshots/photo03-help.jpg" alt="Help screen" title="Help screen" width="260">
   </a>
-  <br>
-  <a href="/PlayStoreStuff/screenshots/Photo02.png">
-    <img src="/PlayStoreStuff/screenshots/Photo02.png" alt="Help screen" title="Help screen" width="260">
+</p>
+<p>
+  <a href="screenshots/photo04-settings.jpg">
+    <img src="screenshots/photo04-settings.jpg" alt="Settings screen" title="Settings screen" width="260">
   </a>
-  <a href="/PlayStoreStuff/screenshots/Photo04.png">
-    <img src="/PlayStoreStuff/screenshots/Photo04.png" alt="Settings screen" title="Settings screen" width="260">
+  <a href="screenshots/photo05-screenwithouthelplanguageicons.jpg">
+    <img src="screenshots/photo05-screenwithouthelplanguageicons.jpg" alt="Screen without help/language icons" title="Screen without help/language icons" width="260">
   </a>
 </p>
 

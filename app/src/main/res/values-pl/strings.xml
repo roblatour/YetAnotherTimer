@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Pomoc</string>
     <string name="desc_settings_icon">Otwórz ustawienia</string>
@@ -7,7 +7,9 @@
     <string name="desc_enable_chime">Włącz dźwięk</string>
     <string name="desc_disable_chime">Wyłącz dźwięk</string>
     <string name="desc_keep_screen_on_on">Pomiń automatyczną blokadę, utrzymuj ekran włączony</string>
-    <string name="desc_keep_screen_on_off">Nie pomijaj automatycznej blokady</string>
+    <string name="desc_keep_screen_on_off">Nie ignoruj automatycznej blokady</string>
+    <string name="desc_enable_touch_lock">Wyłącz dotyk podczas ruchu</string>
+    <string name="desc_disable_touch_lock">Włącz dotyk podczas ruchu</string>
     <string name="desc_show_help_icon">Pokaż ikonę pomocy</string>
     <string name="desc_hide_help_icon">Ukryj ikonę pomocy</string>
 
@@ -28,7 +30,9 @@
     <string name="label_chime_on">Dźwięk włączony</string>
     <string name="label_chime_off">Dźwięk wyłączony</string>
     <string name="label_keep_screen_on_on">Pomiń automatyczną blokadę, utrzymuj ekran włączony</string>
-    <string name="label_keep_screen_on_off">Nie pomijaj automatycznej blokady</string>
+    <string name="label_keep_screen_on_off">Nie ignoruj automatycznej blokady</string>
+    <string name="label_touch_lock_on">Wyłącz dotyk podczas ruchu</string>
+    <string name="label_touch_lock_off">Włącz dotyk podczas ruchu</string>
     <string name="label_show_help_icon">Pokaż ikonę pomocy</string>
     <string name="label_hide_help_icon">Ukryj ikonę pomocy</string>
     <string name="label_language">Język</string>

@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">مساعدة</string>
     <string name="desc_settings_icon">فتح الإعدادات</string>
@@ -7,7 +7,9 @@
     <string name="desc_enable_chime">تفعيل الجرس</string>
     <string name="desc_disable_chime">تعطيل الجرس</string>
     <string name="desc_keep_screen_on_on">تجاوز القفل التلقائي، إبقاء الشاشة قيد التشغيل</string>
-    <string name="desc_keep_screen_on_off">عدم تجاوز القفل التلقائي</string>
+    <string name="desc_keep_screen_on_off">عدم تجاهل القفل التلقائي</string>
+    <string name="desc_enable_touch_lock">تعطيل اللمس عند الحركة</string>
+    <string name="desc_disable_touch_lock">تمكين اللمس عند الحركة</string>
     <string name="desc_show_help_icon">إظهار أيقونة المساعدة</string>
     <string name="desc_hide_help_icon">إخفاء أيقونة المساعدة</string>
 
@@ -28,7 +30,9 @@
     <string name="label_chime_on">الجرس قيد التشغيل</string>
     <string name="label_chime_off">الجرس متوقف</string>
     <string name="label_keep_screen_on_on">تجاوز القفل التلقائي، إبقاء الشاشة قيد التشغيل</string>
-    <string name="label_keep_screen_on_off">عدم تجاوز القفل التلقائي</string>
+    <string name="label_keep_screen_on_off">عدم تجاهل القفل التلقائي</string>
+    <string name="label_touch_lock_on">تعطيل اللمس عند الحركة</string>
+    <string name="label_touch_lock_off">تمكين اللمس عند الحركة</string>
     <string name="label_show_help_icon">إظهار أيقونة المساعدة</string>
     <string name="label_hide_help_icon">إخفاء أيقونة المساعدة</string>
     <string name="label_language">اللغة</string>

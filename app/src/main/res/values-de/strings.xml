@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Ton deaktivieren</string>
     <string name="desc_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
     <string name="desc_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
+    <string name="desc_enable_touch_lock">Berührung bei Bewegung deaktivieren</string>
+    <string name="desc_disable_touch_lock">Berührung bei Bewegung aktivieren</string>
     <string name="desc_show_help_icon">Hilfesymbol anzeigen</string>
     <string name="desc_hide_help_icon">Hilfesymbol ausblenden</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Ton aus</string>
     <string name="label_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
     <string name="label_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
+    <string name="label_touch_lock_on">Berührung bei Bewegung deaktivieren</string>
+    <string name="label_touch_lock_off">Berührung bei Bewegung aktivieren</string>
     <string name="label_show_help_icon">Hilfesymbol anzeigen</string>
     <string name="label_hide_help_icon">Hilfesymbol ausblenden</string>
     <string name="label_language">Sprache</string>

@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Msaada</string>
     <string name="desc_settings_icon">Fungua mipangilio</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Zima kengele</string>
     <string name="desc_keep_screen_on_on">Puuza kufunga kiotomatiki, weka skrini iwake</string>
     <string name="desc_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
+    <string name="desc_enable_touch_lock">Zima mguso wakati wa kusonga</string>
+    <string name="desc_disable_touch_lock">Washa mguso wakati wa kusonga</string>
     <string name="desc_show_help_icon">Onyesha ikoni ya msaada</string>
     <string name="desc_hide_help_icon">Ficha ikoni ya msaada</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Kengele imezimwa</string>
     <string name="label_keep_screen_on_on">Puuza kufunga kiotomatiki, weka skrini iwake</string>
     <string name="label_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
+    <string name="label_touch_lock_on">Zima mguso wakati wa kusonga</string>
+    <string name="label_touch_lock_off">Washa mguso wakati wa kusonga</string>
     <string name="label_show_help_icon">Onyesha ikoni ya msaada</string>
     <string name="label_hide_help_icon">Ficha ikoni ya msaada</string>
     <string name="label_language">Lugha</string>

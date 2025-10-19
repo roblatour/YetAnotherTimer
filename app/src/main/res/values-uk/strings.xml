@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Довідка</string>
     <string name="desc_settings_icon">Відкрити налаштування</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Вимкнути сигнал</string>
     <string name="desc_keep_screen_on_on">Ігнорувати авто-блокування, тримати екран увімкненим</string>
     <string name="desc_keep_screen_on_off">Не ігнорувати авто-блокування</string>
+    <string name="desc_enable_touch_lock">Вимкнути дотик під час руху</string>
+    <string name="desc_disable_touch_lock">Увімкнути дотик під час руху</string>
     <string name="desc_show_help_icon">Показати піктограму довідки</string>
     <string name="desc_hide_help_icon">Приховати піктограму довідки</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Сигнал вимкнено</string>
     <string name="label_keep_screen_on_on">Ігнорувати авто-блокування, тримати екран увімкненим</string>
     <string name="label_keep_screen_on_off">Не ігнорувати авто-блокування</string>
+    <string name="label_touch_lock_on">Вимкнути дотик під час руху</string>
+    <string name="label_touch_lock_off">Увімкнути дотик під час руху</string>
     <string name="label_show_help_icon">Показати піктограму довідки</string>
     <string name="label_hide_help_icon">Приховати піктограму довідки</string>
     <string name="label_language">Мова</string>

@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Βοήθεια</string>
     <string name="desc_settings_icon">Άνοιγμα ρυθμίσεων</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Απενεργοποίηση ήχου</string>
     <string name="desc_keep_screen_on_on">Παράκαμψη αυτόματου κλειδώματος, διατήρηση οθόνης ενεργής</string>
     <string name="desc_keep_screen_on_off">Να μην παρακάμπτεται το αυτόματο κλείδωμα</string>
+    <string name="desc_enable_touch_lock">Απενεργοποίηση αφής κατά την κίνηση</string>
+    <string name="desc_disable_touch_lock">Ενεργοποίηση αφής κατά την κίνηση</string>
     <string name="desc_show_help_icon">Εμφάνιση εικονιδίου βοήθειας</string>
     <string name="desc_hide_help_icon">Απόκρυψη εικονιδίου βοήθειας</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Ήχος ανενεργός</string>
     <string name="label_keep_screen_on_on">Παράκαμψη αυτόματου κλειδώματος, διατήρηση οθόνης ενεργής</string>
     <string name="label_keep_screen_on_off">Να μην παρακάμπτεται το αυτόματο κλείδωμα</string>
+    <string name="label_touch_lock_on">Απενεργοποίηση αφής κατά την κίνηση</string>
+    <string name="label_touch_lock_off">Ενεργοποίηση αφής κατά την κίνηση</string>
     <string name="label_show_help_icon">Εμφάνιση εικονιδίου βοήθειας</string>
     <string name="label_hide_help_icon">Απόκρυψη εικονιδίου βοήθειας</string>
     <string name="label_language">Γλώσσα</string>

@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Bantuan</string>
     <string name="desc_settings_icon">Buka setelan</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">Nonaktifkan lonceng</string>
     <string name="desc_keep_screen_on_on">Abaikan kunci otomatis, jaga layar tetap menyala</string>
     <string name="desc_keep_screen_on_off">Jangan abaikan kunci otomatis</string>
+    <string name="desc_enable_touch_lock">Nonaktifkan sentuhan saat bergerak</string>
+    <string name="desc_disable_touch_lock">Aktifkan sentuhan saat bergerak</string>
     <string name="desc_show_help_icon">Tampilkan ikon bantuan</string>
     <string name="desc_hide_help_icon">Sembunyikan ikon bantuan</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">Lonceng nonaktif</string>
     <string name="label_keep_screen_on_on">Abaikan kunci otomatis, jaga layar tetap menyala</string>
     <string name="label_keep_screen_on_off">Jangan abaikan kunci otomatis</string>
+    <string name="label_touch_lock_on">Nonaktifkan sentuhan saat bergerak</string>
+    <string name="label_touch_lock_off">Aktifkan sentuhan saat bergerak</string>
     <string name="label_show_help_icon">Tampilkan ikon bantuan</string>
     <string name="label_hide_help_icon">Sembunyikan ikon bantuan</string>
     <string name="label_language">Bahasa</string>

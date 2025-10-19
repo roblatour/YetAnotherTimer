@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">ಸಹಾಯ</string>
     <string name="desc_settings_icon">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
@@ -8,6 +8,8 @@
     <string name="desc_disable_chime">ಘಂಟೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="desc_keep_screen_on_on">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ, ಪರದೆಯನ್ನು ಆನ್ ಇಡಿ</string>
     <string name="desc_keep_screen_on_off">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಬೇಡಿ</string>
+    <string name="desc_enable_touch_lock">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="desc_disable_touch_lock">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="desc_show_help_icon">ಸಹಾಯ ಐಕಾನ್ ತೋರಿಸಿ</string>
     <string name="desc_hide_help_icon">ಸಹಾಯ ಐಕಾನ್ ಮರೆಮಾಡಿ</string>
 
@@ -29,6 +31,8 @@
     <string name="label_chime_off">ಘಂಟೆ ಆಫ್</string>
     <string name="label_keep_screen_on_on">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ, ಪರದೆಯನ್ನು ಆನ್ ಇಡಿ</string>
     <string name="label_keep_screen_on_off">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಬೇಡಿ</string>
+    <string name="label_touch_lock_on">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="label_touch_lock_off">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="label_show_help_icon">ಸಹಾಯ ಐಕಾನ್ ತೋರಿಸಿ</string>
     <string name="label_hide_help_icon">ಸಹಾಯ ಐಕಾನ್ ಮರೆಮಾಡಿ</string>
     <string name="label_language">ಭಾಷೆ</string>

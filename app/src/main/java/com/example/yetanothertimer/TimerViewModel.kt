@@ -5,6 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.yetanothertimer.data.SettingsRepository
 import com.example.yetanothertimer.audio.ChimePlayer
+import com.example.yetanothertimer.motion.MotionDetector
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -23,7 +24,9 @@ data class TimerState(
     val helpIconVisible: Boolean,
     val languageIconVisible: Boolean,
     val isCountUp: Boolean,
-    val languageTag: String
+    val languageTag: String,
+    val touchLockEnabled: Boolean,
+    val isMoving: Boolean
 ) {
     val minutes: Int get() = remainingSeconds / 60
     val seconds: Int get() = remainingSeconds % 60
@@ -36,8 +39,15 @@ data class TimerState(
 }
 
 class TimerViewModel(app: Application) : AndroidViewModel(app) {
+    companion object {
+        // Grace period in milliseconds where touch lock is disabled after app startup
+        private const val GRACE_PERIOD_MS = 7000L
+    }
+    
     private val settings = SettingsRepository(app)
     private val appContext = app.applicationContext
+    private val motionDetector = MotionDetector(appContext)
+    private val appStartTime = System.currentTimeMillis()
     private val _startSeconds = MutableStateFlow(120)
     private val _remaining = MutableStateFlow(120)
     private val _running = MutableStateFlow(false)
@@ -47,6 +57,7 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
     private val _languageIconVisible = MutableStateFlow(true)
     private val _isCountUp = MutableStateFlow(false)
     private val _languageTag = MutableStateFlow("en")
+    private val _touchLockEnabled = MutableStateFlow(false)
     private var ticker: Job? = null
     private var postZeroJob: Job? = null
     private var hasInitializedStart: Boolean = false
@@ -60,18 +71,25 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
     private val opts5 = combine(_chimeEnabled, _keepScreenOn, _helpIconVisible, _isCountUp, _languageTag) { chime, keepOn, helpVisible, countUp, lang ->
         listOf(chime, keepOn, helpVisible, countUp, lang)
     }
-    private val optsState = combine(opts5, _languageIconVisible) { opts, langVisible ->
-        Pair(opts, langVisible)
+    private val optsState = combine(opts5, _languageIconVisible, _touchLockEnabled) { opts, langVisible, touchLock ->
+        Triple(opts, langVisible, touchLock)
     }
-    val state: StateFlow<TimerState> = combine(coreState, optsState) { core, optsPair ->
+    val state: StateFlow<TimerState> = combine(coreState, optsState, motionDetector.isMoving) { core, optsPair, isMoving ->
         val (start, remain, running) = core
         val opts = optsPair.first
         val langVisible = optsPair.second
+        val touchLock = optsPair.third
         val chime = opts[0] as Boolean
         val keepOn = opts[1] as Boolean
         val helpVisible = opts[2] as Boolean
         val countUp = opts[3] as Boolean
         val lang = opts[4] as String
+        
+        // Check if we're still in the grace period
+        val isInGracePeriod = (System.currentTimeMillis() - appStartTime) < GRACE_PERIOD_MS
+        // During grace period, treat as not moving regardless of actual motion
+        val effectiveMoving = if (isInGracePeriod) false else isMoving
+        
         TimerState(
             totalSeconds = start,
             remainingSeconds = remain,
@@ -81,11 +99,16 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
             helpIconVisible = helpVisible,
             languageIconVisible = langVisible,
             isCountUp = countUp,
-            languageTag = lang
+            languageTag = lang,
+            touchLockEnabled = touchLock,
+            isMoving = effectiveMoving
         )
-    }.stateIn(viewModelScope, SharingStarted.Eagerly, TimerState(120, 120, false, false, true, true, true, false, "en"))
+    }.stateIn(viewModelScope, SharingStarted.Eagerly, TimerState(120, 120, false, false, true, true, true, false, "en", false, false))
 
     init {
+        // Start motion detection
+        motionDetector.startListening()
+        
         viewModelScope.launch {
             settings.startDurationFlow.collect { d ->
                 val start = (d.minutes * 60) + d.seconds
@@ -162,6 +185,11 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
                 // Use stored tag if present; otherwise best match for device locale
                 val resolved = if (tag.isNotBlank()) tag else com.example.yetanothertimer.data.SupportedLanguages.bestMatchFor(java.util.Locale.getDefault())
                 _languageTag.value = resolved
+            }
+        }
+        viewModelScope.launch {
+            settings.touchLockEnabledFlow.collect { enabled ->
+                _touchLockEnabled.value = enabled
             }
         }
     }
@@ -337,5 +365,16 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
         if (_remaining.value < safeTarget) {
             _remaining.value = safeTarget
         }
+    }
+
+    fun setTouchLockEnabled(enabled: Boolean) {
+        viewModelScope.launch {
+            settings.setTouchLockEnabled(enabled)
+        }
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        motionDetector.stopListening()
     }
 }

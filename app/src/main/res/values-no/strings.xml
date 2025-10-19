@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hjelp</string>
     <string name="desc_settings_icon">Åpne innstillinger</string>
@@ -7,8 +7,10 @@
     <string name="desc_enable_chime">Aktiver lydsignal</string>
     <string name="desc_disable_chime">Deaktiver lydsignal</string>
     <string name="desc_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
-    <string name="desc_keep_screen_on_off">Ikke overstyr autolås</string>
-    <string name="desc_show_help_icon">Vis hjelpesymbol</string>
+    <string name="desc_keep_screen_on_off">Ikke overstyr automatisk låsing</string>
+    <string name="desc_enable_touch_lock">Deaktiver berøring under bevegelse</string>
+    <string name="desc_disable_touch_lock">Aktiver berøring under bevegelse</string>
+    <string name="desc_show_help_icon">Vis hjelpeikon</string>
     <string name="desc_hide_help_icon">Skjul hjelpesymbol</string>
     <string name="desc_language_icon">Bytt språk</string>
     <string name="desc_show_language_icon">Vis språksymbol</string>
@@ -31,8 +33,10 @@
     <string name="label_chime_on">Lydsignal på</string>
     <string name="label_chime_off">Lydsignal av</string>
     <string name="label_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
-    <string name="label_keep_screen_on_off">Ikke overstyr autolås</string>
-    <string name="label_show_help_icon">Vis hjelpesymbol</string>
+    <string name="label_keep_screen_on_off">Ikke overstyr automatisk låsing</string>
+    <string name="label_touch_lock_on">Deaktiver berøring under bevegelse</string>
+    <string name="label_touch_lock_off">Aktiver berøring under bevegelse</string>
+    <string name="label_show_help_icon">Vis hjelpeikon</string>
     <string name="label_hide_help_icon">Skjul hjelpesymbol</string>
     <string name="label_language">Språk</string>
 

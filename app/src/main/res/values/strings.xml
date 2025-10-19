@@ -9,6 +9,8 @@
     <string name="desc_disable_chime">Disable chime</string>
     <string name="desc_keep_screen_on_on">Override auto-lock, keep screen on</string>
     <string name="desc_keep_screen_on_off">Do not override auto-lock</string>
+    <string name="desc_enable_touch_lock">Disable touch when moving</string>
+    <string name="desc_disable_touch_lock">Enable touch when moving</string>
     <string name="desc_show_help_icon">Show help icon</string>
     <string name="desc_hide_help_icon">Hide help icon</string>
     <string name="desc_language_icon">Change language</string>
@@ -36,6 +38,8 @@
     <string name="label_chime_off">Chime off</string>
     <string name="label_keep_screen_on_on">Override auto-lock, keep screen on</string>
     <string name="label_keep_screen_on_off">Do not override auto-lock</string>
+    <string name="label_touch_lock_on">Disable touch when moving</string>
+    <string name="label_touch_lock_off">Enable touch when moving</string>
     <string name="label_show_help_icon">Show help icon</string>
     <string name="label_hide_help_icon">Hide help icon</string>
     <string name="label_show_language_icon">Show language icon</string>
