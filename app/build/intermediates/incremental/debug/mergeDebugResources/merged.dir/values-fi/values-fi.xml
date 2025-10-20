@@ -59,7 +59,9 @@
     <string name="desc_count_down">Laskenta alaspäin</string>
     <string name="desc_count_up">Laskenta ylöspäin</string>
     <string name="desc_disable_chime">Poista äänimerkki käytöstä</string>
+    <string name="desc_disable_touch_lock">Ota kosketus käyttöön liikkuessa</string>
     <string name="desc_enable_chime">Ota äänimerkki käyttöön</string>
+    <string name="desc_enable_touch_lock">Poista kosketus käytöstä liikkuessa</string>
     <string name="desc_help_icon">Ohje</string>
     <string name="desc_hide_help_icon">Piilota ohjekuvake</string>
     <string name="desc_hide_language_icon">Piilota kielikuvake</string>
@@ -94,6 +96,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_keep_screen_on_on">Ohita automaattinen lukitus, pidä näyttö päällä</string>
     <string name="label_language">Kieli</string>
     <string name="label_show_help_icon">Näytä ohjekuvake</string>
+    <string name="label_touch_lock_off">Ota kosketus käyttöön liikkuessa</string>
+    <string name="label_touch_lock_on">Poista kosketus käytöstä liikkuessa</string>
     <string name="license_word">Lisenssi</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Tiivistä alapaneeli"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Hylkää alapaneeli"</string>

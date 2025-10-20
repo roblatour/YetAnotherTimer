@@ -59,7 +59,9 @@
     <string name="desc_count_down">Geri sayım</string>
     <string name="desc_count_up">Artan sayım</string>
     <string name="desc_disable_chime">Zili devre dışı bırak</string>
+    <string name="desc_disable_touch_lock">Hareket ederken dokunuşu etkinleştir</string>
     <string name="desc_enable_chime">Zili etkinleştir</string>
+    <string name="desc_enable_touch_lock">Hareket ederken dokunuşu devre dışı bırak</string>
     <string name="desc_help_icon">Yardım</string>
     <string name="desc_hide_help_icon">Yardım simgesini gizle</string>
     <string name="desc_keep_screen_on_off">Otomatik kilidi geçersiz kılma</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Dil</string>
     <string name="label_show_help_icon">Yardım simgesini göster</string>
     <string name="label_show_language_icon">Dil simgesini göster</string>
+    <string name="label_touch_lock_off">Hareket ederken dokunuşu etkinleştir</string>
+    <string name="label_touch_lock_on">Hareket ederken dokunuşu devre dışı bırak</string>
     <string name="license_word">Lisans</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Alt sayfayı daralt"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Alt sayfayı kapat"</string>

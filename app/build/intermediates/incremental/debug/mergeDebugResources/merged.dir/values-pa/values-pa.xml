@@ -59,7 +59,9 @@
     <string name="desc_count_down">ਉਲਟੀ ਗਿਣਤੀ</string>
     <string name="desc_count_up">ਵੱਧਦੀ ਗਿਣਤੀ</string>
     <string name="desc_disable_chime">ਘੰਟੀ ਬੰਦ ਕਰੋ</string>
+    <string name="desc_disable_touch_lock">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਚਾਲੂ ਕਰੋ</string>
     <string name="desc_enable_chime">ਘੰਟੀ ਚਾਲੂ ਕਰੋ</string>
+    <string name="desc_enable_touch_lock">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਬੰਦ ਕਰੋ</string>
     <string name="desc_help_icon">ਮਦਦ</string>
     <string name="desc_hide_help_icon">ਮਦਦ ਆਇਕਨ ਲੁਕਾਓ</string>
     <string name="desc_keep_screen_on_off">ਆਟੋ-ਲੌਕ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਨਾ ਕਰੋ</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">ਭਾਸ਼ਾ</string>
     <string name="label_show_help_icon">ਮਦਦ ਆਇਕਨ ਵਿਖਾਓ</string>
     <string name="label_show_language_icon">ਭਾਸ਼ਾ ਆਈਕਨ ਵੇਖਾਓ</string>
+    <string name="label_touch_lock_off">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਚਾਲੂ ਕਰੋ</string>
+    <string name="label_touch_lock_on">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਬੰਦ ਕਰੋ</string>
     <string name="license_word">ਲਾਇਸੈਂਸ</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"ਹੇਠਲੀ ਸ਼ੀਟ ਨੂੰ ਸਮੇਟੋ"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"ਹੇਠਲੀ ਸ਼ੀਟ ਨੂੰ ਖਾਰਜ ਕਰੋ"</string>

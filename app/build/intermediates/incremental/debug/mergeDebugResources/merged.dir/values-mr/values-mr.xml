@@ -59,7 +59,9 @@
     <string name="desc_count_down">उलटी मोजणी</string>
     <string name="desc_count_up">वाढती मोजणी</string>
     <string name="desc_disable_chime">चाइम अक्षम करा</string>
+    <string name="desc_disable_touch_lock">हलत्या वेळी स्पर्श सुरू करा</string>
     <string name="desc_enable_chime">चाइम सक्षम करा</string>
+    <string name="desc_enable_touch_lock">हलत्या वेळी स्पर्श बंद करा</string>
     <string name="desc_help_icon">मदत</string>
     <string name="desc_hide_help_icon">मदत आयकॉन लपवा</string>
     <string name="desc_keep_screen_on_off">ऑटो-लॉक दुर्लक्ष करू नका</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">भाषा</string>
     <string name="label_show_help_icon">मदत आयकॉन दाखवा</string>
     <string name="label_show_language_icon">भाषा चिन्ह दाखवा</string>
+    <string name="label_touch_lock_off">हलत्या वेळी स्पर्श सुरू करा</string>
+    <string name="label_touch_lock_on">हलत्या वेळी स्पर्श बंद करा</string>
     <string name="license_word">परवाना</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"तळाशी असलेली शीट कोलॅप्स करा"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"तळाशी असलेली शीट डिसमिस करा"</string>

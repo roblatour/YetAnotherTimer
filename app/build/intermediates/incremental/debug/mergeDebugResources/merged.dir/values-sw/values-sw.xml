@@ -59,7 +59,9 @@
     <string name="desc_count_down">Hesabu ya kurudi</string>
     <string name="desc_count_up">Kuhesabu juu</string>
     <string name="desc_disable_chime">Zima kengele</string>
+    <string name="desc_disable_touch_lock">Washa mguso wakati wa kusonga</string>
     <string name="desc_enable_chime">Washa kengele</string>
+    <string name="desc_enable_touch_lock">Zima mguso wakati wa kusonga</string>
     <string name="desc_help_icon">Msaada</string>
     <string name="desc_hide_help_icon">Ficha ikoni ya msaada</string>
     <string name="desc_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Lugha</string>
     <string name="label_show_help_icon">Onyesha ikoni ya msaada</string>
     <string name="label_show_language_icon">Onyesha ikoni ya lugha</string>
+    <string name="label_touch_lock_off">Washa mguso wakati wa kusonga</string>
+    <string name="label_touch_lock_on">Zima mguso wakati wa kusonga</string>
     <string name="license_word">Leseni</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Kunja safu ya chini"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Ondoa safu ya chini"</string>

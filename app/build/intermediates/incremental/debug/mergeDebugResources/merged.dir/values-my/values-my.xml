@@ -59,7 +59,9 @@
     <string name="desc_count_down">နှုတ်တွက်ချက်</string>
     <string name="desc_count_up">တက်ကြေးတွက်ချက်</string>
     <string name="desc_disable_chime">ခေါင်းလောင်းအသံ ပိတ်ရန်</string>
+    <string name="desc_disable_touch_lock">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုဖွင့်ရန်</string>
     <string name="desc_enable_chime">ခေါင်းလောင်းအသံ ဖွင့်ရန်</string>
+    <string name="desc_enable_touch_lock">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုပိတ်ရန်</string>
     <string name="desc_help_icon">အကူအညီ</string>
     <string name="desc_hide_help_icon">အကူအညီ အိုင်ကွန် ဖျောက်</string>
     <string name="desc_keep_screen_on_off">အလိုအလျောက်ပိတ်ခြင်းကို မပယ်ချပါနှင့်</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">ဘာသာစကား</string>
     <string name="label_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
     <string name="label_show_language_icon">ဘာသာစကား အိုင်ကွန်ကို ပြပါ</string>
+    <string name="label_touch_lock_off">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုဖွင့်ရန်</string>
+    <string name="label_touch_lock_on">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုပိတ်ရန်</string>
     <string name="license_word">လိုင်စင်</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"အောက်ခြေအပိုဆောင်း စာမျက်နှာကို ချုံ့သည်"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"အောက်ခြေအပိုဆောင်း စာမျက်နှာကို ပယ်သည်"</string>

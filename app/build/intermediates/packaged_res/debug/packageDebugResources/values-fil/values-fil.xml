@@ -9,7 +9,9 @@
     <string name="desc_count_down">Pabalik na bilang</string>
     <string name="desc_count_up">Paakyat na bilang</string>
     <string name="desc_disable_chime">Huwag paganahin ang chime</string>
+    <string name="desc_disable_touch_lock">I-enable ang touch kapag gumagalaw</string>
     <string name="desc_enable_chime">Paganahin ang chime</string>
+    <string name="desc_enable_touch_lock">I-disable ang touch kapag gumagalaw</string>
     <string name="desc_help_icon">Tulong</string>
     <string name="desc_hide_help_icon">Itago ang icon ng tulong</string>
     <string name="desc_keep_screen_on_off">Huwag balewalain ang auto-lock</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Wika</string>
     <string name="label_show_help_icon">Ipakita ang icon ng tulong</string>
     <string name="label_show_language_icon">Ipakita ang icon ng wika</string>
+    <string name="label_touch_lock_off">I-enable ang touch kapag gumagalaw</string>
+    <string name="label_touch_lock_on">I-disable ang touch kapag gumagalaw</string>
     <string name="license_word">Lisensya</string>
     <string name="prompt_lower_to_new">Gusto mo bang ibaba ang aktibong timer sa bagong halagang kakalagay mo lang?</string>
     <string name="prompt_raise_to_new">Gusto mo bang itaas ang aktibong timer sa bagong halagang kakalagay mo lang?</string>

@@ -59,7 +59,9 @@
     <string name="desc_count_down">డౌన్ కౌంట్</string>
     <string name="desc_count_up">ఎగబాకే కౌంట్</string>
     <string name="desc_disable_chime">ఘంటికను ఆఫ్ చేయండి</string>
+    <string name="desc_disable_touch_lock">కదులుతున్నప్పుడు టచ్ చేతనపరచండి</string>
     <string name="desc_enable_chime">ఘంటికను ఆన్ చేయండి</string>
+    <string name="desc_enable_touch_lock">కదులుతున్నప్పుడు టచ్ నిలిపివేయండి</string>
     <string name="desc_help_icon">సహాయం</string>
     <string name="desc_hide_help_icon">సహాయ చిహ్నం దాచండి</string>
     <string name="desc_keep_screen_on_off">ఆటో-లాక్‌ను పక్కన పెట్టవద్దు</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">భాష</string>
     <string name="label_show_help_icon">సహాయ చిహ్నం చూపించండి</string>
     <string name="label_show_language_icon">భాష చిహ్నాన్ని చూపించండి</string>
+    <string name="label_touch_lock_off">కదులుతున్నప్పుడు టచ్ చేతనపరచండి</string>
+    <string name="label_touch_lock_on">కదులుతున్నప్పుడు టచ్ నిలిపివేయండి</string>
     <string name="license_word">లైసెన్స్</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"దిగువున ఉన్న షీట్‌ను కుదిస్తుంది"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"దిగువున ఉన్న షీట్‌ను విస్మరిస్తుంది"</string>

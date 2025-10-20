@@ -9,7 +9,9 @@
     <string name="desc_count_down">Обратный отсчёт</string>
     <string name="desc_count_up">Счёт вверх</string>
     <string name="desc_disable_chime">Выключить сигнал</string>
+    <string name="desc_disable_touch_lock">Включить касания при движении</string>
     <string name="desc_enable_chime">Включить сигнал</string>
+    <string name="desc_enable_touch_lock">Отключить касания при движении</string>
     <string name="desc_help_icon">Справка</string>
     <string name="desc_hide_help_icon">Скрывать значок справки</string>
     <string name="desc_keep_screen_on_off">Не игнорировать авто‑блокировку</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Язык</string>
     <string name="label_show_help_icon">Показывать значок справки</string>
     <string name="label_show_language_icon">Показать значок языка</string>
+    <string name="label_touch_lock_off">Включить касания при движении</string>
+    <string name="label_touch_lock_on">Отключить касания при движении</string>
     <string name="license_word">Лицензия</string>
     <string name="prompt_lower_to_new">Снизить активный таймер до нового сохранённого значения?</string>
     <string name="prompt_raise_to_new">Повысить активный таймер до нового сохранённого значения?</string>

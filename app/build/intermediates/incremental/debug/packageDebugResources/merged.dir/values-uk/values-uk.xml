@@ -9,7 +9,9 @@
     <string name="desc_count_down">Зворотний відлік</string>
     <string name="desc_count_up">Зворотній підрахунок вгору</string>
     <string name="desc_disable_chime">Вимкнути сигнал</string>
+    <string name="desc_disable_touch_lock">Увімкнути дотик під час руху</string>
     <string name="desc_enable_chime">Увімкнути сигнал</string>
+    <string name="desc_enable_touch_lock">Вимкнути дотик під час руху</string>
     <string name="desc_help_icon">Довідка</string>
     <string name="desc_hide_help_icon">Приховати піктограму довідки</string>
     <string name="desc_keep_screen_on_off">Не ігнорувати авто-блокування</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Мова</string>
     <string name="label_show_help_icon">Показати піктограму довідки</string>
     <string name="label_show_language_icon">Показати значок мови</string>
+    <string name="label_touch_lock_off">Увімкнути дотик під час руху</string>
+    <string name="label_touch_lock_on">Вимкнути дотик під час руху</string>
     <string name="license_word">Ліцензія</string>
     <string name="prompt_lower_to_new">Зменшити активний таймер до нового збереженого значення?</string>
     <string name="prompt_raise_to_new">Збільшити активний таймер до нового збереженого значення?</string>

@@ -9,7 +9,9 @@
     <string name="desc_count_down">Contagem decrescente</string>
     <string name="desc_count_up">Contagem crescente</string>
     <string name="desc_disable_chime">Desativar som</string>
+    <string name="desc_disable_touch_lock">Ativar toque ao mover</string>
     <string name="desc_enable_chime">Ativar som</string>
+    <string name="desc_enable_touch_lock">Desativar toque ao mover</string>
     <string name="desc_help_icon">Ajuda</string>
     <string name="desc_hide_help_icon">Ocultar ícone de ajuda</string>
     <string name="desc_keep_screen_on_off">Não ignorar bloqueio automático</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Idioma</string>
     <string name="label_show_help_icon">Mostrar ícone de ajuda</string>
     <string name="label_show_language_icon">Mostrar ícone de idioma</string>
+    <string name="label_touch_lock_off">Ativar toque ao mover</string>
+    <string name="label_touch_lock_on">Desativar toque ao mover</string>
     <string name="license_word">Licença</string>
     <string name="prompt_lower_to_new">Pretende reduzir o temporizador ativo para o novo valor que acabou de guardar?</string>
     <string name="prompt_raise_to_new">Pretende aumentar o temporizador ativo para o novo valor que acabou de guardar?</string>

@@ -9,7 +9,9 @@
     <string name="desc_count_down">Numărătoare inversă</string>
     <string name="desc_count_up">Numărătoare crescătoare</string>
     <string name="desc_disable_chime">Dezactivare sunet</string>
+    <string name="desc_disable_touch_lock">Activează atingerea la mișcare</string>
     <string name="desc_enable_chime">Activare sunet</string>
+    <string name="desc_enable_touch_lock">Dezactivează atingerea la mișcare</string>
     <string name="desc_help_icon">Ajutor</string>
     <string name="desc_hide_help_icon">Ascunde pictograma Ajutor</string>
     <string name="desc_keep_screen_on_off">Nu ignora blocarea automată</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Limbă</string>
     <string name="label_show_help_icon">Afișează pictograma Ajutor</string>
     <string name="label_show_language_icon">Afișează pictograma limbii</string>
+    <string name="label_touch_lock_off">Activează atingerea la mișcare</string>
+    <string name="label_touch_lock_on">Dezactivează atingerea la mișcare</string>
     <string name="license_word">Licență</string>
     <string name="prompt_lower_to_new">Doriți să scădeți temporizatorul activ la noua valoare tocmai salvată?</string>
     <string name="prompt_raise_to_new">Doriți să creșteți cronometrul activ la noua valoare tocmai salvată?</string>

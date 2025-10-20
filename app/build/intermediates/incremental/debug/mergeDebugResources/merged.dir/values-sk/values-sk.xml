@@ -61,7 +61,9 @@
     <string name="desc_count_down">Odpočítavanie</string>
     <string name="desc_count_up">Rastúce počítanie</string>
     <string name="desc_disable_chime">Vypnúť zvuk</string>
+    <string name="desc_disable_touch_lock">Povoliť dotyk pri pohybe</string>
     <string name="desc_enable_chime">Zapnúť zvuk</string>
+    <string name="desc_enable_touch_lock">Zakázať dotyk pri pohybe</string>
     <string name="desc_help_icon">Pomoc</string>
     <string name="desc_hide_help_icon">Skryť ikonu Pomoc</string>
     <string name="desc_keep_screen_on_off">Neignorovať automatické uzamknutie</string>
@@ -95,6 +97,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Jazyk</string>
     <string name="label_show_help_icon">Zobraziť ikonu Pomoc</string>
     <string name="label_show_language_icon">Zobraziť ikonu jazyka</string>
+    <string name="label_touch_lock_off">Povoliť dotyk pri pohybe</string>
+    <string name="label_touch_lock_on">Zakázať dotyk pri pohybe</string>
     <string name="license_word">Licencia</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Zbaliť dolný hárok"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Zavrieť dolný hárok"</string>

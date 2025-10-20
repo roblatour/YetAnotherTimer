@@ -59,7 +59,9 @@
     <string name="desc_count_down">ઊલટી ગણતરી</string>
     <string name="desc_count_up">વધતી ગણતરી</string>
     <string name="desc_disable_chime">ઘંટડી નિષ્ક્રિય કરો</string>
+    <string name="desc_disable_touch_lock">હલનચલન કરતી વખતે સ્પર્શ ચાલુ કરો</string>
     <string name="desc_enable_chime">ઘંટડી સક્રિય કરો</string>
+    <string name="desc_enable_touch_lock">હલનચલન કરતી વખતે સ્પર્શ બંધ કરો</string>
     <string name="desc_help_icon">મદદ</string>
     <string name="desc_hide_help_icon">મદદ આઇકન છુપાવો</string>
     <string name="desc_keep_screen_on_off">ઓટો-લોક અવગણશો નહીં</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">ભાષા</string>
     <string name="label_show_help_icon">મદદ આઇકન દર્શાવો</string>
     <string name="label_show_language_icon">ભાષા આઈકન બતાવો</string>
+    <string name="label_touch_lock_off">હલનચલન કરતી વખતે સ્પર્શ ચાલુ કરો</string>
+    <string name="label_touch_lock_on">હલનચલન કરતી વખતે સ્પર્શ બંધ કરો</string>
     <string name="license_word">લાઈસન્સ</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"બોટમ શીટ નાની કરો"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"બોટમ શીટ છોડી દો"</string>

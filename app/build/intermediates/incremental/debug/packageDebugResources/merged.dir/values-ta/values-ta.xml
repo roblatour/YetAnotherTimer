@@ -9,7 +9,9 @@
     <string name="desc_count_down">கவுண்ட்டவுன்</string>
     <string name="desc_count_up">மேலே எண்ணிக்கை</string>
     <string name="desc_disable_chime">சைமை இயங்காது</string>
+    <string name="desc_disable_touch_lock">நகரும்போது தொடுதலை இயக்கு</string>
     <string name="desc_enable_chime">சைமை இயக்கவும்</string>
+    <string name="desc_enable_touch_lock">நகரும்போது தொடுதலை முடக்கு</string>
     <string name="desc_help_icon">உதவி</string>
     <string name="desc_hide_help_icon">உதவி சின்னத்தை மறை</string>
     <string name="desc_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">மொழி</string>
     <string name="label_show_help_icon">உதவி சின்னத்தை காட்டு</string>
     <string name="label_show_language_icon">மொழி ஐகானை காட்டவும்</string>
+    <string name="label_touch_lock_off">நகரும்போது தொடுதலை இயக்கு</string>
+    <string name="label_touch_lock_on">நகரும்போது தொடுதலை முடக்கு</string>
     <string name="license_word">உரிமம்</string>
     <string name="prompt_lower_to_new">சேமித்த புதிய மதிப்பிற்கு செயலில் உள்ள டைமரை குறைக்க வேண்டுமா?</string>
     <string name="prompt_raise_to_new">சேமித்த புதிய மதிப்பிற்கு செயலில் உள்ள டைமரை உயர்த்த வேண்டுமா?</string>

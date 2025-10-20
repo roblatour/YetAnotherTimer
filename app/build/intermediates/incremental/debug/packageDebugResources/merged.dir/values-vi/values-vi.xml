@@ -9,7 +9,9 @@
     <string name="desc_count_down">Đếm ngược</string>
     <string name="desc_count_up">Đếm tăng</string>
     <string name="desc_disable_chime">Tắt chuông</string>
+    <string name="desc_disable_touch_lock">Bật cảm ứng khi di chuyển</string>
     <string name="desc_enable_chime">Bật chuông</string>
+    <string name="desc_enable_touch_lock">Tắt cảm ứng khi di chuyển</string>
     <string name="desc_help_icon">Trợ giúp</string>
     <string name="desc_hide_help_icon">Ẩn biểu tượng trợ giúp</string>
     <string name="desc_keep_screen_on_off">Không bỏ qua khóa tự động</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Ngôn ngữ</string>
     <string name="label_show_help_icon">Hiển thị biểu tượng trợ giúp</string>
     <string name="label_show_language_icon">Hiển thị biểu tượng ngôn ngữ</string>
+    <string name="label_touch_lock_off">Bật cảm ứng khi di chuyển</string>
+    <string name="label_touch_lock_on">Tắt cảm ứng khi di chuyển</string>
     <string name="license_word">Giấy phép</string>
     <string name="prompt_lower_to_new">Bạn có muốn giảm hẹn giờ hiện tại xuống giá trị mới vừa lưu không?</string>
     <string name="prompt_raise_to_new">Bạn có muốn tăng hẹn giờ đang hoạt động lên giá trị mới vừa lưu không?</string>

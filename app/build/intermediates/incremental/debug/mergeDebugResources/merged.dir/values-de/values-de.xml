@@ -59,7 +59,9 @@
     <string name="desc_count_down">Countdown</string>
     <string name="desc_count_up">Aufwärts zählen</string>
     <string name="desc_disable_chime">Ton deaktivieren</string>
+    <string name="desc_disable_touch_lock">Berührung bei Bewegung aktivieren</string>
     <string name="desc_enable_chime">Ton aktivieren</string>
+    <string name="desc_enable_touch_lock">Berührung bei Bewegung deaktivieren</string>
     <string name="desc_help_icon">Hilfe</string>
     <string name="desc_hide_help_icon">Hilfesymbol ausblenden</string>
     <string name="desc_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Sprache</string>
     <string name="label_show_help_icon">Hilfesymbol anzeigen</string>
     <string name="label_show_language_icon">Sprachsymbol anzeigen</string>
+    <string name="label_touch_lock_off">Berührung bei Bewegung aktivieren</string>
+    <string name="label_touch_lock_on">Berührung bei Bewegung deaktivieren</string>
     <string name="license_word">Lizenz</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Ansicht am unteren Rand minimieren"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Ansicht am unteren Rand schließen"</string>

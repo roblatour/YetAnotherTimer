@@ -9,7 +9,9 @@
     <string name="desc_count_down">Visszaszámlálás</string>
     <string name="desc_count_up">Növekvő számlálás</string>
     <string name="desc_disable_chime">Hangjelzés kikapcsolása</string>
+    <string name="desc_disable_touch_lock">Érintés engedélyezése mozgás közben</string>
     <string name="desc_enable_chime">Hangjelzés bekapcsolása</string>
+    <string name="desc_enable_touch_lock">Érintés letiltása mozgás közben</string>
     <string name="desc_help_icon">Súgó</string>
     <string name="desc_hide_help_icon">Súgó ikon elrejtése</string>
     <string name="desc_keep_screen_on_off">Automatikus zárolás ne legyen figyelmen kívül hagyva</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Nyelv</string>
     <string name="label_show_help_icon">Súgó ikon megjelenítése</string>
     <string name="label_show_language_icon">Nyelvikon megjelenítése</string>
+    <string name="label_touch_lock_off">Érintés engedélyezése mozgás közben</string>
+    <string name="label_touch_lock_on">Érintés letiltása mozgás közben</string>
     <string name="license_word">Licenc</string>
     <string name="prompt_lower_to_new">Szeretné csökkenteni az aktív időzítőt az újonnan mentett értékre?</string>
     <string name="prompt_raise_to_new">Szeretné növelni az aktív időzítőt az újonnan mentett értékre?</string>

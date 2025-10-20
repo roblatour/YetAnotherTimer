@@ -3727,7 +3727,9 @@ string default_popup_window_title
 string desc_count_down
 string desc_count_up
 string desc_disable_chime
+string desc_disable_touch_lock
 string desc_enable_chime
+string desc_enable_touch_lock
 string desc_help_icon
 string desc_hide_help_icon
 string desc_hide_language_icon
@@ -3765,6 +3767,8 @@ string label_keep_screen_on_on
 string label_language
 string label_show_help_icon
 string label_show_language_icon
+string label_touch_lock_off
+string label_touch_lock_on
 string license_word
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium

@@ -9,7 +9,9 @@
     <string name="desc_count_down">ಇಳಿಕೆ ಎಣಿಕೆ</string>
     <string name="desc_count_up">ಏರಿಕೆ ಎಣಿಕೆ</string>
     <string name="desc_disable_chime">ಘಂಟೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="desc_disable_touch_lock">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="desc_enable_chime">ಘಂಟೆ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="desc_enable_touch_lock">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="desc_help_icon">ಸಹಾಯ</string>
     <string name="desc_hide_help_icon">ಸಹಾಯ ಐಕಾನ್ ಮರೆಮಾಡಿ</string>
     <string name="desc_keep_screen_on_off">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಬೇಡಿ</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">ಭಾಷೆ</string>
     <string name="label_show_help_icon">ಸಹಾಯ ಐಕಾನ್ ತೋರಿಸಿ</string>
     <string name="label_show_language_icon">ಭಾಷಾ ಚಿಹ್ನೆ ತೋರಿಸಿ</string>
+    <string name="label_touch_lock_off">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="label_touch_lock_on">ಚಲಿಸುವಾಗ ಸ್ಪರ್ಶವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="license_word">ಪರವಾನಗಿ</string>
     <string name="prompt_lower_to_new">ನೀವು ಉಳಿಸಿದ ಹೊಸ ಮೌಲ್ಯಕ್ಕೆ ಸಕ್ರಿಯ ಟೈಮರ್ ಅನ್ನು ಕಡಿಮೆ ಮಾಡಬೇಕೇ?</string>
     <string name="prompt_raise_to_new">ನೀವು ಉಳಿಸಿದ ಹೊಸ ಮೌಲ್ಯಕ್ಕೆ ಸಕ್ರಿಯ ಟೈಮರ್ ಅನ್ನು ಹೆಚ್ಚಿಸಬೇಕೇ?</string>

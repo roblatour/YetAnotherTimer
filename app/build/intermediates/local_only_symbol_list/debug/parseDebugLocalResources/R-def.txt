@@ -13,7 +13,9 @@ string btn_yes
 string desc_count_down
 string desc_count_up
 string desc_disable_chime
+string desc_disable_touch_lock
 string desc_enable_chime
+string desc_enable_touch_lock
 string desc_help_icon
 string desc_hide_help_icon
 string desc_hide_language_icon
@@ -40,6 +42,8 @@ string label_keep_screen_on_on
 string label_language
 string label_show_help_icon
 string label_show_language_icon
+string label_touch_lock_off
+string label_touch_lock_on
 string license_word
 string prompt_lower_to_new
 string prompt_raise_to_new

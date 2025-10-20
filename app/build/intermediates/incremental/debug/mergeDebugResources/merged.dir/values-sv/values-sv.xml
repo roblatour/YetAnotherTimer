@@ -59,7 +59,9 @@
     <string name="desc_count_down">Räkna ned</string>
     <string name="desc_count_up">Räkna upp</string>
     <string name="desc_disable_chime">Inaktivera signal</string>
+    <string name="desc_disable_touch_lock">Aktivera beröring vid rörelse</string>
     <string name="desc_enable_chime">Aktivera signal</string>
+    <string name="desc_enable_touch_lock">Inaktivera beröring vid rörelse</string>
     <string name="desc_help_icon">Hjälp</string>
     <string name="desc_hide_help_icon">Dölj hjälpsymbol</string>
     <string name="desc_hide_language_icon">Dölj språksymbol</string>
@@ -94,6 +96,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_keep_screen_on_on">Åsidosätt autolås, håll skärmen på</string>
     <string name="label_language">Språk</string>
     <string name="label_show_help_icon">Visa hjälpsymbol</string>
+    <string name="label_touch_lock_off">Aktivera beröring vid rörelse</string>
+    <string name="label_touch_lock_on">Inaktivera beröring vid rörelse</string>
     <string name="license_word">Licens</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Komprimera arket på nedre delen av skärmen"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Stäng arket på nedre delen av skärmen"</string>

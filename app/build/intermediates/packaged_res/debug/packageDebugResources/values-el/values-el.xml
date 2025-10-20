@@ -9,7 +9,9 @@
     <string name="desc_count_down">Αντίστροφη μέτρηση</string>
     <string name="desc_count_up">Αύξουσα μέτρηση</string>
     <string name="desc_disable_chime">Απενεργοποίηση ήχου</string>
+    <string name="desc_disable_touch_lock">Ενεργοποίηση αφής κατά την κίνηση</string>
     <string name="desc_enable_chime">Ενεργοποίηση ήχου</string>
+    <string name="desc_enable_touch_lock">Απενεργοποίηση αφής κατά την κίνηση</string>
     <string name="desc_help_icon">Βοήθεια</string>
     <string name="desc_hide_help_icon">Απόκρυψη εικονιδίου βοήθειας</string>
     <string name="desc_keep_screen_on_off">Να μην παρακάμπτεται το αυτόματο κλείδωμα</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Γλώσσα</string>
     <string name="label_show_help_icon">Εμφάνιση εικονιδίου βοήθειας</string>
     <string name="label_show_language_icon">Εμφάνιση εικονιδίου γλώσσας</string>
+    <string name="label_touch_lock_off">Ενεργοποίηση αφής κατά την κίνηση</string>
+    <string name="label_touch_lock_on">Απενεργοποίηση αφής κατά την κίνηση</string>
     <string name="license_word">Άδεια</string>
     <string name="prompt_lower_to_new">Θέλετε να μειώσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
     <string name="prompt_raise_to_new">Θέλετε να αυξήσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>

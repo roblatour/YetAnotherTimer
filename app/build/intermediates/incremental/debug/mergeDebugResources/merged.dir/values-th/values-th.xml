@@ -59,13 +59,15 @@
     <string name="desc_count_down">นับถอยหลัง</string>
     <string name="desc_count_up">นับขึ้น</string>
     <string name="desc_disable_chime">ปิดเสียง</string>
+    <string name="desc_disable_touch_lock">เปิดการสัมผัสเมื่อเคลื่อนไหว</string>
     <string name="desc_enable_chime">เปิดเสียง</string>
+    <string name="desc_enable_touch_lock">ปิดการสัมผัสเมื่อเคลื่อนไหว</string>
     <string name="desc_help_icon">วิธีใช้</string>
     <string name="desc_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
-    <string name="desc_keep_screen_on_off">อย่าละเว้นการล็อกอัตโนมัติ</string>
+    <string name="desc_keep_screen_on_off">อย่าละเว้นการล็อคอัตโนมัติ</string>
     <string name="desc_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
     <string name="desc_settings_icon">เปิดการตั้งค่า</string>
-    <string name="desc_show_help_icon">แสดงไอคอนวิธีใช้</string>
+    <string name="desc_show_help_icon">แสดงไอคอนช่วยเหลือ</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"เมนูแบบเลื่อนลง"</string>
     <string name="error_a11y_label">ข้อผิดพลาด: ไม่ถูกต้อง</string>
     <string name="error_icon_content_description">ข้อผิดพลาด</string>
@@ -88,11 +90,13 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_count_up">นับขึ้น</string>
     <string name="label_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
     <string name="label_hide_language_icon">ซ่อนไอคอนภาษา</string>
-    <string name="label_keep_screen_on_off">อย่าละเว้นการล็อกอัตโนมัติ</string>
+    <string name="label_keep_screen_on_off">อย่าละเว้นการล็อคอัตโนมัติ</string>
     <string name="label_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
     <string name="label_language">ภาษา</string>
-    <string name="label_show_help_icon">แสดงไอคอนวิธีใช้</string>
+    <string name="label_show_help_icon">แสดงไอคอนช่วยเหลือ</string>
     <string name="label_show_language_icon">แสดงไอคอนภาษา</string>
+    <string name="label_touch_lock_off">เปิดการสัมผัสเมื่อเคลื่อนไหว</string>
+    <string name="label_touch_lock_on">ปิดการสัมผัสเมื่อเคลื่อนไหว</string>
     <string name="license_word">สัญญาอนุญาต</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"ยุบ Bottom Sheet"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"ปิด Bottom Sheet"</string>

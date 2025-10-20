@@ -59,7 +59,9 @@
     <string name="desc_count_down">اُلٹی گنتی</string>
     <string name="desc_count_up">اوپر کی گنتی</string>
     <string name="desc_disable_chime">گھنٹی غیر فعال کریں</string>
+    <string name="desc_disable_touch_lock">حرکت کے دوران ٹچ فعال کریں</string>
     <string name="desc_enable_chime">گھنٹی فعال کریں</string>
+    <string name="desc_enable_touch_lock">حرکت کے دوران ٹچ غیر فعال کریں</string>
     <string name="desc_help_icon">مدد</string>
     <string name="desc_hide_help_icon">مدد آئیکن چھپائیں</string>
     <string name="desc_keep_screen_on_off">خودکار لاک کو نظرانداز نہ کریں</string>
@@ -93,6 +95,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">زبان</string>
     <string name="label_show_help_icon">مدد آئیکن دکھائیں</string>
     <string name="label_show_language_icon">زبان کا آئیکن دکھائیں</string>
+    <string name="label_touch_lock_off">حرکت کے دوران ٹچ فعال کریں</string>
+    <string name="label_touch_lock_on">حرکت کے دوران ٹچ غیر فعال کریں</string>
     <string name="license_word">لائسنس</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"نیچے کی شیٹ کو سکیڑیں"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"نیچے کی شیٹ کو برخاست کریں"</string>

@@ -9,7 +9,9 @@
     <string name="desc_count_down">Kiraan menurun</string>
     <string name="desc_count_up">Kiraan menaik</string>
     <string name="desc_disable_chime">Nyahaktifkan bunyi</string>
+    <string name="desc_disable_touch_lock">Aktifkan sentuhan semasa bergerak</string>
     <string name="desc_enable_chime">Aktifkan bunyi</string>
+    <string name="desc_enable_touch_lock">Lumpuhkan sentuhan semasa bergerak</string>
     <string name="desc_help_icon">Bantuan</string>
     <string name="desc_hide_help_icon">Sembunyi ikon bantuan</string>
     <string name="desc_keep_screen_on_off">Jangan abaikan kunci automatik</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">Bahasa</string>
     <string name="label_show_help_icon">Tunjuk ikon bantuan</string>
     <string name="label_show_language_icon">Tunjukkan ikon bahasa</string>
+    <string name="label_touch_lock_off">Aktifkan sentuhan semasa bergerak</string>
+    <string name="label_touch_lock_on">Lumpuhkan sentuhan semasa bergerak</string>
     <string name="license_word">Lesen</string>
     <string name="prompt_lower_to_new">Ingin turunkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
     <string name="prompt_raise_to_new">Ingin naikkan pemasa aktif kepada nilai baharu yang anda simpan?</string>

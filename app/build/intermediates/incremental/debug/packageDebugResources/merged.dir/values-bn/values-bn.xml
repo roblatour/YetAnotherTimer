@@ -9,7 +9,9 @@
     <string name="desc_count_down">উল্টো গণনা</string>
     <string name="desc_count_up">উর্ধ্বগামী গণনা</string>
     <string name="desc_disable_chime">চাইম বন্ধ করুন</string>
+    <string name="desc_disable_touch_lock">চলাচলের সময় স্পর্শ চালু করুন</string>
     <string name="desc_enable_chime">চাইম চালু করুন</string>
+    <string name="desc_enable_touch_lock">চলাচলের সময় স্পর্শ বন্ধ করুন</string>
     <string name="desc_help_icon">সহায়তা</string>
     <string name="desc_hide_help_icon">সহায়তা আইকন লুকান</string>
     <string name="desc_keep_screen_on_off">অটো-লক অগ্রাহ্য করবেন না</string>
@@ -35,6 +37,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_language">ভাষা</string>
     <string name="label_show_help_icon">সহায়তা আইকন দেখান</string>
     <string name="label_show_language_icon">ভাষার আইকন দেখান</string>
+    <string name="label_touch_lock_off">চলাচলের সময় স্পর্শ চালু করুন</string>
+    <string name="label_touch_lock_on">চলাচলের সময় স্পর্শ বন্ধ করুন</string>
     <string name="license_word">লাইসেন্স</string>
     <string name="prompt_lower_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে কমাতে চান?</string>
     <string name="prompt_raise_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে বাড়াতে চান?</string>
