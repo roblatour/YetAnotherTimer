@@ -1,4 +1,4 @@
-# Yet Another Timer v1.0 (for Android) - 2025-10-19
+# Yet Another Timer v1.0 (for Android) - 2025-10-20
 
 Open source timer for Android
 
@@ -27,19 +27,19 @@ Finally, to give credit where credit is due, most of the coding for this project
 Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `screenshots/` folder.
 
 <p>
-   <a href="screenshots/photo02-languages.jpg">
-    <img src="screenshots/photo02-languages.jpg" alt="Language selector" title="Language selector" width="260">
+   <a href="screenshots/photo03.png">
+    <img src="screenshots/photo03.png" alt="Language selector" title="Language selector" width="260">
   </a>
-  <a href="screenshots/photo03-help.jpg">
-    <img src="screenshots/photo03-help.jpg" alt="Help screen" title="Help screen" width="260">
+  <a href="screenshots/photo02.png">
+    <img src="screenshots/photo02.png" alt="Help screen" title="Help screen" width="260">
   </a>
 </p>
 <p>
-  <a href="screenshots/photo04-settings.jpg">
-    <img src="screenshots/photo04-settings.jpg" alt="Settings screen" title="Settings screen" width="260">
+  <a href="screenshots/photo04.png">
+    <img src="screenshots/photo04.png" alt="Settings screen" title="Settings screen" width="260">
   </a>
-  <a href="screenshots/photo05-screenwithouthelplanguageicons.jpg">
-    <img src="screenshots/photo05-screenwithouthelplanguageicons.jpg" alt="Screen without help/language icons" title="Screen without help/language icons" width="260">
+  <a href="screenshots/photo05.png">
+    <img src="screenshots/photo05.png" alt="Screen without help/language icons" title="Screen without help/language icons" width="260">
   </a>
 </p>
 
