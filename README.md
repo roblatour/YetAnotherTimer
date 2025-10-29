@@ -21,7 +21,7 @@ Finally, to give credit where credit is due, most of the coding for this project
 - Optional auto-lock override so screen doesn't go blank while the app is active
 - Auto rotating screen
 - 45 languages are supported (English is the default)
-  -  Arabic, Bengali, Burmese, Chinese, Czech, Danish, Dutch, **English**, Filipino, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Korean, Malay, Marathi, Norwegian, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Slovak, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, and Vietnamese.
+  -  Arabic, Bengali, Burmese, Chinese, Czech, Danish, Dutch, English, Filipino, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Korean, Malay, Marathi, Norwegian, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Slovak, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, and Vietnamese.
   
 # Screenshots
 
