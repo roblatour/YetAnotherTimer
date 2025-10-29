@@ -20,13 +20,12 @@
     <string name="btn_cancel">Batal</string>
 
     <string name="title_help">Bantuan</string>
-    <string name="title_confirm">Sahkan</string>
     <string name="title_options">Pilihan</string>
 
     <string name="field_minutes">Minit</string>
     <string name="field_seconds">Saat</string>
-    <string name="label_count_up">Kiraan menaik</string>
-    <string name="label_count_down">Kiraan menurun</string>
+    <string name="label_count_up">Kiraan menaik hingga:</string>
+    <string name="label_count_down">Kiraan menurun dari:</string>
     <string name="label_chime_on">Bunyi hidup</string>
     <string name="label_chime_off">Bunyi mati</string>
     <string name="label_keep_screen_on_on">Abaikan kunci automatik, kekalkan skrin hidup</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Ingin turunkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
-    <string name="prompt_raise_to_new">Ingin naikkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
+    
     <string name="label_show_language_icon">Tunjukkan ikon bahasa</string>
     <string name="label_hide_language_icon">Sembunyikan ikon bahasa</string>
 </resources>

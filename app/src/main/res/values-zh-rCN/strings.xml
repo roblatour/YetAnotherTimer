@@ -20,13 +20,12 @@
     <string name="btn_cancel">取消</string>
 
     <string name="title_help">帮助</string>
-    <string name="title_confirm">确认</string>
     <string name="title_options">选项</string>
 
     <string name="field_minutes">分钟</string>
     <string name="field_seconds">秒</string>
-    <string name="label_count_up">正计时</string>
-    <string name="label_count_down">倒计时</string>
+    <string name="label_count_up">正计时至：</string>
+    <string name="label_count_down">倒计时从：</string>
     <string name="label_chime_on">提示音开</string>
     <string name="label_chime_off">提示音关</string>
     <string name="label_keep_screen_on_on">覆盖自动锁定，保持屏幕常亮</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">是否将活动计时器降低到您刚刚保存的新值？</string>
-    <string name="prompt_raise_to_new">是否将活动计时器提高到您刚刚保存的新值？</string>
+    
     <string name="label_show_language_icon">显示语言图标</string>
     <string name="label_hide_language_icon">隐藏语言图标</string>
 </resources>

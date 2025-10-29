@@ -88,8 +88,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">Вкладка</string>
     <string name="label_chime_off">Сигнал вимкнено</string>
     <string name="label_chime_on">Сигнал увімкнено</string>
-    <string name="label_count_down">Зворотний відлік</string>
-    <string name="label_count_up">Підрахунок вгору</string>
+    <string name="label_count_down">Зворотний відлік від:</string>
+    <string name="label_count_up">Підрахунок вгору до:</string>
     <string name="label_hide_help_icon">Приховати піктограму довідки</string>
     <string name="label_hide_language_icon">Приховати значок мови</string>
     <string name="label_keep_screen_on_off">Не ігнорувати авто-блокування</string>
@@ -218,8 +218,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"Меню навігації"</string>
     <string msgid="6610465462668679431" name="not_selected">"Не вибрано"</string>
     <string name="password_toggle_content_description">Показувати пароль</string>
-    <string name="prompt_lower_to_new">Зменшити активний таймер до нового збереженого значення?</string>
-    <string name="prompt_raise_to_new">Збільшити активний таймер до нового збереженого значення?</string>
     <string msgid="5941395253238309765" name="range_end">"Кінець діапазону"</string>
     <string msgid="7097486360902471446" name="range_start">"Початок діапазону"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
@@ -234,7 +232,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Перемикач"</string>
     <string msgid="1672349317127674378" name="tab">"Вкладка"</string>
     <string msgid="5946805113151406391" name="template_percent">"Відсотків: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
-    <string name="title_confirm">Підтвердження</string>
     <string name="title_help">Довідка</string>
     <string name="title_options">Параметри</string>
     <string msgid="3765533235322692011" name="tooltip_description">"спливаюча підказка"</string>

@@ -20,7 +20,6 @@
     <string name="btn_cancel">ਰੱਦ ਕਰੋ</string>
 
     <string name="title_help">ਮਦਦ</string>
-    <string name="title_confirm">ਪੁਸ਼ਟੀ</string>
     <string name="title_options">ਚੋਣਾਂ</string>
 
     <string name="field_minutes">ਮਿੰਟ</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">ਕੀ ਤੁਸੀਂ ਸੰਚਾਲਿਤ ਟਾਈਮਰ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸੇਵ ਕੀਤੀ ਨਵੀਂ ਮੁੱਲ ਤੱਕ ਘਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
-    <string name="prompt_raise_to_new">ਕੀ ਤੁਸੀਂ ਸੰਚਾਲਿਤ ਟਾਈਮਰ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸੇਵ ਕੀਤੀ ਨਵੀਂ ਮੁੱਲ ਤੱਕ ਵਧਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    
     <string name="label_show_language_icon">ਭਾਸ਼ਾ ਆਈਕਨ ਵੇਖਾਓ</string>
     <string name="label_hide_language_icon">ਭਾਸ਼ਾ ਆਈਕਨ ਲੁਕਾਓ</string>
 </resources>

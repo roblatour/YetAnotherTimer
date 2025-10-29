@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Aby rozpocząć, wstrzymać lub wznowić licznik, stuknij ekran główny.</string>
     <string name="label_chime_off">Dźwięk wyłączony</string>
     <string name="label_chime_on">Dźwięk włączony</string>
-    <string name="label_count_down">Odliczanie</string>
-    <string name="label_count_up">Zliczanie w górę</string>
+    <string name="label_count_down">Odliczanie od:</string>
+    <string name="label_count_up">Zliczanie w górę do:</string>
     <string name="label_hide_help_icon">Ukryj ikonę pomocy</string>
     <string name="label_hide_language_icon">Ukryj ikonę języka</string>
     <string name="label_keep_screen_on_off">Nie ignoruj automatycznej blokady</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Włącz dotyk podczas ruchu</string>
     <string name="label_touch_lock_on">Wyłącz dotyk podczas ruchu</string>
     <string name="license_word">Licencja</string>
-    <string name="prompt_lower_to_new">Czy chcesz obniżyć aktywny licznik do nowej zapisanej wartości?</string>
-    <string name="prompt_raise_to_new">Czy chcesz zwiększyć aktywny timer do nowej zapisanej wartości?</string>
-    <string name="title_confirm">Potwierdzenie</string>
     <string name="title_help">Pomoc</string>
     <string name="title_options">Opcje</string>
 </resources>

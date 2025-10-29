@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Washa mguso wakati wa kusonga</string>
     <string name="label_touch_lock_on">Zima mguso wakati wa kusonga</string>
     <string name="license_word">Leseni</string>
-    <string name="prompt_lower_to_new">Je, ungependa kupunguza kipima muda kilicho hai hadi thamani mpya uliyohifadhi?</string>
-    <string name="prompt_raise_to_new">Je, ungependa kuongeza kidhibiti wakati kinachotumika hadi thamani mpya uliyohifadhi?</string>
-    <string name="title_confirm">Thibitisha</string>
     <string name="title_help">Msaada</string>
     <string name="title_options">Chaguo</string>
 </resources>

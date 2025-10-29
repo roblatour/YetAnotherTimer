@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုဖွင့်ရန်</string>
     <string name="label_touch_lock_on">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုပိတ်ရန်</string>
     <string name="license_word">လိုင်စင်</string>
-    <string name="prompt_lower_to_new">သင် သိမ်းဆည်းပြီးသော တန်ဖိုးအသစ်သို့ လက်ရှိအချိန်ကို လျှော့ချလိုပါသလား?</string>
-    <string name="prompt_raise_to_new">သင် သိမ်းဆည်းပြီးသော တန်ဖိုးအသစ်သို့ လက်ရှိ တိုင်မာအား မြှင့်တင်လိုပါသလား?</string>
-    <string name="title_confirm">အတည်ပြုပါ</string>
     <string name="title_help">အကူအညီ</string>
     <string name="title_options">ရွေးချယ်စရာများ</string>
 </resources>

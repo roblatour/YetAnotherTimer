@@ -89,8 +89,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">Välilehti</string>
     <string name="label_chime_off">Äänimerkki pois</string>
     <string name="label_chime_on">Äänimerkki päällä</string>
-    <string name="label_count_down">Laskenta alaspäin</string>
-    <string name="label_count_up">Laskenta ylöspäin</string>
+    <string name="label_count_down">Laskenta alaspäin alkaen:</string>
+    <string name="label_count_up">Laskenta ylöspäin asti:</string>
     <string name="label_hide_help_icon">Piilota ohjekuvake</string>
     <string name="label_keep_screen_on_off">Älä ohita automaattista lukitusta</string>
     <string name="label_keep_screen_on_on">Ohita automaattinen lukitus, pidä näyttö päällä</string>
@@ -217,8 +217,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"Navigointivalikko"</string>
     <string msgid="6610465462668679431" name="not_selected">"Ei valittu"</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
-    <string name="prompt_lower_to_new">Haluatko laskea aktiivisen ajastimen tallentamaasi uuteen arvoon?</string>
-    <string name="prompt_raise_to_new">Haluatko nostaa aktiivisen ajastimen tallentamaasi uuteen arvoon?</string>
     <string msgid="5941395253238309765" name="range_end">"Alueen loppu"</string>
     <string msgid="7097486360902471446" name="range_start">"Alueen alku"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Haku"</string>
@@ -233,7 +231,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Vaihda"</string>
     <string msgid="1672349317127674378" name="tab">"Välilehti"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> prosenttia"</string>
-    <string name="title_confirm">Vahvista</string>
     <string name="title_help">Ohje</string>
     <string name="title_options">Asetukset</string>
     <string msgid="3765533235322692011" name="tooltip_description">"vihjeteksti"</string>

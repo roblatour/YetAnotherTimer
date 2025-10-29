@@ -20,13 +20,12 @@
     <string name="btn_cancel">Abbrechen</string>
 
     <string name="title_help">Hilfe</string>
-    <string name="title_confirm">Bestätigen</string>
     <string name="title_options">Optionen</string>
 
     <string name="field_minutes">Minuten</string>
     <string name="field_seconds">Sekunden</string>
-    <string name="label_count_up">Aufwärts zählen</string>
-    <string name="label_count_down">Countdown</string>
+    <string name="label_count_up">Aufwärts zählen bis:</string>
+    <string name="label_count_down">Countdown ab:</string>
     <string name="label_chime_on">Ton an</string>
     <string name="label_chime_off">Ton aus</string>
     <string name="label_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Möchten Sie den aktiven Timer auf den neuen gespeicherten Wert senken?</string>
-    <string name="prompt_raise_to_new">Möchten Sie den aktiven Timer auf den neu gespeicherten Wert erhöhen?</string>
+    
     <string name="label_show_language_icon">Sprachsymbol anzeigen</string>
     <string name="label_hide_language_icon">Sprachsymbol ausblenden</string>
 </resources>

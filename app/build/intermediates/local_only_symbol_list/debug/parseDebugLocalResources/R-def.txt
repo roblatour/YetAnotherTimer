@@ -45,9 +45,6 @@ string label_show_language_icon
 string label_touch_lock_off
 string label_touch_lock_on
 string license_word
-string prompt_lower_to_new
-string prompt_raise_to_new
-string title_confirm
 string title_help
 string title_options
 style Theme.YetAnotherTimer

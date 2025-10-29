@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Érintés engedélyezése mozgás közben</string>
     <string name="label_touch_lock_on">Érintés letiltása mozgás közben</string>
     <string name="license_word">Licenc</string>
-    <string name="prompt_lower_to_new">Szeretné csökkenteni az aktív időzítőt az újonnan mentett értékre?</string>
-    <string name="prompt_raise_to_new">Szeretné növelni az aktív időzítőt az újonnan mentett értékre?</string>
-    <string name="title_confirm">Megerősítés</string>
     <string name="title_help">Súgó</string>
     <string name="title_options">Beállítások</string>
 </resources>

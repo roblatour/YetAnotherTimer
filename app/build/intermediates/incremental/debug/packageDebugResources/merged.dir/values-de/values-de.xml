@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Zum Starten, Pausieren oder Fortsetzen tippen Sie auf den Hauptbildschirm.</string>
     <string name="label_chime_off">Ton aus</string>
     <string name="label_chime_on">Ton an</string>
-    <string name="label_count_down">Countdown</string>
-    <string name="label_count_up">Aufwärts zählen</string>
+    <string name="label_count_down">Countdown ab:</string>
+    <string name="label_count_up">Aufwärts zählen bis:</string>
     <string name="label_hide_help_icon">Hilfesymbol ausblenden</string>
     <string name="label_hide_language_icon">Sprachsymbol ausblenden</string>
     <string name="label_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Berührung bei Bewegung aktivieren</string>
     <string name="label_touch_lock_on">Berührung bei Bewegung deaktivieren</string>
     <string name="license_word">Lizenz</string>
-    <string name="prompt_lower_to_new">Möchten Sie den aktiven Timer auf den neuen gespeicherten Wert senken?</string>
-    <string name="prompt_raise_to_new">Möchten Sie den aktiven Timer auf den neu gespeicherten Wert erhöhen?</string>
-    <string name="title_confirm">Bestätigen</string>
     <string name="title_help">Hilfe</string>
     <string name="title_options">Optionen</string>
 </resources>

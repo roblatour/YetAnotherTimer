@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">நகரும்போது தொடுதலை இயக்கு</string>
     <string name="label_touch_lock_on">நகரும்போது தொடுதலை முடக்கு</string>
     <string name="license_word">உரிமம்</string>
-    <string name="prompt_lower_to_new">சேமித்த புதிய மதிப்பிற்கு செயலில் உள்ள டைமரை குறைக்க வேண்டுமா?</string>
-    <string name="prompt_raise_to_new">சேமித்த புதிய மதிப்பிற்கு செயலில் உள்ள டைமரை உயர்த்த வேண்டுமா?</string>
-    <string name="title_confirm">உறுதி</string>
     <string name="title_help">உதவி</string>
     <string name="title_options">விருப்பங்கள்</string>
 </resources>

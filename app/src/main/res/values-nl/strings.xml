@@ -20,13 +20,12 @@
     <string name="btn_cancel">Annuleren</string>
 
     <string name="title_help">Hulp</string>
-    <string name="title_confirm">Bevestigen</string>
     <string name="title_options">Opties</string>
 
     <string name="field_minutes">Minuten</string>
     <string name="field_seconds">Seconden</string>
-    <string name="label_count_up">Oplopend tellen</string>
-    <string name="label_count_down">Aftellen</string>
+    <string name="label_count_up">Oplopend tellen tot:</string>
+    <string name="label_count_down">Aftellen vanaf:</string>
     <string name="label_chime_on">Geluid aan</string>
     <string name="label_chime_off">Geluid uit</string>
     <string name="label_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Wil je de actieve timer verlagen naar de nieuwe waarde die je zojuist hebt opgeslagen?</string>
-    <string name="prompt_raise_to_new">Wil je de actieve timer verhogen naar de nieuwe waarde die je zojuist hebt opgeslagen?</string>
+    
     <string name="label_show_language_icon">Taalpictogram tonen</string>
     <string name="label_hide_language_icon">Taalpictogram verbergen</string>
 </resources>

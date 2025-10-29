@@ -20,13 +20,12 @@
     <string name="btn_cancel">취소</string>
 
     <string name="title_help">도움말</string>
-    <string name="title_confirm">확인</string>
     <string name="title_options">옵션</string>
 
     <string name="field_minutes">분</string>
     <string name="field_seconds">초</string>
-    <string name="label_count_up">카운트업</string>
-    <string name="label_count_down">카운트다운</string>
+    <string name="label_count_up">카운트업 목표:</string>
+    <string name="label_count_down">카운트다운 시작:</string>
     <string name="label_chime_on">차임 켜짐</string>
     <string name="label_chime_off">차임 꺼짐</string>
     <string name="label_keep_screen_on_on">자동 잠금을 무시하고 화면을 켜짐 유지</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">저장한 새 값으로 활성 타이머를 낮추시겠습니까?</string>
-    <string name="prompt_raise_to_new">저장한 새 값으로 활성 타이머를 높이시겠습니까?</string>
+    
     <string name="label_show_language_icon">언어 아이콘 표시</string>
     <string name="label_hide_language_icon">언어 아이콘 숨기기</string>
 </resources>

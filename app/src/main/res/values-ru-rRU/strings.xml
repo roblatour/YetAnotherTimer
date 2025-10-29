@@ -20,13 +20,12 @@
     <string name="btn_cancel">Отмена</string>
 
     <string name="title_help">Справка</string>
-    <string name="title_confirm">Подтверждение</string>
     <string name="title_options">Параметры</string>
 
     <string name="field_minutes">Минуты</string>
     <string name="field_seconds">Секунды</string>
-    <string name="label_count_up">Счёт вверх</string>
-    <string name="label_count_down">Обратный отсчёт</string>
+    <string name="label_count_up">Счёт вверх до:</string>
+    <string name="label_count_down">Обратный отсчёт от:</string>
     <string name="label_chime_on">Сигнал включён</string>
     <string name="label_chime_off">Сигнал выключен</string>
     <string name="label_keep_screen_on_on">Игнорировать авто‑блокировку, держать экран включённым</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Снизить активный таймер до нового сохранённого значения?</string>
-    <string name="prompt_raise_to_new">Повысить активный таймер до нового сохранённого значения?</string>
+    
     <string name="label_show_language_icon">Показать значок языка</string>
     <string name="label_hide_language_icon">Скрыть значок языка</string>
 </resources>

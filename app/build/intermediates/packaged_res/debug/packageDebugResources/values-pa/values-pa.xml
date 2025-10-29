@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਚਾਲੂ ਕਰੋ</string>
     <string name="label_touch_lock_on">ਹਿੱਲਣ ਵੇਲੇ ਛੂਹ ਬੰਦ ਕਰੋ</string>
     <string name="license_word">ਲਾਇਸੈਂਸ</string>
-    <string name="prompt_lower_to_new">ਕੀ ਤੁਸੀਂ ਸੰਚਾਲਿਤ ਟਾਈਮਰ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸੇਵ ਕੀਤੀ ਨਵੀਂ ਮੁੱਲ ਤੱਕ ਘਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
-    <string name="prompt_raise_to_new">ਕੀ ਤੁਸੀਂ ਸੰਚਾਲਿਤ ਟਾਈਮਰ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸੇਵ ਕੀਤੀ ਨਵੀਂ ਮੁੱਲ ਤੱਕ ਵਧਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
-    <string name="title_confirm">ਪੁਸ਼ਟੀ</string>
     <string name="title_help">ਮਦਦ</string>
     <string name="title_options">ਚੋਣਾਂ</string>
 </resources>

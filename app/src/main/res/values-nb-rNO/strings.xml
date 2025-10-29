@@ -24,24 +24,20 @@
     <string name="btn_cancel">Avbryt</string>
 
     <string name="title_help">Hjelp</string>
-    <string name="title_confirm">Bekreft</string>
     <string name="title_options">Innstillinger</string>
 
     <string name="field_minutes">Minutter</string>
     <string name="field_seconds">Sekunder</string>
-    <string name="label_count_up">Tell opp</string>
-    <string name="label_count_down">Tell ned</string>
+    <string name="label_count_up">Tell opp til:</string>
+    <string name="label_count_down">Nedtelling fra:</string>
     <string name="label_chime_on">Lydsignal på</string>
     <string name="label_chime_off">Lydsignal av</string>
     <string name="label_keep_screen_on_on">Overstyr autolås, hold skjermen på</string>
-    <string name="label_keep_screen_on_off">Ikke overstyr autolås</string>
     <string name="label_touch_lock_on">Slå av berøring ved bevegelse</string>
     <string name="label_touch_lock_off">Slå på berøring ved bevegelse</string>
     <string name="label_show_help_icon">Vis hjelpesymbol</string>
     <string name="label_hide_help_icon">Skjul hjelpesymbol</string>
     <string name="label_language">Språk</string>
-
-    <string name="help_line_tap">Trykk på hovedskjermen for å starte, pause eller fortsette timeren.</string>
     <string name="help_line_double_tap">Dobbelttrykk på hovedskjermen for å stoppe og tilbakestille timeren.</string>
     <string name="help_line_options">Trykk på tannhjulsikonet for å endre programalternativer.</string>
     <string name="license_word">Lisens</string>
@@ -49,6 +45,5 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Vil du senke den aktive timeren til den nye verdien du nettopp lagret?</string>
-    <string name="prompt_raise_to_new">Vil du øke den aktive timeren til den nye verdien du nettopp lagret?</string>
+    
 </resources>

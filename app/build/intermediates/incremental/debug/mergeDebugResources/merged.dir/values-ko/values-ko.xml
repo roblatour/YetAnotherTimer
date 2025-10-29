@@ -86,8 +86,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">탭</string>
     <string name="label_chime_off">차임 꺼짐</string>
     <string name="label_chime_on">차임 켜짐</string>
-    <string name="label_count_down">카운트다운</string>
-    <string name="label_count_up">카운트업</string>
+    <string name="label_count_down">카운트다운 시작:</string>
+    <string name="label_count_up">카운트업 목표:</string>
     <string name="label_hide_help_icon">도움말 아이콘 숨기기</string>
     <string name="label_hide_language_icon">언어 아이콘 숨기기</string>
     <string name="label_keep_screen_on_off">자동 잠금을 무시하지 않음</string>
@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"탐색 메뉴"</string>
     <string msgid="6610465462668679431" name="not_selected">"선택되지 않음"</string>
     <string name="password_toggle_content_description">비밀번호 표시</string>
-    <string name="prompt_lower_to_new">저장한 새 값으로 활성 타이머를 낮추시겠습니까?</string>
-    <string name="prompt_raise_to_new">저장한 새 값으로 활성 타이머를 높이시겠습니까?</string>
     <string msgid="5941395253238309765" name="range_end">"범위 끝"</string>
     <string msgid="7097486360902471446" name="range_start">"범위 시작"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"스위치"</string>
     <string msgid="1672349317127674378" name="tab">"탭"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>퍼센트"</string>
-    <string name="title_confirm">확인</string>
     <string name="title_help">도움말</string>
     <string name="title_options">옵션</string>
     <string msgid="3765533235322692011" name="tooltip_description">"도움말"</string>

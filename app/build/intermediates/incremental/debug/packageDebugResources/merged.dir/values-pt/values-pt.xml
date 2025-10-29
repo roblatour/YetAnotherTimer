@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Para iniciar, pausar ou retomar o temporizador, toque no ecrã principal.</string>
     <string name="label_chime_off">Som desligado</string>
     <string name="label_chime_on">Som ligado</string>
-    <string name="label_count_down">Contagem decrescente</string>
-    <string name="label_count_up">Contagem crescente</string>
+    <string name="label_count_down">Contagem decrescente a partir de:</string>
+    <string name="label_count_up">Contagem crescente até:</string>
     <string name="label_hide_help_icon">Ocultar ícone de ajuda</string>
     <string name="label_hide_language_icon">Ocultar ícone de idioma</string>
     <string name="label_keep_screen_on_off">Não ignorar bloqueio automático</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Ativar toque ao mover</string>
     <string name="label_touch_lock_on">Desativar toque ao mover</string>
     <string name="license_word">Licença</string>
-    <string name="prompt_lower_to_new">Pretende reduzir o temporizador ativo para o novo valor que acabou de guardar?</string>
-    <string name="prompt_raise_to_new">Pretende aumentar o temporizador ativo para o novo valor que acabou de guardar?</string>
-    <string name="title_confirm">Confirmar</string>
     <string name="title_help">Ajuda</string>
     <string name="title_options">Opções</string>
 </resources>

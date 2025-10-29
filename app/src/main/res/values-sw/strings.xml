@@ -20,7 +20,6 @@
     <string name="btn_cancel">Ghairi</string>
 
     <string name="title_help">Msaada</string>
-    <string name="title_confirm">Thibitisha</string>
     <string name="title_options">Chaguo</string>
 
     <string name="field_minutes">Dakika</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Je, ungependa kupunguza kipima muda kilicho hai hadi thamani mpya uliyohifadhi?</string>
-    <string name="prompt_raise_to_new">Je, ungependa kuongeza kidhibiti wakati kinachotumika hadi thamani mpya uliyohifadhi?</string>
+    
     <string name="label_show_language_icon">Onyesha ikoni ya lugha</string>
     <string name="label_hide_language_icon">Ficha ikoni ya lugha</string>
 </resources>

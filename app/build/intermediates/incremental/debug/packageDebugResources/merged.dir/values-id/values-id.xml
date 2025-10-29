@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Untuk memulai, jeda, atau melanjutkan timer, ketuk layar utama.</string>
     <string name="label_chime_off">Lonceng nonaktif</string>
     <string name="label_chime_on">Lonceng aktif</string>
-    <string name="label_count_down">Hitung mundur</string>
-    <string name="label_count_up">Hitung naik</string>
+    <string name="label_count_down">Hitung mundur dari:</string>
+    <string name="label_count_up">Hitung naik hingga:</string>
     <string name="label_hide_help_icon">Sembunyikan ikon bantuan</string>
     <string name="label_hide_language_icon">Sembunyikan ikon bahasa</string>
     <string name="label_keep_screen_on_off">Jangan abaikan kunci otomatis</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Aktifkan sentuhan saat bergerak</string>
     <string name="label_touch_lock_on">Nonaktifkan sentuhan saat bergerak</string>
     <string name="license_word">Lisensi</string>
-    <string name="prompt_lower_to_new">Ingin menurunkan timer aktif ke nilai baru yang baru saja Anda simpan?</string>
-    <string name="prompt_raise_to_new">Ingin menaikkan timer aktif ke nilai baru yang baru saja Anda simpan?</string>
-    <string name="title_confirm">Konfirmasi</string>
     <string name="title_help">Bantuan</string>
     <string name="title_options">Opsi</string>
 </resources>

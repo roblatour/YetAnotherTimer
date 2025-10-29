@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Chcete-li spustit, pozastavit nebo pokračovat v časovači, klepněte na hlavní obrazovku.</string>
     <string name="label_chime_off">Zvuk vypnut</string>
     <string name="label_chime_on">Zvuk zapnut</string>
-    <string name="label_count_down">Odpočítávání</string>
-    <string name="label_count_up">Počítání nahoru</string>
+    <string name="label_count_down">Odpočítávání od:</string>
+    <string name="label_count_up">Počítání nahoru do:</string>
     <string name="label_hide_help_icon">Skrýt ikonu nápovědy</string>
     <string name="label_hide_language_icon">Skrýt ikonu jazyka</string>
     <string name="label_keep_screen_on_off">Neignorovat automatické zamknutí</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Povolit dotek při pohybu</string>
     <string name="label_touch_lock_on">Zakázat dotek při pohybu</string>
     <string name="license_word">Licence</string>
-    <string name="prompt_lower_to_new">Chcete snížit aktivní časovač na novou uloženou hodnotu?</string>
-    <string name="prompt_raise_to_new">Chcete zvýšit aktivní časovač na novou uloženou hodnotu?</string>
-    <string name="title_confirm">Potvrzení</string>
     <string name="title_help">Nápověda</string>
     <string name="title_options">Možnosti</string>
 </resources>

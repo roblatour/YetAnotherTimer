@@ -20,13 +20,13 @@
     <string name="btn_cancel">Zrušit</string>
 
     <string name="title_help">Nápověda</string>
-    <string name="title_confirm">Potvrzení</string>
+    
     <string name="title_options">Možnosti</string>
 
     <string name="field_minutes">Minuty</string>
     <string name="field_seconds">Sekundy</string>
-    <string name="label_count_up">Počítání nahoru</string>
-    <string name="label_count_down">Odpočítávání</string>
+    <string name="label_count_up">Počítání nahoru do:</string>
+    <string name="label_count_down">Odpočítávání od:</string>
     <string name="label_chime_on">Zvuk zapnut</string>
     <string name="label_chime_off">Zvuk vypnut</string>
     <string name="label_keep_screen_on_on">Ignorovat automatické uzamčení, ponechat obrazovku zapnutou</string>
@@ -45,8 +45,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Chcete snížit aktivní časovač na novou uloženou hodnotu?</string>
-    <string name="prompt_raise_to_new">Chcete zvýšit aktivní časovač na novou uloženou hodnotu?</string>
+    
     <string name="label_show_language_icon">Zobrazit ikonu jazyka</string>
     <string name="label_hide_language_icon">Skrýt ikonu jazyka</string>
 </resources>

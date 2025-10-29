@@ -88,8 +88,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">Karta</string>
     <string name="label_chime_off">Dźwięk wyłączony</string>
     <string name="label_chime_on">Dźwięk włączony</string>
-    <string name="label_count_down">Odliczanie</string>
-    <string name="label_count_up">Zliczanie w górę</string>
+    <string name="label_count_down">Odliczanie od:</string>
+    <string name="label_count_up">Zliczanie w górę do:</string>
     <string name="label_hide_help_icon">Ukryj ikonę pomocy</string>
     <string name="label_hide_language_icon">Ukryj ikonę języka</string>
     <string name="label_keep_screen_on_off">Nie ignoruj automatycznej blokady</string>
@@ -218,8 +218,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"Menu nawigacyjne"</string>
     <string msgid="6610465462668679431" name="not_selected">"Nie wybrano"</string>
     <string name="password_toggle_content_description">Pokaż hasło</string>
-    <string name="prompt_lower_to_new">Czy chcesz obniżyć aktywny licznik do nowej zapisanej wartości?</string>
-    <string name="prompt_raise_to_new">Czy chcesz zwiększyć aktywny timer do nowej zapisanej wartości?</string>
     <string msgid="5941395253238309765" name="range_end">"Koniec zakresu"</string>
     <string msgid="7097486360902471446" name="range_start">"Początek zakresu"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Szukaj"</string>
@@ -234,7 +232,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Przełącznik"</string>
     <string msgid="1672349317127674378" name="tab">"Karta"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
-    <string name="title_confirm">Potwierdzenie</string>
     <string name="title_help">Pomoc</string>
     <string name="title_options">Opcje</string>
     <string msgid="3765533235322692011" name="tooltip_description">"etykietka"</string>

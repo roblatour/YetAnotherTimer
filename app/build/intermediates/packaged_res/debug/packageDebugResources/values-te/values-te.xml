@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">కదులుతున్నప్పుడు టచ్ చేతనపరచండి</string>
     <string name="label_touch_lock_on">కదులుతున్నప్పుడు టచ్ నిలిపివేయండి</string>
     <string name="license_word">లైసెన్స్</string>
-    <string name="prompt_lower_to_new">మీరు సేవ్ చేసిన కొత్త విలువకు క్రియాశీల టైమర్‌ను తగ్గించాలనుకుంటున్నారా?</string>
-    <string name="prompt_raise_to_new">మీరు సేవ్ చేసిన కొత్త విలువకు క్రియాశీల టైమర్‌ను పెంచాలనుకుంటున్నారా?</string>
-    <string name="title_confirm">దృవీకరణ</string>
     <string name="title_help">సహాయం</string>
     <string name="title_options">ఎంపికలు</string>
 </resources>

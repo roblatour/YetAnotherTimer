@@ -86,8 +86,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">Scheda</string>
     <string name="label_chime_off">Suono disattivo</string>
     <string name="label_chime_on">Suono attivo</string>
-    <string name="label_count_down">Conto alla rovescia</string>
-    <string name="label_count_up">Conteggio in aumento</string>
+    <string name="label_count_down">Conto alla rovescia da:</string>
+    <string name="label_count_up">Conteggio in aumento fino a:</string>
     <string name="label_hide_help_icon">Nascondi icona guida</string>
     <string name="label_hide_language_icon">Nascondi icona lingua</string>
     <string name="label_keep_screen_on_off">Non ignorare il blocco automatico</string>
@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"Menu di navigazione"</string>
     <string msgid="6610465462668679431" name="not_selected">"Opzione non selezionata"</string>
     <string name="password_toggle_content_description">Mostra password</string>
-    <string name="prompt_lower_to_new">Vuoi diminuire il timer attivo al nuovo valore appena salvato?</string>
-    <string name="prompt_raise_to_new">Vuoi aumentare il timer attivo al nuovo valore appena salvato?</string>
     <string msgid="5941395253238309765" name="range_end">"Fine intervallo"</string>
     <string msgid="7097486360902471446" name="range_start">"Inizio intervallo"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Opzione"</string>
     <string msgid="1672349317127674378" name="tab">"Scheda"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> percento."</string>
-    <string name="title_confirm">Conferma</string>
     <string name="title_help">Guida</string>
     <string name="title_options">Opzioni</string>
     <string msgid="3765533235322692011" name="tooltip_description">"Descrizione comando"</string>

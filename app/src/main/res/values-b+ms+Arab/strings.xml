@@ -20,7 +20,6 @@
     <string name="btn_cancel">باٮتل</string>
 
     <string name="title_help">باڠتوان</string>
-    <string name="title_confirm">سهاكن</string>
     <string name="title_options">ڤيليه</string>
 
     <string name="field_minutes">مينيت</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">اءدكه اندق منورونهكن ڤماسر اكن تڠگاه بارو يڠ اندا سيمڤن؟</string>
-    <string name="prompt_raise_to_new">اءدكه اندق مڠنايقكن ڤماسر ءكتيف كڤد نيلاء بارو يڠ اندا سيمڤن؟</string>
+    
     <string name="label_show_language_icon">تونجوقكن ايقون بهاس</string>
     <string name="label_hide_language_icon">سمبونييكن ايقون بهاس</string>
 </resources>

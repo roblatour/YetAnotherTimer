@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">हलत्या वेळी स्पर्श सुरू करा</string>
     <string name="label_touch_lock_on">हलत्या वेळी स्पर्श बंद करा</string>
     <string name="license_word">परवाना</string>
-    <string name="prompt_lower_to_new">जतन केलेल्या नवीन मूल्यापर्यंत सक्रिय टायमर कमी करायचा आहे का?</string>
-    <string name="prompt_raise_to_new">जतन केलेल्या नवीन मूल्यापर्यंत सक्रिय टाइमर वाढवायचा आहे का?</string>
-    <string name="title_confirm">निश्‍चिती</string>
     <string name="title_help">मदत</string>
     <string name="title_options">पर्याय</string>
 </resources>

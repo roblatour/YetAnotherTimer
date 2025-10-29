@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">حرکت کے دوران ٹچ فعال کریں</string>
     <string name="label_touch_lock_on">حرکت کے دوران ٹچ غیر فعال کریں</string>
     <string name="license_word">لائسنس</string>
-    <string name="prompt_lower_to_new">کیا آپ فعال ٹائمر کو آپ کے محفوظ کردہ نئے قدر تک کم کرنا چاہتے ہیں؟</string>
-    <string name="prompt_raise_to_new">کیا آپ فعال ٹائمر کو آپ کی محفوظ کردہ نئی قدر تک بڑھانا چاہتے ہیں؟</string>
-    <string name="title_confirm">تصدیق</string>
     <string name="title_help">مدد</string>
     <string name="title_options">اختیارات</string>
 </resources>

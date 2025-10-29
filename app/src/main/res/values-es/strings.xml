@@ -20,13 +20,12 @@
     <string name="btn_cancel">Cancelar</string>
 
     <string name="title_help">Ayuda</string>
-    <string name="title_confirm">Confirmar</string>
     <string name="title_options">Opciones</string>
 
     <string name="field_minutes">Minutos</string>
     <string name="field_seconds">Segundos</string>
-    <string name="label_count_up">Contar hacia arriba</string>
-    <string name="label_count_down">Cuenta regresiva</string>
+    <string name="label_count_up">Contar hacia arriba hasta:</string>
+    <string name="label_count_down">Cuenta regresiva desde:</string>
     <string name="label_chime_on">Sonido activado</string>
     <string name="label_chime_off">Sonido desactivado</string>
     <string name="label_keep_screen_on_on">Ignorar bloqueo automático, mantener la pantalla encendida</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">¿Deseas reducir el temporizador activo al nuevo valor que acabas de guardar?</string>
-    <string name="prompt_raise_to_new">¿Deseas aumentar el temporizador activo al nuevo valor que acabas de guardar?</string>
+    
     <string name="label_show_language_icon">Mostrar icono de idioma</string>
     <string name="label_hide_language_icon">Ocultar icono de idioma</string>
 </resources>

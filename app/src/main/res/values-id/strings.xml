@@ -20,13 +20,12 @@
     <string name="btn_cancel">Batal</string>
 
     <string name="title_help">Bantuan</string>
-    <string name="title_confirm">Konfirmasi</string>
     <string name="title_options">Opsi</string>
 
     <string name="field_minutes">Menit</string>
     <string name="field_seconds">Detik</string>
-    <string name="label_count_up">Hitung naik</string>
-    <string name="label_count_down">Hitung mundur</string>
+    <string name="label_count_up">Hitung naik hingga:</string>
+    <string name="label_count_down">Hitung mundur dari:</string>
     <string name="label_chime_on">Lonceng aktif</string>
     <string name="label_chime_off">Lonceng nonaktif</string>
     <string name="label_keep_screen_on_on">Abaikan kunci otomatis, jaga layar tetap menyala</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Ingin menurunkan timer aktif ke nilai baru yang baru saja Anda simpan?</string>
-    <string name="prompt_raise_to_new">Ingin menaikkan timer aktif ke nilai baru yang baru saja Anda simpan?</string>
+    
     <string name="label_show_language_icon">Tampilkan ikon bahasa</string>
     <string name="label_hide_language_icon">Sembunyikan ikon bahasa</string>
 </resources>

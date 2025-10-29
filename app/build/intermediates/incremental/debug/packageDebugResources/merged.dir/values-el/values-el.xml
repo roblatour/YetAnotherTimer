@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Ενεργοποίηση αφής κατά την κίνηση</string>
     <string name="label_touch_lock_on">Απενεργοποίηση αφής κατά την κίνηση</string>
     <string name="license_word">Άδεια</string>
-    <string name="prompt_lower_to_new">Θέλετε να μειώσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
-    <string name="prompt_raise_to_new">Θέλετε να αυξήσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
-    <string name="title_confirm">Επιβεβαίωση</string>
     <string name="title_help">Βοήθεια</string>
     <string name="title_options">Επιλογές</string>
 </resources>

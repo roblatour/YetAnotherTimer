@@ -100,10 +100,7 @@ fun TimerScreen(vm: TimerViewModel) {
     val showSettings = rememberSaveable { mutableStateOf(false) }
     val showHelp = rememberSaveable { mutableStateOf(false) }
     val showLanguageMenu = rememberSaveable { mutableStateOf(false) }
-    val showLowerPrompt = rememberSaveable { mutableStateOf(false) }
-    val showRaisePrompt = rememberSaveable { mutableStateOf(false) }
-    val pendingLowerTarget = rememberSaveable { mutableStateOf<Int?>(null) }
-    val pendingRaiseTarget = rememberSaveable { mutableStateOf<Int?>(null) }
+    // Confirmation prompts removed; apply changes immediately
     Scaffold(
         containerColor = Color.Black
     ) { padding ->
@@ -269,9 +266,15 @@ fun TimerScreen(vm: TimerViewModel) {
         }
     }
     if (showSettings.value) {
+        val currentDuration = if (state.isCountUp) {
+            vm.getCurrentCountUpDuration()
+        } else {
+            vm.getCurrentCountDownDuration()
+        }
+        
         SettingsDialog(
-            initialMinutes = state.totalSeconds / 60,
-            initialSeconds = state.totalSeconds % 60,
+            initialMinutes = currentDuration.minutes,
+            initialSeconds = currentDuration.seconds,
             initialChimeEnabled = state.chimeEnabled,
             initialKeepScreenOn = state.keepScreenOn,
             initialHelpIconVisible = state.helpIconVisible,
@@ -279,6 +282,7 @@ fun TimerScreen(vm: TimerViewModel) {
             initialIsCountUp = state.isCountUp,
             initialLanguageTag = state.languageTag,
             initialTouchLockEnabled = state.touchLockEnabled,
+            viewModel = vm,
             onDismiss = {
                 // Intentionally left blank to prevent accidental dismiss via outside tap/back.
                 // Settings dialog will only close via explicit Save or Cancel buttons below.
@@ -287,19 +291,21 @@ fun TimerScreen(vm: TimerViewModel) {
                 showSettings.value = false
             },
             onSave = { m, s ->
+                // For prompts, use the current mode's values
                 val newStart = (m * 60) + s
-                vm.setStart(m, s)
-                // If currently running or paused, and active remaining > new start, prompt to lower
+                // Apply new values immediately to the active timer without confirmation
+                // Countdown: if new start is lower than current remaining, clamp down to new value and continue
+                // Count up: if new limit is lower than current elapsed, finish immediately (reset to 0:00 and stop)
                 if (!state.isCountUp) {
-                    if ((state.isRunning || state.remainingSeconds > 0) && state.remainingSeconds > newStart) {
-                        pendingLowerTarget.value = newStart
-                        showLowerPrompt.value = true
+                    val sessionInProgress = state.isRunning || (state.remainingSeconds < state.totalSeconds)
+                    if (sessionInProgress && state.remainingSeconds > newStart) {
+                        vm.lowerActiveCountdownTo(newStart)
                     }
                 } else {
-                    // Count up: if active remaining < new start, prompt to raise
-                    if ((state.isRunning || state.remainingSeconds > 0) && state.remainingSeconds < newStart) {
-                        pendingRaiseTarget.value = newStart
-                        showRaisePrompt.value = true
+                    val sessionInProgress = state.isRunning || (state.remainingSeconds > 0)
+                    if (sessionInProgress && state.remainingSeconds > newStart) {
+                        // Immediately finish as if limit reached: show limit briefly, chime (if on), then reset to 0:00
+                        vm.finishCountUpAtLimit(newStart)
                     }
                 }
                 showSettings.value = false
@@ -365,102 +371,7 @@ fun TimerScreen(vm: TimerViewModel) {
         )
     }
 
-    // Auto-dismiss the lower prompt if the active remaining falls <= target while running (count down)
-    LaunchedEffect(state.remainingSeconds, state.isRunning, showLowerPrompt.value, pendingLowerTarget.value) {
-        val target = pendingLowerTarget.value
-        if (showLowerPrompt.value && target != null) {
-            if (state.isRunning && state.remainingSeconds <= target) {
-                // Countdown naturally moved below the target; auto-dismiss
-                showLowerPrompt.value = false
-                pendingLowerTarget.value = null
-            }
-        }
-    }
-
-    // Auto-dismiss the raise prompt if the active remaining rises >= target while running (count up)
-    LaunchedEffect(state.remainingSeconds, state.isRunning, showRaisePrompt.value, pendingRaiseTarget.value) {
-        val target = pendingRaiseTarget.value
-        if (showRaisePrompt.value && target != null) {
-            if (state.isRunning && state.remainingSeconds >= target) {
-                showRaisePrompt.value = false
-                pendingRaiseTarget.value = null
-            }
-        }
-    }
-
-    // Confirmation prompt to lower active countdown to new saved value
-    if (showLowerPrompt.value) {
-        val target = pendingLowerTarget.value ?: 0
-        AlertDialog(
-            onDismissRequest = {
-                // Treat dismiss as "No"
-                showLowerPrompt.value = false
-                pendingLowerTarget.value = null
-            },
-            confirmButton = {
-                Button(
-                    onClick = {
-                        vm.lowerActiveCountdownTo(target)
-                        showLowerPrompt.value = false
-                        pendingLowerTarget.value = null
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
-                ) { Text(stringResource(id = R.string.btn_yes)) }
-            },
-            dismissButton = {
-                Button(
-                    onClick = {
-                        // Do not change current remaining
-                        showLowerPrompt.value = false
-                        pendingLowerTarget.value = null
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
-                ) { Text(stringResource(id = R.string.btn_no)) }
-            },
-            title = { Text(stringResource(id = R.string.title_confirm), color = Color.White) },
-            text = {
-                Text(stringResource(id = R.string.prompt_lower_to_new), color = Color.White)
-            },
-            containerColor = Color.Black,
-            textContentColor = Color.White
-        )
-    }
-
-    // Confirmation prompt to raise active count up timer to new saved value
-    if (showRaisePrompt.value) {
-        val target = pendingRaiseTarget.value ?: 0
-        AlertDialog(
-            onDismissRequest = {
-                showRaisePrompt.value = false
-                pendingRaiseTarget.value = null
-            },
-            confirmButton = {
-                Button(
-                    onClick = {
-                        vm.raiseActiveCountUpTo(target)
-                        showRaisePrompt.value = false
-                        pendingRaiseTarget.value = null
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
-                ) { Text(stringResource(id = R.string.btn_yes)) }
-            },
-            dismissButton = {
-                Button(
-                    onClick = {
-                        showRaisePrompt.value = false
-                        pendingRaiseTarget.value = null
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
-                ) { Text(stringResource(id = R.string.btn_no)) }
-            },
-            title = { Text(stringResource(id = R.string.title_confirm), color = Color.White) },
-            text = {
-                Text(stringResource(id = R.string.prompt_raise_to_new), color = Color.White)
-            },
-            containerColor = Color.Black,
-            textContentColor = Color.White
-        )
-    }
+    // Confirmation prompts removed: behavior is now immediate based on rules above
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -475,6 +386,7 @@ fun SettingsDialog(
     initialLanguageIconVisible: Boolean,
     initialLanguageTag: String,
     initialTouchLockEnabled: Boolean,
+    viewModel: TimerViewModel, // Add view model parameter to get current values
     onDismiss: () -> Unit,
     onCancel: () -> Unit,
     onSave: (Int, Int) -> Unit,
@@ -497,13 +409,75 @@ fun SettingsDialog(
     var languageIconVisible by rememberSaveable { mutableStateOf(initialLanguageIconVisible) }
     var touchLockEnabled by rememberSaveable { mutableStateOf(initialTouchLockEnabled) }
     var languageTag by rememberSaveable { mutableStateOf(initialLanguageTag.ifBlank { "en" }) }
+    
+    // Store temporary values for both count up and count down modes
+    // Initialize with the actual stored values for each mode
+    val initialCountUpDuration = viewModel.getCurrentCountUpDuration()
+    val initialCountDownDuration = viewModel.getCurrentCountDownDuration()
+    
+    var tempCountUpMinutes by rememberSaveable { mutableStateOf(initialCountUpDuration.minutes.toString()) }
+    var tempCountUpSeconds by rememberSaveable { mutableStateOf(initialCountUpDuration.seconds.toString()) }
+    var tempCountDownMinutes by rememberSaveable { mutableStateOf(initialCountDownDuration.minutes.toString()) }
+    var tempCountDownSeconds by rememberSaveable { mutableStateOf(initialCountDownDuration.seconds.toString()) }
+    // Track whether each mode has been edited during this dialog session
+    var editedCountUp by rememberSaveable { mutableStateOf(false) }
+    var editedCountDown by rememberSaveable { mutableStateOf(false) }
+    
+    // Initialize the displayed values based on the current mode
+    LaunchedEffect(Unit) {
+        if (initialIsCountUp) {
+            minutesText = tempCountUpMinutes
+            secondsText = tempCountUpSeconds
+        } else {
+            minutesText = tempCountDownMinutes
+            secondsText = tempCountDownSeconds
+        }
+    }
+    
+    // Update displayed values when mode changes, preserving unsaved edits.
+    LaunchedEffect(isCountUp) {
+        if (isCountUp) {
+            // Save current values to count down temp storage
+            tempCountDownMinutes = minutesText
+            tempCountDownSeconds = secondsText
+            // Load count up values: if not edited this session, refresh from store
+            if (!editedCountUp) {
+                val fresh = viewModel.getCurrentCountUpDuration()
+                tempCountUpMinutes = fresh.minutes.toString()
+                tempCountUpSeconds = fresh.seconds.toString()
+            }
+            minutesText = tempCountUpMinutes
+            secondsText = tempCountUpSeconds
+        } else {
+            // Save current values to count up temp storage
+            tempCountUpMinutes = minutesText
+            tempCountUpSeconds = secondsText
+            // Load count down values: if not edited this session, refresh from store
+            if (!editedCountDown) {
+                val fresh = viewModel.getCurrentCountDownDuration()
+                tempCountDownMinutes = fresh.minutes.toString()
+                tempCountDownSeconds = fresh.seconds.toString()
+            }
+            minutesText = tempCountDownMinutes
+            secondsText = tempCountDownSeconds
+        }
+        // Reset the cleared flags when switching modes
+        minutesCleared = false
+        secondsCleared = false
+    }
     AlertDialog(
         onDismissRequest = onDismiss,
         confirmButton = {
             Button(
                 onClick = {
-                    val m = minutesText.filter { it.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
-                    val s = secondsText.filter { it.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
+                    // Save both count up and count down durations from temporary storage
+                    val countUpM = tempCountUpMinutes.filter { char -> char.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
+                    val countUpS = tempCountUpSeconds.filter { char -> char.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
+                    val countDownM = tempCountDownMinutes.filter { char -> char.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
+                    val countDownS = tempCountDownSeconds.filter { char -> char.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
+                    
+                    viewModel.setBothDurations(countUpM, countUpS, countDownM, countDownS)
+                    
                     // Apply toggle changes only on Save
                     onToggleChime(chimeEnabled)
                     onToggleKeepScreenOn(keepScreenOn)
@@ -512,7 +486,11 @@ fun SettingsDialog(
                     onToggleCountUp(isCountUp)
                     onToggleTouchLock(touchLockEnabled)
                     onSetLanguageTag(languageTag)
-                    onSave(m, s)
+                    
+                    // For the prompt logic, use the current mode's values
+                    val currentM = if (isCountUp) countUpM else countDownM
+                    val currentS = if (isCountUp) countUpS else countDownS
+                    onSave(currentM, currentS)
                 },
                 colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
             ) {
@@ -546,19 +524,59 @@ fun SettingsDialog(
                         .verticalScroll(rememberScrollState())
                 ) {
                 // Language selection moved to the new bottom language button; dropdown removed from Options
+                // Count up/down toggle row: now ABOVE Minutes/Seconds and above Chime
+                androidx.compose.foundation.layout.Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .padding(vertical = 4.dp)
+                        .clickable {
+                            isCountUp = !isCountUp
+                        }
+                ) {
+                    // Keep icon a consistent size so following rows can align to the text start
+                    val iconSize = 24.dp
+                    // Icon: up arrow for count up (gray), down arrow for count down (green)
+                    val iconTint = if (isCountUp) Color.Gray else Color.Green
+                    Icon(
+                        imageVector = if (isCountUp) Icons.Filled.ArrowUpward else Icons.Filled.ArrowDownward,
+                        contentDescription = if (isCountUp) stringResource(id = R.string.desc_count_up) else stringResource(id = R.string.desc_count_down),
+                        tint = iconTint,
+                        modifier = Modifier.size(iconSize)
+                    )
+                    Text(
+                        text = if (isCountUp) stringResource(id = R.string.label_count_up) else stringResource(id = R.string.label_count_down),
+                        color = Color.White,
+                        modifier = Modifier.padding(start = 8.dp).fillMaxWidth(),
+                        textAlign = TextAlign.Start
+                    )
+                }
                 // Inputs row: Minutes (left) and Seconds (right)
                 Row(
-                    modifier = Modifier.fillMaxWidth(),
+                    // Align the start of the Minutes box with the start of the label text above
+                    // by padding start equal to icon width + the 8.dp text start padding.
+                    modifier = Modifier
+                        .padding(start = 24.dp + 8.dp)
+                        // Make the pair of inputs 20% wider (0.8 -> 0.96 of parent width)
+                        .fillMaxWidth(0.96f),
                     horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     OutlinedTextField(
                         value = minutesText,
                         onValueChange = { v ->
-                            minutesText = v.filter { it.isDigit() }.take(3)
+                            val filtered = v.filter { char -> char.isDigit() }.take(3)
+                            minutesText = filtered
+                            // Also update the appropriate temporary storage
+                            if (isCountUp) {
+                                tempCountUpMinutes = filtered
+                                editedCountUp = true
+                            } else {
+                                tempCountDownMinutes = filtered
+                                editedCountDown = true
+                            }
                         },
                         label = { Text(stringResource(id = R.string.field_minutes), color = Color.White, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start) },
                         keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(keyboardType = KeyboardType.Number),
-                        colors = TextFieldDefaults.colors(
+                        colors = OutlinedTextFieldDefaults.colors(
                             focusedTextColor = Color.White,
                             unfocusedTextColor = Color.White,
                             disabledTextColor = Color.White,
@@ -566,8 +584,8 @@ fun SettingsDialog(
                             unfocusedContainerColor = Color.Black,
                             disabledContainerColor = Color.Black,
                             cursorColor = Color.White,
-                            focusedIndicatorColor = Color.White,
-                            unfocusedIndicatorColor = Color.Gray,
+                            focusedBorderColor = Color.White,
+                            unfocusedBorderColor = Color.Gray,
                             focusedLabelColor = Color.White,
                             unfocusedLabelColor = Color.White
                         ),
@@ -584,11 +602,20 @@ fun SettingsDialog(
                     OutlinedTextField(
                         value = secondsText,
                         onValueChange = { v ->
-                            secondsText = v.filter { it.isDigit() }.take(2)
+                            val filtered = v.filter { char -> char.isDigit() }.take(2)
+                            secondsText = filtered
+                            // Also update the appropriate temporary storage
+                            if (isCountUp) {
+                                tempCountUpSeconds = filtered
+                                editedCountUp = true
+                            } else {
+                                tempCountDownSeconds = filtered
+                                editedCountDown = true
+                            }
                         },
                         label = { Text(stringResource(id = R.string.field_seconds), color = Color.White, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start) },
                         keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(keyboardType = KeyboardType.Number),
-                        colors = TextFieldDefaults.colors(
+                        colors = OutlinedTextFieldDefaults.colors(
                             focusedTextColor = Color.White,
                             unfocusedTextColor = Color.White,
                             disabledTextColor = Color.White,
@@ -596,8 +623,8 @@ fun SettingsDialog(
                             unfocusedContainerColor = Color.Black,
                             disabledContainerColor = Color.Black,
                             cursorColor = Color.White,
-                            focusedIndicatorColor = Color.White,
-                            unfocusedIndicatorColor = Color.Gray,
+                            focusedBorderColor = Color.White,
+                            unfocusedBorderColor = Color.Gray,
                             focusedLabelColor = Color.White,
                             unfocusedLabelColor = Color.White
                         ),
@@ -611,29 +638,9 @@ fun SettingsDialog(
                             }
                     )
                 }
-                    // Count up/down toggle row: directly below Minutes/Seconds and above Chime
-                    androidx.compose.foundation.layout.Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier
-                            .padding(vertical = 4.dp)
-                            .clickable {
-                                isCountUp = !isCountUp
-                            }
-                    ) {
-                        // Icon: up arrow for count up (gray), down arrow for count down (green)
-                        val iconTint = if (isCountUp) Color.Gray else Color.Green
-                        Icon(
-                            imageVector = if (isCountUp) Icons.Filled.ArrowUpward else Icons.Filled.ArrowDownward,
-                            contentDescription = if (isCountUp) stringResource(id = R.string.desc_count_up) else stringResource(id = R.string.desc_count_down),
-                            tint = iconTint
-                        )
-                        Text(
-                            text = if (isCountUp) stringResource(id = R.string.label_count_up) else stringResource(id = R.string.label_count_down),
-                            color = Color.White,
-                            modifier = Modifier.padding(start = 8.dp).fillMaxWidth(),
-                            textAlign = TextAlign.Start
-                        )
-                    }
+                // Add a little extra breathing room between the time inputs and the Chime row
+                // Approximately 1/4 of a typical body text line height (~24sp), so ~6dp
+                Spacer(modifier = Modifier.height(6.dp))
                 // Chime toggle row: tap row (icon or text) to toggle (local only until Save)
                 androidx.compose.foundation.layout.Row(
                     verticalAlignment = Alignment.CenterVertically,

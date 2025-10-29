@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Zamanlayıcıyı başlatmak, duraklatmak veya sürdürmek için ana ekrana dokunun.</string>
     <string name="label_chime_off">Zil kapalı</string>
     <string name="label_chime_on">Zil açık</string>
-    <string name="label_count_down">Geri sayım</string>
-    <string name="label_count_up">Artan sayım</string>
+    <string name="label_count_down">Geri sayım başlangıcı:</string>
+    <string name="label_count_up">Artan sayım hedefi:</string>
     <string name="label_hide_help_icon">Yardım simgesini gizle</string>
     <string name="label_hide_language_icon">Dil simgesini gizle</string>
     <string name="label_keep_screen_on_off">Otomatik kilidi geçersiz kılma</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Hareket ederken dokunuşu etkinleştir</string>
     <string name="label_touch_lock_on">Hareket ederken dokunuşu devre dışı bırak</string>
     <string name="license_word">Lisans</string>
-    <string name="prompt_lower_to_new">Etkin zamanlayıcıyı az önce kaydettiğiniz yeni değere düşürmek istiyor musunuz?</string>
-    <string name="prompt_raise_to_new">Etkin zamanlayıcıyı az önce kaydettiğiniz yeni değere yükseltmek istiyor musunuz?</string>
-    <string name="title_confirm">Onay</string>
     <string name="title_help">Yardım</string>
     <string name="title_options">Seçenekler</string>
 </resources>

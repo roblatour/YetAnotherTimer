@@ -20,7 +20,6 @@
     <string name="btn_cancel">ยกเลิก</string>
 
     <string name="title_help">วิธีใช้</string>
-    <string name="title_confirm">ยืนยัน</string>
     <string name="title_options">ตัวเลือก</string>
 
     <string name="field_minutes">นาที</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">คุณต้องการลดตัวจับเวลาที่ใช้งานอยู่ให้เป็นค่าใหม่ที่คุณเพิ่งบันทึกหรือไม่?</string>
-    <string name="prompt_raise_to_new">คุณต้องการเพิ่มตัวจับเวลาที่ใช้งานอยู่เป็นค่าใหม่ที่คุณเพิ่งบันทึกหรือไม่?</string>
+    
     <string name="label_show_language_icon">แสดงไอคอนภาษา</string>
     <string name="label_hide_language_icon">ซ่อนไอคอนภาษา</string>
 </resources>

@@ -20,13 +20,12 @@
     <string name="btn_cancel">إلغاء</string>
 
     <string name="title_help">مساعدة</string>
-    <string name="title_confirm">تأكيد</string>
     <string name="title_options">الخيارات</string>
 
     <string name="field_minutes">دقائق</string>
     <string name="field_seconds">ثوانٍ</string>
-    <string name="label_count_up">عد تصاعدي</string>
-    <string name="label_count_down">عد تنازلي</string>
+    <string name="label_count_up">عد تصاعدي إلى:</string>
+    <string name="label_count_down">عد تنازلي من:</string>
     <string name="label_chime_on">الجرس قيد التشغيل</string>
     <string name="label_chime_off">الجرس متوقف</string>
     <string name="label_keep_screen_on_on">تجاوز القفل التلقائي، إبقاء الشاشة قيد التشغيل</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">هل تريد خفض المؤقت النشط إلى القيمة الجديدة التي قمت بحفظها؟</string>
-    <string name="prompt_raise_to_new">هل تريد رفع المؤقت النشط إلى القيمة الجديدة التي قمت بحفظها؟</string>
+    
     <string name="label_show_language_icon">إظهار رمز اللغة</string>
     <string name="label_hide_language_icon">إخفاء رمز اللغة</string>
 </resources>

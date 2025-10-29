@@ -86,8 +86,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">标签页</string>
     <string name="label_chime_off">提示音关</string>
     <string name="label_chime_on">提示音开</string>
-    <string name="label_count_down">倒计时</string>
-    <string name="label_count_up">正计时</string>
+    <string name="label_count_down">倒计时从：</string>
+    <string name="label_count_up">正计时至：</string>
     <string name="label_hide_help_icon">隐藏帮助图标</string>
     <string name="label_hide_language_icon">隐藏语言图标</string>
     <string name="label_keep_screen_on_off">不忽略自动锁定</string>
@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"导航菜单"</string>
     <string msgid="6610465462668679431" name="not_selected">"未选择"</string>
     <string name="password_toggle_content_description">显示密码</string>
-    <string name="prompt_lower_to_new">是否将活动计时器降低到您刚刚保存的新值？</string>
-    <string name="prompt_raise_to_new">是否将活动计时器提高到您刚刚保存的新值？</string>
     <string msgid="5941395253238309765" name="range_end">"范围终点"</string>
     <string msgid="7097486360902471446" name="range_start">"范围起点"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"搜索"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"开关"</string>
     <string msgid="1672349317127674378" name="tab">"标签页"</string>
     <string msgid="5946805113151406391" name="template_percent">"百分之 <ns1:g id="PERCENTAGE">%1$d</ns1:g>。"</string>
-    <string name="title_confirm">确认</string>
     <string name="title_help">帮助</string>
     <string name="title_options">选项</string>
     <string msgid="3765533235322692011" name="tooltip_description">"提示"</string>

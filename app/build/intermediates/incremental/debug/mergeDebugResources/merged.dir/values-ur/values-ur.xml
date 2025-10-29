@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"نیویگیشن مینیو"</string>
     <string msgid="6610465462668679431" name="not_selected">"غیر منتخب کردہ"</string>
     <string name="password_toggle_content_description">پاس ورڈ دکھائیں</string>
-    <string name="prompt_lower_to_new">کیا آپ فعال ٹائمر کو آپ کے محفوظ کردہ نئے قدر تک کم کرنا چاہتے ہیں؟</string>
-    <string name="prompt_raise_to_new">کیا آپ فعال ٹائمر کو آپ کی محفوظ کردہ نئی قدر تک بڑھانا چاہتے ہیں؟</string>
     <string msgid="5941395253238309765" name="range_end">"رینج کا اختتام"</string>
     <string msgid="7097486360902471446" name="range_start">"رینج کی شروعات"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"تلاش کریں"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"سوئچ"</string>
     <string msgid="1672349317127674378" name="tab">"ٹیب"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> فیصد۔"</string>
-    <string name="title_confirm">تصدیق</string>
     <string name="title_help">مدد</string>
     <string name="title_options">اختیارات</string>
     <string msgid="3765533235322692011" name="tooltip_description">"ٹول ٹپ"</string>

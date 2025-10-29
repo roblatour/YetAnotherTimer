@@ -19,8 +19,11 @@ data class StartDuration(val minutes: Int, val seconds: Int)
 
 class SettingsRepository(private val context: Context) {
     private object Keys {
-        val minutes: Preferences.Key<Int> = intPreferencesKey("start_minutes")
-        val seconds: Preferences.Key<Int> = intPreferencesKey("start_seconds")
+        val countUpMinutes: Preferences.Key<Int> = intPreferencesKey("count_up_minutes")
+        val countUpSeconds: Preferences.Key<Int> = intPreferencesKey("count_up_seconds")
+        val countDownMinutes: Preferences.Key<Int> = intPreferencesKey("count_down_minutes")
+        val countDownSeconds: Preferences.Key<Int> = intPreferencesKey("count_down_seconds")
+        
         val chime: Preferences.Key<Boolean> = booleanPreferencesKey("chime_enabled")
         val keepScreenOn: Preferences.Key<Boolean> = booleanPreferencesKey("keep_screen_on")
         val helpIconVisible: Preferences.Key<Boolean> = booleanPreferencesKey("help_icon_visible")
@@ -31,10 +34,16 @@ class SettingsRepository(private val context: Context) {
         val initialized: Preferences.Key<Boolean> = booleanPreferencesKey("initialized")
     }
 
-    val startDurationFlow: Flow<StartDuration> = context.dataStore.data.map { prefs ->
-        val m = prefs[Keys.minutes] ?: 2
-        val s = (prefs[Keys.seconds] ?: 0).coerceIn(0, 59)
-        StartDuration(minutes = m.coerceAtLeast(0), seconds = s)
+    val countUpDurationFlow: Flow<StartDuration> = context.dataStore.data.map { prefs ->
+        val m = (prefs[Keys.countUpMinutes] ?: 999).coerceAtLeast(0)
+        val s = (prefs[Keys.countUpSeconds] ?: 59).coerceIn(0, 59)
+        StartDuration(minutes = m, seconds = s)
+    }
+
+    val countDownDurationFlow: Flow<StartDuration> = context.dataStore.data.map { prefs ->
+        val m = (prefs[Keys.countDownMinutes] ?: 2).coerceAtLeast(0)
+        val s = (prefs[Keys.countDownSeconds] ?: 0).coerceIn(0, 59)
+        StartDuration(minutes = m, seconds = s)
     }
 
     val chimeEnabledFlow: Flow<Boolean> = context.dataStore.data.map { prefs ->
@@ -72,12 +81,21 @@ class SettingsRepository(private val context: Context) {
         com.example.yetanothertimer.data.SupportedLanguages.bestMatchFor(sys)
     }
 
-    suspend fun setStartDuration(minutes: Int, seconds: Int) {
+    suspend fun setCountUpDuration(minutes: Int, seconds: Int) {
         val m = minutes.coerceAtLeast(0)
         val s = seconds.coerceIn(0, 59)
         context.dataStore.edit { prefs ->
-            prefs[Keys.minutes] = m
-            prefs[Keys.seconds] = s
+            prefs[Keys.countUpMinutes] = m
+            prefs[Keys.countUpSeconds] = s
+        }
+    }
+
+    suspend fun setCountDownDuration(minutes: Int, seconds: Int) {
+        val m = minutes.coerceAtLeast(0)
+        val s = seconds.coerceIn(0, 59)
+        context.dataStore.edit { prefs ->
+            prefs[Keys.countDownMinutes] = m
+            prefs[Keys.countDownSeconds] = s
         }
     }
 

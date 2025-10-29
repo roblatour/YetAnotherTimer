@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">চলাচলের সময় স্পর্শ চালু করুন</string>
     <string name="label_touch_lock_on">চলাচলের সময় স্পর্শ বন্ধ করুন</string>
     <string name="license_word">লাইসেন্স</string>
-    <string name="prompt_lower_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে কমাতে চান?</string>
-    <string name="prompt_raise_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে বাড়াতে চান?</string>
-    <string name="title_confirm">নিশ্চিতকরণ</string>
     <string name="title_help">সহায়তা</string>
     <string name="title_options">বিকল্পসমূহ</string>
 </resources>

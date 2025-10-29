@@ -3934,8 +3934,6 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string prompt_lower_to_new
-string prompt_raise_to_new
 string range_end
 string range_start
 string search_menu_title
@@ -3952,7 +3950,6 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
-string title_confirm
 string title_help
 string title_options
 string tooltip_description

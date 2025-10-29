@@ -23,13 +23,12 @@
     <string name="btn_cancel">Avbryt</string>
 
     <string name="title_help">Hjälp</string>
-    <string name="title_confirm">Bekräfta</string>
     <string name="title_options">Alternativ</string>
 
     <string name="field_minutes">Minuter</string>
     <string name="field_seconds">Sekunder</string>
-    <string name="label_count_up">Räkna upp</string>
-    <string name="label_count_down">Räkna ned</string>
+    <string name="label_count_up">Räkna upp till:</string>
+    <string name="label_count_down">Räkna ned från:</string>
     <string name="label_chime_on">Signal på</string>
     <string name="label_chime_off">Signal av</string>
     <string name="label_keep_screen_on_on">Åsidosätt autolås, håll skärmen på</string>
@@ -48,6 +47,5 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Vill du sänka den aktiva timern till det nya värdet du just sparade?</string>
-    <string name="prompt_raise_to_new">Vill du höja den aktiva timern till det nya värdet du just sparade?</string>
+    
 </resources>

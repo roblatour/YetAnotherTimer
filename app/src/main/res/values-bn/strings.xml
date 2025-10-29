@@ -20,7 +20,6 @@
     <string name="btn_cancel">বাতিল</string>
 
     <string name="title_help">সহায়তা</string>
-    <string name="title_confirm">নিশ্চিতকরণ</string>
     <string name="title_options">বিকল্পসমূহ</string>
 
     <string name="field_minutes">মিনিট</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে কমাতে চান?</string>
-    <string name="prompt_raise_to_new">আপনি কি সক্রিয় টাইমারটি আপনি সংরক্ষণ করা নতুন মানে বাড়াতে চান?</string>
+    
     <string name="label_show_language_icon">ভাষার আইকন দেখান</string>
     <string name="label_hide_language_icon">ভাষার আইকন লুকান</string>
 </resources>

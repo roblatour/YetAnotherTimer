@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"नेव्हिगेशन मेनू"</string>
     <string msgid="6610465462668679431" name="not_selected">"निवडला नाही"</string>
     <string name="password_toggle_content_description">पासवर्ड दाखवा</string>
-    <string name="prompt_lower_to_new">जतन केलेल्या नवीन मूल्यापर्यंत सक्रिय टायमर कमी करायचा आहे का?</string>
-    <string name="prompt_raise_to_new">जतन केलेल्या नवीन मूल्यापर्यंत सक्रिय टाइमर वाढवायचा आहे का?</string>
     <string msgid="5941395253238309765" name="range_end">"रेंजचा शेवट"</string>
     <string msgid="7097486360902471446" name="range_start">"रेंजची सुरुवात"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"शोध"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"स्विच"</string>
     <string msgid="1672349317127674378" name="tab">"टॅब"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> टक्के."</string>
-    <string name="title_confirm">निश्‍चिती</string>
     <string name="title_help">मदत</string>
     <string name="title_options">पर्याय</string>
     <string msgid="3765533235322692011" name="tooltip_description">"टूलटिप"</string>

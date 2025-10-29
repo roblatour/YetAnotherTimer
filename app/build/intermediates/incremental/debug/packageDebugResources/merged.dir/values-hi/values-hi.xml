@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">टाइमर शुरू करने, रोकने या फिर से शुरू करने के लिए मुख्य स्क्रीन पर टैप करें।</string>
     <string name="label_chime_off">घंटी बंद</string>
     <string name="label_chime_on">घंटी चालू</string>
-    <string name="label_count_down">घटती गणना</string>
-    <string name="label_count_up">आरोही गणना</string>
+    <string name="label_count_down">काउंटडाउन से:</string>
+    <string name="label_count_up">काउंट अप तक:</string>
     <string name="label_hide_help_icon">सहायता आइकन छुपाएं</string>
     <string name="label_hide_language_icon">भाषा आइकन छुपाएँ</string>
     <string name="label_keep_screen_on_off">ऑटो-लॉक को अनदेखा न करें</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">चलते समय स्पर्श सक्षम करें</string>
     <string name="label_touch_lock_on">चलते समय स्पर्श अक्षम करें</string>
     <string name="license_word">लाइसेंस</string>
-    <string name="prompt_lower_to_new">क्या आप सक्रिय टाइमर को आपके द्वारा सहेजे गए नए मान तक कम करना चाहते हैं?</string>
-    <string name="prompt_raise_to_new">क्या आप सक्रिय टाइमर को आपके द्वारा सहेजे गए नए मान तक बढ़ाना चाहते हैं?</string>
-    <string name="title_confirm">पुष्टि</string>
     <string name="title_help">सहायता</string>
     <string name="title_options">विकल्प</string>
 </resources>

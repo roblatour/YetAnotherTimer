@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">타이머를 시작, 일시 중지 또는 재개하려면 기본 화면을 탭하세요.</string>
     <string name="label_chime_off">차임 꺼짐</string>
     <string name="label_chime_on">차임 켜짐</string>
-    <string name="label_count_down">카운트다운</string>
-    <string name="label_count_up">카운트업</string>
+    <string name="label_count_down">카운트다운 시작:</string>
+    <string name="label_count_up">카운트업 목표:</string>
     <string name="label_hide_help_icon">도움말 아이콘 숨기기</string>
     <string name="label_hide_language_icon">언어 아이콘 숨기기</string>
     <string name="label_keep_screen_on_off">자동 잠금을 무시하지 않음</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">움직일 때 터치 활성화</string>
     <string name="label_touch_lock_on">움직일 때 터치 비활성화</string>
     <string name="license_word">라이선스</string>
-    <string name="prompt_lower_to_new">저장한 새 값으로 활성 타이머를 낮추시겠습니까?</string>
-    <string name="prompt_raise_to_new">저장한 새 값으로 활성 타이머를 높이시겠습니까?</string>
-    <string name="title_confirm">확인</string>
     <string name="title_help">도움말</string>
     <string name="title_options">옵션</string>
 </resources>

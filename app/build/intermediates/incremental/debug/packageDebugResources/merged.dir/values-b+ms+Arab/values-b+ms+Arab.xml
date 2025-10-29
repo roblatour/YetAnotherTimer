@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">هيدوڤکن سنتوهن سماس برݢرک</string>
     <string name="label_touch_lock_on">ماتيکن سنتوهن سماس برݢرک</string>
     <string name="license_word">ليسن</string>
-    <string name="prompt_lower_to_new">اءدكه اندق منورونهكن ڤماسر اكن تڠگاه بارو يڠ اندا سيمڤن؟</string>
-    <string name="prompt_raise_to_new">اءدكه اندق مڠنايقكن ڤماسر ءكتيف كڤد نيلاء بارو يڠ اندا سيمڤن؟</string>
-    <string name="title_confirm">سهاكن</string>
     <string name="title_help">باڠتوان</string>
     <string name="title_options">ڤيليه</string>
 </resources>

@@ -20,7 +20,6 @@
     <string name="btn_cancel">Ακύρωση</string>
 
     <string name="title_help">Βοήθεια</string>
-    <string name="title_confirm">Επιβεβαίωση</string>
     <string name="title_options">Επιλογές</string>
 
     <string name="field_minutes">Λεπτά</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Θέλετε να μειώσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
-    <string name="prompt_raise_to_new">Θέλετε να αυξήσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
+    
     <string name="label_show_language_icon">Εμφάνιση εικονιδίου γλώσσας</string>
     <string name="label_hide_language_icon">Απόκρυψη εικονιδίου γλώσσας</string>
 </resources>

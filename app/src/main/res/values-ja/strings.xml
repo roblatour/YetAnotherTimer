@@ -20,13 +20,12 @@
     <string name="btn_cancel">キャンセル</string>
 
     <string name="title_help">ヘルプ</string>
-    <string name="title_confirm">確認</string>
     <string name="title_options">オプション</string>
 
     <string name="field_minutes">分</string>
     <string name="field_seconds">秒</string>
-    <string name="label_count_up">カウントアップ</string>
-    <string name="label_count_down">カウントダウン</string>
+    <string name="label_count_up">カウントアップ（上限）：</string>
+    <string name="label_count_down">カウントダウン（開始）：</string>
     <string name="label_chime_on">チャイムオン</string>
     <string name="label_chime_off">チャイムオフ</string>
     <string name="label_keep_screen_on_on">自動ロックを無視し、画面をオンに保つ</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">保存した新しい値までアクティブなタイマーを下げますか？</string>
-    <string name="prompt_raise_to_new">保存した新しい値までアクティブなタイマーを上げますか？</string>
+    
     <string name="label_show_language_icon">言語アイコンを表示</string>
     <string name="label_hide_language_icon">言語アイコンを非表示</string>
 </resources>

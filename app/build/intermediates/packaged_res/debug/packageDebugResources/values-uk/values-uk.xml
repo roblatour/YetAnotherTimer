@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Щоб запустити, призупинити або відновити таймер, торкніться головного екрана.</string>
     <string name="label_chime_off">Сигнал вимкнено</string>
     <string name="label_chime_on">Сигнал увімкнено</string>
-    <string name="label_count_down">Зворотний відлік</string>
-    <string name="label_count_up">Підрахунок вгору</string>
+    <string name="label_count_down">Зворотний відлік від:</string>
+    <string name="label_count_up">Підрахунок вгору до:</string>
     <string name="label_hide_help_icon">Приховати піктограму довідки</string>
     <string name="label_hide_language_icon">Приховати значок мови</string>
     <string name="label_keep_screen_on_off">Не ігнорувати авто-блокування</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Увімкнути дотик під час руху</string>
     <string name="label_touch_lock_on">Вимкнути дотик під час руху</string>
     <string name="license_word">Ліцензія</string>
-    <string name="prompt_lower_to_new">Зменшити активний таймер до нового збереженого значення?</string>
-    <string name="prompt_raise_to_new">Збільшити активний таймер до нового збереженого значення?</string>
-    <string name="title_confirm">Підтвердження</string>
     <string name="title_help">Довідка</string>
     <string name="title_options">Параметри</string>
 </resources>

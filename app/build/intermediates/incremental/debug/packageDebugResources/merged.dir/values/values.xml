@@ -31,8 +31,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">To start, pause, or resume the timer, tap the main screen.</string>
     <string name="label_chime_off">Chime off</string>
     <string name="label_chime_on">Chime on</string>
-    <string name="label_count_down">Count down</string>
-    <string name="label_count_up">Count up</string>
+    <string name="label_count_down">Count down from:</string>
+    <string name="label_count_up">Count up to:</string>
     <string name="label_hide_help_icon">Hide help icon</string>
     <string name="label_hide_language_icon">Hide language icon</string>
     <string name="label_keep_screen_on_off">Do not override auto-lock</string>
@@ -43,9 +43,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Enable touch when moving</string>
     <string name="label_touch_lock_on">Disable touch when moving</string>
     <string name="license_word">Licence</string>
-    <string name="prompt_lower_to_new">Do you want the active timer lowered to the new value you just saved?</string>
-    <string name="prompt_raise_to_new">Do you want the active timer raised to the new value you just saved?</string>
-    <string name="title_confirm">Confirm</string>
     <string name="title_help">Help</string>
     <string name="title_options">Options</string>
     <style name="Theme.YetAnotherTimer" parent="Theme.Material3.DayNight.NoActionBar">

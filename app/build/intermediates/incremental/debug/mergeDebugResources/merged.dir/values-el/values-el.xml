@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"Μενού πλοήγησης"</string>
     <string msgid="6610465462668679431" name="not_selected">"Δεν έχει επιλεχθεί"</string>
     <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
-    <string name="prompt_lower_to_new">Θέλετε να μειώσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
-    <string name="prompt_raise_to_new">Θέλετε να αυξήσετε το ενεργό χρονόμετρο στη νέα τιμή που μόλις αποθηκεύσατε;</string>
     <string msgid="5941395253238309765" name="range_end">"Τέλος εύρους"</string>
     <string msgid="7097486360902471446" name="range_start">"Αρχή εύρους"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Εναλλαγή"</string>
     <string msgid="1672349317127674378" name="tab">"Καρτέλα"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> τοις εκατό."</string>
-    <string name="title_confirm">Επιβεβαίωση</string>
     <string name="title_help">Βοήθεια</string>
     <string name="title_options">Επιλογές</string>
     <string msgid="3765533235322692011" name="tooltip_description">"επεξήγηση εργαλείου"</string>

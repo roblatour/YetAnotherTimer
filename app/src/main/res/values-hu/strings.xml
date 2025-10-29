@@ -20,7 +20,6 @@
     <string name="btn_cancel">Mégse</string>
 
     <string name="title_help">Súgó</string>
-    <string name="title_confirm">Megerősítés</string>
     <string name="title_options">Beállítások</string>
 
     <string name="field_minutes">Percek</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Szeretné csökkenteni az aktív időzítőt az újonnan mentett értékre?</string>
-    <string name="prompt_raise_to_new">Szeretné növelni az aktív időzítőt az újonnan mentett értékre?</string>
+    
     <string name="label_show_language_icon">Nyelvikon megjelenítése</string>
     <string name="label_hide_language_icon">Nyelvikon elrejtése</string>
 </resources>

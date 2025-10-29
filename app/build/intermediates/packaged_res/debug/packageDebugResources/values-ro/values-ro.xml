@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Activează atingerea la mișcare</string>
     <string name="label_touch_lock_on">Dezactivează atingerea la mișcare</string>
     <string name="license_word">Licență</string>
-    <string name="prompt_lower_to_new">Doriți să scădeți temporizatorul activ la noua valoare tocmai salvată?</string>
-    <string name="prompt_raise_to_new">Doriți să creșteți cronometrul activ la noua valoare tocmai salvată?</string>
-    <string name="title_confirm">Confirmare</string>
     <string name="title_help">Ajutor</string>
     <string name="title_options">Opțiuni</string>
 </resources>

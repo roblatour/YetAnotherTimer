@@ -88,8 +88,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">Karta</string>
     <string name="label_chime_off">Zvuk vypnut</string>
     <string name="label_chime_on">Zvuk zapnut</string>
-    <string name="label_count_down">Odpočítávání</string>
-    <string name="label_count_up">Počítání nahoru</string>
+    <string name="label_count_down">Odpočítávání od:</string>
+    <string name="label_count_up">Počítání nahoru do:</string>
     <string name="label_hide_help_icon">Skrýt ikonu nápovědy</string>
     <string name="label_hide_language_icon">Skrýt ikonu jazyka</string>
     <string name="label_keep_screen_on_off">Neignorovat automatické zamknutí</string>
@@ -218,8 +218,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"Navigační nabídka"</string>
     <string msgid="6610465462668679431" name="not_selected">"Nevybráno"</string>
     <string name="password_toggle_content_description">Zobrazit heslo</string>
-    <string name="prompt_lower_to_new">Chcete snížit aktivní časovač na novou uloženou hodnotu?</string>
-    <string name="prompt_raise_to_new">Chcete zvýšit aktivní časovač na novou uloženou hodnotu?</string>
     <string msgid="5941395253238309765" name="range_end">"Konec rozsahu"</string>
     <string msgid="7097486360902471446" name="range_start">"Začátek rozsahu"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
@@ -234,7 +232,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Přepnout"</string>
     <string msgid="1672349317127674378" name="tab">"Karta"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
-    <string name="title_confirm">Potvrzení</string>
     <string name="title_help">Nápověda</string>
     <string name="title_options">Možnosti</string>
     <string msgid="3765533235322692011" name="tooltip_description">"popisek"</string>

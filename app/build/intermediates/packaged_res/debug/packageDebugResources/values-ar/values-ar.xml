@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">للبدء أو الإيقاف المؤقت أو الاستئناف، المس الشاشة الرئيسية.</string>
     <string name="label_chime_off">الجرس متوقف</string>
     <string name="label_chime_on">الجرس قيد التشغيل</string>
-    <string name="label_count_down">عد تنازلي</string>
-    <string name="label_count_up">عد تصاعدي</string>
+    <string name="label_count_down">عد تنازلي من:</string>
+    <string name="label_count_up">عد تصاعدي إلى:</string>
     <string name="label_hide_help_icon">إخفاء أيقونة المساعدة</string>
     <string name="label_hide_language_icon">إخفاء رمز اللغة</string>
     <string name="label_keep_screen_on_off">عدم تجاهل القفل التلقائي</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">تمكين اللمس عند الحركة</string>
     <string name="label_touch_lock_on">تعطيل اللمس عند الحركة</string>
     <string name="license_word">الترخيص</string>
-    <string name="prompt_lower_to_new">هل تريد خفض المؤقت النشط إلى القيمة الجديدة التي قمت بحفظها؟</string>
-    <string name="prompt_raise_to_new">هل تريد رفع المؤقت النشط إلى القيمة الجديدة التي قمت بحفظها؟</string>
-    <string name="title_confirm">تأكيد</string>
     <string name="title_help">مساعدة</string>
     <string name="title_options">الخيارات</string>
 </resources>

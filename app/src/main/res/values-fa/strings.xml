@@ -20,13 +20,12 @@
     <string name="btn_cancel">لغو</string>
 
     <string name="title_help">راهنما</string>
-    <string name="title_confirm">تأیید</string>
     <string name="title_options">گزینه‌ها</string>
 
     <string name="field_minutes">دقیقه</string>
     <string name="field_seconds">ثانیه</string>
-    <string name="label_count_up">شمارش رو به بالا</string>
-    <string name="label_count_down">شمارش معکوس</string>
+    <string name="label_count_up">شمارش رو به بالا تا:</string>
+    <string name="label_count_down">شمارش معکوس از:</string>
     <string name="label_chime_on">زنگ روشن</string>
     <string name="label_chime_off">زنگ خاموش</string>
     <string name="label_keep_screen_on_on">نادیده گرفتن قفل خودکار، صفحه روشن بماند</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">می‌خواهید تایمر فعال را به مقدار جدیدی که ذخیره کرده‌اید کاهش دهید؟</string>
-    <string name="prompt_raise_to_new">می‌خواهید تایمر فعال را به مقدار جدیدی که ذخیره کرده‌اید افزایش دهید؟</string>
+    
     <string name="label_show_language_icon">نمایش آیکون زبان</string>
     <string name="label_hide_language_icon">پنهان کردن آیکون زبان</string>
 </resources>

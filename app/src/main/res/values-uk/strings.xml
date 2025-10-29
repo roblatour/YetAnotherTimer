@@ -20,13 +20,12 @@
     <string name="btn_cancel">Скасувати</string>
 
     <string name="title_help">Довідка</string>
-    <string name="title_confirm">Підтвердження</string>
     <string name="title_options">Параметри</string>
 
     <string name="field_minutes">Хвилини</string>
     <string name="field_seconds">Секунди</string>
-    <string name="label_count_up">Підрахунок вгору</string>
-    <string name="label_count_down">Зворотний відлік</string>
+    <string name="label_count_up">Підрахунок вгору до:</string>
+    <string name="label_count_down">Зворотний відлік від:</string>
     <string name="label_chime_on">Сигнал увімкнено</string>
     <string name="label_chime_off">Сигнал вимкнено</string>
     <string name="label_keep_screen_on_on">Ігнорувати авто-блокування, тримати екран увімкненим</string>
@@ -45,8 +44,7 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Зменшити активний таймер до нового збереженого значення?</string>
-    <string name="prompt_raise_to_new">Збільшити активний таймер до нового збереженого значення?</string>
+    
     <string name="label_show_language_icon">Показати значок мови</string>
     <string name="label_hide_language_icon">Приховати значок мови</string>
 </resources>

@@ -1970,8 +1970,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="item_view_role_description">Tab</string>
     <string name="label_chime_off">Chime off</string>
     <string name="label_chime_on">Chime on</string>
-    <string name="label_count_down">Count down</string>
-    <string name="label_count_up">Count up</string>
+    <string name="label_count_down">Count down from:</string>
+    <string name="label_count_up">Count up to:</string>
     <string name="label_hide_help_icon">Hide help icon</string>
     <string name="label_hide_language_icon">Hide language icon</string>
     <string name="label_keep_screen_on_off">Do not override auto-lock</string>
@@ -2156,8 +2156,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="prompt_lower_to_new">Do you want the active timer lowered to the new value you just saved?</string>
-    <string name="prompt_raise_to_new">Do you want the active timer raised to the new value you just saved?</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="search_menu_title">Search</string>
@@ -2176,7 +2174,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="switch_role">Switch</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
-    <string name="title_confirm">Confirm</string>
     <string name="title_help">Help</string>
     <string name="title_options">Options</string>
     <string name="tooltip_description">tooltip</string>

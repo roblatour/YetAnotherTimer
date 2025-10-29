@@ -216,8 +216,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="542007171693138492" name="navigation_menu">"నావిగేషన్ మెనూ"</string>
     <string msgid="6610465462668679431" name="not_selected">"ఎంచుకోబడలేదు"</string>
     <string name="password_toggle_content_description">పాస్‌వర్డ్‌ను చూపు</string>
-    <string name="prompt_lower_to_new">మీరు సేవ్ చేసిన కొత్త విలువకు క్రియాశీల టైమర్‌ను తగ్గించాలనుకుంటున్నారా?</string>
-    <string name="prompt_raise_to_new">మీరు సేవ్ చేసిన కొత్త విలువకు క్రియాశీల టైమర్‌ను పెంచాలనుకుంటున్నారా?</string>
     <string msgid="5941395253238309765" name="range_end">"పరిధి ముగిసింది"</string>
     <string msgid="7097486360902471446" name="range_start">"పరిధి ప్రారంభమయింది"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"సెర్చ్"</string>
@@ -232,7 +230,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="2561197295334830845" name="switch_role">"Switch"</string>
     <string msgid="1672349317127674378" name="tab">"ట్యాబ్"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> శాతం."</string>
-    <string name="title_confirm">దృవీకరణ</string>
     <string name="title_help">సహాయం</string>
     <string name="title_options">ఎంపికలు</string>
     <string msgid="3765533235322692011" name="tooltip_description">"టూల్‌టిప్"</string>

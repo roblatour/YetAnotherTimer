@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">タイマーを開始、一時停止、または再開するには、メイン画面をタップします。</string>
     <string name="label_chime_off">チャイムオフ</string>
     <string name="label_chime_on">チャイムオン</string>
-    <string name="label_count_down">カウントダウン</string>
-    <string name="label_count_up">カウントアップ</string>
+    <string name="label_count_down">カウントダウン（開始）：</string>
+    <string name="label_count_up">カウントアップ（上限）：</string>
     <string name="label_hide_help_icon">ヘルプアイコンを非表示</string>
     <string name="label_hide_language_icon">言語アイコンを非表示</string>
     <string name="label_keep_screen_on_off">自動ロックを無視しない</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">動作中のタッチを有効にする</string>
     <string name="label_touch_lock_on">動作中のタッチを無効にする</string>
     <string name="license_word">ライセンス</string>
-    <string name="prompt_lower_to_new">保存した新しい値までアクティブなタイマーを下げますか？</string>
-    <string name="prompt_raise_to_new">保存した新しい値までアクティブなタイマーを上げますか？</string>
-    <string name="title_confirm">確認</string>
     <string name="title_help">ヘルプ</string>
     <string name="title_options">オプション</string>
 </resources>

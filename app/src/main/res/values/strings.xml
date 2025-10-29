@@ -26,14 +26,13 @@
 
     <!-- Titles -->
     <string name="title_help">Help</string>
-    <string name="title_confirm">Confirm</string>
     <string name="title_options">Options</string>
 
     <!-- Fields and labels -->
     <string name="field_minutes">Minutes</string>
     <string name="field_seconds">Seconds</string>
-    <string name="label_count_up">Count up</string>
-    <string name="label_count_down">Count down</string>
+    <string name="label_count_up">Count up to:</string>
+    <string name="label_count_down">Count down from:</string>
     <string name="label_chime_on">Chime on</string>
     <string name="label_chime_off">Chime off</string>
     <string name="label_keep_screen_on_on">Override auto-lock, keep screen on</string>
@@ -57,6 +56,5 @@ Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
     <!-- Prompts -->
-    <string name="prompt_lower_to_new">Do you want the active timer lowered to the new value you just saved?</string>
-    <string name="prompt_raise_to_new">Do you want the active timer raised to the new value you just saved?</string>
+    
 </resources>

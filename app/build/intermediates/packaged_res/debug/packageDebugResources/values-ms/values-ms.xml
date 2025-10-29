@@ -28,8 +28,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_tap">Untuk mulakan, jeda, atau sambung semula pemasa, ketik skrin utama.</string>
     <string name="label_chime_off">Bunyi mati</string>
     <string name="label_chime_on">Bunyi hidup</string>
-    <string name="label_count_down">Kiraan menurun</string>
-    <string name="label_count_up">Kiraan menaik</string>
+    <string name="label_count_down">Kiraan menurun dari:</string>
+    <string name="label_count_up">Kiraan menaik hingga:</string>
     <string name="label_hide_help_icon">Sembunyi ikon bantuan</string>
     <string name="label_hide_language_icon">Sembunyikan ikon bahasa</string>
     <string name="label_keep_screen_on_off">Jangan abaikan kunci automatik</string>
@@ -40,9 +40,6 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Aktifkan sentuhan semasa bergerak</string>
     <string name="label_touch_lock_on">Lumpuhkan sentuhan semasa bergerak</string>
     <string name="license_word">Lesen</string>
-    <string name="prompt_lower_to_new">Ingin turunkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
-    <string name="prompt_raise_to_new">Ingin naikkan pemasa aktif kepada nilai baharu yang anda simpan?</string>
-    <string name="title_confirm">Sahkan</string>
     <string name="title_help">Bantuan</string>
     <string name="title_options">Pilihan</string>
 </resources>

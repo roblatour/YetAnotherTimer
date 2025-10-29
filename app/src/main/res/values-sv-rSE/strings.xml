@@ -24,7 +24,6 @@
     <string name="btn_cancel">Avbryt</string>
 
     <string name="title_help">Hjälp</string>
-    <string name="title_confirm">Bekräfta</string>
     <string name="title_options">Alternativ</string>
 
     <string name="field_minutes">Minuter</string>
@@ -49,6 +48,5 @@
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 
-    <string name="prompt_lower_to_new">Vill du sänka den aktiva timern till det nya värdet du just sparade?</string>
-    <string name="prompt_raise_to_new">Vill du höja den aktiva timern till det nya värdet du just sparade?</string>
+    
 </resources>
