@@ -1,10 +1,10 @@
 # Yet Another Timer v1.0 (for Android) - 2025-10-28
 
-Open source timer for Android
+Open source timer for Android phones and tablets
 
 # Background
 
-I made this app for my own personal use - using it at the gym to count down rest periods between reps.  However, after it was done I thought it would be a good idea to make a few enhancements so that I could share it - like adding in support for different languages.
+I originally made this app for my own personal use - using it at the gym to count down rest periods between reps.  However, after it was done I thought it would be a good idea to make a few enhancements so that I could share it - like adding in support for different languages.
 
 In any case, your welcome to use it for anything you like and/or to learn about Android code development.  
 
@@ -17,11 +17,12 @@ Finally, to give credit where credit is due, most of the coding for this project
 - Simple one touch use
 - Timer can be set to count up or down
 - Optional chime when the timer hits a target
-- Option lock screen override so screen doesn't go blank while the app is active
+- Optional feature to disable touch input when the device is moving
+- Optional auto-lock override so screen doesn't go blank while the app is active
 - Auto rotating screen
 - 45 languages are supported (English is the default)
-  -  Arabic, Bengali, Burmese (Myanmar), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Czech, Danish, Danish, Dutch, **English**, Filipino, Finnish, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Korean, Malay, Malay (Arabic script, Jawi), Marathi, Norwegian, Norwegian, Persian (Farsi), Polish, Portuguese, Portuguese (Brazil), Punjabi, Romanian, Russian, Russian, Slovak, Spanish, Swahili, Swedish, Swedish (Sweden), Tamil, Telugu, Thai, Turkish, Turkish, Ukrainian, Ukrainian, Urdu, and Vietnamese
- 
+  -  Arabic, Bengali, Burmese, Chinese, Czech, Danish, Dutch, **English**, Filipino, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Korean, Malay, Marathi, Norwegian, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Slovak, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, and Vietnamese.
+  
 # Screenshots
 
 Below are some screenshots from the app. Thumbnails link to the full-size images stored in the `screenshots/` folder.
@@ -49,7 +50,7 @@ There are separate build and install instructions in this repository.
 
 The build lets you build the .apk file from the source provided.
 
-Install instructions allow you to install the program from your own build .apk file, or the one already included in this repository. The install can be either via an USB connection between your cell phone and W11, or via a download from this repository.
+Install instructions allow you to install the program from your own .apk build file, or the one already included in this repository. The install can be either via an USB connection between your cell phone and W11, or via a download from this repository.
 
 * * *
  # Support Yet Another Timer
