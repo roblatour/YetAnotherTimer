@@ -1,12 +1,12 @@
 # Yet Another Timer v1.0 (for Android) - 2025-10-28
 
-Open source timer for Android phones and tablets
+Open-source timer for Android phones and tablets
 
 # Background
 
-I originally made this app for my own personal use - using it at the gym to count down rest periods between reps.  However, after it was done I thought it would be a good idea to make a few enhancements so that I could share it - like adding in support for different languages.
+I originally made this app for my own personal use - using it at the gym to count down rest periods between reps.  However, after it was done, I thought it would be a good idea to make a few enhancements so that I could share it - like adding in support for different languages.
 
-In any case, your welcome to use it for anything you like and/or to learn about Android code development.  
+In any case, you're welcome to use it for anything you like and/or to learn about Android code development.  
 
 Also, I am currently going through the process of making this app available on the Google Play Store.  When that completes (likely around the start of November 2025) I will update this document with a link.
 
