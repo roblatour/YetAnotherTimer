@@ -8,7 +8,7 @@ I originally made this app for my own personal use - using it at the gym to coun
 
 In any case, you're welcome to use it for anything you like and/or to learn about Android code development.  
 
-Also, I am currently going through the process of making this app available on the Google Play Store.  When that completes (likely around the start of November 2025) I will update this document with a link.
+Also, I am currently going through the process of making this app available on the Google Play Store.  When that completes (likely sometime in the first week of November 2025) I will update this document with a link.
 
 Finally, to give credit where credit is due, most of the coding for this project was done by the Copilot AI. I had to step in from time to time to get things working but Copilot did all of the heavy lifting - so cool.  
 
