@@ -4,7 +4,7 @@ Open-source timer for Android phones and tablets
 
 # Background
 
-I originally made this app for my own personal use - using it at the gym to count down rest periods between reps.  However, after it was done, I thought it would be a good idea to make a few enhancements so that I could share it - like adding in support for different languages.
+I originally made this app for my own personal use - using it at the gym to count down rest periods between reps.  However, after it was done, I thought it would be a good idea to make a few enhancements so it could be shared - for example, adding in support for different languages.
 
 In any case, you're welcome to use it for anything you like and/or to learn about Android code development.  
 
