@@ -5,6 +5,7 @@
     <string name="btn_close">إغلاق</string>
     <string name="btn_no">لا</string>
     <string name="btn_save">حفظ</string>
+    <string name="btn_share">مشاركة</string>
     <string name="btn_yes">نعم</string>
     <string name="desc_count_down">عد تنازلي</string>
     <string name="desc_count_up">عد تصاعدي</string>

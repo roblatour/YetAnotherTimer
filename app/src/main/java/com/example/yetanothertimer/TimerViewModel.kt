@@ -69,6 +69,7 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
     private var hasInitializedCountDown: Boolean = false
     private var hasInitializedMode: Boolean = false
     private var pendingAdjustOnModeChange: Boolean = false
+    private var lastTickRealtimeMs: Long? = null
 
 
     private val coreState = combine(_countUpStartSeconds, _countDownStartSeconds, _remaining, _running, _isCountUp) { countUpStart, countDownStart, remain, running, isCountUp ->
@@ -262,9 +263,25 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
         ticker?.cancel()
         ticker = viewModelScope.launch {
             while (_running.value) {
-                delay(1000)
+                val now = android.os.SystemClock.elapsedRealtime()
+                val last = lastTickRealtimeMs
+                val elapsedWholeSeconds = if (last == null) {
+                    lastTickRealtimeMs = now
+                    1
+                } else {
+                    val diffMs = now - last
+                    if (diffMs < 1000L) {
+                        val sleepFor = 1000L - diffMs
+                        delay(sleepFor)
+                        continue
+                    }
+                    val secs = (diffMs / 1000L).toInt().coerceAtLeast(1)
+                    lastTickRealtimeMs = last + secs * 1000L
+                    secs
+                }
+
                 if (_isCountUp.value) {
-                    val next = (_remaining.value + 1).coerceAtMost(_countUpStartSeconds.value)
+                    val next = (_remaining.value + elapsedWholeSeconds).coerceAtMost(_countUpStartSeconds.value)
                     _remaining.value = next
                     if (next >= _countUpStartSeconds.value) {
                         _running.value = false
@@ -275,7 +292,7 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
                         _running.value = false
                         onReachedZero()
                     } else {
-                        val next = (_remaining.value - 1).coerceAtLeast(0)
+                        val next = (_remaining.value - elapsedWholeSeconds).coerceAtLeast(0)
                         _remaining.value = next
                         if (next == 0) {
                             _running.value = false
@@ -290,11 +307,13 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
     fun stop() {
         _running.value = false
         ticker?.cancel()
+        lastTickRealtimeMs = null
     }
 
     fun resetToStart() {
         stop()
         _remaining.value = if (_isCountUp.value) 0 else _countDownStartSeconds.value
+        lastTickRealtimeMs = null
     }
 
     fun setStart(minutes: Int, seconds: Int) {
@@ -419,6 +438,7 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
         // Stop active ticking
         _running.value = false
         ticker?.cancel()
+        lastTickRealtimeMs = null
         // Show the reached limit value before resetting
         _remaining.value = limit
         onReachedLimitForCountUp()

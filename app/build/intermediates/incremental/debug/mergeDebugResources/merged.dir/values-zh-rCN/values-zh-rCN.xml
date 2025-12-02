@@ -41,6 +41,7 @@
     <string name="btn_close">关闭</string>
     <string name="btn_no">否</string>
     <string name="btn_save">保存</string>
+    <string name="btn_share">分享</string>
     <string name="btn_yes">是</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"接听"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"视频通话"</string>
@@ -74,7 +75,7 @@
     <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
     <string name="field_minutes">分钟</string>
     <string name="field_seconds">秒</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">要停止并重置计时器，请在主屏幕双击。</string>

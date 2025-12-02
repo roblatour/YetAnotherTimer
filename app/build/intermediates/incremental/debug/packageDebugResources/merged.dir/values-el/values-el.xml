@@ -5,6 +5,7 @@
     <string name="btn_close">Κλείσιμο</string>
     <string name="btn_no">Όχι</string>
     <string name="btn_save">Αποθήκευση</string>
+    <string name="btn_share">Κοινοποίηση</string>
     <string name="btn_yes">Ναι</string>
     <string name="desc_count_down">Αντίστροφη μέτρηση</string>
     <string name="desc_count_up">Αύξουσα μέτρηση</string>

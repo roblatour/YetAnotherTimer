@@ -21,6 +21,7 @@
     <string name="btn_no">Ei</string>
     <string name="btn_save">Tallenna</string>
     <string name="btn_cancel">Peruuta</string>
+    <string name="btn_share">Jaa</string>
 
     <string name="title_help">Ohje</string>
     <string name="title_options">Asetukset</string>

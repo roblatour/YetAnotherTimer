@@ -41,6 +41,7 @@
     <string name="btn_close">Tutup</string>
     <string name="btn_no">Tidak</string>
     <string name="btn_save">Simpan</string>
+    <string name="btn_share">Kongsi</string>
     <string name="btn_yes">Ya</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Jawab"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>

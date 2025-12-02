@@ -5,6 +5,7 @@
     <string name="btn_close">Chiudi</string>
     <string name="btn_no">No</string>
     <string name="btn_save">Salva</string>
+    <string name="btn_share">Condividi</string>
     <string name="btn_yes">Sì</string>
     <string name="desc_count_down">Conto alla rovescia</string>
     <string name="desc_count_up">Conteggio in aumento</string>

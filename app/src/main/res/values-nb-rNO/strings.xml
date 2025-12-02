@@ -22,6 +22,7 @@
     <string name="btn_no">Nei</string>
     <string name="btn_save">Lagre</string>
     <string name="btn_cancel">Avbryt</string>
+    <string name="btn_share">Del</string>
 
     <string name="title_help">Hjelp</string>
     <string name="title_options">Innstillinger</string>

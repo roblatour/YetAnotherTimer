@@ -18,6 +18,7 @@
     <string name="btn_no">No</string>
     <string name="btn_save">Guardar</string>
     <string name="btn_cancel">Cancelar</string>
+    <string name="btn_share">Compartir</string>
 
     <string name="title_help">Ayuda</string>
     <string name="title_options">Opciones</string>

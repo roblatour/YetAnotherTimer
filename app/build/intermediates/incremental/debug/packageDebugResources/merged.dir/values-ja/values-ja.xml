@@ -5,6 +5,7 @@
     <string name="btn_close">閉じる</string>
     <string name="btn_no">いいえ</string>
     <string name="btn_save">保存</string>
+    <string name="btn_share">共有</string>
     <string name="btn_yes">はい</string>
     <string name="desc_count_down">カウントダウン</string>
     <string name="desc_count_up">カウントアップ</string>

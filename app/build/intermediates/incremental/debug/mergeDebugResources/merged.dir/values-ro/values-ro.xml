@@ -42,6 +42,7 @@
     <string name="btn_close">Închide</string>
     <string name="btn_no">Nu</string>
     <string name="btn_save">Salvează</string>
+    <string name="btn_share">Distribuie</string>
     <string name="btn_yes">Da</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Răspunde"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>

@@ -41,6 +41,7 @@
     <string name="btn_close">Sulje</string>
     <string name="btn_no">Ei</string>
     <string name="btn_save">Tallenna</string>
+    <string name="btn_share">Jaa</string>
     <string name="btn_yes">Kyllä</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Vastaa"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>

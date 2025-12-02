@@ -18,6 +18,7 @@
     <string name="btn_no">Nee</string>
     <string name="btn_save">Opslaan</string>
     <string name="btn_cancel">Annuleren</string>
+    <string name="btn_share">Delen</string>
 
     <string name="title_help">Hulp</string>
     <string name="title_options">Opties</string>

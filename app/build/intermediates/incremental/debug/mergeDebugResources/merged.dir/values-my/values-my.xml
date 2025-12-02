@@ -41,6 +41,7 @@
     <string name="btn_close">ပိတ်မည်</string>
     <string name="btn_no">မဟုတ်</string>
     <string name="btn_save">သိမ်းမည်</string>
+    <string name="btn_share">မျှဝေပါ</string>
     <string name="btn_yes">ဟုတ်ကဲ့</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"ဖုန်းကိုင်ရန်"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ဗီဒီယို"</string>

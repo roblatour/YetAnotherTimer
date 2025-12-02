@@ -18,6 +18,7 @@
     <string name="btn_no">No</string>
     <string name="btn_save">Salva</string>
     <string name="btn_cancel">Annulla</string>
+    <string name="btn_share">Condividi</string>
 
     <string name="title_help">Guida</string>
     <string name="title_options">Opzioni</string>

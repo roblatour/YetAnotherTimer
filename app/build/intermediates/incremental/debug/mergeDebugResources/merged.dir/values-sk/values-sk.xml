@@ -43,6 +43,7 @@
     <string name="btn_close">Zavrieť</string>
     <string name="btn_no">Nie</string>
     <string name="btn_save">Uložiť</string>
+    <string name="btn_share">Zdieľať</string>
     <string name="btn_yes">Áno</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Prijať"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>

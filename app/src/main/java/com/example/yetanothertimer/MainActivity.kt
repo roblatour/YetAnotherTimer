@@ -3,7 +3,10 @@ package com.example.yetanothertimer
 import android.os.Bundle
 import android.view.WindowManager
 import android.app.Activity
+import android.graphics.Bitmap
 import android.os.Build
+import android.content.Context
+import android.content.pm.PackageManager
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.flow.first
 import androidx.appcompat.app.AppCompatActivity
@@ -11,10 +14,10 @@ import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
-import androidx.core.view.WindowCompat
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.SystemBarStyle
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.rememberScrollState
@@ -37,6 +40,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -51,6 +56,9 @@ import kotlinx.coroutines.launch
 import com.example.yetanothertimer.ui.theme.YetAnotherTimerTheme
 import com.example.yetanothertimer.data.SupportedLanguages
 import com.example.yetanothertimer.R
+import com.google.zxing.BarcodeFormat
+import com.google.zxing.EncodeHintType
+import com.google.zxing.qrcode.QRCodeWriter
 
 class MainActivity : AppCompatActivity() {
     private val vm: TimerViewModel by viewModels()
@@ -99,6 +107,7 @@ fun TimerScreen(vm: TimerViewModel) {
     val state by vm.state.collectAsState()
     val showSettings = rememberSaveable { mutableStateOf(false) }
     val showHelp = rememberSaveable { mutableStateOf(false) }
+    val showShare = rememberSaveable { mutableStateOf(false) }
     val showLanguageMenu = rememberSaveable { mutableStateOf(false) }
     // Confirmation prompts removed; apply changes immediately
     Scaffold(
@@ -329,12 +338,26 @@ fun TimerScreen(vm: TimerViewModel) {
                 showHelp.value = false
             },
             confirmButton = {
-                Button(
-                    onClick = {
-                        showHelp.value = false
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
-                ) { Text(stringResource(id = R.string.btn_close)) }
+                CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Ltr) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Button(
+                            onClick = {
+                                showShare.value = true
+                            },
+                            colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
+                        ) { Text(stringResource(id = R.string.btn_share)) }
+
+                        Button(
+                            onClick = {
+                                showHelp.value = false
+                            },
+                            colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
+                        ) { Text(stringResource(id = R.string.btn_close)) }
+                    }
+                }
             },
             title = {
                 CompositionLocalProvider(LocalLayoutDirection provides layoutDir) {
@@ -360,7 +383,20 @@ fun TimerScreen(vm: TimerViewModel) {
                             Text(stringResource(id = R.string.help_line_tap), color = Color.White, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start)
                             Text(stringResource(id = R.string.help_line_double_tap), color = Color.White, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start)
                             Text(stringResource(id = R.string.help_line_options), color = Color.White, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start)
-                            val footer = stringResource(id = R.string.help_footer_format, stringResource(id = R.string.license_word))
+
+                            val context = androidx.compose.ui.platform.LocalContext.current
+                            val rawVersion = remember(context.packageName) { context.versionNameOrEmpty() }
+                            val trimmedVersion = rawVersion
+                                .split('.')
+                                .dropLastWhile { it == "0" }
+                                .joinToString(".")
+                                .ifBlank { rawVersion }
+
+                            val footer = stringResource(
+                                id = R.string.help_footer_format,
+                                stringResource(id = R.string.license_word),
+                                trimmedVersion
+                            )
                             Text(footer, color = Color.White, fontSize = 10.sp, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start)
                         }
                     }
@@ -368,6 +404,13 @@ fun TimerScreen(vm: TimerViewModel) {
             },
             containerColor = Color.Black,
             textContentColor = Color.White
+        )
+    }
+
+    if (showShare.value) {
+        ShareQrDialog(
+            languageTag = state.languageTag,
+            onDismiss = { showShare.value = false }
         )
     }
 
@@ -468,38 +511,47 @@ fun SettingsDialog(
     AlertDialog(
         onDismissRequest = onDismiss,
         confirmButton = {
-            Button(
-                onClick = {
-                    // Save both count up and count down durations from temporary storage
-                    val countUpM = tempCountUpMinutes.filter { char -> char.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
-                    val countUpS = tempCountUpSeconds.filter { char -> char.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
-                    val countDownM = tempCountDownMinutes.filter { char -> char.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
-                    val countDownS = tempCountDownSeconds.filter { char -> char.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
-                    
-                    viewModel.setBothDurations(countUpM, countUpS, countDownM, countDownS)
-                    
-                    // Apply toggle changes only on Save
-                    onToggleChime(chimeEnabled)
-                    onToggleKeepScreenOn(keepScreenOn)
-                    onToggleHelpIcon(helpIconVisible)
-                    onToggleLanguageIcon(languageIconVisible)
-                    onToggleCountUp(isCountUp)
-                    onToggleTouchLock(touchLockEnabled)
-                    onSetLanguageTag(languageTag)
-                    
-                    // For the prompt logic, use the current mode's values
-                    val currentM = if (isCountUp) countUpM else countDownM
-                    val currentS = if (isCountUp) countUpS else countDownS
-                    onSave(currentM, currentS)
-                },
-                colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
-            ) {
-                Text(stringResource(id = R.string.btn_save))
-            }
-        },
-        dismissButton = {
-            Button(onClick = onCancel, colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)) {
-                Text(stringResource(id = R.string.btn_cancel))
+            CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Ltr) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Button(
+                        onClick = onCancel,
+                        colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
+                    ) {
+                        Text(stringResource(id = R.string.btn_cancel))
+                    }
+
+                    Button(
+                        onClick = {
+                            // Save both count up and count down durations from temporary storage
+                            val countUpM = tempCountUpMinutes.filter { char -> char.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
+                            val countUpS = tempCountUpSeconds.filter { char -> char.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
+                            val countDownM = tempCountDownMinutes.filter { char -> char.isDigit() }.toIntOrNull()?.coerceAtLeast(0) ?: 0
+                            val countDownS = tempCountDownSeconds.filter { char -> char.isDigit() }.toIntOrNull()?.coerceIn(0, 59) ?: 0
+                            
+                            viewModel.setBothDurations(countUpM, countUpS, countDownM, countDownS)
+                            
+                            // Apply toggle changes only on Save
+                            onToggleChime(chimeEnabled)
+                            onToggleKeepScreenOn(keepScreenOn)
+                            onToggleHelpIcon(helpIconVisible)
+                            onToggleLanguageIcon(languageIconVisible)
+                            onToggleCountUp(isCountUp)
+                            onToggleTouchLock(touchLockEnabled)
+                            onSetLanguageTag(languageTag)
+                            
+                            // For the prompt logic, use the current mode's values
+                            val currentM = if (isCountUp) countUpM else countDownM
+                            val currentS = if (isCountUp) countUpS else countDownS
+                            onSave(currentM, currentS)
+                        },
+                        colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
+                    ) {
+                        Text(stringResource(id = R.string.btn_save))
+                    }
+                }
             }
         },
         title = {
@@ -759,3 +811,93 @@ fun SettingsDialog(
 }
 
 // Language dropdown removed; selection is now through the bottom language button.
+
+private fun Context.versionNameOrEmpty(): String {
+    val pm = packageManager
+    return runCatching {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            pm.getPackageInfo(packageName, PackageManager.PackageInfoFlags.of(0)).versionName
+        } else {
+            @Suppress("DEPRECATION")
+            pm.getPackageInfo(packageName, 0).versionName
+        }
+    }.getOrNull().orEmpty()
+}
+
+@Composable
+private fun ShareQrDialog(languageTag: String, onDismiss: () -> Unit) {
+    val languageCode = remember(languageTag) {
+        languageTag.substringBefore('-').ifBlank { "en" }
+    }
+    val shareUrl = remember(languageCode) {
+        "https://play.google.com/store/apps/details?id=io.github.roblatour.yetanothertimer&hl=$languageCode"
+    }
+    val qrBitmap = remember(shareUrl) { generateQrCodeBitmap(shareUrl) }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        confirmButton = {
+            Button(
+                onClick = onDismiss,
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Black, contentColor = Color.White)
+            ) {
+                Text(stringResource(id = R.string.btn_close))
+            }
+        },
+        title = {
+            Text(
+                text = stringResource(id = R.string.title_share_qr),
+                color = Color.White
+            )
+        },
+        text = {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                qrBitmap?.let {
+                    Image(
+                        bitmap = it,
+                        contentDescription = stringResource(id = R.string.desc_share_qr),
+                        modifier = Modifier.size(220.dp)
+                    )
+                }
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(
+                    text = stringResource(id = R.string.share_qr_description),
+                    color = Color.White,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = shareUrl,
+                    color = Color.Gray,
+                    fontSize = 12.sp,
+                    textAlign = TextAlign.Center
+                )
+            }
+        },
+        containerColor = Color.Black,
+        textContentColor = Color.White
+    )
+}
+
+private fun generateQrCodeBitmap(content: String, targetSize: Int = 512): ImageBitmap? {
+    return runCatching {
+        val writer = QRCodeWriter()
+        val hints = mapOf(EncodeHintType.MARGIN to 0)
+        val bitMatrix = writer.encode(content, BarcodeFormat.QR_CODE, targetSize, targetSize, hints)
+        val width = bitMatrix.width
+        val height = bitMatrix.height
+        val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+        val black = android.graphics.Color.BLACK
+        val white = android.graphics.Color.WHITE
+        for (x in 0 until width) {
+            for (y in 0 until height) {
+                bitmap.setPixel(x, y, if (bitMatrix[x, y]) black else white)
+            }
+        }
+        bitmap.asImageBitmap()
+    }.getOrNull()
+}

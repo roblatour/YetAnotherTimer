@@ -18,6 +18,7 @@
     <string name="btn_no">Όχι</string>
     <string name="btn_save">Αποθήκευση</string>
     <string name="btn_cancel">Ακύρωση</string>
+    <string name="btn_share">Κοινοποίηση</string>
 
     <string name="title_help">Βοήθεια</string>
     <string name="title_options">Επιλογές</string>

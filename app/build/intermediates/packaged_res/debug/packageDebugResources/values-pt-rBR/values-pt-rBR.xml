@@ -5,6 +5,7 @@
     <string name="btn_close">Fechar</string>
     <string name="btn_no">Não</string>
     <string name="btn_save">Salvar</string>
+    <string name="btn_share">Compartilhar</string>
     <string name="btn_yes">Sim</string>
     <string name="desc_count_down">Contagem regressiva</string>
     <string name="desc_count_up">Contagem crescente</string>

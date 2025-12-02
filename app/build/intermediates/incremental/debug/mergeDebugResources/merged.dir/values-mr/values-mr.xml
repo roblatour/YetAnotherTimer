@@ -41,6 +41,7 @@
     <string name="btn_close">बंद</string>
     <string name="btn_no">नाही</string>
     <string name="btn_save">जतन करा</string>
+    <string name="btn_share">शेअर करा</string>
     <string name="btn_yes">होय</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"उत्तर द्या"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"व्हिडिओ"</string>

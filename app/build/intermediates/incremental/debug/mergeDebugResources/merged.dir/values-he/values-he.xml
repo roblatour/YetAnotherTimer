@@ -5,6 +5,7 @@
     <string name="btn_close">סגור</string>
     <string name="btn_no">לא</string>
     <string name="btn_save">שמור</string>
+    <string name="btn_share">שיתוף</string>
     <string name="btn_yes">כן</string>
     <string name="desc_count_down">ספירה לאחור</string>
     <string name="desc_count_up">ספירה כלפי מעלה</string>

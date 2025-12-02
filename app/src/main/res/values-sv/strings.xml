@@ -21,6 +21,7 @@
     <string name="btn_no">Nej</string>
     <string name="btn_save">Spara</string>
     <string name="btn_cancel">Avbryt</string>
+    <string name="btn_share">Dela</string>
 
     <string name="title_help">Hjälp</string>
     <string name="title_options">Alternativ</string>

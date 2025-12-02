@@ -18,6 +18,7 @@
     <string name="btn_no">いいえ</string>
     <string name="btn_save">保存</string>
     <string name="btn_cancel">キャンセル</string>
+    <string name="btn_share">共有</string>
 
     <string name="title_help">ヘルプ</string>
     <string name="title_options">オプション</string>

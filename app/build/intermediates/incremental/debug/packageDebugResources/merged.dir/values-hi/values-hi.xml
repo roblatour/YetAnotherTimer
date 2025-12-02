@@ -5,6 +5,7 @@
     <string name="btn_close">बंद करें</string>
     <string name="btn_no">नहीं</string>
     <string name="btn_save">सहेजें</string>
+    <string name="btn_share">शेयर करें</string>
     <string name="btn_yes">हाँ</string>
     <string name="desc_count_down">घटती गणना</string>
     <string name="desc_count_up">आरोही गणना</string>

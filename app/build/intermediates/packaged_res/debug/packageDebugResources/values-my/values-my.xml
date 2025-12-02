@@ -5,6 +5,7 @@
     <string name="btn_close">ပိတ်မည်</string>
     <string name="btn_no">မဟုတ်</string>
     <string name="btn_save">သိမ်းမည်</string>
+    <string name="btn_share">မျှဝေပါ</string>
     <string name="btn_yes">ဟုတ်ကဲ့</string>
     <string name="desc_count_down">နှုတ်တွက်ချက်</string>
     <string name="desc_count_up">တက်ကြေးတွက်ချက်</string>

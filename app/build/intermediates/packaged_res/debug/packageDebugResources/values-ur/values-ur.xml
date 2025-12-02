@@ -5,6 +5,7 @@
     <string name="btn_close">بند کریں</string>
     <string name="btn_no">نہیں</string>
     <string name="btn_save">محفوظ کریں</string>
+    <string name="btn_share">شیئر کریں</string>
     <string name="btn_yes">ہاں</string>
     <string name="desc_count_down">اُلٹی گنتی</string>
     <string name="desc_count_up">اوپر کی گنتی</string>
@@ -20,7 +21,7 @@
     <string name="desc_show_help_icon">مدد آئیکن دکھائیں</string>
     <string name="field_minutes">منٹ</string>
     <string name="field_seconds">سیکنڈ</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">ٹائمر روکنے اور ری سیٹ کرنے کے لیے مرکزی اسکرین پر دو بار ٹیپ کریں۔</string>

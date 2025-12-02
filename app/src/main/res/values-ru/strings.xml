@@ -18,6 +18,7 @@
     <string name="btn_no">Нет</string>
     <string name="btn_save">Сохранить</string>
     <string name="btn_cancel">Отмена</string>
+    <string name="btn_share">Поделиться</string>
 
     <string name="title_help">Справка</string>
     <string name="title_options">Параметры</string>

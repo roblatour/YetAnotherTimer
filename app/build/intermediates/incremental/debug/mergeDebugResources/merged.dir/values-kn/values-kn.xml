@@ -41,6 +41,7 @@
     <string name="btn_close">ಮುಚ್ಚಿ</string>
     <string name="btn_no">ಇಲ್ಲ</string>
     <string name="btn_save">ಉಳಿಸಿ</string>
+    <string name="btn_share">ಹಂಚಿಕೆ</string>
     <string name="btn_yes">ಹೌದು</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"ಉತ್ತರಿಸಿ"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ವೀಡಿಯೊ"</string>

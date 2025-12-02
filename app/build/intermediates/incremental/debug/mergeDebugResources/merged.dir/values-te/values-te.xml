@@ -41,6 +41,7 @@
     <string name="btn_close">మూసివేయి</string>
     <string name="btn_no">కాదు</string>
     <string name="btn_save">సేవ్</string>
+    <string name="btn_share">పంచుకోండి</string>
     <string name="btn_yes">అవును</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"పికప్ చేయండి"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"వీడియో కాల్"</string>
@@ -74,7 +75,7 @@
     <string name="exposed_dropdown_menu_content_description">డ్రాప్‌డౌన్ మెనూను చూపు</string>
     <string name="field_minutes">నిమిషాలు</string>
     <string name="field_seconds">సెకన్లు</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">టైమర్‌ను ఆపి రీసెట్ చేయడానికి, ప్రధాన తెరపై రెండుసార్లు ట్యాప్ చేయండి.</string>

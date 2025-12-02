@@ -5,6 +5,7 @@
     <string name="btn_close">Fermer</string>
     <string name="btn_no">Non</string>
     <string name="btn_save">Enregistrer</string>
+    <string name="btn_share">Partager</string>
     <string name="btn_yes">Oui</string>
     <string name="desc_count_down">Compte à rebours</string>
     <string name="desc_count_up">Chrono progressif</string>
@@ -20,7 +21,7 @@
     <string name="desc_show_help_icon">Afficher l’icône d’aide</string>
     <string name="field_minutes">Minutes</string>
     <string name="field_seconds">Secondes</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Pour arrêter et réinitialiser le minuteur, touchez deux fois l’écran principal.</string>

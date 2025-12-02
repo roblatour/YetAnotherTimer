@@ -2,52 +2,56 @@ package com.example.yetanothertimer.audio
 
 import android.content.Context
 import android.media.AudioAttributes
+import android.media.AudioFocusRequest
 import android.media.AudioFormat
 import android.media.AudioManager
 import android.media.AudioTrack
 import android.media.MediaPlayer
+import android.os.Build
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 
 object ChimePlayer {
+    private val chimeAttributes: AudioAttributes = AudioAttributes.Builder()
+        .setUsage(AudioAttributes.USAGE_ALARM)
+        .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+        .build()
+
     // Try to play a provided asset named "chime" with common extensions. Fallback to synthesized chime if asset not found.
     suspend fun playCustomOrFallback(context: Context, baseName: String = "chime") {
-        val exts = listOf(".mp3", ".wav", ".ogg")
-        var played = false
-        for (ext in exts) {
-            val fileName = baseName + ext
-            try {
-                context.assets.openFd(fileName).use { afd ->
-                    withContext(Dispatchers.Default) {
-                        val mp = MediaPlayer()
-                        try {
-                            mp.setAudioAttributes(
-                                AudioAttributes.Builder()
-                                    .setUsage(AudioAttributes.USAGE_MEDIA)
-                                    .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
-                                    .build()
-                            )
-                            mp.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
-                            mp.setVolume(1.0f, 1.0f)
-                            mp.prepare()
-                            mp.start()
-                            val dur = mp.duration.takeIf { it > 0 } ?: 350
-                            delay(dur.toLong() + 50)
-                        } finally {
-                            kotlin.runCatching { mp.stop() }
-                            mp.release()
+        withAudioFocus(context) {
+            val exts = listOf(".mp3", ".wav", ".ogg")
+            var played = false
+            for (ext in exts) {
+                val fileName = baseName + ext
+                try {
+                    context.assets.openFd(fileName).use { afd ->
+                        withContext(Dispatchers.Default) {
+                            val mp = MediaPlayer()
+                            try {
+                                mp.setAudioAttributes(chimeAttributes)
+                                mp.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
+                                mp.setVolume(1.0f, 1.0f)
+                                mp.prepare()
+                                mp.start()
+                                val dur = mp.duration.takeIf { it > 0 } ?: 350
+                                delay(dur.toLong() + 50)
+                            } finally {
+                                kotlin.runCatching { mp.stop() }
+                                mp.release()
+                            }
                         }
+                        played = true
                     }
-                    played = true
+                    break
+                } catch (_: Exception) {
+                    // try next extension
                 }
-                break
-            } catch (_: Exception) {
-                // try next extension
             }
-        }
-        if (!played) {
-            playSynth()
+            if (!played) {
+                playSynth()
+            }
         }
     }
 
@@ -81,11 +85,6 @@ object ChimePlayer {
         }
 
         // Use MODE_STATIC so the whole buffer is preloaded and then played reliably
-        val audioAttributes = AudioAttributes.Builder()
-            .setUsage(AudioAttributes.USAGE_MEDIA)
-            .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
-            .build()
-
         val audioFormat = AudioFormat.Builder()
             .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
             .setSampleRate(sampleRate)
@@ -94,7 +93,7 @@ object ChimePlayer {
 
         val bufferSizeBytes = buffer.size * 2
         val audioTrack = AudioTrack(
-            audioAttributes,
+            chimeAttributes,
             audioFormat,
             bufferSizeBytes,
             AudioTrack.MODE_STATIC,
@@ -109,6 +108,41 @@ object ChimePlayer {
         } finally {
             kotlin.runCatching { audioTrack.stop() }
             audioTrack.release()
+        }
+    }
+
+    private suspend fun withAudioFocus(context: Context, block: suspend () -> Unit) {
+        val audioManager = context.getSystemService(Context.AUDIO_SERVICE) as? AudioManager
+        if (audioManager == null) {
+            block()
+            return
+        }
+        var focusRequest: AudioFocusRequest? = null
+        val focusGranted = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            focusRequest = AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT)
+                .setAudioAttributes(chimeAttributes)
+                .setOnAudioFocusChangeListener { }
+                .build()
+            audioManager.requestAudioFocus(focusRequest!!) == AudioManager.AUDIOFOCUS_REQUEST_GRANTED
+        } else {
+            @Suppress("DEPRECATION")
+            audioManager.requestAudioFocus(
+                null,
+                AudioManager.STREAM_ALARM,
+                AudioManager.AUDIOFOCUS_GAIN_TRANSIENT
+            ) == AudioManager.AUDIOFOCUS_REQUEST_GRANTED
+        }
+        try {
+            block()
+        } finally {
+            if (focusGranted) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    focusRequest?.let { audioManager.abandonAudioFocusRequest(it) }
+                } else {
+                    @Suppress("DEPRECATION")
+                    audioManager.abandonAudioFocus(null)
+                }
+            }
         }
     }
 }

@@ -18,6 +18,7 @@
     <string name="btn_no">ไม่</string>
     <string name="btn_save">บันทึก</string>
     <string name="btn_cancel">ยกเลิก</string>
+    <string name="btn_share">แชร์</string>
 
     <string name="title_help">วิธีใช้</string>
     <string name="title_options">ตัวเลือก</string>
@@ -40,7 +41,7 @@
     <string name="help_line_double_tap">หากต้องการหยุดและรีเซ็ตตัวจับเวลา ให้แตะที่หน้าจอหลักสองครั้ง</string>
     <string name="help_line_options">หากต้องการเปลี่ยนตัวเลือกของโปรแกรม ให้แตะที่ไอคอนรูปเฟือง</string>
     <string name="license_word">สัญญาอนุญาต</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

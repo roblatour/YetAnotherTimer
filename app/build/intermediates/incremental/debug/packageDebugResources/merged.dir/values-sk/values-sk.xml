@@ -5,6 +5,7 @@
     <string name="btn_close">Zavrieť</string>
     <string name="btn_no">Nie</string>
     <string name="btn_save">Uložiť</string>
+    <string name="btn_share">Zdieľať</string>
     <string name="btn_yes">Áno</string>
     <string name="desc_count_down">Odpočítavanie</string>
     <string name="desc_count_up">Rastúce počítanie</string>

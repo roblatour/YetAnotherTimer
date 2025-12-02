@@ -3708,6 +3708,7 @@ string btn_cancel
 string btn_close
 string btn_no
 string btn_save
+string btn_share
 string btn_yes
 string call_notification_answer_action
 string call_notification_answer_video_action
@@ -3737,6 +3738,7 @@ string desc_keep_screen_on_off
 string desc_keep_screen_on_on
 string desc_language_icon
 string desc_settings_icon
+string desc_share_qr
 string desc_show_help_icon
 string desc_show_language_icon
 string dropdown_menu
@@ -3941,6 +3943,7 @@ string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string selected
+string share_qr_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string state_empty
@@ -3952,6 +3955,7 @@ string tab
 string template_percent
 string title_help
 string title_options
+string title_share_qr
 string tooltip_description
 string tooltip_label
 style AlertDialog_AppCompat

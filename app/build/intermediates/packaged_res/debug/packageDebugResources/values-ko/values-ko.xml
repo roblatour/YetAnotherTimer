@@ -5,6 +5,7 @@
     <string name="btn_close">닫기</string>
     <string name="btn_no">아니요</string>
     <string name="btn_save">저장</string>
+    <string name="btn_share">공유</string>
     <string name="btn_yes">예</string>
     <string name="desc_count_down">카운트다운</string>
     <string name="desc_count_up">카운트업</string>

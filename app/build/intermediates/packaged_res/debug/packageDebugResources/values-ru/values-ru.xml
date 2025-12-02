@@ -5,6 +5,7 @@
     <string name="btn_close">Закрыть</string>
     <string name="btn_no">Нет</string>
     <string name="btn_save">Сохранить</string>
+    <string name="btn_share">Поделиться</string>
     <string name="btn_yes">Да</string>
     <string name="desc_count_down">Обратный отсчёт</string>
     <string name="desc_count_up">Счёт вверх</string>

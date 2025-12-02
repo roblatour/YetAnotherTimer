@@ -18,6 +18,7 @@
     <string name="btn_no">မဟုတ်</string>
     <string name="btn_save">သိမ်းမည်</string>
     <string name="btn_cancel">မလုပ်တော့</string>
+    <string name="btn_share">မျှဝေပါ</string>
 
     <string name="title_help">အကူအညီ</string>
     <string name="title_options">ရွေးချယ်စရာများ</string>

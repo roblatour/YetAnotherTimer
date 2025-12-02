@@ -5,6 +5,7 @@
     <string name="btn_close">Schließen</string>
     <string name="btn_no">Nein</string>
     <string name="btn_save">Speichern</string>
+    <string name="btn_share">Teilen</string>
     <string name="btn_yes">Ja</string>
     <string name="desc_count_down">Countdown</string>
     <string name="desc_count_up">Aufwärts zählen</string>

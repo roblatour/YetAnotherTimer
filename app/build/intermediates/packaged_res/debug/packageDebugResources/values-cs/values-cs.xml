@@ -5,6 +5,7 @@
     <string name="btn_close">Zavřít</string>
     <string name="btn_no">Ne</string>
     <string name="btn_save">Uložit</string>
+    <string name="btn_share">Sdílet</string>
     <string name="btn_yes">Ano</string>
     <string name="desc_count_down">Odpočítávání</string>
     <string name="desc_count_up">Počítání nahoru</string>

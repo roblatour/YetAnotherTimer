@@ -5,6 +5,7 @@
     <string name="btn_close">Закрити</string>
     <string name="btn_no">Ні</string>
     <string name="btn_save">Зберегти</string>
+    <string name="btn_share">Поділитися</string>
     <string name="btn_yes">Так</string>
     <string name="desc_count_down">Зворотний відлік</string>
     <string name="desc_count_up">Зворотній підрахунок вгору</string>
@@ -20,7 +21,7 @@
     <string name="desc_show_help_icon">Показати піктограму довідки</string>
     <string name="field_minutes">Хвилини</string>
     <string name="field_seconds">Секунди</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Щоб зупинити та скинути таймер, двічі торкніться головного екрана.</string>

@@ -5,6 +5,7 @@
     <string name="btn_close">Close</string>
     <string name="btn_no">No</string>
     <string name="btn_save">Save</string>
+    <string name="btn_share">Share</string>
     <string name="btn_yes">Yes</string>
     <string name="desc_count_down">Count down</string>
     <string name="desc_count_up">Count up</string>
@@ -19,11 +20,12 @@
     <string name="desc_keep_screen_on_on">Override auto-lock, keep screen on</string>
     <string name="desc_language_icon">Change language</string>
     <string name="desc_settings_icon">Open settings</string>
+    <string name="desc_share_qr">QR code linking to Yet Another Timer on Google Play</string>
     <string name="desc_show_help_icon">Show help icon</string>
     <string name="desc_show_language_icon">Show language icon</string>
     <string name="field_minutes">Minutes</string>
     <string name="field_seconds">Seconds</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">To stop and reset the timer, double tap the main screen.</string>
@@ -43,8 +45,10 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Enable touch when moving</string>
     <string name="label_touch_lock_on">Disable touch when moving</string>
     <string name="license_word">Licence</string>
+    <string name="share_qr_description">Scan this code to open the Google Play listing.</string>
     <string name="title_help">Help</string>
     <string name="title_options">Options</string>
+    <string name="title_share_qr">Share Yet Another Timer</string>
     <style name="Theme.YetAnotherTimer" parent="Theme.Material3.DayNight.NoActionBar">
         
         

@@ -41,6 +41,7 @@
     <string name="btn_close">மூடு</string>
     <string name="btn_no">இல்லை</string>
     <string name="btn_save">சேமிக்கவும்</string>
+    <string name="btn_share">பகிர்</string>
     <string name="btn_yes">ஆம்</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"பதிலளி"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"வீடியோ"</string>
@@ -74,7 +75,7 @@
     <string name="exposed_dropdown_menu_content_description">கீழ் தோன்றல் மெனுவைக் காட்டும் பட்டன்</string>
     <string name="field_minutes">நிமிடங்கள்</string>
     <string name="field_seconds">விநாடிகள்</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+    <string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">நிறுத்த மற்றும் மீட்டமைக்க, முதன்மை திரையில் இருமுறை தட்டவும்.</string>

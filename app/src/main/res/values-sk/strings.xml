@@ -18,6 +18,7 @@
     <string name="btn_no">Nie</string>
     <string name="btn_save">Uložiť</string>
     <string name="btn_cancel">Zrušiť</string>
+    <string name="btn_share">Zdieľať</string>
 
     <string name="title_help">Pomoc</string>
     <string name="title_options">Možnosti</string>

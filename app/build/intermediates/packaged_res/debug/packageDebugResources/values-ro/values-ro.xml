@@ -5,6 +5,7 @@
     <string name="btn_close">Închide</string>
     <string name="btn_no">Nu</string>
     <string name="btn_save">Salvează</string>
+    <string name="btn_share">Distribuie</string>
     <string name="btn_yes">Da</string>
     <string name="desc_count_down">Numărătoare inversă</string>
     <string name="desc_count_up">Numărătoare crescătoare</string>

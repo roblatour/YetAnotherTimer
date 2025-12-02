@@ -5,6 +5,7 @@
     <string name="btn_close">Sluiten</string>
     <string name="btn_no">Nee</string>
     <string name="btn_save">Opslaan</string>
+    <string name="btn_share">Delen</string>
     <string name="btn_yes">Ja</string>
     <string name="desc_count_down">Aftellen</string>
     <string name="desc_count_up">Oplopend tellen</string>

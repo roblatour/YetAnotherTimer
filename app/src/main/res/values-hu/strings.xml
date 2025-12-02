@@ -18,6 +18,7 @@
     <string name="btn_no">Nem</string>
     <string name="btn_save">Mentés</string>
     <string name="btn_cancel">Mégse</string>
+    <string name="btn_share">Megosztás</string>
 
     <string name="title_help">Súgó</string>
     <string name="title_options">Beállítások</string>

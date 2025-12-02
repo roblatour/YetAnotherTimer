@@ -41,6 +41,7 @@
     <string name="btn_close">Fechar</string>
     <string name="btn_no">Não</string>
     <string name="btn_save">Salvar</string>
+    <string name="btn_share">Compartilhar</string>
     <string name="btn_yes">Sim</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
