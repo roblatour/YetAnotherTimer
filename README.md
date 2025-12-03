@@ -8,7 +8,7 @@ I originally created this app for my own personal use - using it at the gym to c
 
 In any case, you're welcome to use it for anything you like and/or to learn about Android code development.  
 
-The easiest way to install it is from the Google Play store [here](https://play.google.com/store/apps/details?id=io.github.roblatour.yetanothertimer&hl=en) (Note: the Play Store is currently hosting verions 1.0 - I will update this page to remove this note when the version on the Play Store is version 1.1).  Alternatively, you can build the app from the source code in this repository.
+The easiest way to install it is from the Google Play store [here](https://play.google.com/store/apps/details?id=io.github.roblatour.yetanothertimer&hl=en).  Alternatively, you can build the app from the source code in this repository.
 
 Finally, to give credit where credit is due, most of the coding for this project was done by the Copilot AI. I had to step in from time to time to get things working but Copilot did all of the heavy lifting - so cool.  
 
