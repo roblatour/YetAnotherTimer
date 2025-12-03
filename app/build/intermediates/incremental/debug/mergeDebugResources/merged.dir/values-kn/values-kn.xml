@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಬೇಡಿ</string>
     <string name="desc_keep_screen_on_on">ಸ್ವಯಂ-ಲಾಕ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ, ಪರದೆಯನ್ನು ಆನ್ ಇಡಿ</string>
     <string name="desc_settings_icon">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+    <string name="desc_share_qr">Google Play ನಲ್ಲಿ Yet Another Timer ಗೆ ಸಂಪರ್ಕಿಸುವ QR ಕೋಡ್</string>
     <string name="desc_show_help_icon">ಸಹಾಯ ಐಕಾನ್ ತೋರಿಸಿ</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"ಡ್ರಾಪ್‌ಡೌನ್ ಮೆನು"</string>
     <string name="error_a11y_label">ದೋಷ: ಅಮಾನ್ಯ</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">ಪಠ್ಯವನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
     <string name="searchview_navigation_content_description">ಹಿಂದಕ್ಕೆ</string>
     <string msgid="6043586758067023" name="selected">"ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ"</string>
+    <string name="share_qr_description">Google Play ಪಟ್ಟಿಯನ್ನು ತೆರೆಯಲು ಈ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.</string>
     <string name="side_sheet_accessibility_pane_title">ಸೈಡ್ ಶೀಟ್</string>
     <string msgid="4139871816613051306" name="state_empty">"ಖಾಲಿ"</string>
     <string msgid="5834637030682409883" name="state_off">"ಆಫ್ ಆಗಿದೆ"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> ಶೇಕಡಾ."</string>
     <string name="title_help">ಸಹಾಯ</string>
     <string name="title_options">ಆಯ್ಕೆಗಳು</string>
+    <string name="title_share_qr">Yet Another Timer ಅನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string msgid="3765533235322692011" name="tooltip_description">"ಟೂಲ್‌ಟಿಪ್"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"ಟೂಲ್‌ಟಿಪ್ ಅನ್ನು ತೋರಿಸಿ"</string>
 </resources>

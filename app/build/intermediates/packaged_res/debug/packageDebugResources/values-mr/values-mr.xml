@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">ऑटो-लॉक दुर्लक्ष करू नका</string>
     <string name="desc_keep_screen_on_on">ऑटो-लॉक दुर्लक्ष करा, स्क्रीन चालू ठेवा</string>
     <string name="desc_settings_icon">सेटिंग्स उघडा</string>
+    <string name="desc_share_qr">Google Play वरील Yet Another Timer ला जोडणारा QR कोड</string>
     <string name="desc_show_help_icon">मदत आयकॉन दाखवा</string>
     <string name="field_minutes">मिनिटे</string>
     <string name="field_seconds">सेकंद</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">हलत्या वेळी स्पर्श सुरू करा</string>
     <string name="label_touch_lock_on">हलत्या वेळी स्पर्श बंद करा</string>
     <string name="license_word">परवाना</string>
+    <string name="share_qr_description">Google Play वरील सूची उघडण्यासाठी हा कोड स्कॅन करा.</string>
     <string name="title_help">मदत</string>
     <string name="title_options">पर्याय</string>
+    <string name="title_share_qr">Yet Another Timer शेअर करा</string>
 </resources>

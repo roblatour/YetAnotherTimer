@@ -1,4 +1,4 @@
-# Yet Another Timer v1.1 (for Android) - 2025-12-02
+# Yet Another Timer v1.1 (for Android) - 2025-12-03
 
 Open-source timer for Android phones and tablets
 
@@ -60,10 +60,3 @@ Install instructions allow you to install the program from your own .apk build f
 * * *
 Copyright © 2025, Rob Latour
 * * *
-
- 
-
-
-
-
-

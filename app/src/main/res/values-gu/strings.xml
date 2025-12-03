@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">ટાઈમરને રોકવા અને રીસેટ કરવા માટે મુખ્ય સ્ક્રીન પર બે વાર ટેપ કરો.</string>
     <string name="help_line_options">કાર્યક્રમના વિકલ્પો બદલવા માટે ગિયર આઇકન પર ટેપ કરો.</string>
     <string name="license_word">લાઈસન્સ</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Google Play પરનું લિસ્ટિંગ ખોલવા માટે આ કોડ સ્કેન કરો.</string>
+    <string name="desc_share_qr">Google Play પર Yet Another Timer જોડતો QR કોડ</string>
+    <string name="title_share_qr">Yet Another Timer શેર કરો</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

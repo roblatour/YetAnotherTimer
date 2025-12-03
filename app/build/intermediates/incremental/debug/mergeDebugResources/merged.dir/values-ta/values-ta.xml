@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
     <string name="desc_keep_screen_on_on">தானியங்கி பூட்டை புறக்கணி, திரையை இயக்கியவாறு வைத்திரு</string>
     <string name="desc_settings_icon">அமைப்புகளைத் திற</string>
+    <string name="desc_share_qr">Google Play இல் Yet Another Timer-க்கு இணைக்கும் QR குறியீடு</string>
     <string name="desc_show_help_icon">உதவி சின்னத்தை காட்டு</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"கீழ்த்தோன்றல் மெனு"</string>
     <string name="error_a11y_label">பிழை: தவறானது</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">வார்த்தைகளை அழிக்கும்</string>
     <string name="searchview_navigation_content_description">பின்செல்லும்</string>
     <string msgid="6043586758067023" name="selected">"தேர்ந்தெடுக்கப்பட்டுள்ளது"</string>
+    <string name="share_qr_description">Google Play பட்டியலைத் திறக்க இந்தக் குறியீட்டை ஸ்கேன் செய்யவும்.</string>
     <string name="side_sheet_accessibility_pane_title">பக்கவாட்டுத் தாள்</string>
     <string msgid="4139871816613051306" name="state_empty">"காலியாக உள்ளது"</string>
     <string msgid="5834637030682409883" name="state_off">"ஆஃப்"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> சதவீதம்."</string>
     <string name="title_help">உதவி</string>
     <string name="title_options">விருப்பங்கள்</string>
+    <string name="title_share_qr">Yet Another Timer பகிர்</string>
     <string msgid="3765533235322692011" name="tooltip_description">"உதவிக்குறிப்பு"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"உதவிக்குறிப்பைக் காட்டும்"</string>
 </resources>

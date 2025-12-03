@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">כדי להפסיק ולאפס את הטיימר, הקש פעמיים על המסך הראשי.</string>
     <string name="help_line_options">כדי לשנות את אפשרויות התוכנית, הקש על סמל גלגל השיניים.</string>
     <string name="license_word">רישיון</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">סרקו את הקוד הזה כדי לפתוח את דף החנות ב-Google Play.</string>
+    <string name="desc_share_qr">קוד QR שמפנה ל-Yet Another Timer ב-Google Play</string>
+    <string name="title_share_qr">שתף את Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

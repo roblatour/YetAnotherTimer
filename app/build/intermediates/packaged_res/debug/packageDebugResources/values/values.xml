@@ -20,7 +20,7 @@
     <string name="desc_keep_screen_on_on">Override auto-lock, keep screen on</string>
     <string name="desc_language_icon">Change language</string>
     <string name="desc_settings_icon">Open settings</string>
-    <string name="desc_share_qr">QR code linking to Yet Another Timer on Google Play</string>
+    <string name="desc_share_qr">Share Yet Another Timer</string>
     <string name="desc_show_help_icon">Show help icon</string>
     <string name="desc_show_language_icon">Show language icon</string>
     <string name="field_minutes">Minutes</string>

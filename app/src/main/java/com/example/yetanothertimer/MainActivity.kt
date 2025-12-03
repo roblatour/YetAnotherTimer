@@ -833,8 +833,11 @@ private fun ShareQrDialog(languageTag: String, onDismiss: () -> Unit) {
         "https://play.google.com/store/apps/details?id=io.github.roblatour.yetanothertimer&hl=$languageCode"
     }
     val qrBitmap = remember(shareUrl) { generateQrCodeBitmap(shareUrl) }
+    val isRtl = remember(languageTag) { SupportedLanguages.isRtl(languageTag) }
+    val layoutDirection = if (isRtl) LayoutDirection.Rtl else LayoutDirection.Ltr
 
-    AlertDialog(
+    CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
+        AlertDialog(
         onDismissRequest = onDismiss,
         confirmButton = {
             Button(
@@ -880,7 +883,8 @@ private fun ShareQrDialog(languageTag: String, onDismiss: () -> Unit) {
         },
         containerColor = Color.Black,
         textContentColor = Color.White
-    )
+        )
+        }
 }
 
 private fun generateQrCodeBitmap(content: String, targetSize: Int = 512): ImageBitmap? {

@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">Không bỏ qua khóa tự động</string>
     <string name="desc_keep_screen_on_on">Bỏ qua khóa tự động, giữ màn hình luôn bật</string>
     <string name="desc_settings_icon">Mở cài đặt</string>
+    <string name="desc_share_qr">Mã QR dẫn tới Yet Another Timer trên Google Play</string>
     <string name="desc_show_help_icon">Hiển thị biểu tượng trợ giúp</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Trình đơn thả xuống"</string>
     <string name="error_a11y_label">Lỗi: không hợp lệ</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Xoá văn bản</string>
     <string name="searchview_navigation_content_description">Quay lại</string>
     <string msgid="6043586758067023" name="selected">"Đã chọn"</string>
+    <string name="share_qr_description">Quét mã này để mở trang trên Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Trang bên</string>
     <string msgid="4139871816613051306" name="state_empty">"Trống"</string>
     <string msgid="5834637030682409883" name="state_off">"Đang tắt"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>%%."</string>
     <string name="title_help">Trợ giúp</string>
     <string name="title_options">Tùy chọn</string>
+    <string name="title_share_qr">Chia sẻ Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"chú thích"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"hiện chú thích"</string>
 </resources>

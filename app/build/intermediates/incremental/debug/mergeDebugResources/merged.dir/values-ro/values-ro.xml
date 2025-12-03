@@ -69,6 +69,7 @@
     <string name="desc_keep_screen_on_off">Nu ignora blocarea automată</string>
     <string name="desc_keep_screen_on_on">Ignoră blocarea automată, menține ecranul aprins</string>
     <string name="desc_settings_icon">Deschide setările</string>
+    <string name="desc_share_qr">Cod QR care duce la Yet Another Timer în Google Play</string>
     <string name="desc_show_help_icon">Afișează pictograma Ajutor</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Meniu drop-down"</string>
     <string name="error_a11y_label">Eroare: nevalidă</string>
@@ -224,6 +225,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Ștergeți textul</string>
     <string name="searchview_navigation_content_description">Înapoi</string>
     <string msgid="6043586758067023" name="selected">"Selectat"</string>
+    <string name="share_qr_description">Scanează acest cod pentru a deschide pagina din Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Foaie laterală</string>
     <string msgid="4139871816613051306" name="state_empty">"Gol"</string>
     <string msgid="5834637030682409883" name="state_off">"Dezactivat"</string>
@@ -234,6 +236,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> %%."</string>
     <string name="title_help">Ajutor</string>
     <string name="title_options">Opțiuni</string>
+    <string name="title_share_qr">Distribuie Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"balon explicativ"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"afișează balonul explicativ"</string>
 </resources>

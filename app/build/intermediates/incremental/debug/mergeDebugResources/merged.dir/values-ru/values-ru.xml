@@ -70,6 +70,7 @@
     <string name="desc_keep_screen_on_off">Не игнорировать автоблокировку</string>
     <string name="desc_keep_screen_on_on">Игнорировать автоблокировку, оставить экран включенным</string>
     <string name="desc_settings_icon">Открыть настройки</string>
+    <string name="desc_share_qr">QR-код, ведущий на Yet Another Timer в Google Play</string>
     <string name="desc_show_help_icon">Показать значок справки</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Раскрывающееся меню"</string>
     <string name="error_a11y_label">Ошибка: недопустимое значение</string>
@@ -225,6 +226,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Очистить текстовое поле</string>
     <string name="searchview_navigation_content_description">Назад</string>
     <string msgid="6043586758067023" name="selected">"Выбрано"</string>
+    <string name="share_qr_description">Сканируйте этот код, чтобы открыть страницу в Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Боковая панель</string>
     <string msgid="4139871816613051306" name="state_empty">"Пусто"</string>
     <string msgid="5834637030682409883" name="state_off">"Отключено"</string>
@@ -235,6 +237,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"Процентов: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
     <string name="title_help">Справка</string>
     <string name="title_options">Параметры</string>
+    <string name="title_share_qr">Поделиться Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"Подсказка"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"Показать подсказку"</string>
 </resources>

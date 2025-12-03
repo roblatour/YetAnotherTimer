@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">A leállításhoz és visszaállításhoz koppintson duplán a főképernyőre.</string>
     <string name="help_line_options">A program beállításainak módosításához érintse meg a fogaskerék ikont.</string>
     <string name="license_word">Licenc</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Olvassa be ezt a kódot a Google Play-oldal megnyitásához.</string>
+    <string name="desc_share_qr">QR-kód, amely a Yet Another Timerhez vezet a Google Playen</string>
+    <string name="title_share_qr">Yet Another Timer megosztása</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

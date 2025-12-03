@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Ne pas ignorer le verrouillage auto</string>
     <string name="desc_keep_screen_on_on">Ignorer le verrouillage auto, garder l’écran allumé</string>
     <string name="desc_settings_icon">Ouvrir les paramètres</string>
+    <string name="desc_share_qr">Code QR menant à Yet Another Timer sur Google Play</string>
     <string name="desc_show_help_icon">Afficher l’icône d’aide</string>
     <string name="field_minutes">Minutes</string>
     <string name="field_seconds">Secondes</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Activer le toucher en mouvement</string>
     <string name="label_touch_lock_on">Désactiver le toucher en mouvement</string>
     <string name="license_word">Licence</string>
+    <string name="share_qr_description">Scannez ce code pour ouvrir la fiche sur Google Play.</string>
     <string name="title_help">Aide</string>
     <string name="title_options">Options</string>
+    <string name="title_share_qr">Partager Yet Another Timer</string>
 </resources>

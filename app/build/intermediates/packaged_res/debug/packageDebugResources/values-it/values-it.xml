@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Non ignorare il blocco automatico</string>
     <string name="desc_keep_screen_on_on">Ignora blocco automatico, mantieni lo schermo acceso</string>
     <string name="desc_settings_icon">Apri impostazioni</string>
+    <string name="desc_share_qr">Codice QR che rimanda a Yet Another Timer su Google Play</string>
     <string name="desc_show_help_icon">Mostra icona guida</string>
     <string name="field_minutes">Minuti</string>
     <string name="field_seconds">Secondi</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Attiva tocco durante il movimento</string>
     <string name="label_touch_lock_on">Disattiva tocco durante il movimento</string>
     <string name="license_word">Licenza</string>
+    <string name="share_qr_description">Scansiona questo codice per aprire la scheda su Google Play.</string>
     <string name="title_help">Guida</string>
     <string name="title_options">Opzioni</string>
+    <string name="title_share_qr">Condividi Yet Another Timer</string>
 </resources>

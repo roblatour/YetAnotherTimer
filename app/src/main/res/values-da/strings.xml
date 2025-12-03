@@ -44,7 +44,10 @@
     <string name="help_line_double_tap">Dobbelttryk på hovedskærmen for at stoppe og nulstille timeren.</string>
     <string name="help_line_options">Tryk på tandhjulsikonet for at ændre programindstillinger.</string>
     <string name="license_word">Licens</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Scan denne kode for at åbne butikssiden på Google Play.</string>
+    <string name="desc_share_qr">QR-kode der linker til Yet Another Timer på Google Play</string>
+    <string name="title_share_qr">Del Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

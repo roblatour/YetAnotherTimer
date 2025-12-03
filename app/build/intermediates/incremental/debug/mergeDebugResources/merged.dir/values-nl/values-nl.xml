@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">Automatische vergrendeling niet negeren</string>
     <string name="desc_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
     <string name="desc_settings_icon">Instellingen openen</string>
+    <string name="desc_share_qr">QR-code die verwijst naar Yet Another Timer op Google Play</string>
     <string name="desc_show_help_icon">Hulppictogram weergeven</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Dropdownmenu"</string>
     <string name="error_a11y_label">Fout: ongeldig</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Tekst wissen</string>
     <string name="searchview_navigation_content_description">Terug</string>
     <string msgid="6043586758067023" name="selected">"Geselecteerd"</string>
+    <string name="share_qr_description">Scan deze code om de vermelding op Google Play te openen.</string>
     <string name="side_sheet_accessibility_pane_title">Zijblad</string>
     <string msgid="4139871816613051306" name="state_empty">"Leeg"</string>
     <string msgid="5834637030682409883" name="state_off">"Uit"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
     <string name="title_help">Hulp</string>
     <string name="title_options">Opties</string>
+    <string name="title_share_qr">Deel Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"tooltip"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"tooltip tonen"</string>
 </resources>

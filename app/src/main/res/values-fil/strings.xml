@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Upang ihinto at i-reset ang timer, i-double tap ang pangunahing screen.</string>
     <string name="help_line_options">Upang baguhin ang mga opsyon ng programa, tapikin ang icon ng gear.</string>
     <string name="license_word">Lisensya</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">I-scan ang code na ito para buksan ang listing sa Google Play.</string>
+    <string name="desc_share_qr">QR code na kumokonekta sa Yet Another Timer sa Google Play</string>
+    <string name="title_share_qr">Ibahagi ang Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

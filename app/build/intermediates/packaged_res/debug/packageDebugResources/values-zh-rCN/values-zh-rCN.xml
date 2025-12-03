@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">不忽略自动锁定</string>
     <string name="desc_keep_screen_on_on">覆盖自动锁定，保持屏幕常亮</string>
     <string name="desc_settings_icon">打开设置</string>
+    <string name="desc_share_qr">指向 Google Play 上 Yet Another Timer 的二维码</string>
     <string name="desc_show_help_icon">显示帮助图标</string>
     <string name="field_minutes">分钟</string>
     <string name="field_seconds">秒</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">移动时启用触摸</string>
     <string name="label_touch_lock_on">移动时禁用触摸</string>
     <string name="license_word">许可</string>
+    <string name="share_qr_description">扫描此代码以打开 Google Play 列表。</string>
     <string name="title_help">帮助</string>
     <string name="title_options">选项</string>
+    <string name="title_share_qr">分享 Yet Another Timer</string>
 </resources>

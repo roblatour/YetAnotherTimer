@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">தானியங்கி பூட்டை புறக்கணிக்காதே</string>
     <string name="desc_keep_screen_on_on">தானியங்கி பூட்டை புறக்கணி, திரையை இயக்கியவாறு வைத்திரு</string>
     <string name="desc_settings_icon">அமைப்புகளைத் திற</string>
+    <string name="desc_share_qr">Google Play இல் Yet Another Timer-க்கு இணைக்கும் QR குறியீடு</string>
     <string name="desc_show_help_icon">உதவி சின்னத்தை காட்டு</string>
     <string name="field_minutes">நிமிடங்கள்</string>
     <string name="field_seconds">விநாடிகள்</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">நகரும்போது தொடுதலை இயக்கு</string>
     <string name="label_touch_lock_on">நகரும்போது தொடுதலை முடக்கு</string>
     <string name="license_word">உரிமம்</string>
+    <string name="share_qr_description">Google Play பட்டியலைத் திறக்க இந்தக் குறியீட்டை ஸ்கேன் செய்யவும்.</string>
     <string name="title_help">உதவி</string>
     <string name="title_options">விருப்பங்கள்</string>
+    <string name="title_share_qr">Yet Another Timer பகிர்</string>
 </resources>

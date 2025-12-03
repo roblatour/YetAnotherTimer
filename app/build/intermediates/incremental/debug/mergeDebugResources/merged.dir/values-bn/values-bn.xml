@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">অটো-লক অগ্রাহ্য করবেন না</string>
     <string name="desc_keep_screen_on_on">অটো-লক অগ্রাহ্য করুন, স্ক্রিন চালু রাখুন</string>
     <string name="desc_settings_icon">সেটিংস খুলুন</string>
+    <string name="desc_share_qr">Google Play-এ Yet Another Timer-এ নিয়ে যায় এমন QR কোড</string>
     <string name="desc_show_help_icon">সহায়তা আইকন দেখান</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"ড্রপডাউন মেনু"</string>
     <string name="error_a11y_label">সমস্যা: সঠিক নয়</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">টেক্সট মুছুন</string>
     <string name="searchview_navigation_content_description">ফিরে যান</string>
     <string msgid="6043586758067023" name="selected">"বেছে নেওয়া হয়েছে"</string>
+    <string name="share_qr_description">এই কোডটি স্ক্যান করে Google Play তালিকাটি খুলুন।</string>
     <string name="side_sheet_accessibility_pane_title">সাইড শিট</string>
     <string msgid="4139871816613051306" name="state_empty">"ফাঁকা"</string>
     <string msgid="5834637030682409883" name="state_off">"বন্ধ আছে"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> শতাংশ।"</string>
     <string name="title_help">সহায়তা</string>
     <string name="title_options">বিকল্পসমূহ</string>
+    <string name="title_share_qr">Yet Another Timer শেয়ার করুন</string>
     <string msgid="3765533235322692011" name="tooltip_description">"টুলটিপ"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"টুলটিপ দেখুন"</string>
 </resources>

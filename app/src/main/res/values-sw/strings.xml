@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Ili kusitisha na kuweka upya kipima muda, gusa mara mbili skrini kuu.</string>
     <string name="help_line_options">Ili kubadilisha chaguo za programu, gusa ikoni ya gia.</string>
     <string name="license_word">Leseni</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Changanua msimbo huu ili kufungua ukurasa wa Google Play.</string>
+    <string name="desc_share_qr">Msimbo wa QR unaounganisha na Yet Another Timer kwenye Google Play</string>
+    <string name="title_share_qr">Shiriki Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

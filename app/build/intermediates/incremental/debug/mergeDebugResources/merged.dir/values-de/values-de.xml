@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
     <string name="desc_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
     <string name="desc_settings_icon">Einstellungen öffnen</string>
+    <string name="desc_share_qr">QR-Code, der zu Yet Another Timer im Google Play Store führt</string>
     <string name="desc_show_help_icon">Hilfesymbol anzeigen</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Drop-down-Menü"</string>
     <string name="error_a11y_label">Fehler: ungültig</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Text löschen</string>
     <string name="searchview_navigation_content_description">Zurück</string>
     <string msgid="6043586758067023" name="selected">"Ausgewählt"</string>
+    <string name="share_qr_description">Scannen Sie diesen Code, um die Seite im Google Play Store zu öffnen.</string>
     <string name="side_sheet_accessibility_pane_title">Seitenblatt</string>
     <string msgid="4139871816613051306" name="state_empty">"Leer"</string>
     <string msgid="5834637030682409883" name="state_off">"Aus"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> Prozent."</string>
     <string name="title_help">Hilfe</string>
     <string name="title_options">Optionen</string>
+    <string name="title_share_qr">Yet Another Timer teilen</string>
     <string msgid="3765533235322692011" name="tooltip_description">"Kurzinfo"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"Kurzinfo anzeigen"</string>
 </resources>

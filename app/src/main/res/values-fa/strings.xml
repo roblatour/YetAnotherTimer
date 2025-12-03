@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">برای توقف و بازنشانی تایمر، دو بار روی صفحه اصلی ضربه بزنید.</string>
     <string name="help_line_options">برای تغییر گزینه‌های برنامه، روی آیکون چرخ‌دنده ضربه بزنید.</string>
     <string name="license_word">مجوز</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">برای باز کردن صفحه برنامه در Google Play این کد را اسکن کنید.</string>
+    <string name="desc_share_qr">کد QR که به Yet Another Timer در Google Play لینک می‌شود</string>
+    <string name="title_share_qr">اشتراک‌گذاری Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

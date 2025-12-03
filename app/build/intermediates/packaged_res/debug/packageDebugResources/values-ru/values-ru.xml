@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Не игнорировать автоблокировку</string>
     <string name="desc_keep_screen_on_on">Игнорировать автоблокировку, оставить экран включенным</string>
     <string name="desc_settings_icon">Открыть настройки</string>
+    <string name="desc_share_qr">QR-код, ведущий на Yet Another Timer в Google Play</string>
     <string name="desc_show_help_icon">Показать значок справки</string>
     <string name="field_minutes">Минуты</string>
     <string name="field_seconds">Секунды</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Включить касание при движении</string>
     <string name="label_touch_lock_on">Отключить касание при движении</string>
     <string name="license_word">Лицензия</string>
+    <string name="share_qr_description">Сканируйте этот код, чтобы открыть страницу в Google Play.</string>
     <string name="title_help">Справка</string>
     <string name="title_options">Параметры</string>
+    <string name="title_share_qr">Поделиться Yet Another Timer</string>
 </resources>

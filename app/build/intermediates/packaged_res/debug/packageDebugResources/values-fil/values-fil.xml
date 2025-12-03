@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Huwag balewalain ang auto-lock</string>
     <string name="desc_keep_screen_on_on">Huwag pansinin ang auto-lock, panatilihing naka-on ang screen</string>
     <string name="desc_settings_icon">Buksan ang mga setting</string>
+    <string name="desc_share_qr">QR code na kumokonekta sa Yet Another Timer sa Google Play</string>
     <string name="desc_show_help_icon">Ipakita ang icon ng tulong</string>
     <string name="field_minutes">Minuto</string>
     <string name="field_seconds">Segundo</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">I-enable ang touch kapag gumagalaw</string>
     <string name="label_touch_lock_on">I-disable ang touch kapag gumagalaw</string>
     <string name="license_word">Lisensya</string>
+    <string name="share_qr_description">I-scan ang code na ito para buksan ang listing sa Google Play.</string>
     <string name="title_help">Tulong</string>
     <string name="title_options">Mga Opsyon</string>
+    <string name="title_share_qr">Ibahagi ang Yet Another Timer</string>
 </resources>

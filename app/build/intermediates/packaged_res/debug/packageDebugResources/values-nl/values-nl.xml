@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Automatische vergrendeling niet negeren</string>
     <string name="desc_keep_screen_on_on">Automatisch vergrendelen negeren, scherm aan houden</string>
     <string name="desc_settings_icon">Instellingen openen</string>
+    <string name="desc_share_qr">QR-code die verwijst naar Yet Another Timer op Google Play</string>
     <string name="desc_show_help_icon">Hulppictogram weergeven</string>
     <string name="field_minutes">Minuten</string>
     <string name="field_seconds">Seconden</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Aanraking inschakelen tijdens beweging</string>
     <string name="label_touch_lock_on">Aanraking uitschakelen tijdens beweging</string>
     <string name="license_word">Licentie</string>
+    <string name="share_qr_description">Scan deze code om de vermelding op Google Play te openen.</string>
     <string name="title_help">Hulp</string>
     <string name="title_options">Opties</string>
+    <string name="title_share_qr">Deel Yet Another Timer</string>
 </resources>

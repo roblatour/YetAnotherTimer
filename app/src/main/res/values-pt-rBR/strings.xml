@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Para parar e redefinir o cronômetro, toque duas vezes na tela principal.</string>
     <string name="help_line_options">Para alterar as opções do programa, toque no ícone de engrenagem.</string>
     <string name="license_word">Licença</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Escaneie este código para abrir a página no Google Play.</string>
+    <string name="desc_share_qr">Código QR que leva ao Yet Another Timer no Google Play</string>
+    <string name="title_share_qr">Compartilhar Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

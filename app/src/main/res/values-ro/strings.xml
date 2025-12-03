@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Pentru a opri și reseta temporizatorul, atinge de două ori ecranul principal.</string>
     <string name="help_line_options">Pentru a modifica opțiunile programului, atinge pictograma rotiță.</string>
     <string name="license_word">Licență</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Scanează acest cod pentru a deschide pagina din Google Play.</string>
+    <string name="desc_share_qr">Cod QR care duce la Yet Another Timer în Google Play</string>
+    <string name="title_share_qr">Distribuie Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

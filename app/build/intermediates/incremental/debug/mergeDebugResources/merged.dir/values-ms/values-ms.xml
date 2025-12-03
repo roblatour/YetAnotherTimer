@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">Jangan abaikan kunci automatik</string>
     <string name="desc_keep_screen_on_on">Abaikan kunci automatik, kekalkan skrin hidup</string>
     <string name="desc_settings_icon">Buka tetapan</string>
+    <string name="desc_share_qr">Kod QR yang memaut ke Yet Another Timer di Google Play</string>
     <string name="desc_show_help_icon">Tunjuk ikon bantuan</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menu lungsur"</string>
     <string name="error_a11y_label">Ralat: tidak sah</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Kosongkan teks</string>
     <string name="searchview_navigation_content_description">Kembali</string>
     <string msgid="6043586758067023" name="selected">"Dipilih"</string>
+    <string name="share_qr_description">Imbas kod ini untuk membuka penyenaraian di Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Helaian Sisi</string>
     <string msgid="4139871816613051306" name="state_empty">"Kosong"</string>
     <string msgid="5834637030682409883" name="state_off">"Mati"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"Peratus <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
     <string name="title_help">Bantuan</string>
     <string name="title_options">Pilihan</string>
+    <string name="title_share_qr">Kongsi Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"tip alat"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"tunjukkan tip alat"</string>
 </resources>

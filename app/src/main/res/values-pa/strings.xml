@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">ਟਾਈਮਰ ਰੋਕਣ ਅਤੇ ਰੀਸੈੱਟ ਕਰਨ ਲਈ ਮੁੱਖ ਸਕ੍ਰੀਨ ’ਤੇ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ।</string>
     <string name="help_line_options">ਪ੍ਰੋਗਰਾਮ ਦੇ ਚੋਣਾਂ ਬਦਲਣ ਲਈ ਗੀਅਰ ਆਇਕਨ ’ਤੇ ਟੈਪ ਕਰੋ।</string>
     <string name="license_word">ਲਾਇਸੈਂਸ</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Google Play ਦੀ ਲਿਸਟਿੰਗ ਖੋਲ੍ਹਣ ਲਈ ਇਸ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ।</string>
+    <string name="desc_share_qr">Google Play ਉੱਤੇ Yet Another Timer ਨਾਲ ਜੁੜਨ ਵਾਲਾ QR ਕੋਡ</string>
+    <string name="title_share_qr">Yet Another Timer ਸਾਂਝਾ ਕਰੋ</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

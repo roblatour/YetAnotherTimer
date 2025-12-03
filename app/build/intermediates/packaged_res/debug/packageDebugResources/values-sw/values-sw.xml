@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
     <string name="desc_keep_screen_on_on">Puuza kufunga kiotomatiki, weka skrini iwake</string>
     <string name="desc_settings_icon">Fungua mipangilio</string>
+    <string name="desc_share_qr">Msimbo wa QR unaounganisha na Yet Another Timer kwenye Google Play</string>
     <string name="desc_show_help_icon">Onyesha ikoni ya msaada</string>
     <string name="field_minutes">Dakika</string>
     <string name="field_seconds">Sekunde</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Washa mguso wakati wa kusonga</string>
     <string name="label_touch_lock_on">Zima mguso wakati wa kusonga</string>
     <string name="license_word">Leseni</string>
+    <string name="share_qr_description">Changanua msimbo huu ili kufungua ukurasa wa Google Play.</string>
     <string name="title_help">Msaada</string>
     <string name="title_options">Chaguo</string>
+    <string name="title_share_qr">Shiriki Yet Another Timer</string>
 </resources>

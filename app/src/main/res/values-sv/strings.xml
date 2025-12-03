@@ -44,7 +44,10 @@
     <string name="help_line_double_tap">Dubbeltryck på huvudsidan för att stoppa och återställa timern.</string>
     <string name="help_line_options">Tryck på kugghjulsikonen för att ändra programalternativ.</string>
     <string name="license_word">Licens</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Skanna den här koden för att öppna listningen på Google Play.</string>
+    <string name="desc_share_qr">QR-kod som länkar till Yet Another Timer på Google Play</string>
+    <string name="title_share_qr">Dela Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

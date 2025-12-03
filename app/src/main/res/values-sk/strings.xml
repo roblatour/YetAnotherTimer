@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Ak chcete zastaviť a resetovať časovač, ťuknite dvakrát na hlavnú obrazovku.</string>
     <string name="help_line_options">Ak chcete zmeniť možnosti programu, ťuknite na ikonu ozubeného kolieska.</string>
     <string name="license_word">Licencia</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Naskenujte tento kód a otvorte záznam v službe Google Play.</string>
+    <string name="desc_share_qr">QR kód odkazujúci na Yet Another Timer v službe Google Play</string>
+    <string name="title_share_qr">Zdieľať Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

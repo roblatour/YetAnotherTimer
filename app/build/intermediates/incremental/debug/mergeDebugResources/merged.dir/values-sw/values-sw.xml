@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">Usipuuze kufunga kiotomatiki</string>
     <string name="desc_keep_screen_on_on">Puuza kufunga kiotomatiki, weka skrini iwake</string>
     <string name="desc_settings_icon">Fungua mipangilio</string>
+    <string name="desc_share_qr">Msimbo wa QR unaounganisha na Yet Another Timer kwenye Google Play</string>
     <string name="desc_show_help_icon">Onyesha ikoni ya msaada</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menyu kunjuzi"</string>
     <string name="error_a11y_label">Hitilafu: si sahihi</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Futa maandishi</string>
     <string name="searchview_navigation_content_description">Rudi nyuma</string>
     <string msgid="6043586758067023" name="selected">"Umechagua"</string>
+    <string name="share_qr_description">Changanua msimbo huu ili kufungua ukurasa wa Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Laha ya Pembeni</string>
     <string msgid="4139871816613051306" name="state_empty">"Tupu"</string>
     <string msgid="5834637030682409883" name="state_off">"Imezimwa"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"Asilimia <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
     <string name="title_help">Msaada</string>
     <string name="title_options">Chaguo</string>
+    <string name="title_share_qr">Shiriki Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"kidirisha cha vidokezo"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"onyesha kidirisha cha vidokezo"</string>
 </resources>

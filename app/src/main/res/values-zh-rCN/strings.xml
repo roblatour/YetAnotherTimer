@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">要停止并重置计时器，请在主屏幕双击。</string>
     <string name="help_line_options">要更改程序的选项，请点击齿轮图标。</string>
     <string name="license_word">许可</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
+        <string name="share_qr_description">扫描此代码以打开 Google Play 列表。</string>
+    <string name="desc_share_qr">指向 Google Play 上 Yet Another Timer 的二维码</string>
+    <string name="title_share_qr">分享 Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

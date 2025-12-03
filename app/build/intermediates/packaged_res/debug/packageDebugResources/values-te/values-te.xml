@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">ఆటో-లాక్‌ను పక్కన పెట్టవద్దు</string>
     <string name="desc_keep_screen_on_on">ఆటో-లాక్‌ను పక్కన పెట్టి, స్క్రీన్ ఆన్‌గా ఉంచండి</string>
     <string name="desc_settings_icon">సెట్టింగ్‌లను తెరవండి</string>
+    <string name="desc_share_qr">Google Playలోని Yet Another Timer‌కు కలుపుతున్న QR కోడ్</string>
     <string name="desc_show_help_icon">సహాయ చిహ్నం చూపించండి</string>
     <string name="field_minutes">నిమిషాలు</string>
     <string name="field_seconds">సెకన్లు</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">కదులుతున్నప్పుడు టచ్ చేతనపరచండి</string>
     <string name="label_touch_lock_on">కదులుతున్నప్పుడు టచ్ నిలిపివేయండి</string>
     <string name="license_word">లైసెన్స్</string>
+    <string name="share_qr_description">Google Play జాబితాను తెరవడానికి ఈ కోడ్‌ను స్కాన్ చేయండి.</string>
     <string name="title_help">సహాయం</string>
     <string name="title_options">ఎంపికలు</string>
+    <string name="title_share_qr">Yet Another Timer ను పంచుకోండి</string>
 </resources>

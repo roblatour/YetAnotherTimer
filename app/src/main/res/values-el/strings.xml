@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Για να σταματήσετε και να επαναφέρετε το χρονόμετρο, αγγίξτε δύο φορές την κύρια οθόνη.</string>
     <string name="help_line_options">Για να αλλάξετε τις επιλογές του προγράμματος, αγγίξτε το εικονίδιο γραναζιού.</string>
     <string name="license_word">Άδεια</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Σαρώστε αυτόν τον κωδικό για να ανοίξετε την καταχώριση στο Google Play.</string>
+    <string name="desc_share_qr">QR κωδικός που οδηγεί στο Yet Another Timer στο Google Play</string>
+    <string name="title_share_qr">Κοινοποιήστε το Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">اونتوق هنديقن دان ست سمولا ڤماسر، تيكن دوا كالي سكرين اوتام.</string>
     <string name="help_line_options">اونتوق اوبه ڤيليه ڤروگرام، تيكن ايكون ڬيير.</string>
     <string name="license_word">ليسن</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">ايمبس کود ايني اونتوق ممبوکا سناٴي Google Play.</string>
+    <string name="desc_share_qr">کود QR يڠ مماوءت ک Yet Another Timer د Google Play</string>
+    <string name="title_share_qr">کوڠسي Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

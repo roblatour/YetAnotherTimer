@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">جاڠن اباءيكن كونچي اوتوماتيق</string>
     <string name="desc_keep_screen_on_on">اباءيكن كونچي اوتوماتيق، ككلكن سكرين هيودوڠ</string>
     <string name="desc_settings_icon">بوکا تتاڤن</string>
+    <string name="desc_share_qr">کود QR يڠ مماوءت ک Yet Another Timer د Google Play</string>
     <string name="desc_show_help_icon">تونجوق ايكون باڠتوان</string>
     <string name="field_minutes">مينيت</string>
     <string name="field_seconds">ساعة</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">هيدوڤکن سنتوهن سماس برݢرک</string>
     <string name="label_touch_lock_on">ماتيکن سنتوهن سماس برݢرک</string>
     <string name="license_word">ليسن</string>
+    <string name="share_qr_description">ايمبس کود ايني اونتوق ممبوکا سناٴي Google Play.</string>
     <string name="title_help">باڠتوان</string>
     <string name="title_options">ڤيليه</string>
+    <string name="title_share_qr">کوڠسي Yet Another Timer</string>
 </resources>

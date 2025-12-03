@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">타이머를 중지하고 재설정하려면 기본 화면을 두 번 탭하세요.</string>
     <string name="help_line_options">프로그램 옵션을 변경하려면 톱니바퀴 아이콘을 탭하세요.</string>
     <string name="license_word">라이선스</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">이 코드를 스캔하여 Google Play 상품 페이지를 여세요.</string>
+    <string name="desc_share_qr">Google Play에서 Yet Another Timer로 연결되는 QR 코드</string>
+    <string name="title_share_qr">Yet Another Timer 공유</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

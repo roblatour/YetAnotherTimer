@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Чтобы остановить и сбросить таймер, дважды коснитесь главного экрана.</string>
     <string name="help_line_options">Чтобы изменить параметры программы, коснитесь значка шестерёнки.</string>
     <string name="license_word">Лицензия</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Сканируйте этот код, чтобы открыть страницу в Google Play.</string>
+    <string name="desc_share_qr">QR-код, ведущий на Yet Another Timer в Google Play</string>
+    <string name="title_share_qr">Поделиться Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

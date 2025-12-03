@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">خودکار لاک کو نظرانداز نہ کریں</string>
     <string name="desc_keep_screen_on_on">خودکار لاک کو نظرانداز کریں، اسکرین کو آن رکھیں</string>
     <string name="desc_settings_icon">ترتیبات کھولیں</string>
+    <string name="desc_share_qr">Google Play پر Yet Another Timer سے جڑنے والا QR کوڈ</string>
     <string name="desc_show_help_icon">مدد آئیکن دکھائیں</string>
     <string name="field_minutes">منٹ</string>
     <string name="field_seconds">سیکنڈ</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">حرکت کے دوران ٹچ فعال کریں</string>
     <string name="label_touch_lock_on">حرکت کے دوران ٹچ غیر فعال کریں</string>
     <string name="license_word">لائسنس</string>
+    <string name="share_qr_description">Google Play کی فہرست کھولنے کے لیے اس کوڈ کو اسکین کریں۔</string>
     <string name="title_help">مدد</string>
     <string name="title_options">اختیارات</string>
+    <string name="title_share_qr">Yet Another Timer شیئر کریں</string>
 </resources>

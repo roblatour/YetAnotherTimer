@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">自動ロックを無視しない</string>
     <string name="desc_keep_screen_on_on">自動ロックを無視し、画面をオンに保つ</string>
     <string name="desc_settings_icon">設定を開く</string>
+    <string name="desc_share_qr">Google Play の Yet Another Timer につながる QR コード</string>
     <string name="desc_show_help_icon">ヘルプアイコンを表示</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"プルダウン メニュー"</string>
     <string name="error_a11y_label">エラー: 無効</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">テキストを消去</string>
     <string name="searchview_navigation_content_description">戻る</string>
     <string msgid="6043586758067023" name="selected">"選択済み"</string>
+    <string name="share_qr_description">このコードをスキャンして Google Play の掲載ページを開きます。</string>
     <string name="side_sheet_accessibility_pane_title">サイドシート</string>
     <string msgid="4139871816613051306" name="state_empty">"なし"</string>
     <string msgid="5834637030682409883" name="state_off">"OFF"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>パーセント。"</string>
     <string name="title_help">ヘルプ</string>
     <string name="title_options">オプション</string>
+    <string name="title_share_qr">Yet Another Timer を共有</string>
     <string msgid="3765533235322692011" name="tooltip_description">"ツールチップ"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"ツールチップを表示"</string>
 </resources>

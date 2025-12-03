@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">不忽略自動鎖定</string>
     <string name="desc_keep_screen_on_on">覆寫自動鎖定，保持螢幕常亮</string>
     <string name="desc_settings_icon">開啟設定</string>
+    <string name="desc_share_qr">連結至 Google Play 上 Yet Another Timer 的 QR 圖碼</string>
     <string name="desc_show_help_icon">顯示說明圖示</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"下拉式選單"</string>
     <string name="error_a11y_label">錯誤：無效</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">清除文字</string>
     <string name="searchview_navigation_content_description">返回</string>
     <string msgid="6043586758067023" name="selected">"已選取"</string>
+    <string name="share_qr_description">掃描此代碼以開啟 Google Play 資訊頁。</string>
     <string name="side_sheet_accessibility_pane_title">側邊功能表</string>
     <string msgid="4139871816613051306" name="state_empty">"空白"</string>
     <string msgid="5834637030682409883" name="state_off">"已關閉"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"百分之 <ns1:g id="PERCENTAGE">%1$d</ns1:g>。"</string>
     <string name="title_help">說明</string>
     <string name="title_options">選項</string>
+    <string name="title_share_qr">分享 Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"工具提示"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"顯示工具提示"</string>
 </resources>

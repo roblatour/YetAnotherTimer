@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">不忽略自動鎖定</string>
     <string name="desc_keep_screen_on_on">覆寫自動鎖定，保持螢幕常亮</string>
     <string name="desc_settings_icon">開啟設定</string>
+    <string name="desc_share_qr">連結至 Google Play 上 Yet Another Timer 的 QR 圖碼</string>
     <string name="desc_show_help_icon">顯示說明圖示</string>
     <string name="field_minutes">分鐘</string>
     <string name="field_seconds">秒</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">移動時啟用觸控</string>
     <string name="label_touch_lock_on">移動時停用觸控</string>
     <string name="license_word">授權</string>
+    <string name="share_qr_description">掃描此代碼以開啟 Google Play 資訊頁。</string>
     <string name="title_help">說明</string>
     <string name="title_options">選項</string>
+    <string name="title_share_qr">分享 Yet Another Timer</string>
 </resources>

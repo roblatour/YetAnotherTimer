@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">อย่าละเว้นการล็อคอัตโนมัติ</string>
     <string name="desc_keep_screen_on_on">ละเว้นการล็อกอัตโนมัติ ให้หน้าจอติดอยู่</string>
     <string name="desc_settings_icon">เปิดการตั้งค่า</string>
+    <string name="desc_share_qr">คิวอาร์โค้ดที่เชื่อมไปยัง Yet Another Timer บน Google Play</string>
     <string name="desc_show_help_icon">แสดงไอคอนช่วยเหลือ</string>
     <string name="field_minutes">นาที</string>
     <string name="field_seconds">วินาที</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">เปิดการสัมผัสเมื่อเคลื่อนไหว</string>
     <string name="label_touch_lock_on">ปิดการสัมผัสเมื่อเคลื่อนไหว</string>
     <string name="license_word">สัญญาอนุญาต</string>
+    <string name="share_qr_description">สแกนโค้ดนี้เพื่อเปิดหน้ารายการใน Google Play</string>
     <string name="title_help">วิธีใช้</string>
     <string name="title_options">ตัวเลือก</string>
+    <string name="title_share_qr">แชร์ Yet Another Timer</string>
 </resources>

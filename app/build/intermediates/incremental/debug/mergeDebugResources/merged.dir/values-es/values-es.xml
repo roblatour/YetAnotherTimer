@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">No ignorar bloqueo automático</string>
     <string name="desc_keep_screen_on_on">Ignorar bloqueo automático, mantener la pantalla encendida</string>
     <string name="desc_settings_icon">Abrir configuración</string>
+    <string name="desc_share_qr">Código QR que enlaza a Yet Another Timer en Google Play</string>
     <string name="desc_show_help_icon">Mostrar icono de ayuda</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menú desplegable"</string>
     <string name="error_a11y_label">Error: no válida</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Borrar texto</string>
     <string name="searchview_navigation_content_description">Atrás</string>
     <string msgid="6043586758067023" name="selected">"Seleccionado"</string>
+    <string name="share_qr_description">Escanea este código para abrir la ficha en Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Hoja lateral</string>
     <string msgid="4139871816613051306" name="state_empty">"Vacío"</string>
     <string msgid="5834637030682409883" name="state_off">"Desactivado"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> por cien."</string>
     <string name="title_help">Ayuda</string>
     <string name="title_options">Opciones</string>
+    <string name="title_share_qr">Compartir Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"descripción emergente"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"mostrar descripción emergente"</string>
 </resources>

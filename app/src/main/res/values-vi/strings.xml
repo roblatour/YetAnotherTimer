@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Để dừng và đặt lại bộ hẹn giờ, hãy chạm hai lần vào màn hình chính.</string>
     <string name="help_line_options">Để thay đổi tùy chọn chương trình, hãy chạm vào biểu tượng bánh răng.</string>
     <string name="license_word">Giấy phép</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
+        <string name="share_qr_description">Quét mã này để mở trang trên Google Play.</string>
+    <string name="desc_share_qr">Mã QR dẫn tới Yet Another Timer trên Google Play</string>
+    <string name="title_share_qr">Chia sẻ Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

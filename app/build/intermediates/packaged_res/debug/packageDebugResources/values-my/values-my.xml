@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">အလိုအလျောက်ပိတ်ခြင်းကို မပယ်ချပါနှင့်</string>
     <string name="desc_keep_screen_on_on">အလိုအလျောက်ပိတ်ခြင်း မသက်ဆိုင်စေပါနှင့်၊ မျက်နှာပြင်ပြတ်သားနေစေပါ</string>
     <string name="desc_settings_icon">ဆက်တင်များဖွင့်ရန်</string>
+    <string name="desc_share_qr">Google Play ပေါ်ရှိ Yet Another Timer သို့ ချိတ်ဆက်ပေးသော QR ကုဒ်</string>
     <string name="desc_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
     <string name="field_minutes">မိနစ်</string>
     <string name="field_seconds">စက္ကန့်</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုဖွင့်ရန်</string>
     <string name="label_touch_lock_on">လှုပ်ရှားစဉ်အတွင်း ထိတွေ့မှုပိတ်ရန်</string>
     <string name="license_word">လိုင်စင်</string>
+    <string name="share_qr_description">ဤကုဒ်ကို စကန်ဖတ်၍ Google Play စာမျက်နှာကို ဖွင့်ပါ။</string>
     <string name="title_help">အကူအညီ</string>
     <string name="title_options">ရွေးချယ်စရာများ</string>
+    <string name="title_share_qr">Yet Another Timer ကိုမျှဝေပါ</string>
 </resources>

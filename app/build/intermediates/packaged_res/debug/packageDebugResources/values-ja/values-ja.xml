@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">自動ロックを無視しない</string>
     <string name="desc_keep_screen_on_on">自動ロックを無視し、画面をオンに保つ</string>
     <string name="desc_settings_icon">設定を開く</string>
+    <string name="desc_share_qr">Google Play の Yet Another Timer につながる QR コード</string>
     <string name="desc_show_help_icon">ヘルプアイコンを表示</string>
     <string name="field_minutes">分</string>
     <string name="field_seconds">秒</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">動作中のタッチを有効にする</string>
     <string name="label_touch_lock_on">動作中のタッチを無効にする</string>
     <string name="license_word">ライセンス</string>
+    <string name="share_qr_description">このコードをスキャンして Google Play の掲載ページを開きます。</string>
     <string name="title_help">ヘルプ</string>
     <string name="title_options">オプション</string>
+    <string name="title_share_qr">Yet Another Timer を共有</string>
 </resources>

@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">قفل خودکار را نادیده نگیرید</string>
     <string name="desc_keep_screen_on_on">نادیده گرفتن قفل خودکار، صفحه روشن بماند</string>
     <string name="desc_settings_icon">باز کردن تنظیمات</string>
+    <string name="desc_share_qr">کد QR که به Yet Another Timer در Google Play لینک می‌شود</string>
     <string name="desc_show_help_icon">نمایش آیکون راهنما</string>
     <string name="field_minutes">دقیقه</string>
     <string name="field_seconds">ثانیه</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">فعال کردن لمس هنگام حرکت</string>
     <string name="label_touch_lock_on">غیرفعال کردن لمس هنگام حرکت</string>
     <string name="license_word">مجوز</string>
+    <string name="share_qr_description">برای باز کردن صفحه برنامه در Google Play این کد را اسکن کنید.</string>
     <string name="title_help">راهنما</string>
     <string name="title_options">گزینه‌ها</string>
+    <string name="title_share_qr">اشتراک‌گذاری Yet Another Timer</string>
 </resources>

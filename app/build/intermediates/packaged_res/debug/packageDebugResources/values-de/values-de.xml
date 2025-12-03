@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Automatische Sperre nicht überschreiben</string>
     <string name="desc_keep_screen_on_on">Automatische Sperre überschreiben, Bildschirm an lassen</string>
     <string name="desc_settings_icon">Einstellungen öffnen</string>
+    <string name="desc_share_qr">QR-Code, der zu Yet Another Timer im Google Play Store führt</string>
     <string name="desc_show_help_icon">Hilfesymbol anzeigen</string>
     <string name="field_minutes">Minuten</string>
     <string name="field_seconds">Sekunden</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Berührung bei Bewegung aktivieren</string>
     <string name="label_touch_lock_on">Berührung bei Bewegung deaktivieren</string>
     <string name="license_word">Lizenz</string>
+    <string name="share_qr_description">Scannen Sie diesen Code, um die Seite im Google Play Store zu öffnen.</string>
     <string name="title_help">Hilfe</string>
     <string name="title_options">Optionen</string>
+    <string name="title_share_qr">Yet Another Timer teilen</string>
 </resources>

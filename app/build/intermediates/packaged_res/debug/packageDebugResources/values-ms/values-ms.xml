@@ -18,6 +18,7 @@
     <string name="desc_keep_screen_on_off">Jangan abaikan kunci automatik</string>
     <string name="desc_keep_screen_on_on">Abaikan kunci automatik, kekalkan skrin hidup</string>
     <string name="desc_settings_icon">Buka tetapan</string>
+    <string name="desc_share_qr">Kod QR yang memaut ke Yet Another Timer di Google Play</string>
     <string name="desc_show_help_icon">Tunjuk ikon bantuan</string>
     <string name="field_minutes">Minit</string>
     <string name="field_seconds">Saat</string>
@@ -41,6 +42,8 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="label_touch_lock_off">Aktifkan sentuhan semasa bergerak</string>
     <string name="label_touch_lock_on">Lumpuhkan sentuhan semasa bergerak</string>
     <string name="license_word">Lesen</string>
+    <string name="share_qr_description">Imbas kod ini untuk membuka penyenaraian di Google Play.</string>
     <string name="title_help">Bantuan</string>
     <string name="title_options">Pilihan</string>
+    <string name="title_share_qr">Kongsi Yet Another Timer</string>
 </resources>

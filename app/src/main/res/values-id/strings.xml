@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">Untuk menghentikan dan menyetel ulang timer, ketuk dua kali layar utama.</string>
     <string name="help_line_options">Untuk mengubah opsi program, ketuk ikon roda gigi.</string>
     <string name="license_word">Lisensi</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Pindai kode ini untuk membuka listing di Google Play.</string>
+    <string name="desc_share_qr">Kode QR yang menaut ke Yet Another Timer di Google Play</string>
+    <string name="title_share_qr">Bagikan Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

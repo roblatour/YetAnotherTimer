@@ -45,7 +45,10 @@
     <string name="help_line_double_tap">Pysäytä ja nollaa ajastin kaksoisnapauttamalla pääruutua.</string>
     <string name="help_line_options">Muuta asetuksia napauttamalla hammasratas-kuvaketta.</string>
     <string name="license_word">Lisenssi</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">Skannaa tämä koodi avataksesi sovelluksen Google Playssa.</string>
+    <string name="desc_share_qr">QR-koodi, joka vie Yet Another Timeriin Google Playssa</string>
+    <string name="title_share_qr">Jaa Yet Another Timer</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

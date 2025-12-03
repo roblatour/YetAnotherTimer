@@ -68,6 +68,7 @@
     <string name="desc_keep_screen_on_off">Otomatik kilidi geçersiz kılma</string>
     <string name="desc_keep_screen_on_on">Otomatik kilidi geçersiz kıl, ekranı açık tut</string>
     <string name="desc_settings_icon">Ayarları aç</string>
+    <string name="desc_share_qr">Google Play’de Yet Another Timer’a bağlanan QR kodu</string>
     <string name="desc_show_help_icon">Yardım simgesini göster</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Açılır menü"</string>
     <string name="error_a11y_label">Hata: geçersiz</string>
@@ -223,6 +224,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Metni temizle</string>
     <string name="searchview_navigation_content_description">Geri</string>
     <string msgid="6043586758067023" name="selected">"Seçili"</string>
+    <string name="share_qr_description">Bu kodu tarayarak Google Play listesini açın.</string>
     <string name="side_sheet_accessibility_pane_title">Yan Sayfa</string>
     <string msgid="4139871816613051306" name="state_empty">"Boş"</string>
     <string msgid="5834637030682409883" name="state_off">"Kapalı"</string>
@@ -233,6 +235,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"Yüzde <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
     <string name="title_help">Yardım</string>
     <string name="title_options">Seçenekler</string>
+    <string name="title_share_qr">Yet Another Timer’ı paylaş</string>
     <string msgid="3765533235322692011" name="tooltip_description">"ipucu"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"ipucunu göster"</string>
 </resources>

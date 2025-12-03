@@ -41,7 +41,10 @@
     <string name="help_line_double_tap">အချိန်တိုင်းတာကိရိယာကို ရပ်ပြီး ပြန်လည်သတ်မှတ်ရန် မူလ မျက်နှာပြင်ကို နှစ်ချက် ထိပါ။</string>
     <string name="help_line_options">ပရိုဂရမ် ရွေးချယ်စရာများကို ပြောင်းရန် ဂီယာ အိုင်ကွန်ကို ထိပါ။</string>
     <string name="license_word">လိုင်စင်</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
+        <string name="share_qr_description">ဤကုဒ်ကို စကန်ဖတ်၍ Google Play စာမျက်နှာကို ဖွင့်ပါ။</string>
+    <string name="desc_share_qr">Google Play ပေါ်ရှိ Yet Another Timer သို့ ချိတ်ဆက်ပေးသော QR ကုဒ်</string>
+    <string name="title_share_qr">Yet Another Timer ကိုမျှဝေပါ</string>
+<string name="help_footer_format">Yet Another Timer v1.0
 Copyright 2025 Rob Latour. %1$s: MIT.
 https://github.com/roblatour/YetAnotherTimer</string>
 

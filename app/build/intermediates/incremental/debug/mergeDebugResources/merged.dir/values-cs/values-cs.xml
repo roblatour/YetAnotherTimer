@@ -70,6 +70,7 @@
     <string name="desc_keep_screen_on_off">Neignorovat automatické zamknutí</string>
     <string name="desc_keep_screen_on_on">Ignorovat automatické uzamčení, ponechat obrazovku zapnutou</string>
     <string name="desc_settings_icon">Otevřít nastavení</string>
+    <string name="desc_share_qr">QR kód odkazující na Yet Another Timer v Google Play</string>
     <string name="desc_show_help_icon">Zobrazit ikonu nápovědy</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Rozbalovací nabídka"</string>
     <string name="error_a11y_label">Chyba: neplatné</string>
@@ -225,6 +226,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string name="searchview_clear_text_content_description">Vymazat text</string>
     <string name="searchview_navigation_content_description">Zpět</string>
     <string msgid="6043586758067023" name="selected">"Vybráno"</string>
+    <string name="share_qr_description">Naskenujte tento kód a otevřete záznam v Google Play.</string>
     <string name="side_sheet_accessibility_pane_title">Postranní list</string>
     <string msgid="4139871816613051306" name="state_empty">"Prázdné"</string>
     <string msgid="5834637030682409883" name="state_off">"Vypnuto"</string>
@@ -235,6 +237,7 @@ https://github.com/roblatour/YetAnotherTimer</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
     <string name="title_help">Nápověda</string>
     <string name="title_options">Možnosti</string>
+    <string name="title_share_qr">Sdílet Yet Another Timer</string>
     <string msgid="3765533235322692011" name="tooltip_description">"popisek"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"zobrazit popisek"</string>
 </resources>
