@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">Pokaż ikonę pomocy</string>
     <string name="field_minutes">Minuty</string>
     <string name="field_seconds">Sekundy</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Aby zatrzymać i zresetować licznik, stuknij dwukrotnie ekran główny.</string>
     <string name="help_line_options">Aby zmienić opcje programu, stuknij ikonę koła zębatego.</string>
     <string name="help_line_tap">Aby rozpocząć, wstrzymać lub wznowić licznik, stuknij ekran główny.</string>

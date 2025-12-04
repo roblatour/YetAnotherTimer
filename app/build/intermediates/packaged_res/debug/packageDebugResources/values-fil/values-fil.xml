@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">Ipakita ang icon ng tulong</string>
     <string name="field_minutes">Minuto</string>
     <string name="field_seconds">Segundo</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Upang ihinto at i-reset ang timer, i-double tap ang pangunahing screen.</string>
     <string name="help_line_options">Upang baguhin ang mga opsyon ng programa, tapikin ang icon ng gear.</string>
     <string name="help_line_tap">Upang simulan, i-pause, o ipagpatuloy ang timer, tapikin ang pangunahing screen.</string>

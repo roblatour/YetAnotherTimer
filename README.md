@@ -1,4 +1,4 @@
-# Yet Another Timer v1.1 (for Android) - 2025-12-03
+# Yet Another Timer v1.1.1 (for Android) - 2025-12-04
 
 Open-source timer for Android phones and tablets
 

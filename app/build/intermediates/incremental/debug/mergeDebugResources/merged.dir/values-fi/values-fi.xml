@@ -79,9 +79,7 @@
     <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
     <string name="field_minutes">Minuutit</string>
     <string name="field_seconds">Sekunnit</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Pysäytä ja nollaa ajastin kaksoisnapauttamalla pääruutua.</string>
     <string name="help_line_options">Muuta asetuksia napauttamalla hammasratas-kuvaketta.</string>
     <string name="help_line_tap">Aloita, keskeytä tai jatka ajastinta napauttamalla pääruutua.</string>

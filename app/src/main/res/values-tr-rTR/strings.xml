@@ -44,9 +44,7 @@
         <string name="share_qr_description">Bu kodu tarayarak Google Play listesini açın.</string>
     <string name="desc_share_qr">Google Play’de Yet Another Timer’a bağlanan QR kodu</string>
     <string name="title_share_qr">Yet Another Timer’ı paylaş</string>
-<string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Dil simgesini göster</string>

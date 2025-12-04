@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">கீழ் தோன்றல் மெனுவைக் காட்டும் பட்டன்</string>
     <string name="field_minutes">நிமிடங்கள்</string>
     <string name="field_seconds">விநாடிகள்</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">நிறுத்த மற்றும் மீட்டமைக்க, முதன்மை திரையில் இருமுறை தட்டவும்.</string>
     <string name="help_line_options">திட்டத்தின் விருப்பங்களை மாற்ற, கியர் ஐகானை தட்டவும்.</string>
     <string name="help_line_tap">தொடங்க, இடைநிறுத்த அல்லது தொடர, முதன்மை திரையில் தட்டவும்.</string>

@@ -61,9 +61,7 @@
     <string msgid="1890207353314751437" name="dropdown_menu">"Menu suspenso"</string>
     <string name="field_minutes">Minutos</string>
     <string name="field_seconds">Segundos</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Para parar e repor o temporizador, toque duas vezes no ecrã principal.</string>
     <string name="help_line_options">Para alterar as opções do programa, toque no ícone de engrenagem.</string>
     <string name="help_line_tap">Para iniciar, pausar ou retomar o temporizador, toque no ecrã principal.</string>

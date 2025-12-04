@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">도움말 아이콘 표시</string>
     <string name="field_minutes">분</string>
     <string name="field_seconds">초</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">타이머를 중지하고 재설정하려면 기본 화면을 두 번 탭하세요.</string>
     <string name="help_line_options">프로그램 옵션을 변경하려면 톱니바퀴 아이콘을 탭하세요.</string>
     <string name="help_line_tap">타이머를 시작, 일시 중지 또는 재개하려면 기본 화면을 탭하세요.</string>

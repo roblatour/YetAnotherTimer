@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
     <string name="field_minutes">Phút</string>
     <string name="field_seconds">Giây</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Để dừng và đặt lại bộ hẹn giờ, hãy chạm hai lần vào màn hình chính.</string>
     <string name="help_line_options">Để thay đổi tùy chọn chương trình, hãy chạm vào biểu tượng bánh răng.</string>
     <string name="help_line_tap">Để bắt đầu, tạm dừng hoặc tiếp tục bộ hẹn giờ, hãy chạm vào màn hình chính.</string>

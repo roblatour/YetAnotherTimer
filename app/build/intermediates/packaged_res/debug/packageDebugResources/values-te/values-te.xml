@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">సహాయ చిహ్నం చూపించండి</string>
     <string name="field_minutes">నిమిషాలు</string>
     <string name="field_seconds">సెకన్లు</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">టైమర్‌ను ఆపి రీసెట్ చేయడానికి, ప్రధాన తెరపై రెండుసార్లు ట్యాప్ చేయండి.</string>
     <string name="help_line_options">ప్రోగ్రాం ఎంపికలను మార్చడానికి, గేర్ ఐకాన్‌పై ట్యాప్ చేయండి.</string>
     <string name="help_line_tap">టైమర్‌ను ప్రారంభించడానికి, విరామం ఇవ్వడానికి లేదా పునఃప్రారంభించడానికి, ప్రధాన తెరపై ట్యాప్ చేయండి.</string>

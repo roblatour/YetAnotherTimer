@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">Afficher l’icône d’aide</string>
     <string name="field_minutes">Minutes</string>
     <string name="field_seconds">Secondes</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Pour arrêter et réinitialiser le minuteur, touchez deux fois l’écran principal.</string>
     <string name="help_line_options">Pour modifier les options du programme, touchez l’icône d’engrenage.</string>
     <string name="help_line_tap">Pour démarrer, mettre en pause ou reprendre le minuteur, touchez l’écran principal.</string>

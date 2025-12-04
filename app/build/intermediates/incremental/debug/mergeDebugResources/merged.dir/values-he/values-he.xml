@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">הצג סמל עזרה</string>
     <string name="field_minutes">דקות</string>
     <string name="field_seconds">שניות</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">כדי להפסיק ולאפס את הטיימר, הקש פעמיים על המסך הראשי.</string>
     <string name="help_line_options">כדי לשנות את אפשרויות התוכנית, הקש על סמל גלגל השיניים.</string>
     <string name="help_line_tap">כדי להתחיל, להשהות או לחדש את הטיימר, הקש על המסך הראשי.</string>

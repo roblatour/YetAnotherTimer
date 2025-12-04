@@ -44,9 +44,7 @@
         <string name="share_qr_description">掃描此代碼以開啟 Google Play 資訊頁。</string>
     <string name="desc_share_qr">連結至 Google Play 上 Yet Another Timer 的 QR 圖碼</string>
     <string name="title_share_qr">分享 Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">顯示語言圖示</string>

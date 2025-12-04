@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">ਡ੍ਰੌਪ-ਡਾਊਨ ਮੀਨੂ ਦਿਖਾਓ</string>
     <string name="field_minutes">ਮਿੰਟ</string>
     <string name="field_seconds">ਸੈਕਿੰਡ</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">ਟਾਈਮਰ ਰੋਕਣ ਅਤੇ ਰੀਸੈੱਟ ਕਰਨ ਲਈ ਮੁੱਖ ਸਕ੍ਰੀਨ ’ਤੇ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ।</string>
     <string name="help_line_options">ਪ੍ਰੋਗਰਾਮ ਦੇ ਚੋਣਾਂ ਬਦਲਣ ਲਈ ਗੀਅਰ ਆਇਕਨ ’ਤੇ ਟੈਪ ਕਰੋ।</string>
     <string name="help_line_tap">ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰਨ, ਰੋਕਣ ਜਾਂ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਮੁੱਖ ਸਕ੍ਰੀਨ ’ਤੇ ਟੈਪ ਕਰੋ।</string>

@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">ಡ್ರಾಪ್‌ಡೌನ್ ಮೆನು ತೋರಿಸಿ</string>
     <string name="field_minutes">ನಿಮಿಷಗಳು</string>
     <string name="field_seconds">ಸೆಕೆಂಡುಗಳು</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">ಟೈಮರ್ ನಿಲ್ಲಿಸಲು ಮತ್ತು ಮರುಹೊಂದಿಸಲು, ಮುಖ್ಯ ಪರದೆಯನ್ನು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
     <string name="help_line_options">ಕಾರ್ಯಕ್ರಮದ ಆಯ್ಕೆಗಳು ಬದಲಾಯಿಸಲು, ಗಿಯರ್ ಐಕಾನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
     <string name="help_line_tap">ಟೈಮರ್ ಪ್ರಾರಂಭಿಸಲು, ವಿರಾಮಕ್ಕೆ ಅಥವಾ ಮುಂದುವರಿಸಲು, ಮುಖ್ಯ ಪರದೆಯನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>

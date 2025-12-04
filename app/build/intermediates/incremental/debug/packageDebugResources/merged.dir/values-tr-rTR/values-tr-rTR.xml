@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">Yardım simgesini göster</string>
     <string name="field_minutes">Dakika</string>
     <string name="field_seconds">Saniye</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Zamanlayıcıyı durdurup sıfırlamak için ana ekrana iki kez dokunun.</string>
     <string name="help_line_options">Program seçeneklerini değiştirmek için dişli simgesine dokunun.</string>
     <string name="help_line_tap">Zamanlayıcıyı başlatmak, duraklatmak veya sürdürmek için ana ekrana dokunun.</string>

@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">نمایش منوی کرکره‌ای</string>
     <string name="field_minutes">دقیقه</string>
     <string name="field_seconds">ثانیه</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">برای توقف و بازنشانی تایمر، دو بار روی صفحه اصلی ضربه بزنید.</string>
     <string name="help_line_options">برای تغییر گزینه‌های برنامه، روی آیکون چرخ‌دنده ضربه بزنید.</string>
     <string name="help_line_tap">برای شروع، مکث یا ادامه تایمر، روی صفحه اصلی ضربه بزنید.</string>

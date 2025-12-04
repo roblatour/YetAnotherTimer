@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">تونجوق ايكون باڠتوان</string>
     <string name="field_minutes">مينيت</string>
     <string name="field_seconds">ساعة</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">اونتوق هنديقن دان ست سمولا ڤماسر، تيكن دوا كالي سكرين اوتام.</string>
     <string name="help_line_options">اونتوق اوبه ڤيليه ڤروگرام، تيكن ايكون ڬيير.</string>
     <string name="help_line_tap">اونتوق مولاكن، جهان، اتاو سمبوڠ سمولا ڤماسر، تيكن سكرين اوتام.</string>

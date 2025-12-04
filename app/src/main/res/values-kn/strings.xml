@@ -44,9 +44,7 @@
         <string name="share_qr_description">Google Play ಪಟ್ಟಿಯನ್ನು ತೆರೆಯಲು ಈ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.</string>
     <string name="desc_share_qr">Google Play ನಲ್ಲಿ Yet Another Timer ಗೆ ಸಂಪರ್ಕಿಸುವ QR ಕೋಡ್</string>
     <string name="title_share_qr">Yet Another Timer ಅನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
-<string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">ಭಾಷಾ ಚಿಹ್ನೆ ತೋರಿಸಿ</string>

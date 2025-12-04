@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
     <string name="field_minutes">นาที</string>
     <string name="field_seconds">วินาที</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">หากต้องการหยุดและรีเซ็ตตัวจับเวลา ให้แตะที่หน้าจอหลักสองครั้ง</string>
     <string name="help_line_options">หากต้องการเปลี่ยนตัวเลือกของโปรแกรม ให้แตะที่ไอคอนรูปเฟือง</string>
     <string name="help_line_tap">หากต้องการเริ่ม หยุดชั่วคราว หรือดำเนินการต่อ ให้แตะที่หน้าจอหลัก</string>

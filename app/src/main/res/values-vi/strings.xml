@@ -44,9 +44,7 @@
         <string name="share_qr_description">Quét mã này để mở trang trên Google Play.</string>
     <string name="desc_share_qr">Mã QR dẫn tới Yet Another Timer trên Google Play</string>
     <string name="title_share_qr">Chia sẻ Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Hiển thị biểu tượng ngôn ngữ</string>

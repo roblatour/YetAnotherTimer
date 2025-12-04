@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">सहायता आइकन दिखाएं</string>
     <string name="field_minutes">मिनट</string>
     <string name="field_seconds">सेकंड</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">टाइमर को रोकने और रीसेट करने के लिए मुख्य स्क्रीन पर डबल टैप करें।</string>
     <string name="help_line_options">प्रोग्राम के विकल्प बदलने के लिए गियर आइकन पर टैप करें।</string>
     <string name="help_line_tap">टाइमर शुरू करने, रोकने या फिर से शुरू करने के लिए मुख्य स्क्रीन पर टैप करें।</string>

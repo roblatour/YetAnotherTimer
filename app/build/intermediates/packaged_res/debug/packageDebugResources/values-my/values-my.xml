@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">အကူအညီ အိုင်ကွန် ပြ</string>
     <string name="field_minutes">မိနစ်</string>
     <string name="field_seconds">စက္ကန့်</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">အချိန်တိုင်းတာကိရိယာကို ရပ်ပြီး ပြန်လည်သတ်မှတ်ရန် မူလ မျက်နှာပြင်ကို နှစ်ချက် ထိပါ။</string>
     <string name="help_line_options">ပရိုဂရမ် ရွေးချယ်စရာများကို ပြောင်းရန် ဂီယာ အိုင်ကွန်ကို ထိပါ။</string>
     <string name="help_line_tap">အချိန်တိုင်းတာကိရိယာကို စတင်ရန်၊ ခေတ္တရပ်ရန် သို့မဟုတ် ပြန်လည် ဆက်လက်ဆောင်ရွက်ရန် မူလ မျက်နှာပြင်ကို ထိပါ။</string>

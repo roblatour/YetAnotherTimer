@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">Súgó ikon megjelenítése</string>
     <string name="field_minutes">Percek</string>
     <string name="field_seconds">Másodpercek</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">A leállításhoz és visszaállításhoz koppintson duplán a főképernyőre.</string>
     <string name="help_line_options">A program beállításainak módosításához érintse meg a fogaskerék ikont.</string>
     <string name="help_line_tap">A kezdéshez, szüneteltetéshez vagy folytatáshoz érintse meg a főképernyőt.</string>

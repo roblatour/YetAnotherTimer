@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
     <string name="field_minutes">Minuten</string>
     <string name="field_seconds">Sekunden</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Zum Stoppen und Zurücksetzen tippen Sie zweimal auf den Hauptbildschirm.</string>
     <string name="help_line_options">Zum Ändern der Programmoptionen tippen Sie auf das Zahnradsymbol.</string>
     <string name="help_line_tap">Zum Starten, Pausieren oder Fortsetzen tippen Sie auf den Hauptbildschirm.</string>

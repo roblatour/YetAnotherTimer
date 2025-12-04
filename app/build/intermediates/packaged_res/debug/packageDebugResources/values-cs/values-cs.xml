@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">Zobrazit ikonu nápovědy</string>
     <string name="field_minutes">Minuty</string>
     <string name="field_seconds">Sekundy</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Chcete-li zastavit a resetovat časovač, klepněte dvakrát na hlavní obrazovku.</string>
     <string name="help_line_options">Chcete-li změnit možnosti programu, klepněte na ikonu ozubeného kola.</string>
     <string name="help_line_tap">Chcete-li spustit, pozastavit nebo pokračovat v časovači, klepněte na hlavní obrazovku.</string>

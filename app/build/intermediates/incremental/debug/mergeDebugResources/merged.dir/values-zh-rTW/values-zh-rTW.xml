@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
     <string name="field_minutes">分鐘</string>
     <string name="field_seconds">秒</string>
-    <string name="help_footer_format">Yet Another Timer v%2$s
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">若要停止並重設計時器，請在主畫面點兩下。</string>
     <string name="help_line_options">若要變更程式的選項，請輕觸齒輪圖示。</string>
     <string name="help_line_tap">若要開始、暫停或繼續計時，請輕觸主畫面。</string>

@@ -79,9 +79,7 @@
     <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
     <string name="field_minutes">Minuter</string>
     <string name="field_seconds">Sekunder</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Dubbeltryck på huvudsidan för att stoppa och återställa timern.</string>
     <string name="help_line_options">Tryck på kugghjulsikonen för att ändra programalternativ.</string>
     <string name="help_line_tap">Tryck på huvudsidan för att starta, pausa eller återuppta timern.</string>

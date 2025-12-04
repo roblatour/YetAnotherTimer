@@ -78,9 +78,7 @@
     <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
     <string name="field_minutes">Минуты</string>
     <string name="field_seconds">Секунды</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Чтобы остановить и сбросить таймер, дважды коснитесь главного экрана.</string>
     <string name="help_line_options">Чтобы изменить параметры программы, коснитесь значка шестерёнки.</string>
     <string name="help_line_tap">Чтобы запустить, приостановить или возобновить таймер, коснитесь главного экрана.</string>

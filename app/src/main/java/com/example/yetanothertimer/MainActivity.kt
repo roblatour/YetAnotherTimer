@@ -1,5 +1,25 @@
 package com.example.yetanothertimer
 
+/*
+
+Context:
+
+This application works as a timer.
+The timer can count either up or down depending on the user settings.
+When counting up the timer starts at 0:00 and counts up to the target time set in the user settings for counting up.
+When counting down the timer starts at the time set in the user settings for counting down and counts down to 0:00.
+The application displays on the main screen the amount of time on the timer.
+When the user double taps the screen the time displayed will change to 0:00 if the timer is in count up mode, or the target time set in the user settings if the timer is in countdown mode. 
+When the timer is not active and the user single taps the screen the timer activates and begins to count either up or down depending on its settings.
+If the timer is active and is counting either up or down and the user single taps on the screen the timer will be paused. If the user single taps on the screen when the timer is paused the timer will resume.
+If the application is minimized and the timer is active the timer will continue counting.
+When the timer reaches its target time when it is counting either up or down a chime will be sounded if the user has selected that option in the user settings. This will happen regardless of if the application is minimized or running in the foreground.
+When the timer reaches its target time when it is counting either up or down, And after the optional chime is sounded if that setting is set, the timer will stop counting, reset and display 0:00 if the timer is in count up mode, or the target time if the timer is in countdown mode.  This will happen regardless of if the application is running in the foreground or .background - However if it is running in the background the user will not see the changes to the timer screen until they bring the application back into the foreground.
+The application also engages a screen lock out when that option is set in the user settings.  
+The application also disables the devices auto-lock feature if that setting is set in the user settings.
+
+*/
+
 import android.os.Bundle
 import android.view.WindowManager
 import android.app.Activity

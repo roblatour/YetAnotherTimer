@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">Mostra il menu a discesa</string>
     <string name="field_minutes">Minuti</string>
     <string name="field_seconds">Secondi</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Per interrompere e reimpostare il timer, tocca due volte la schermata principale.</string>
     <string name="help_line_options">Per modificare le opzioni del programma, tocca l\'icona dell\'ingranaggio.</string>
     <string name="help_line_tap">Per avviare, mettere in pausa o riprendere il timer, tocca la schermata principale.</string>

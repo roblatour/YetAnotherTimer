@@ -22,9 +22,7 @@
     <string name="desc_show_help_icon">ヘルプアイコンを表示</string>
     <string name="field_minutes">分</string>
     <string name="field_seconds">秒</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">タイマーを停止してリセットするには、メイン画面をダブルタップします。</string>
     <string name="help_line_options">プログラムのオプションを変更するには、歯車アイコンをタップします。</string>
     <string name="help_line_tap">タイマーを開始、一時停止、または再開するには、メイン画面をタップします。</string>

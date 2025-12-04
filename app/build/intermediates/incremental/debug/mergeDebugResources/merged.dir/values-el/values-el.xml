@@ -76,9 +76,7 @@
     <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
     <string name="field_minutes">Λεπτά</string>
     <string name="field_seconds">Δευτερόλεπτα</string>
-    <string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+    <string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
     <string name="help_line_double_tap">Για να σταματήσετε και να επαναφέρετε το χρονόμετρο, αγγίξτε δύο φορές την κύρια οθόνη.</string>
     <string name="help_line_options">Για να αλλάξετε τις επιλογές του προγράμματος, αγγίξτε το εικονίδιο γραναζιού.</string>
     <string name="help_line_tap">Για να ξεκινήσετε, να παύσετε ή να συνεχίσετε το χρονόμετρο, αγγίξτε την κύρια οθόνη.</string>

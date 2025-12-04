@@ -44,9 +44,7 @@
         <string name="share_qr_description">이 코드를 스캔하여 Google Play 상품 페이지를 여세요.</string>
     <string name="desc_share_qr">Google Play에서 Yet Another Timer로 연결되는 QR 코드</string>
     <string name="title_share_qr">Yet Another Timer 공유</string>
-<string name="help_footer_format">Yet Another Timer v1.0
-Copyright 2025 Rob Latour. %1$s: MIT.
-https://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">언어 아이콘 표시</string>

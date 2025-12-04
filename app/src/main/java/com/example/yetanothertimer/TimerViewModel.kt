@@ -261,6 +261,8 @@ class TimerViewModel(app: Application) : AndroidViewModel(app) {
         if (!_isCountUp.value && _remaining.value <= 0) return
         _running.value = true
         ticker?.cancel()
+        // Reset tick reference so new sessions don't inherit elapsed time from previous runs
+        lastTickRealtimeMs = null
         ticker = viewModelScope.launch {
             while (_running.value) {
                 val now = android.os.SystemClock.elapsedRealtime()
