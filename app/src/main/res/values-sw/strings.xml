@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Msaada</string>
     <string name="desc_settings_icon">Fungua mipangilio</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">Changanua msimbo huu ili kufungua ukurasa wa Google Play.</string>
     <string name="desc_share_qr">Msimbo wa QR unaounganisha na Yet Another Timer kwenye Google Play</string>
     <string name="title_share_qr">Shiriki Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Onyesha ikoni ya lugha</string>

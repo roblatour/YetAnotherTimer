@@ -44,7 +44,7 @@
         <string name="share_qr_description">Scansiona questo codice per aprire la scheda su Google Play.</string>
     <string name="desc_share_qr">Codice QR che rimanda a Yet Another Timer su Google Play</string>
     <string name="title_share_qr">Condividi Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Mostra icona lingua</string>

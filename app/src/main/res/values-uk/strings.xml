@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Довідка</string>
     <string name="desc_settings_icon">Відкрити налаштування</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">Приховати піктограму довідки</string>
 
     <string name="btn_close">Закрити</string>
-    <string name="btn_yes">Так</string>
-    <string name="btn_no">Ні</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">Зберегти</string>
     <string name="btn_cancel">Скасувати</string>
     <string name="btn_share">Поділитися</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">Відскануйте цей код, щоб відкрити сторінку в Google Play.</string>
     <string name="desc_share_qr">QR-код, що веде до Yet Another Timer у Google Play</string>
     <string name="title_share_qr">Поділитися Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Показати значок мови</string>

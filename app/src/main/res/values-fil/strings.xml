@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Tulong</string>
     <string name="desc_settings_icon">Buksan ang mga setting</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">I-scan ang code na ito para buksan ang listing sa Google Play.</string>
     <string name="desc_share_qr">QR code na kumokonekta sa Yet Another Timer sa Google Play</string>
     <string name="title_share_qr">Ibahagi ang Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Ipakita ang icon ng wika</string>

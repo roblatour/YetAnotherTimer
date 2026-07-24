@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <!-- region-specific alias; keep identical to values-fi -->
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Ohje</string>
@@ -18,7 +18,7 @@
     <string name="desc_hide_language_icon">Piilota kielikuvake</string>
 
     <string name="btn_close">Sulje</string>
-    <string name="btn_yes">Kyllä</string>
+    <string name="btn_yes">Yes</string>
     <string name="btn_no">Ei</string>
     <string name="btn_save">Tallenna</string>
     <string name="btn_cancel">Peruuta</string>
@@ -48,7 +48,7 @@
         <string name="share_qr_description">Skannaa tämä koodi avataksesi sovelluksen Google Playssa.</string>
     <string name="desc_share_qr">QR-koodi, joka vie Yet Another Timeriin Google Playssa</string>
     <string name="title_share_qr">Jaa Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
 </resources>

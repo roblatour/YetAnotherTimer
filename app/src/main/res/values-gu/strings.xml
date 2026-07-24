@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">મદદ</string>
     <string name="desc_settings_icon">સેટિંગ્સ ખોલો</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">મદદ આઇકન છુપાવો</string>
 
     <string name="btn_close">બંધ કરો</string>
-    <string name="btn_yes">હા</string>
-    <string name="btn_no">ના</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">સાચવો</string>
     <string name="btn_cancel">રદ કરો</string>
     <string name="btn_share">શેર કરો</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">Google Play પરનું લિસ્ટિંગ ખોલવા માટે આ કોડ સ્કેન કરો.</string>
     <string name="desc_share_qr">Google Play પર Yet Another Timer જોડતો QR કોડ</string>
     <string name="title_share_qr">Yet Another Timer શેર કરો</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">ભાષા આઈકન બતાવો</string>

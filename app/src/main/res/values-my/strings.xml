@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">အကူအညီ</string>
     <string name="desc_settings_icon">ဆက်တင်များဖွင့်ရန်</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">အကူအညီ အိုင်ကွန် ဖျောက်</string>
 
     <string name="btn_close">ပိတ်မည်</string>
-    <string name="btn_yes">ဟုတ်ကဲ့</string>
-    <string name="btn_no">မဟုတ်</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">သိမ်းမည်</string>
     <string name="btn_cancel">မလုပ်တော့</string>
     <string name="btn_share">မျှဝေပါ</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">ဤကုဒ်ကို စကန်ဖတ်၍ Google Play စာမျက်နှာကို ဖွင့်ပါ။</string>
     <string name="desc_share_qr">Google Play ပေါ်ရှိ Yet Another Timer သို့ ချိတ်ဆက်ပေးသော QR ကုဒ်</string>
     <string name="title_share_qr">Yet Another Timer ကိုမျှဝေပါ</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">ဘာသာစကား အိုင်ကွန်ကို ပြပါ</string>

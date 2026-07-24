@@ -25,12 +25,12 @@ if (!signingFilePath.isNullOrBlank()) {
 
 android {
     namespace = "com.example.yetanothertimer"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "io.github.roblatour.yetanothertimer"
         minSdk = 24
-    targetSdk = 35
+    targetSdk = 36
         versionCode = (project.findProperty("VERSION_CODE") as String).toInt()
         versionName = project.findProperty("VERSION_NAME") as String
 

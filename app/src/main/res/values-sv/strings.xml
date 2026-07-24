@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hjälp</string>
     <string name="desc_settings_icon">Öppna inställningar</string>
@@ -47,7 +47,7 @@
         <string name="share_qr_description">Skanna den här koden för att öppna listningen på Google Play.</string>
     <string name="desc_share_qr">QR-kod som länkar till Yet Another Timer på Google Play</string>
     <string name="title_share_qr">Dela Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
 </resources>

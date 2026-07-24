@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Pomoc</string>
     <string name="desc_settings_icon">Otvoriť nastavenia</string>
@@ -14,7 +14,7 @@
     <string name="desc_hide_help_icon">Skryť ikonu Pomoc</string>
 
     <string name="btn_close">Zavrieť</string>
-    <string name="btn_yes">Áno</string>
+<string name="btn_yes">Yes</string>
     <string name="btn_no">Nie</string>
     <string name="btn_save">Uložiť</string>
     <string name="btn_cancel">Zrušiť</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">Naskenujte tento kód a otvorte záznam v službe Google Play.</string>
     <string name="desc_share_qr">QR kód odkazujúci na Yet Another Timer v službe Google Play</string>
     <string name="title_share_qr">Zdieľať Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Zobraziť ikonu jazyka</string>

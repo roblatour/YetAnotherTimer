@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">עזרה</string>
     <string name="desc_settings_icon">פתח הגדרות</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">הסתר סמל עזרה</string>
 
     <string name="btn_close">סגור</string>
-    <string name="btn_yes">כן</string>
-    <string name="btn_no">לא</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">שמור</string>
     <string name="btn_cancel">בטל</string>
     <string name="btn_share">שיתוף</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">סרקו את הקוד הזה כדי לפתוח את דף החנות ב-Google Play.</string>
     <string name="desc_share_qr">קוד QR שמפנה ל-Yet Another Timer ב-Google Play</string>
     <string name="title_share_qr">שתף את Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">הצג סמל שפה</string>

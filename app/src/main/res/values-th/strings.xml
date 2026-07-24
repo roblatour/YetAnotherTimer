@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">วิธีใช้</string>
     <string name="desc_settings_icon">เปิดการตั้งค่า</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">ซ่อนไอคอนวิธีใช้</string>
 
     <string name="btn_close">ปิด</string>
-    <string name="btn_yes">ใช่</string>
-    <string name="btn_no">ไม่</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">บันทึก</string>
     <string name="btn_cancel">ยกเลิก</string>
     <string name="btn_share">แชร์</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">สแกนโค้ดนี้เพื่อเปิดหน้ารายการใน Google Play</string>
     <string name="desc_share_qr">คิวอาร์โค้ดที่เชื่อมไปยัง Yet Another Timer บน Google Play</string>
     <string name="title_share_qr">แชร์ Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">แสดงไอคอนภาษา</string>

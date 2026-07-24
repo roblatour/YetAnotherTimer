@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">도움말</string>
     <string name="desc_settings_icon">설정 열기</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">도움말 아이콘 숨기기</string>
 
     <string name="btn_close">닫기</string>
-    <string name="btn_yes">예</string>
-    <string name="btn_no">아니요</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">저장</string>
     <string name="btn_cancel">취소</string>
     <string name="btn_share">공유</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">이 코드를 스캔하여 Google Play 상품 페이지를 여세요.</string>
     <string name="desc_share_qr">Google Play에서 Yet Another Timer로 연결되는 QR 코드</string>
     <string name="title_share_qr">Yet Another Timer 공유</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">언어 아이콘 표시</string>

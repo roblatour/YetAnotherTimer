@@ -1,4 +1,4 @@
-# Yet Another Timer v1.1.1 (for Android) - 2025-12-04
+# Yet Another Timer v1.1.2 (for Android) - 2026-07-24
 
 Open-source timer for Android phones and tablets
 
@@ -58,5 +58,5 @@ Install instructions allow you to install the program from your own .apk build f
  To help support Yet Another Timer, or to just say thanks, you're welcome to 'buy me a coffee'<br><br>
 [<img alt="buy me  a coffee" width="200px" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" />](https://www.buymeacoffee.com/roblatour)
 * * *
-Copyright © 2025, Rob Latour
+Copyright © 2026, Rob Latour
 * * *

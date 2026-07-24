@@ -1,5 +1,5 @@
-﻿<resources>
-    <!-- Norwegian Bokmål (nb-NO) commonly used on Android -->
+<resources>
+    <!-- Norwegian Bokm�l (nb-NO) commonly used on Android -->
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Hjelp</string>
     <string name="desc_settings_icon">Åpne innstillinger</string>
@@ -45,7 +45,7 @@
         <string name="share_qr_description">Skann denne koden for å åpne butikksiden på Google Play.</string>
     <string name="desc_share_qr">QR-kode som lenker til Yet Another Timer på Google Play</string>
     <string name="title_share_qr">Del Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
 </resources>

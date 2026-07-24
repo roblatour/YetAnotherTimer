@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">Yet Another Timer</string>
     <string name="desc_help_icon">Βοήθεια</string>
     <string name="desc_settings_icon">Άνοιγμα ρυθμίσεων</string>
@@ -14,8 +14,8 @@
     <string name="desc_hide_help_icon">Απόκρυψη εικονιδίου βοήθειας</string>
 
     <string name="btn_close">Κλείσιμο</string>
-    <string name="btn_yes">Ναι</string>
-    <string name="btn_no">Όχι</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
     <string name="btn_save">Αποθήκευση</string>
     <string name="btn_cancel">Ακύρωση</string>
     <string name="btn_share">Κοινοποίηση</string>
@@ -44,7 +44,7 @@
         <string name="share_qr_description">Σαρώστε αυτόν τον κωδικό για να ανοίξετε την καταχώριση στο Google Play.</string>
     <string name="desc_share_qr">QR κωδικός που οδηγεί στο Yet Another Timer στο Google Play</string>
     <string name="title_share_qr">Κοινοποιήστε το Yet Another Timer</string>
-<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2025 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
+<string name="help_footer_format">Yet Another Timer v%2$s\nCopyright 2026 Rob Latour.  %1$s: MIT.\nhttps://github.com/roblatour/YetAnotherTimer</string>
 
     
     <string name="label_show_language_icon">Εμφάνιση εικονιδίου γλώσσας</string>
